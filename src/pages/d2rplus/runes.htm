@@ -1,0 +1,919 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>D2rPlus Documentation</title>
+
+    <!--[if gte IE 9]><!-->
+    <style>
+        * {
+            margin: 0;
+            border: 0;
+            padding: 0;
+            font-size: 100%;
+        }
+
+        body {
+            padding: 2em;
+            font: 14px Arial, sans-serif;
+            background: #FFF;
+            color: #333;
+        }
+
+        a {
+            color: #428BCA;
+            text-decoration: none;
+        }
+
+        a:hover, a:focus {
+            color: #999;
+            text-decoration: none;
+            outline: 0;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0 0 20px;
+            font-size: 30px;
+            line-height: 1.1;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        h3 {
+            border-bottom: 1px solid #DDD;
+            padding: 0 0 10px;
+            font-size: 24px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        h5 {
+            font-size: 18px;
+        }
+
+        h6 {
+            font-size: 16px;
+        }
+
+        p, ul, ol, table {
+            margin: 0 0 20px;
+        }
+
+        ul, ol {
+            margin: 0 0 20px 25px;
+        }
+
+        ul ul, ul ol, ol ol, ol ul {
+            margin-bottom: 0;
+        }
+
+        table table {
+            margin-bottom: 0;
+        }
+
+        hr {
+            margin: 0 0 19px;
+            border: 0 none;
+            border-top: 1px solid #DDD;
+            height: 0;
+            background: transparent;
+            color: transparent;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        nav {
+            margin: 0 0 20px;
+        }
+
+        nav:before, nav:after {
+            content: " ";
+            display: table;
+        }
+
+        nav:after {
+            clear: both;
+        }
+
+        .container {
+            margin: 0 auto;
+            max-width: 940px;
+        }
+    </style>
+    <link rel="stylesheet" href="assets/css/menu.css"/>
+    <!--<![endif]-->
+
+</head>
+<body>
+
+<div class="container">
+
+
+    <h3>D2rPlus Documentation</h3>
+    <table>
+        <tr>
+            <td width="130" valign="top">
+                <nav>
+                    <ul class="nav-menu nav-vertical">
+                        <li><a href="d2rplus.html">Home</a></li>
+                        <li><a href="cube.htm">Cube Recipes</a></li>
+                        <li><a href="runes.htm">Runes</a></li>
+                        <li><a href="gems.htm">Gems</a></li>
+
+                        <li><a href="setitems.htm">Sets</a></li>
+
+                        <li><a href="#">Uniques &raquo; </a>
+                            <ul>
+                                <li><a href="#" class="nav-active">Unique Weapons &raquo; </a>
+                                    <ul>
+                                        <li><a href="#">Thrown Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniqueitems/uniques_jave.htm">Javelins</a></li>
+                                                <li><a href="uniqueitems/uniques_tkni.htm">Throwing Knifes</a></li>
+                                                <li><a href="uniqueitems/uniques_taxe.htm">Throwing Axes</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Melee Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniqueitems/uniques_swor.htm">Swords</a></li>
+                                                <li><a href="uniqueitems/uniques_staf.htm">Staves</a></li>
+                                                <li><a href="uniqueitems/uniques_club.htm">Clubs</a></li>
+                                                <li><a href="uniqueitems/uniques_knif.htm">Knifes</a></li>
+                                                <li><a href="uniqueitems/uniques_axe.htm">Axes</a></li>
+                                                <li><a href="uniqueitems/uniques_spea.htm">Spears</a></li>
+                                                <li><a href="uniqueitems/uniques_scep.htm">Scepters</a></li>
+                                                <li><a href="uniqueitems/uniques_wand.htm">Wands</a></li>
+                                                <li><a href="uniqueitems/uniques_pole.htm">Polearms</a></li>
+                                                <li><a href="uniqueitems/uniques_mace.htm">Maces</a></li>
+                                                <li><a href="uniqueitems/uniques_hamm.htm">Hammers</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Ranged Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniqueitems/uniques_bow.htm">Bows</a></li>
+                                                <li><a href="uniqueitems/uniques_xbow.htm">Crossbows</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Unique Armors &amp; Shields &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniqueitems/uniques_shie.htm">Shields</a></li>
+                                        <li><a href="uniqueitems/uniques_tors.htm">Torso Armors</a></li>
+                                        <li><a href="uniqueitems/uniques_belt.htm">Belts</a></li>
+                                        <li><a href="uniqueitems/uniques_helm.htm">Helms</a></li>
+                                        <li><a href="uniqueitems/uniques_glov.htm">Gloves</a></li>
+                                        <li><a href="uniqueitems/uniques_boot.htm">Boots</a></li>
+                                        <li><a href="uniqueitems/uniques_circ.htm">Circlets</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Unique Jewelery &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniqueitems/uniques_amul.htm">Amulets</a></li>
+                                        <li><a href="uniqueitems/uniques_ring.htm">Rings</a></li>
+                                        <li><a href="uniqueitems/uniques_jewl.htm">Jewels</a></li>
+                                        <li><a href="uniqueitems/uniques_scha.htm">Small Charms</a></li>
+                                        <li><a href="uniqueitems/uniques_mcha.htm">Medium Charms</a></li>
+                                        <li><a href="uniqueitems/uniques_lcha.htm">Large Charms</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Class Specific &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniqueitems/uniques_h2h.htm">Claws</a></li>
+                                        <li><a href="uniqueitems/uniques_orb.htm">Orbs</a></li>
+                                        <li><a href="uniqueitems/uniques_head.htm">Voodoo Heads</a></li>
+                                        <li><a href="uniqueitems/uniques_pelt.htm">Pelts</a></li>
+                                        <li><a href="uniqueitems/uniques_ashd.htm">Auric Shields</a></li>
+                                        <li><a href="uniqueitems/uniques_phlm.htm">Primal Helments</a></li>
+                                        <li><a href="uniqueitems/uniques_aspe.htm">Amazon Spears</a></li>
+                                        <li><a href="uniqueitems/uniques_abow.htm">Amazon Bows</a></li>
+                                        <li><a href="uniqueitems/uniques_ajav.htm">Amazon Javelins</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Runewords &raquo; </a>
+                            <ul>
+                                <li><a href="runewords/runewords_armo.htm">Armor</a></li>
+                                <li><a href="runewords/runewords_helm.htm">Helms</a></li>
+                                <li><a href="runewords/runewords_shld.htm">Shields</a></li>
+                                <li><a href="runewords/runewords_weap.htm">Weapons</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about.htm">About</a></li>
+                    </ul>
+                </nav>
+
+
+            </td>
+            <td width=5></td>
+            <td valign="top" align="left">
+                <div align="center">
+                    <div class="header" align="center">Table of Runes</div>
+                    <br>
+                    <table border="1" cellpadding="5" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="80">
+                                <div align="center">Graphics<br></div>
+                            </td>
+                            <td width="80">
+                                <div align="center">Name<br></div>
+                            </td>
+                            <td width="280">
+                                <div align="center">Effects<br></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrEl.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">El<br>
+                                    Level: 11<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    +50 to Attack Rating<br>
+                                    +1 to Light Radius<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    +15 Defense<br>
+                                    +1 to Light Radius<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    +15 Defense<br>
+                                    +1 to Light Radius<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrEld.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Eld<br>
+                                    Level: 12<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    +75% Damage to Undead<br>
+                                    +50 to Attack Rating against Undead<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    15% Slower Stamina Drain<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    7% Increased Chance of Blocking<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrTir.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Tir<br>
+                                    Level: 13<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    +2 to Mana after each Kill<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    +2 to Mana after each Kill<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    +2 to Mana after each Kill<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrNef.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Nef<br>
+                                    Level: 14<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    Knockback<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    +30 Defense vs. Missile<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    +30 Defense vs. Missile<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrEth.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Eth<br>
+                                    Level: 15<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    -25% Target Defense<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    Regenerate Mana 15%<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    Regenerate Mana 15%<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrIth.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Ith<br>
+                                    Level: 16<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    +9 to Maximum Damage<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    15% Damage Taken Goes To Mana<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    15% Damage Taken Goes To Mana<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrTal.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Tal<br>
+                                    Level: 17<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    +75 poison damage over 5 seconds<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    Poison Resist +30%<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    Poison Resist +35%<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrRal.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Ral<br>
+                                    Level: 19<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    Adds 5-30 fire damage<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    Fire Resist +30%<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    Fire Resist +35%<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrOrt.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Ort<br>
+                                    Level: 21<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    Adds 1-50 lightning damage<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    Lightning Resist +30%<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    Lightning Resist +35%<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrThul.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Thul<br>
+                                    Level: 23<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    Adds 3-14 cold damage<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    Cold Resist +30%<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    Cold Resist +35%<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrAmn.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Amn<br>
+                                    Level: 25<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    7% Life stolen per hit<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    Attacker Takes Damage of 14<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    Attacker Takes Damage of 14<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrSol.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Sol<br>
+                                    Level: 27<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    +9 to Minimum Damage<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    Damage Reduced by 7<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    Damage Reduced by 7<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrShae.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Shael<br>
+                                    Level: 29<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    +20% Increased Attack Speed<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    +20% Faster Hit Recovery<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    +20% Faster Block Rate<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrDol.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Dol<br>
+                                    Level: 31<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    Hit Causes Monster to Flee +32%<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    Replenish Life +7<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    Replenish Life +7<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrHel.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Hel<br>
+                                    Level: 0<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    Requirements -20%<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    Requirements -15%<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    Requirements -15%<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrIo.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Io<br>
+                                    Level: 35<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    +10 to Vitality<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    +10 to Vitality<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    +10 to Vitality<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrLum.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Lum<br>
+                                    Level: 37<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    +10 to Energy<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    +10 to Energy<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    +10 to Energy<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrKo.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Ko<br>
+                                    Level: 39<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    +10 to Dexterity<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    +10 to Dexterity<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    +10 to Dexterity<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrFal.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Fal<br>
+                                    Level: 41<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    +10 to Strength<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    +10 to Strength<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    +10 to Strength<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrLem.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Lem<br>
+                                    Level: 43<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    75% Extra Gold from Monsters<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    50% Extra Gold from Monsters<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    50% Extra Gold from Monsters<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrPul.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Pul<br>
+                                    Level: 45<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    +75% Damage to Demons<br>
+                                    +100 to Attack Rating against Demons<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    +30% Enhanced Defense<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    +30% Enhanced Defense<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrUm.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Um<br>
+                                    Level: 47<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    25% Chance of Open Wounds<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    All Resistances +15<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    All Resistances +22<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrMal.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Mal<br>
+                                    Level: 49<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    Prevent Monster Heal<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    Magic Damage Reduced by 7<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    Magic Damage Reduced by 7<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrIst.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Ist<br>
+                                    Level: 51<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    30% Better Chance of Getting Magic Items<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    25% Better Chance of Getting Magic Items<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    25% Better Chance of Getting Magic Items<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrGul.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Gul<br>
+                                    Level: 53<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    20% Bonus to Attack Rating<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    +5% to Maximum Poison Resist<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    +5% to Maximum Poison Resist<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrVex.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Vex<br>
+                                    Level: 55<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    7% Mana stolen per hit<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    +5% to Maximum Fire Resist<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    +5% to Maximum Fire Resist<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrOhm.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Ohm<br>
+                                    Level: 57<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    +50% Enhanced damage<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    +5% to Maximum Cold Resist<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    +5% to Maximum Cold Resist<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrLo.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Lo<br>
+                                    Level: 59<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    20% Deadly Strike<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    +5% to Maximum Lightning Resist<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    +5% to Maximum Lightning Resist<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrSur.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Sur<br>
+                                    Level: 61<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    Hit Blinds Target +1<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    Increase Maximum Mana 5%<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    +50 to Mana<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrBer.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Ber<br>
+                                    Level: 63<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    20% Chance of Crushing Blow<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    Damage Reduced by 8%<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    Damage Reduced by 8%<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrJo.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Jah<br>
+                                    Level: 65<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    Ignore Target's Defense<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    Increase Maximum Life 5%<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    +50 to Life<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrCham.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Cham<br>
+                                    Level: 67<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    Freezes target +3<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    Cannot Be Frozen<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    Cannot Be Frozen<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="80">
+                                <div align="center"><font size="-1"><img src="assets/img/invrZod.jpg" border="0"
+                                                                         height="28" width="28"><br></font></div>
+                            </td>
+                            <td width="80">
+                                <div align="center"><font size="-1">Zod<br>
+                                    Level: 69<br></font></div>
+                            </td>
+                            <td>
+                                <div align="center"><font size="-1">
+                                    <div class="rune_sub_header" align="center">Weapons:</div>
+                                    Indestructible<br>
+                                    <div class="rune_sub_header" align="center">Armor, Helms:</div>
+                                    Indestructible<br>
+                                    <div class="rune_sub_header" align="center">Shields:</div>
+                                    Indestructible<br>
+                                </font></div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <div align="right"><br><font size="-2">HTML code generated by TXTtoHTML by Char</font></div>
+
+
+                    <hr noshade="noshade" size="1">
+
+
+                </div>
+            </td>
+        </tr>
+
+
+        </tbody></table>
+
+
+</div>
+
+
+</body>
+</html>

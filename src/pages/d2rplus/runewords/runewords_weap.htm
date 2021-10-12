@@ -1,0 +1,4927 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>D2rPlus Documentation</title>
+
+    <!--[if gte IE 9]><!-->
+    <style>
+        * {
+            margin: 0;
+            border: 0;
+            padding: 0;
+            font-size: 100%;
+        }
+
+        body {
+            padding: 2em;
+            font: 14px Arial, sans-serif;
+            background: #FFF;
+            color: #333;
+        }
+
+        a {
+            color: #428BCA;
+            text-decoration: none;
+        }
+
+        a:hover, a:focus {
+            color: #999;
+            text-decoration: none;
+            outline: 0;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0 0 20px;
+            font-size: 30px;
+            line-height: 1.1;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        h3 {
+            border-bottom: 1px solid #DDD;
+            padding: 0 0 10px;
+            font-size: 24px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        h5 {
+            font-size: 18px;
+        }
+
+        h6 {
+            font-size: 16px;
+        }
+
+        p, ul, ol, table {
+            margin: 0 0 20px;
+        }
+
+        ul, ol {
+            margin: 0 0 20px 25px;
+        }
+
+        ul ul, ul ol, ol ol, ol ul {
+            margin-bottom: 0;
+        }
+
+        table table {
+            margin-bottom: 0;
+        }
+
+        hr {
+            margin: 0 0 19px;
+            border: 0 none;
+            border-top: 1px solid #DDD;
+            height: 0;
+            background: transparent;
+            color: transparent;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        nav {
+            margin: 0 0 20px;
+        }
+
+        nav:before, nav:after {
+            content: " ";
+            display: table;
+        }
+
+        nav:after {
+            clear: both;
+        }
+
+        .container {
+            margin: 0 auto;
+            max-width: 940px;
+        }
+    </style>
+    <link rel="stylesheet" href="../assets/css/menu.css"/>
+    <!--<![endif]-->
+
+</head>
+<div>
+
+    <div class="container">
+
+
+        <h3>D2rPlus Documentation</h3>
+        <table>
+            <tr>
+                <td width="130" valign="top">
+                    <nav>
+                        <ul class="nav-menu nav-vertical">
+                            <li><a href="../d2rplus.html">Home</a></li>
+                            <li><a href="../cube.htm">Cube Recipes</a></li>
+                            <li><a href="../runes.htm">Runes</a></li>
+                            <li><a href="../gems.htm">Gems</a></li>
+
+                            <li><a href="../setitems.htm">Sets</a></li>
+
+                            <li><a href="#">Uniques &raquo; </a>
+                                <ul>
+                                    <li><a href="#" class="nav-active">Unique Weapons &raquo; </a>
+                                        <ul>
+                                            <li><a href="#">Thrown Weapons &raquo; </a>
+                                                <ul>
+                                                    <li><a href="../uniqueitems/uniques_jave.htm">Javelins</a></li>
+                                                    <li><a href="../uniqueitems/uniques_tkni.htm">Throwing Knifes</a>
+                                                    </li>
+                                                    <li><a href="../uniqueitems/uniques_taxe.htm">Throwing Axes</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Melee Weapons &raquo; </a>
+                                                <ul>
+                                                    <li><a href="../uniqueitems/uniques_swor.htm">Swords</a></li>
+                                                    <li><a href="../uniqueitems/uniques_staf.htm">Staves</a></li>
+                                                    <li><a href="../uniqueitems/uniques_club.htm">Clubs</a></li>
+                                                    <li><a href="../uniqueitems/uniques_knif.htm">Knifes</a></li>
+                                                    <li><a href="../uniqueitems/uniques_axe.htm">Axes</a></li>
+                                                    <li><a href="../uniqueitems/uniques_spea.htm">Spears</a></li>
+                                                    <li><a href="../uniqueitems/uniques_scep.htm">Scepters</a></li>
+                                                    <li><a href="../uniqueitems/uniques_wand.htm">Wands</a></li>
+                                                    <li><a href="../uniqueitems/uniques_pole.htm">Polearms</a></li>
+                                                    <li><a href="../uniqueitems/uniques_mace.htm">Maces</a></li>
+                                                    <li><a href="../uniqueitems/uniques_hamm.htm">Hammers</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Ranged Weapons &raquo; </a>
+                                                <ul>
+                                                    <li><a href="../uniqueitems/uniques_bow.htm">Bows</a></li>
+                                                    <li><a href="../uniqueitems/uniques_xbow.htm">Crossbows</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Unique Armors &amp; Shields &raquo; </a>
+                                        <ul>
+                                            <li><a href="../uniqueitems/uniques_shie.htm">Shields</a></li>
+                                            <li><a href="../uniqueitems/uniques_tors.htm">Torso Armors</a></li>
+                                            <li><a href="../uniqueitems/uniques_belt.htm">Belts</a></li>
+                                            <li><a href="../uniqueitems/uniques_helm.htm">Helms</a></li>
+                                            <li><a href="../uniqueitems/uniques_glov.htm">Gloves</a></li>
+                                            <li><a href="../uniqueitems/uniques_boot.htm">Boots</a></li>
+                                            <li><a href="../uniqueitems/uniques_circ.htm">Circlets</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Unique Jewelery &raquo; </a>
+                                        <ul>
+                                            <li><a href="../uniqueitems/uniques_amul.htm">Amulets</a></li>
+                                            <li><a href="../uniqueitems/uniques_ring.htm">Rings</a></li>
+                                            <li><a href="../uniqueitems/uniques_jewl.htm">Jewels</a></li>
+                                            <li><a href="../uniqueitems/uniques_scha.htm">Small Charms</a></li>
+                                            <li><a href="../uniqueitems/uniques_mcha.htm">Medium Charms</a></li>
+                                            <li><a href="../uniqueitems/uniques_lcha.htm">Large Charms</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href="#">Class Specific &raquo; </a>
+                                        <ul>
+                                            <li><a href="../uniqueitems/uniques_h2h.htm">Claws</a></li>
+                                            <li><a href="../uniqueitems/uniques_orb.htm">Orbs</a></li>
+                                            <li><a href="../uniqueitems/uniques_head.htm">Voodoo Heads</a></li>
+                                            <li><a href="../uniqueitems/uniques_pelt.htm">Pelts</a></li>
+                                            <li><a href="../uniqueitems/uniques_ashd.htm">Auric Shields</a></li>
+                                            <li><a href="../uniqueitems/uniques_phlm.htm">Primal Helments</a></li>
+                                            <li><a href="../uniqueitems/uniques_aspe.htm">Amazon Spears</a></li>
+                                            <li><a href="../uniqueitems/uniques_abow.htm">Amazon Bows</a></li>
+                                            <li><a href="../uniqueitems/uniques_ajav.htm">Amazon Javelins</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li><a href="#">Runewords &raquo; </a>
+                                <ul>
+                                    <li><a href="runewords_armo.htm">Armor</a></li>
+                                    <li><a href="runewords_helm.htm">Helms</a></li>
+                                    <li><a href="runewords_shld.htm">Shields</a></li>
+                                    <li><a href="runewords_weap.htm">Weapons</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../about.htm">About</a></li>
+                        </ul>
+                    </nav>
+
+
+                </td>
+                <td width=5></td>
+                <td valign="top" align="left">
+                    <table border=1 cellpadding=5 cellspacing=0>
+                        <tr>
+                            <td width=100>
+                                <div align="center"><font size="-1">Shadow of Doubt<br>
+                                    Level 13<br></div>
+                            </td>
+                            <td width=70>
+                                <table border=0 cellpadding=0 cellspacing=0>
+                                    <tr>
+                                        <td width=35>
+                                            <div align="right"><img src="../shared/items/runes/invrEl.jpg" width="28"
+                                                                    height="28" border="0"><img
+                                                    src="../shared/items/runes/invrTir.jpg" width="28" height="28"
+                                                    border="0">
+                                        </td>
+                                        <td width=35><font size="-1">
+                                            <div align="center">El<br>
+                                                Tir<br>
+                                        </td>
+                                    </tr>
+                                </table>
+    </div>
+    </td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+(1 to 3) to Curses (Necromancer Only)<br>
+            +(1 to 3) to Poison and Bone Skills (Necromancer Only)<br>
+            +(1 to 3) to Summoning Skills (Necromancer Only)<br>
+            +15% Faster Cast Rate<br>
+            +50 to Attack Rating<br>
+            +10% to Poison Skill Damage<br>
+            +2 to Mana after each Kill<br>
+            +1 to Light Radius<br>
+        </div>
+    </td>
+    </tr>
+    <tr>
+        <td width=100>
+            <div align="center"><font size="-1">Steel<br>
+                Level 13<br></div>
+        </td>
+        <td width=70>
+            <table border=0 cellpadding=0 cellspacing=0>
+                <tr>
+                    <td width=35>
+                        <div align="right"><img src="../shared/items/runes/invrTir.jpg" width="28" height="28"
+                                                border="0"><img src="../shared/items/runes/invrEl.jpg" width="28"
+                                                                height="28" border="0">
+                    </td>
+                    <td width=35><font size="-1">
+                        <div align="center">Tir<br>
+                            El<br>
+                    </td>
+                </tr>
+            </table>
+</div>
+</td>
+<td width=160>
+    <div align="center"><font size="-1"><br>
+        <br>
+        <br>
+    </div>
+</td>
+<td width=250>
+    <div align="center"><font size="-1">+20% Enhanced damage<br>
+        +25% Increased Attack Speed<br>
+        +3 damage<br>
+        +50 to Attack Rating<br>
+        50% Chance of Open Wounds<br>
+        +2 to Mana after each Kill<br>
+        +1 to Light Radius<br>
+    </div>
+</td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Desire<br>
+            Level 13<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrEl.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrTir.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrEl.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">El<br>
+                        Tir<br>
+                        El<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+(30 to 50)% Enhanced damage<br>
+            +100 to Attack Rating<br>
+            +(30 to 50)% Enhanced Defense<br>
+            +5 to all Attributes<br>
+            +2 to Mana after each Kill<br>
+            (20 to 25)% Better Chance of Getting Magic Items<br>
+            +2 to Light Radius<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Malice<br>
+            Level 16<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrIth.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrEl.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrEth.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Ith<br>
+                        El<br>
+                        Eth<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+33% Enhanced damage<br>
+            +9 to Maximum Damage<br>
+            -25% Target Defense<br>
+            +50 to Attack Rating<br>
+            100% Chance of Open Wounds<br>
+            Prevent Monster Heal<br>
+            -100 to Monster Defense Per Hit<br>
+            Drain Life -5<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Jealousy<br>
+            Level 17<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrTal.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrEld.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Tal<br>
+                        Eld<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+122% Enhanced damage<br>
+            +20% Increased Attack Speed<br>
+            +75% Damage to Undead<br>
+            +50 to Attack Rating against Undead<br>
+            +75 poison damage over 5 seconds<br>
+            7% Mana stolen per hit<br>
+            7% Life stolen per hit<br>
+            +3 to Jab<br>
+            +3 to Spear / Javalin Mastery<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Sting<br>
+            Level 17<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrNef.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrTal.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrEth.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Nef<br>
+                        Tal<br>
+                        Eth<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+15% Increased Attack Speed<br>
+            +(25 to 40) to Maximum Damage<br>
+            -25% Target Defense<br>
+            +75 poison damage over 5 seconds<br>
+            (5 to 8)% Mana stolen per hit<br>
+            +5 to Ice Arrow<br>
+            +3 to Multiple Shot<br>
+            Knockback<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Patience<br>
+            Level 19<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrNef.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrEld.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrRal.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Nef<br>
+                        Eld<br>
+                        Ral<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+15% Faster Run/Walk<br>
+            +20% Faster Hit Recovery<br>
+            +75% Damage to Undead<br>
+            +50 to Attack Rating against Undead<br>
+            Adds 5-30 fire damage<br>
+            Knockback<br>
+            +(20 to 25) to Life<br>
+            +(3 to 5) Life after each Kill<br>
+            +2 to Mana after each Kill<br>
+            +(1 to 3)% to Experience Gained<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Leaf<br>
+            Level 19<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrTir.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrRal.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Tir<br>
+                        Ral<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+3 to Fire Skills<br>
+            Adds 5-30 fire damage<br>
+            +3 to Warmth (Sorceress Only)<br>
+            +3 to Fire Bolt (Sorceress Only)<br>
+            +3 to Inferno (Sorceress Only)<br>
+            Cold Resist +33%<br>
+            +2 to Mana after each Kill<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Zephyr<br>
+            Level 21<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrOrt.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrEth.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Ort<br>
+                        Eth<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">7% Chance to cast level 1 Twister when struck<br>
+            +33% Enhanced damage<br>
+            +25% Faster Run/Walk<br>
+            +25% Increased Attack Speed<br>
+            -25% Target Defense<br>
+            +66 to Attack Rating<br>
+            Adds 1-50 lightning damage<br>
+            +25 Defense<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Peace<br>
+            Level 21<br>
+            (+ 6)<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrTir.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrEth.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrEl.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Tir<br>
+                        Eth<br>
+                        El<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+20% Increased Attack Speed<br>
+            +20% Faster Hit Recovery<br>
+            +20% Faster Block Rate<br>
+            Adds 20-40 damage<br>
+            -25% Target Defense<br>
+            +50 to Attack Rating<br>
+            All Resistances +15<br>
+            +2 to Mana after each Kill<br>
+            +1 to Light Radius<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Temptation<br>
+            Level 21<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrOrt.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrNef.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrEl.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Ort<br>
+                        Nef<br>
+                        El<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+1 to All Skills<br>
+            +176% Enhanced damage<br>
+            +20% Increased Attack Speed<br>
+            +50 to Attack Rating<br>
+            Adds 1-50 lightning damage<br>
+            Knockback<br>
+            -10 to all Attributes<br>
+            +(10 to 15)% to Experience Gained<br>
+            +1 to Light Radius<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Holy Thunder<br>
+            Level 21<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrEth.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrRal.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrOrt.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrTal.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Eth<br>
+                        Ral<br>
+                        Ort<br>
+                        Tal<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+60% Enhanced damage<br>
+            +10 to Maximum Damage<br>
+            -25% Target Defense<br>
+            Adds 5-30 fire damage<br>
+            Adds 21-110 lightning damage<br>
+            +75 poison damage over 5 seconds<br>
+            +3 to Holy Shock (Paladin Only)<br>
+            +5% to Maximum Lightning Resist<br>
+            Lightning Resist +60%<br>
+            Level 7 Chain Lightning (60 Charges)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Thirst for Knowledge<br>
+            Level 22<br>
+            (+ 11)<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrEl.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrEl.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrEl.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">El<br>
+                        El<br>
+                        El<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+1 to All Skills<br>
+            +100% Enhanced damage<br>
+            +15% Increased Attack Speed<br>
+            +(1.5 per level) to Maximum Damage (Based on Character Level)<br>
+            +150 to Attack Rating<br>
+            +20% to Experience Gained<br>
+            +3 to Light Radius<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Obsession<br>
+            Level 23<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrThul.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrEl.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Thul<br>
+                        El<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">Adds 20-40 damage<br>
+            +50 to Attack Rating<br>
+            Adds 3-14 cold damage<br>
+            (4 to 6)% Life stolen per hit<br>
+            Freezes Target for +2 Seconds<br>
+            100% Extra Gold from Monsters<br>
+            40% Better Chance of Getting Magic Items<br>
+            +1 to Light Radius<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">King's Grace<br>
+            Level 25<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrAmn.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrRal.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrThul.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Amn<br>
+                        Ral<br>
+                        Thul<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+100% Enhanced damage<br>
+            +150 to Attack Rating<br>
+            +100% Damage to Demons<br>
+            +100 to Attack Rating against Demons<br>
+            +50% Damage to Undead<br>
+            +100 to Attack Rating against Undead<br>
+            Adds 5-30 fire damage<br>
+            Adds 3-14 cold damage<br>
+            7% Life stolen per hit<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Serendipity<br>
+            Level 25<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrAmn.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrAmn.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Amn<br>
+                        Amn<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">50% Chance to cast level 2 Inner Sight on striking<br>
+            +120% Enhanced damage<br>
+            +20% Faster Cast Rate<br>
+            14% Life stolen per hit<br>
+            +20 to Energy<br>
+            Regenerate Mana 50%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Spirit<br>
+            Level 25<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrTal.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrThul.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrOrt.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrAmn.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Tal<br>
+                        Thul<br>
+                        Ort<br>
+                        Amn<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+2 to All Skills<br>
+            +(25 to 35)% Faster Cast Rate<br>
+            +55% Faster Hit Recovery<br>
+            Adds 1-50 lightning damage<br>
+            Adds 3-14 cold damage<br>
+            +75 poison damage over 5 seconds<br>
+            7% Life stolen per hit<br>
+            +22 to Vitality<br>
+            +(82 to 112) to Mana<br>
+            +(3 to 8) Magic Absorb<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Strength<br>
+            Level 25<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrAmn.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrTir.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Amn<br>
+                        Tir<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+35% Enhanced damage<br>
+            7% Life stolen per hit<br>
+            25% Chance of Crushing Blow<br>
+            +20 to Strength<br>
+            +10 to Vitality<br>
+            +2 to Mana after each Kill<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Lightning<br>
+            Level 25<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrOrt.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrOrt.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrAmn.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Ort<br>
+                        Ort<br>
+                        Amn<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">15% Chance to cast level 9 Lightning on striking<br>
+            Level 2 Holy Shock Aura When Equipped<br>
+            +(100 to 175)% Enhanced damage<br>
+            +20% Increased Attack Speed<br>
+            Adds 2-100 lightning damage<br>
+            7% Life stolen per hit<br>
+            Lightning Resist +(35 to 50)%<br>
+            +(8 to 10) Lightning Absorb<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Edge<br>
+            Level 25<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrTir.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrTal.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrAmn.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Tir<br>
+                        Tal<br>
+                        Amn<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">Level 15 Thorns Aura When Equipped<br>
+            +35% Increased Attack Speed<br>
+            +(320 to 380)% Damage to Demons<br>
+            +280% Damage to Undead<br>
+            +75 poison damage over 5 seconds<br>
+            7% Life stolen per hit<br>
+            Prevent Monster Heal<br>
+            +(8 to 9) to all Attributes<br>
+            +2 to Mana after each Kill<br>
+            Reduces all Vendor Prices 15%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Law<br>
+            Level 26<br>
+            (+ 26)<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrHel.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrHel.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Hel<br>
+                        Hel<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+(120 to 170)% Enhanced damage<br>
+            +15% Increased Attack Speed<br>
+            Slain Monsters Rest in Peace<br>
+            Slows Target by 30%<br>
+            +48 to Life<br>
+            +24 to Mana<br>
+            Requirements -40%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Truth<br>
+            Level 27<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrSol.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrIth.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Sol<br>
+                        Ith<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+1 to Sorceress Skill Levels<br>
+            +100% Enhanced damage<br>
+            +25% Faster Cast Rate<br>
+            +9 damage<br>
+            +35 to Mana<br>
+            Regenerate Mana 75%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Insight<br>
+            Level 27<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrRal.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrTir.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrTal.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrSol.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Ral<br>
+                        Tir<br>
+                        Tal<br>
+                        Sol<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">Level (12 to 17) Meditation Aura When Equipped<br>
+            +(200 to 260)% Enhanced damage<br>
+            +35% Faster Cast Rate<br>
+            +9 to Minimum Damage<br>
+            (180 to 250)% Bonus to Attack Rating<br>
+            Adds 5-30 fire damage<br>
+            +75 poison damage over 5 seconds<br>
+            +(1 to 6) to Critical Strike<br>
+            +5 to all Attributes<br>
+            +2 to Mana after each Kill<br>
+            23% Better Chance of Getting Magic Items<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Thirst<br>
+            Level 27<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrSol.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrThul.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrRal.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Sol<br>
+                        Thul<br>
+                        Ral<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+1 to All Skills<br>
+            +(125 to 150)% Enhanced damage<br>
+            +9 to Minimum Damage<br>
+            +(1.5 per level) to Maximum Damage (Based on Character Level)<br>
+            Adds 5-30 fire damage<br>
+            Adds 3-14 cold damage<br>
+            +(2 to 5) to Mana after each Kill<br>
+            +(8 to 12) Life after each Kill<br>
+            +(1 to 3)% to Experience Gained<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Honor<br>
+            Level 27<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrAmn.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrEl.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrIth.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrTir.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrSol.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Amn<br>
+                        El<br>
+                        Ith<br>
+                        Tir<br>
+                        Sol<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+1 to All Skills<br>
+            +160% Enhanced damage<br>
+            +9 damage<br>
+            +250 to Attack Rating<br>
+            7% Life stolen per hit<br>
+            25% Deadly Strike<br>
+            +10 to Strength<br>
+            Replenish Life +10<br>
+            +2 to Mana after each Kill<br>
+            +1 to Light Radius<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Whisper<br>
+            Level 29<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrShae.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrShae.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrShae.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Shael<br>
+                        Shael<br>
+                        Shael<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+100% Enhanced damage<br>
+            +60% Increased Attack Speed<br>
+            Adds 25-75 damage<br>
+            -15% Target Defense<br>
+            Replenish Life +6<br>
+            Requirements -25%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Sorrow<br>
+            Level 29<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrShae.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrHel.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Shael<br>
+                        Hel<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+(160 to 200)% Enhanced damage<br>
+            +40% Increased Attack Speed<br>
+            6% Mana stolen per hit<br>
+            Drain Life -2<br>
+            Regenerate Mana 50%<br>
+            +(6 to 9) Life after each Kill<br>
+            Level 20 Clay Golem (5 Charges)<br>
+            Requirements -20%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Amity<br>
+            Level 30<br>
+            (+ 5)<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrHel.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrAmn.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Hel<br>
+                        Amn<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+133% Enhanced damage<br>
+            Adds 25-50 damage<br>
+            7% Life stolen per hit<br>
+            66% Chance of Crushing Blow<br>
+            34% Deadly Strike<br>
+            Slain Monsters Rest in Peace<br>
+            -3% to Experience Gained<br>
+            Requirements -20%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Prayer<br>
+            Level 30<br>
+            (+ 7)<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrHel.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrEth.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrThul.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Hel<br>
+                        Eth<br>
+                        Thul<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">Level (10 to 14) Prayer Aura When Equipped<br>
+            +20% Increased Attack Speed<br>
+            (20 to 30)% Increased Chance of Blocking<br>
+            Adds 10-30 damage<br>
+            -25% Target Defense<br>
+            Adds 3-14 cold damage<br>
+            +(50 to 100) Defense<br>
+            All Resistances +(15 to 25)<br>
+            Requirements -20%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Vengeance<br>
+            Level 31<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrDol.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrNef.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Dol<br>
+                        Nef<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">100% Chance to cast level 55 Poison Nova when you Die<br>
+            +1 to Assassin Skills<br>
+            Adds 35-70 damage<br>
+            6% Life stolen per hit<br>
+            Hit Causes Monster to Flee +32%<br>
+            Knockback<br>
+            +10 to all Attributes<br>
+            +40 to Life<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Beauty<br>
+            Level 31<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrTir.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrDol.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Tir<br>
+                        Dol<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+3 to Bow and Crossbow Skills (Amazon Only)<br>
+            Adds 30-60 damage<br>
+            Ignore Target's Defense<br>
+            8% Life stolen per hit<br>
+            50% Chance of Open Wounds<br>
+            Hit Causes Monster to Flee +32%<br>
+            Slows Target by 15%<br>
+            Knockback<br>
+            +2 to Mana after each Kill<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Punishment<br>
+            Level 31<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrOrt.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrDol.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrAmn.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Ort<br>
+                        Dol<br>
+                        Amn<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">100% Chance to cast level 35 Thunder Storm when you Level-Up<br>
+            +135% Enhanced damage<br>
+            Adds 20-40 damage<br>
+            Adds 1-50 lightning damage<br>
+            7% Life stolen per hit<br>
+            Hit Causes Monster to Flee +32%<br>
+            +20 to all Attributes<br>
+            Drain Life -3<br>
+            Damage Reduced by (15 to 20)<br>
+            -2% to Experience Gained<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">White<br>
+            Level 35<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrDol.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrIo.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Dol<br>
+                        Io<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+3 to Poison and Bone Skills (Necromancer Only)<br>
+            +20% Faster Cast Rate<br>
+            +4 to Skeleton Mastery (Necromancer Only)<br>
+            +2 to Bone Spear (Necromancer Only)<br>
+            +3 to Bone Armor (Necromancer Only)<br>
+            Hit Causes Monster to Flee +32%<br>
+            +10 to Vitality<br>
+            +13 to Mana<br>
+            Magic Damage Reduced by 4<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Holy Tears<br>
+            Level 35<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrIo.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrTir.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrShae.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Io<br>
+                        Tir<br>
+                        Shael<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">16% Chance to cast level 9 Fist of the Heavens on striking<br>
+            +(160 to 200)% Enhanced damage<br>
+            +40% Increased Attack Speed<br>
+            35% Bonus to Attack Rating<br>
+            +300% Damage to Demons<br>
+            +5 to Zeal<br>
+            Slows Target by 35%<br>
+            +10 to Vitality<br>
+            +2 to Mana after each Kill<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Black<br>
+            Level 35<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrThul.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrIo.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrNef.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Thul<br>
+                        Io<br>
+                        Nef<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+120% Enhanced damage<br>
+            +15% Increased Attack Speed<br>
+            +200 to Attack Rating<br>
+            Adds 3-14 cold damage<br>
+            40% Chance of Crushing Blow<br>
+            Knockback<br>
+            +10 to Vitality<br>
+            Magic Damage Reduced by 2<br>
+            Level 4 Leap Attack (12 Charges)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Red<br>
+            Level 35<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrIo.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrRal.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrRal.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrHel.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Io<br>
+                        Ral<br>
+                        Ral<br>
+                        Hel<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">8% Chance to cast level 4 Meteor on striking<br>
+            +155% Enhanced damage<br>
+            Adds 10-60 fire damage<br>
+            +(15 to 25)% to Fire Skill Damage<br>
+            +10 to Vitality<br>
+            Fire Resist +(35 to 50)%<br>
+            Cold Resist -20%<br>
+            Fire Absorb 10%<br>
+            Repairs 1 durability in 5 seconds<br>
+            Requirements -20%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Hatred<br>
+            Level 35<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrIo.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrThul.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Io<br>
+                        Thul<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+1 to All Skills<br>
+            +(140 to 190)% Enhanced damage<br>
+            +(75 to 150)% Damage to Demons<br>
+            Adds 3-14 cold damage<br>
+            Freezes Target for +3 Seconds<br>
+            Knockback<br>
+            +10 to Vitality<br>
+            50% Better Chance of Getting Magic Items<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Deception<br>
+            Level 37<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrIo.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrDol.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrLum.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Io<br>
+                        Dol<br>
+                        Lum<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+(165 to 205)% Enhanced damage<br>
+            +40% Faster Hit Recovery<br>
+            +(1 per level) to Maximum Damage (Based on Character Level)<br>
+            8% Life stolen per hit<br>
+            +15% to Fire Skill Damage<br>
+            +1 to Teleport<br>
+            Hit Causes Monster to Flee +32%<br>
+            +10 to Energy<br>
+            +10 to Vitality<br>
+            Level 18 Meteor (150 Charges)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Memory<br>
+            Level 37<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrLum.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrIo.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrSol.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrEth.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Lum<br>
+                        Io<br>
+                        Sol<br>
+                        Eth<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+3 to Sorceress Skill Levels<br>
+            +33% Faster Cast Rate<br>
+            +9 to Minimum Damage<br>
+            -25% Target Defense<br>
+            +3 to Energy Shield (Sorceress Only)<br>
+            +2 to Static Field (Sorceress Only)<br>
+            +50% Enhanced Defense<br>
+            +10 to Energy<br>
+            +10 to Vitality<br>
+            Increase Maximum Mana 20%<br>
+            Magic Damage Reduced by 7<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Question<br>
+            Level 39<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrKo.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrNef.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Ko<br>
+                        Nef<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">Knockback<br>
+            +(0.75 per level) to Strength (Based on Character Level)<br>
+            +(0.75 per level) to Dexterity (Based on Character Level)<br>
+            +(0.75 per level) to Vitality (Based on Character Level)<br>
+            +(0.75 per level) to Energy (Based on Character Level)<br>
+            (2 per level)% Extra Gold from Monsters (Based on Character Level)<br>
+            (1.5 per level)% Better Chance of Getting Magic Items (Based on Character Level)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Water<br>
+            Level 39<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrKo.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrShae.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrHel.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Ko<br>
+                        Shael<br>
+                        Hel<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">100% Chance to cast level 25 Battle Orders when you Level-Up<br>
+            +175% Enhanced damage<br>
+            +20% Increased Attack Speed<br>
+            +25% Faster Hit Recovery<br>
+            Adds 33-122 cold damage<br>
+            +10 to Dexterity<br>
+            Replenish Life +(3 to 5)<br>
+            Regenerate Mana 35%<br>
+            Fire Resist +50%<br>
+            Requirements -20%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Harmony<br>
+            Level 39<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrTir.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrIth.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrSol.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrKo.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Tir<br>
+                        Ith<br>
+                        Sol<br>
+                        Ko<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">Level 10 Vigor Aura When Equipped<br>
+            +(200 to 275)% Enhanced damage<br>
+            +9 damage<br>
+            Adds 55-160 fire damage<br>
+            Adds 55-160 cold damage<br>
+            +(2 to 6) to Valkyrie<br>
+            +10 to Dexterity<br>
+            Regenerate Mana 20%<br>
+            +2 to Mana after each Kill<br>
+            Level 20 Revive (25 Charges)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Pestilence<br>
+            Level 39<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrSol.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrKo.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrIo.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Sol<br>
+                        Ko<br>
+                        Io<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+188% Enhanced damage<br>
+            +9 to Minimum Damage<br>
+            +313 poison damage over 4 seconds<br>
+            +20% to Poison Skill Damage<br>
+            Prevent Monster Heal<br>
+            +3 to Poison Explosion<br>
+            +10 to Dexterity<br>
+            +10 to Vitality<br>
+            Poison Length Reduced by 50%<br>
+            (20 to 35)% Better Chance of Getting Magic Items<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Melody<br>
+            Level 39<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrShae.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrKo.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrNef.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Shael<br>
+                        Ko<br>
+                        Nef<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+3 to Bow and Crossbow Skills (Amazon Only)<br>
+            +50% Enhanced damage<br>
+            +20% Increased Attack Speed<br>
+            +300% Damage to Undead<br>
+            +3 to Dodge (Amazon Only)<br>
+            +3 to Slow Missiles (Amazon Only)<br>
+            +3 to Critical Strike (Amazon Only)<br>
+            Knockback<br>
+            +10 to Dexterity<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Principle<br>
+            Level 41<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrShae.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrFal.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrKo.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrShae.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Shael<br>
+                        Fal<br>
+                        Ko<br>
+                        Shael<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+2 to Amazon Skill Levels<br>
+            +(200 to 260)% Enhanced damage<br>
+            +40% Increased Attack Speed<br>
+            Slain Monsters Rest in Peace<br>
+            +10 to Strength<br>
+            +10 to Dexterity<br>
+            All Resistances +35<br>
+            +2% to Experience Gained<br>
+            Level 10 Cyclone Armor (22 Charges)<br>
+            Level 20 Thunder Storm (10 Charges)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Obedience<br>
+            Level 41<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrHel.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrKo.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrThul.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrEth.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrFal.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Hel<br>
+                        Ko<br>
+                        Thul<br>
+                        Eth<br>
+                        Fal<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">30% Chance to cast level 21 Enchant when you Kill an Enemy<br>
+            +370% Enhanced damage<br>
+            +40% Faster Hit Recovery<br>
+            -25% Target Defense<br>
+            Adds 3-14 cold damage<br>
+            -25% to Enemy Fire Resistance<br>
+            40% Chance of Crushing Blow<br>
+            +(200 to 300) Defense<br>
+            +10 to Strength<br>
+            +10 to Dexterity<br>
+            All Resistances +(20 to 30)<br>
+            Requirements -20%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Envy<br>
+            Level 41<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrFal.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrKo.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrLum.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrIo.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Fal<br>
+                        Ko<br>
+                        Lum<br>
+                        Io<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+222% Enhanced damage<br>
+            +30% Increased Attack Speed<br>
+            6% Mana stolen per hit<br>
+            6% Life stolen per hit<br>
+            +10 to all Attributes<br>
+            All Resistances +25<br>
+            +2% to Experience Gained<br>
+            35% Better Chance of Getting Magic Items<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Lawbringer<br>
+            Level 43<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrAmn.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrLem.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrKo.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Amn<br>
+                        Lem<br>
+                        Ko<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">20% Chance to cast level 15 Decrepify on striking<br>
+            Level 18 Sanctuary Aura When Equipped<br>
+            -50% Target Defense<br>
+            Adds 150-220 fire damage<br>
+            Adds 130-180 cold damage<br>
+            7% Life stolen per hit<br>
+            Slain Monsters Rest in Peace<br>
+            +(200 to 250) Defense vs. Missile<br>
+            +10 to Dexterity<br>
+            75% Extra Gold from Monsters<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Winter<br>
+            Level 43<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrLem.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrKo.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrEl.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrEld.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Lem<br>
+                        Ko<br>
+                        El<br>
+                        Eld<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">15% Chance to cast level 13 Frozen Orb on striking<br>
+            18% Chance to cast level 20 Ice Blast on striking<br>
+            +50 to Attack Rating<br>
+            +(220 to 350)% Damage to Demons<br>
+            +(355 to 375)% Damage to Undead<br>
+            +50 to Attack Rating against Undead<br>
+            Adds 100-220 cold damage<br>
+            -24% to Enemy Cold Resistance<br>
+            +10 to Dexterity<br>
+            Cannot Be Frozen<br>
+            75% Extra Gold from Monsters<br>
+            +1 to Light Radius<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Passion<br>
+            Level 43<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrDol.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrOrt.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrEld.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrLem.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Dol<br>
+                        Ort<br>
+                        Eld<br>
+                        Lem<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+(160 to 210)% Enhanced damage<br>
+            +25% Increased Attack Speed<br>
+            (50 to 80)% Bonus to Attack Rating<br>
+            +75% Damage to Undead<br>
+            +50 to Attack Rating against Undead<br>
+            Adds 1-50 lightning damage<br>
+            +1 to Berserk<br>
+            +1 to Zeal<br>
+            Hit Blinds Target +10<br>
+            Hit Causes Monster to Flee +32%<br>
+            75% Extra Gold from Monsters<br>
+            Level 3 Heart of Wolverine (12 Charges)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Tempest<br>
+            Level 43<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrLem.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrThul.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Lem<br>
+                        Thul<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+3 to Trap Skills (Assassin Only)<br>
+            +2 to Assassin Skills<br>
+            +(140 to 190)% Enhanced damage<br>
+            Adds 100-200 fire damage<br>
+            Adds 1-300 lightning damage<br>
+            Adds 33-84 cold damage<br>
+            +(20 to 30)% to Lightning Skill Damage<br>
+            75% Extra Gold from Monsters<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Shadow<br>
+            Level 45<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrPul.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrSol.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrShae.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrSol.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Pul<br>
+                        Sol<br>
+                        Shael<br>
+                        Sol<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">25% Chance to cast level 12 Cloak of Shadows when struck<br>
+            +166% Enhanced damage<br>
+            +50% Faster Run/Walk<br>
+            +20% Increased Attack Speed<br>
+            +18 to Minimum Damage<br>
+            +75% Damage to Demons<br>
+            +100 to Attack Rating against Demons<br>
+            Adds 25-50 cold damage<br>
+            Level 10 Bone Wall (50 Charges)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Thunder<br>
+            Level 45<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrPul.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrLem.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrKo.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrFal.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Pul<br>
+                        Lem<br>
+                        Ko<br>
+                        Fal<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">10% Chance to cast level 22 Thunder Storm when struck<br>
+            +235% Enhanced damage<br>
+            +75% Damage to Demons<br>
+            +100 to Attack Rating against Demons<br>
+            Adds 1-444 lightning damage<br>
+            +1 to Static Field<br>
+            +10 to Strength<br>
+            +10 to Dexterity<br>
+            Lightning Resist +75%<br>
+            Cold Resist -25%<br>
+            +2% to Experience Gained<br>
+            75% Extra Gold from Monsters<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">The Lovers<br>
+            Level 45<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrPul.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrHel.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrEl.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Pul<br>
+                        Hel<br>
+                        El<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+2 to Amazon Skill Levels<br>
+            +200% Enhanced damage<br>
+            +40% Increased Attack Speed<br>
+            Fires Explosive Arrows or Bolts<br>
+            +50 to Attack Rating<br>
+            +75% Damage to Demons<br>
+            +100 to Attack Rating against Demons<br>
+            30% Deadly Strike<br>
+            +75 to Life<br>
+            +50 to Mana<br>
+            +1 to Light Radius<br>
+            Requirements -20%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Fortune's Favor<br>
+            Level 46<br>
+            (+ 5)<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrFal.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrIo.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Fal<br>
+                        Io<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+1 to All Skills<br>
+            +10 to Strength<br>
+            +10 to Vitality<br>
+            +(30 to 50) to Life<br>
+            All Resistances +10<br>
+            200% Extra Gold from Monsters<br>
+            (2 per level)% Better Chance of Getting Magic Items (Based on Character Level)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Pillar of Faith<br>
+            Level 47<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrFal.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrFal.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrUm.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrAmn.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Fal<br>
+                        Fal<br>
+                        Um<br>
+                        Amn<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">Level 12 Cleansing Aura When Equipped<br>
+            +230% Enhanced damage<br>
+            +20% Increased Attack Speed<br>
+            7% Life stolen per hit<br>
+            25% Chance of Open Wounds<br>
+            +(400 to 500) Defense<br>
+            +20 to Strength<br>
+            +75 to Life<br>
+            Fire Absorb 15%<br>
+            Repairs 1 durability in 5 seconds<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Crescent Moon<br>
+            Level 47<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrShae.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrUm.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrTir.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Shael<br>
+                        Um<br>
+                        Tir<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">7% Chance to cast level 13 Static Field on striking<br>
+            10% Chance to cast level 17 Chain Lightning on striking<br>
+            +(180 to 220)% Enhanced damage<br>
+            +20% Increased Attack Speed<br>
+            Ignore Target's Defense<br>
+            -35% to Enemy Lightning Resistance<br>
+            25% Chance of Open Wounds<br>
+            +(9 to 11) Magic Absorb<br>
+            +2 to Mana after each Kill<br>
+            Level 18 Summon Spirit Wolf (30 Charges)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Oath<br>
+            Level 49<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrShae.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrPul.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrMal.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrLum.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Shael<br>
+                        Pul<br>
+                        Mal<br>
+                        Lum<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">30% Chance to cast level 20 Lower Resist on striking<br>
+            Indestructible<br>
+            +(210 to 340)% Enhanced damage<br>
+            +50% Increased Attack Speed<br>
+            +75% Damage to Demons<br>
+            +100 to Attack Rating against Demons<br>
+            Prevent Monster Heal<br>
+            +10 to Energy<br>
+            +(10 to 15) Magic Absorb<br>
+            Level 17 Iron Golem (14 Charges)<br>
+            Level 16 Heart of Wolverine (20 Charges)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Venom<br>
+            Level 49<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrTal.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrDol.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrMal.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Tal<br>
+                        Dol<br>
+                        Mal<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">Ignore Target's Defense<br>
+            +546 poison damage over 12 seconds<br>
+            7% Mana stolen per hit<br>
+            Prevent Monster Heal<br>
+            Hit Causes Monster to Flee +32%<br>
+            Level 13 Poison Nova (11 Charges)<br>
+            Level 15 Poison Explosion (27 Charges)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Lust<br>
+            Level 49<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrShae.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrMal.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Shael<br>
+                        Mal<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">Level 8 Holy Shock Aura When Equipped<br>
+            +2 to Necromancer Skill Levels<br>
+            +20% Increased Attack Speed<br>
+            Prevent Monster Heal<br>
+            Increase Maximum Mana 35%<br>
+            All Resistances +(35 to 50)<br>
+            +5% to Experience Gained<br>
+            125% Extra Gold from Monsters<br>
+            40% Better Chance of Getting Magic Items<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Thought<br>
+            Level 51<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrTir.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrLum.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrIst.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Tir<br>
+                        Lum<br>
+                        Ist<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+2 to Sorceress Skill Levels<br>
+            +20% Faster Hit Recovery<br>
+            15% Increased Chance of Blocking<br>
+            +20% to Cold Skill Damage<br>
+            -20% to Enemy Lightning Resistance<br>
+            +10 to Energy<br>
+            Replenish Life +6<br>
+            Regenerate Mana 75%<br>
+            +2 to Mana after each Kill<br>
+            30% Better Chance of Getting Magic Items<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Still Water<br>
+            Level 53<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrGul.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrUm.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrMal.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrNef.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Gul<br>
+                        Um<br>
+                        Mal<br>
+                        Nef<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+2 to Bow and Crossbow Skills (Amazon Only)<br>
+            +1 to Amazon Skill Levels<br>
+            +(80 to 120)% Enhanced damage<br>
+            +20% Increased Attack Speed<br>
+            Adds 30-150 damage<br>
+            20% Bonus to Attack Rating<br>
+            Adds 100-150 cold damage<br>
+            25% Chance of Open Wounds<br>
+            Prevent Monster Heal<br>
+            Knockback<br>
+            +(15 to 20) Life after each Kill<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Rift<br>
+            Level 53<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrHel.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrKo.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrLem.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrGul.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Hel<br>
+                        Ko<br>
+                        Lem<br>
+                        Gul<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">20% Chance to cast level 16 Tornado on striking<br>
+            16% Chance to cast level 21 Frozen Orb on attack<br>
+            20% Bonus to Attack Rating<br>
+            Adds 160-250 magic damage<br>
+            Adds 60-180 fire damage<br>
+            +(5 to 10) to Strength<br>
+            +(5 to 10) to Energy<br>
+            +(15 to 20) to Dexterity<br>
+            +(5 to 10) to Vitality<br>
+            38% Damage Taken Goes To Mana<br>
+            75% Extra Gold from Monsters<br>
+            Level 15 Iron Maiden (40 Charges)<br>
+            Requirements -20%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Kingslayer<br>
+            Level 53<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrMal.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrUm.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrGul.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrFal.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Mal<br>
+                        Um<br>
+                        Gul<br>
+                        Fal<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+(230 to 270)% Enhanced damage<br>
+            +30% Increased Attack Speed<br>
+            -25% Target Defense<br>
+            20% Bonus to Attack Rating<br>
+            33% Chance of Crushing Blow<br>
+            50% Chance of Open Wounds<br>
+            Prevent Monster Heal<br>
+            +1 to Vengeance<br>
+            +10 to Strength<br>
+            40% Extra Gold from Monsters<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Despair<br>
+            Level 53<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrGul.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrMal.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrShae.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrShae.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrEl.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Gul<br>
+                        Mal<br>
+                        Shael<br>
+                        Shael<br>
+                        El<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">32% Chance to cast level 6 Weaken on striking<br>
+            +(260 to 300)% Enhanced damage<br>
+            +40% Increased Attack Speed<br>
+            20% Bonus to Attack Rating<br>
+            +50 to Attack Rating<br>
+            9% Mana stolen per hit<br>
+            +7 to Fend<br>
+            Prevent Monster Heal<br>
+            Slows Target by 20%<br>
+            35% Better Chance of Getting Magic Items<br>
+            +1 to Light Radius<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Heart of the Oak<br>
+            Level 55<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrKo.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrVex.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrPul.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrThul.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Ko<br>
+                        Vex<br>
+                        Pul<br>
+                        Thul<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+3 to All Skills<br>
+            +40% Faster Cast Rate<br>
+            +75% Damage to Demons<br>
+            +100 to Attack Rating against Demons<br>
+            Adds 3-14 cold damage<br>
+            7% Mana stolen per hit<br>
+            +10 to Dexterity<br>
+            Replenish Life +20<br>
+            Increase Maximum Mana 15%<br>
+            All Resistances +(30 to 40)<br>
+            Level 14 Raven (60 Charges)<br>
+            Level 4 Oak Sage (25 Charges)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Silence<br>
+            Level 55<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrDol.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrEld.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrHel.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrIst.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrTir.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrVex.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Dol<br>
+                        Eld<br>
+                        Hel<br>
+                        Ist<br>
+                        Tir<br>
+                        Vex<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+2 to All Skills<br>
+            +200% Enhanced damage<br>
+            +20% Increased Attack Speed<br>
+            +20% Faster Hit Recovery<br>
+            +75% Damage to Undead<br>
+            +50 to Attack Rating against Undead<br>
+            11% Mana stolen per hit<br>
+            Hit Blinds Target +33<br>
+            Hit Causes Monster to Flee +32%<br>
+            All Resistances +75<br>
+            +2 to Mana after each Kill<br>
+            30% Better Chance of Getting Magic Items<br>
+            Requirements -20%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Wonder<br>
+            Level 55<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrVex.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrAmn.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrShae.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrAmn.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrVex.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Vex<br>
+                        Amn<br>
+                        Shael<br>
+                        Amn<br>
+                        Vex<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+275% Enhanced damage<br>
+            +20% Increased Attack Speed<br>
+            +30% Faster Hit Recovery<br>
+            14% Mana stolen per hit<br>
+            14% Life stolen per hit<br>
+            +20 to Strength<br>
+            +20 to Dexterity<br>
+            +(1.5 per level) to Life (Based on Character Level)<br>
+            75% Extra Gold from Monsters<br>
+            (1 per level)% Better Chance of Getting Magic Items (Based on Character Level)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Death<br>
+            Level 55<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrHel.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrEl.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrVex.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrOrt.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrGul.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Hel<br>
+                        El<br>
+                        Vex<br>
+                        Ort<br>
+                        Gul<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">100% Chance to cast level 44 Chain Lightning when you Die<br>
+            25% Chance to cast level 18 Glacial Spike on attack<br>
+            Indestructible<br>
+            +(300 to 385)% Enhanced damage<br>
+            20% Bonus to Attack Rating<br>
+            +50 to Attack Rating<br>
+            Adds 1-50 lightning damage<br>
+            7% Mana stolen per hit<br>
+            50% Chance of Crushing Blow<br>
+            (0.5 per level)% Deadly Strike (Based on Character Level)<br>
+            +1 to Light Radius<br>
+            Level 22 Blood Golem (15 Charges)<br>
+            Requirements -20%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Innocence<br>
+            Level 55<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrVex.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrLem.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrIst.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Vex<br>
+                        Lem<br>
+                        Ist<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+2 to All Skills<br>
+            +(190 to 240)% Enhanced damage<br>
+            +(2 per level) to Maximum Damage (Based on Character Level)<br>
+            7% Mana stolen per hit<br>
+            +(15 to 25) to all Attributes<br>
+            Increase Maximum Life 25%<br>
+            -3% to Experience Gained<br>
+            75% Extra Gold from Monsters<br>
+            30% Better Chance of Getting Magic Items<br>
+            Repairs 1 durability in 6 seconds<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Chaos<br>
+            Level 57<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrFal.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrOhm.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrUm.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Fal<br>
+                        Ohm<br>
+                        Um<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">9% Chance to cast level 11 Frozen Orb on striking<br>
+            11% Chance to cast level 9 Hurricane on striking<br>
+            +(290 to 340)% Enhanced damage<br>
+            +35% Increased Attack Speed<br>
+            Adds 216-471 magic damage<br>
+            25% Chance of Open Wounds<br>
+            +1 to Whirlwind<br>
+            +10 to Strength<br>
+            +15 Life after each Demon Kill<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Call to Arms<br>
+            Level 57<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrAmn.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrRal.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrMal.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrIst.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrOhm.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Amn<br>
+                        Ral<br>
+                        Mal<br>
+                        Ist<br>
+                        Ohm<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+1 to All Skills<br>
+            +(250 to 290)% Enhanced damage<br>
+            +40% Increased Attack Speed<br>
+            Adds 5-30 fire damage<br>
+            7% Life stolen per hit<br>
+            +(2 to 6) to Battle Command<br>
+            Prevent Monster Heal<br>
+            +(1 to 6) to Battle Orders<br>
+            +(1 to 4) to Battle Cry<br>
+            Replenish Life +12<br>
+            30% Better Chance of Getting Magic Items<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Pattern<br>
+            Level 57<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrOhm.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrOhm.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Ohm<br>
+                        Ohm<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">100% Chance to cast level 12 Attract when struck<br>
+            +2 to All Skills<br>
+            +100% Enhanced damage<br>
+            +40% Increased Attack Speed<br>
+            +40% Faster Hit Recovery<br>
+            +(2 per level) to Maximum Damage (Based on Character Level)<br>
+            All Resistances +75<br>
+            Damage Reduced by 25%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Mist<br>
+            Level 57<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrOhm.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrHel.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrUm.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Ohm<br>
+                        Hel<br>
+                        Um<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">33% Chance to cast level 15 Fissure when struck<br>
+            Level 7 Defiance Aura When Equipped<br>
+            +(300 to 350)% Enhanced damage<br>
+            15% Increased Chance of Blocking<br>
+            +(1 per level) to Maximum Damage (Based on Character Level)<br>
+            33% Chance of Crushing Blow<br>
+            25% Chance of Open Wounds<br>
+            +15 to Strength<br>
+            Requirements -20%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Fortitude<br>
+            Level 59<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrEl.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrSol.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrDol.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrLo.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">El<br>
+                        Sol<br>
+                        Dol<br>
+                        Lo<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">20% Chance to cast level 15 Chilling Armor when struck<br>
+            +300% Enhanced damage<br>
+            +25% Faster Cast Rate<br>
+            +9 to Minimum Damage<br>
+            +50 to Attack Rating<br>
+            20% Deadly Strike<br>
+            Hit Causes Monster to Flee +32%<br>
+            +200% Enhanced Defense<br>
+            +(1 per level) to Life (Based on Character Level)<br>
+            All Resistances +(25 to 30)<br>
+            +1 to Light Radius<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Widowmaker<br>
+            Level 59<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrEth.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrTir.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrLo.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrMal.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrRal.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Eth<br>
+                        Tir<br>
+                        Lo<br>
+                        Mal<br>
+                        Ral<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">20% Chance to cast level 15 Venom on striking<br>
+            +(30 to 40)% Increased Attack Speed<br>
+            Damage +(340 to 400)<br>
+            Ignore Target's Defense<br>
+            -25% Target Defense<br>
+            +(1.875 per level)% Damage to Demons (Based on Character Level)<br>
+            Adds 5-30 fire damage<br>
+            -(20 to 25)% to Enemy Poison Resistance<br>
+            20% Deadly Strike<br>
+            Prevent Monster Heal<br>
+            +11 Life after each Kill<br>
+            +2 to Mana after each Kill<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Tradition<br>
+            Level 61<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrSur.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrLo.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrOhm.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrGul.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrIst.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Sur<br>
+                        Lo<br>
+                        Ohm<br>
+                        Gul<br>
+                        Ist<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+3 to Amazon Skill Levels<br>
+            +(375 to 450)% Enhanced damage<br>
+            +50% Increased Attack Speed<br>
+            20% Bonus to Attack Rating<br>
+            10% Mana stolen per hit<br>
+            10% Life stolen per hit<br>
+            -25% to Enemy Lightning Resistance<br>
+            +25% to Lightning Skill Damage<br>
+            20% Deadly Strike<br>
+            Hit Blinds Target +1<br>
+            30% Better Chance of Getting Magic Items<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Wind<br>
+            Level 61<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrSur.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrEl.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Sur<br>
+                        El<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">10% Chance to cast level 9 Tornado on striking<br>
+            +(120 to 160)% Enhanced damage<br>
+            +20% Faster Run/Walk<br>
+            +40% Increased Attack Speed<br>
+            +15% Faster Hit Recovery<br>
+            -50% Target Defense<br>
+            +50 to Attack Rating<br>
+            Hit Blinds Target +1<br>
+            +1 to Light Radius<br>
+            Level 13 Twister (127 Charges)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Wrath<br>
+            Level 63<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrPul.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrLum.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrBer.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrMal.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Pul<br>
+                        Lum<br>
+                        Ber<br>
+                        Mal<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">30% Chance to cast level 1 Decrepify on striking<br>
+            5% Chance to cast level 10 Life Tap on striking<br>
+            +375% Damage to Demons<br>
+            +100 to Attack Rating against Demons<br>
+            +(250 to 300)% Damage to Undead<br>
+            Adds 85-120 magic damage<br>
+            Adds 41-240 lightning damage<br>
+            20% Chance of Crushing Blow<br>
+            Prevent Monster Heal<br>
+            +10 to Energy<br>
+            Cannot Be Frozen<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Eternity<br>
+            Level 63<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrAmn.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrBer.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrIst.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrSol.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrSur.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Amn<br>
+                        Ber<br>
+                        Ist<br>
+                        Sol<br>
+                        Sur<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">Indestructible<br>
+            +(260 to 310)% Enhanced damage<br>
+            +9 to Minimum Damage<br>
+            7% Life stolen per hit<br>
+            20% Chance of Crushing Blow<br>
+            Hit Blinds Target +1<br>
+            Slows Target by 33%<br>
+            Replenish Life +16<br>
+            Regenerate Mana 16%<br>
+            Cannot Be Frozen<br>
+            30% Better Chance of Getting Magic Items<br>
+            Level 8 Revive (88 Charges)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Infinity<br>
+            Level 63<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrBer.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrMal.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrBer.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrIst.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Ber<br>
+                        Mal<br>
+                        Ber<br>
+                        Ist<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">50% Chance to cast level 20 Chain Lightning when you Kill an Enemy<br>
+            Level 12 Conviction Aura When Equipped<br>
+            +(255 to 325)% Enhanced damage<br>
+            +35% Faster Run/Walk<br>
+            -55% to Enemy Lightning Resistance<br>
+            40% Chance of Crushing Blow<br>
+            Prevent Monster Heal<br>
+            +(0.5 per level) to Vitality (Based on Character Level)<br>
+            30% Better Chance of Getting Magic Items<br>
+            Level 21 Cyclone Armor (30 Charges)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">The Beast<br>
+            Level 63<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrBer.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrTir.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrUm.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrMal.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrLum.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Ber<br>
+                        Tir<br>
+                        Um<br>
+                        Mal<br>
+                        Lum<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">Level 9 Fanaticism Aura When Equipped<br>
+            +(240 to 270)% Enhanced damage<br>
+            +40% Increased Attack Speed<br>
+            20% Chance of Crushing Blow<br>
+            25% Chance of Open Wounds<br>
+            +3 to Lycanthropy<br>
+            Prevent Monster Heal<br>
+            +3 to Werebear<br>
+            +(25 to 40) to Strength<br>
+            +10 to Energy<br>
+            +2 to Mana after each Kill<br>
+            Level 13 Summon Grizzly (5 Charges)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Daylight<br>
+            Level 65<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrJo.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrFal.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrUm.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Jah<br>
+                        Fal<br>
+                        Um<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">Level 4 Conviction Aura When Equipped<br>
+            +3 to Sorceress Skill Levels<br>
+            +30% Faster Cast Rate<br>
+            Ignore Target's Defense<br>
+            25% Chance of Open Wounds<br>
+            +10 to Strength<br>
+            Increase Maximum Life 25%<br>
+            Increase Maximum Mana 50%<br>
+            Regenerate Mana 50%<br>
+            Level 18 Poison Nova (33 Charges)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Faith<br>
+            Level 65<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrOhm.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrJo.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrLem.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrEld.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Ohm<br>
+                        Jah<br>
+                        Lem<br>
+                        Eld<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">Level (12 to 15) Fanaticism Aura When Equipped<br>
+            +(1 to 2) to All Skills<br>
+            +380% Enhanced damage<br>
+            Ignore Target's Defense<br>
+            300% Bonus to Attack Rating<br>
+            +75% Damage to Undead<br>
+            +50 to Attack Rating against Undead<br>
+            +120 fire damage<br>
+            All Resistances +15<br>
+            10% Reanimate as: Horror<br>
+            75% Extra Gold from Monsters<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Wisdom<br>
+            Level 65<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrJo.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrLum.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Jah<br>
+                        Lum<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+2 to All Skills<br>
+            Ignore Target's Defense<br>
+            +10 to Energy<br>
+            Replenish Life +5<br>
+            +(2 per level) to Mana (Based on Character Level)<br>
+            Regenerate Mana 75%<br>
+            Magic Damage Reduced by 20<br>
+            +(3 to 5)% to Experience Gained<br>
+            Reduces all Vendor Prices 10%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Famine<br>
+            Level 65<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrFal.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrOhm.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrOrt.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrJo.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Fal<br>
+                        Ohm<br>
+                        Ort<br>
+                        Jah<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+(320 to 370)% Enhanced damage<br>
+            +30% Increased Attack Speed<br>
+            Ignore Target's Defense<br>
+            Adds 180-200 magic damage<br>
+            Adds 50-200 fire damage<br>
+            Adds 51-250 lightning damage<br>
+            Adds 50-200 cold damage<br>
+            12% Life stolen per hit<br>
+            Prevent Monster Heal<br>
+            +10 to Strength<br>
+            Ethereal (Cannot be repaired)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Storm<br>
+            Level 65<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrJo.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrUm.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrOhm.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrOrt.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrNef.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Jah<br>
+                        Um<br>
+                        Ohm<br>
+                        Ort<br>
+                        Nef<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">16% Chance to cast level 21 Lightning on striking<br>
+            +383% Enhanced damage<br>
+            +20% Increased Attack Speed<br>
+            Ignore Target's Defense<br>
+            Adds 1-50 lightning damage<br>
+            25% Chance of Open Wounds<br>
+            +10 to Thunder Storm<br>
+            Knockback<br>
+            Lightning Resist +100%<br>
+            Lightning Absorb 25%<br>
+            +3% to Experience Gained<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Phoenix<br>
+            Level 65<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrVex.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrVex.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrLo.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrJo.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Vex<br>
+                        Vex<br>
+                        Lo<br>
+                        Jah<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">100% Chance to cast level 40 Blaze when you Level-Up<br>
+            40% Chance to cast level 22 Firestorm on striking<br>
+            Level 13 Redemption Aura When Equipped<br>
+            +(350 to 400)% Enhanced damage<br>
+            Ignore Target's Defense<br>
+            14% Mana stolen per hit<br>
+            -28% to Enemy Fire Resistance<br>
+            20% Deadly Strike<br>
+            +(350 to 400) Defense vs. Missile<br>
+            +(15 to 21) Fire Absorb<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Fury<br>
+            Level 65<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrJo.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrGul.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrEth.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Jah<br>
+                        Gul<br>
+                        Eth<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+209% Enhanced damage<br>
+            +40% Increased Attack Speed<br>
+            Ignore Target's Defense<br>
+            -25% Target Defense<br>
+            20% Bonus to Attack Rating<br>
+            6% Life stolen per hit<br>
+            33% Deadly Strike<br>
+            66% Chance of Open Wounds<br>
+            +5 to Grim Ward (Barbarian Only)<br>
+            Prevent Monster Heal<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Brand<br>
+            Level 65<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrJo.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrLo.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrMal.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrGul.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Jah<br>
+                        Lo<br>
+                        Mal<br>
+                        Gul<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">35% Chance to cast level 14 Amplify Damage when struck<br>
+            100% Chance to cast level 18 Bone Spear on striking<br>
+            +(260 to 340)% Enhanced damage<br>
+            Fires Explosive Arrows or Bolts<br>
+            Ignore Target's Defense<br>
+            20% Bonus to Attack Rating<br>
+            +(280 to 330)% Damage to Demons<br>
+            20% Deadly Strike<br>
+            Prevent Monster Heal<br>
+            Knockback<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Ice<br>
+            Level 65<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrAmn.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrShae.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrJo.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrLo.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Amn<br>
+                        Shael<br>
+                        Jah<br>
+                        Lo<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">100% Chance to cast level 40 Blizzard when you Level-Up<br>
+            25% Chance to cast level 22 Frost Nova on striking<br>
+            Level 18 Holy Freeze Aura When Equipped<br>
+            +(140 to 210)% Enhanced damage<br>
+            +20% Increased Attack Speed<br>
+            Ignore Target's Defense<br>
+            +(25 to 30)% to Cold Skill Damage<br>
+            7% Life stolen per hit<br>
+            -20% to Enemy Cold Resistance<br>
+            20% Deadly Strike<br>
+            (3.125 per level)% Extra Gold from Monsters (Based on Character Level)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Destruction<br>
+            Level 65<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrVex.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrLo.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrBer.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrJo.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrKo.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Vex<br>
+                        Lo<br>
+                        Ber<br>
+                        Jah<br>
+                        Ko<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">23% Chance to cast level 12 Volcano on striking<br>
+            100% Chance to cast level 45 Glacial Spike when you Die<br>
+            15% Chance to cast level 22 Nova on attack<br>
+            5% Chance to cast level 23 Molten Boulder on striking<br>
+            +350% Enhanced damage<br>
+            Ignore Target's Defense<br>
+            Adds 100-180 magic damage<br>
+            7% Mana stolen per hit<br>
+            20% Chance of Crushing Blow<br>
+            20% Deadly Strike<br>
+            +10 to Dexterity<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Wings of Hope<br>
+            Level 67<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrCham.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrCham.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Cham<br>
+                        Cham<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">25% Chance to cast level 35 Bone Spear on striking<br>
+            Level 3 Salvation Aura When Equipped<br>
+            Adds (60-100)-(150-200) damage<br>
+            Slain Monsters Rest in Peace<br>
+            +8 to Teleport<br>
+            Freezes Target for +6 Seconds<br>
+            +20 to all Attributes<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Doomsayer<br>
+            Level 67<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrHel.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrOhm.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrUm.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrLo.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrCham.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Hel<br>
+                        Ohm<br>
+                        Um<br>
+                        Lo<br>
+                        Cham<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">5% Chance to cast level 18 Volcano on striking<br>
+            Level 12 Holy Freeze Aura When Equipped<br>
+            +2 to All Skills<br>
+            +(330 to 370)% Enhanced damage<br>
+            +45% Increased Attack Speed<br>
+            -(40 to 60)% to Enemy Cold Resistance<br>
+            20% Deadly Strike<br>
+            25% Chance of Open Wounds<br>
+            Prevent Monster Heal<br>
+            Freezes Target for +3 Seconds<br>
+            Requirements -20%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Pride<br>
+            Level 67<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrCham.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrSur.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrLo.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrIo.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Cham<br>
+                        Sur<br>
+                        Lo<br>
+                        Io<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">25% Chance to cast level 17 Fire Wall when struck<br>
+            Level 18 Concentration Aura When Equipped<br>
+            (260 to 300)% Bonus to Attack Rating<br>
+            +(1 per level)% Damage to Demons (Based on Character Level)<br>
+            Adds 50-280 lightning damage<br>
+            20% Deadly Strike<br>
+            Hit Blinds Target +1<br>
+            Freezes Target for +3 Seconds<br>
+            +10 to Vitality<br>
+            Replenish Life +8<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Last Wish<br>
+            Level 67<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrCham.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrMal.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrJo.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrSur.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrJo.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrBer.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Cham<br>
+                        Mal<br>
+                        Jah<br>
+                        Sur<br>
+                        Jah<br>
+                        Ber<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">6% Chance to cast level 11 Fade when struck<br>
+            20% Chance to cast level 20 Charged Bolt on attack<br>
+            10% Chance to cast level 18 Life Tap on striking<br>
+            Level 17 Might Aura When Equipped<br>
+            +(330 to 375)% Enhanced damage<br>
+            Ignore Target's Defense<br>
+            (20 to 30)% Chance of Crushing Blow<br>
+            Prevent Monster Heal<br>
+            Hit Blinds Target +1<br>
+            Freezes Target for +3 Seconds<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Hand of Justice<br>
+            Level 67<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrSur.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrCham.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrAmn.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrLo.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Sur<br>
+                        Cham<br>
+                        Amn<br>
+                        Lo<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">100% Chance to cast level 36 Blaze when you Level-Up<br>
+            100% Chance to cast level 48 Meteor when you Die<br>
+            Level 16 Holy Fire Aura When Equipped<br>
+            +(280 to 330)% Enhanced damage<br>
+            +33% Increased Attack Speed<br>
+            Ignore Target's Defense<br>
+            -20% to Enemy Fire Resistance<br>
+            7% Life stolen per hit<br>
+            20% Deadly Strike<br>
+            Hit Blinds Target +1<br>
+            Freezes Target for +3 Seconds<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Destiny's Daughter<br>
+            Level 67<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrShae.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrNef.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrCham.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrThul.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrVex.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Shael<br>
+                        Nef<br>
+                        Cham<br>
+                        Thul<br>
+                        Vex<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">100% Chance to cast level 8 Nova on striking<br>
+            100% Chance to cast level 60 Nova when you Die<br>
+            +20% Increased Attack Speed<br>
+            +(40 to 75) to Minimum Damage<br>
+            +(2.25 per level) to Maximum Damage (Based on Character Level)<br>
+            Adds 3-14 cold damage<br>
+            7% Mana stolen per hit<br>
+            +(20 to 25)% to Cold Skill Damage<br>
+            +(20 to 25)% to Fire Skill Damage<br>
+            Prevent Monster Heal<br>
+            Freezes Target for +3 Seconds<br>
+            Knockback<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Blood<br>
+            Level 67<br>
+            (+ 18)<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrMal.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrShae.jpg" width="28"
+                                                            height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Mal<br>
+                        Shael<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+2 to All Skills<br>
+            +(100 to 150)% Enhanced damage<br>
+            +20% Increased Attack Speed<br>
+            Prevent Monster Heal<br>
+            +(125 to 175) Defense<br>
+            Increase Maximum Life (10 to 15)%<br>
+            Damage Reduced by (10 to 15)%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Breath of the Dying<br>
+            Level 69<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrVex.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrHel.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrEl.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrEld.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrZod.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrEth.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Vex<br>
+                        Hel<br>
+                        El<br>
+                        Eld<br>
+                        Zod<br>
+                        Eth<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">Indestructible<br>
+            50% Chance to cast level 20 Poison Nova when you Kill an Enemy<br>
+            +(350 to 400)% Enhanced damage<br>
+            +60% Increased Attack Speed<br>
+            -25% Target Defense<br>
+            +50 to Attack Rating<br>
+            +200% Damage to Undead<br>
+            +50 to Attack Rating against Undead<br>
+            7% Mana stolen per hit<br>
+            (12 to 15)% Life stolen per hit<br>
+            Prevent Monster Heal<br>
+            +30 to all Attributes<br>
+            +1 to Light Radius<br>
+            Requirements -20%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Reason<br>
+            Level 69<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrLum.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrLum.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrZod.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrTir.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Lum<br>
+                        Lum<br>
+                        Zod<br>
+                        Tir<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">Indestructible<br>
+            Level 5 Meditation Aura When Equipped<br>
+            +3 to Sorceress Skill Levels<br>
+            +50% Faster Cast Rate<br>
+            +8 to random skill between Fire Bolt and Cold Mastery<br>
+            +20 to Energy<br>
+            Damage Reduced by 20%<br>
+            +2 to Mana after each Kill<br>
+            +3% to Experience Gained<br>
+            20% Damage Taken Goes To Mana<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Darkness<br>
+            Level 69<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrZod.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrAmn.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrVex.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Zod<br>
+                        Amn<br>
+                        Vex<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">Indestructible<br>
+            +3 to Assassin Skills<br>
+            Adds 75-150 damage<br>
+            7% Mana stolen per hit<br>
+            7% Life stolen per hit<br>
+            +(1 per level) to Strength (Based on Character Level)<br>
+            +(0.5 per level) to Vitality (Based on Character Level)<br>
+            All Resistances +(20 to 40)<br>
+            Damage Reduced by 15%<br>
+            (1 per level)% Better Chance of Getting Magic Items (Based on Character Level)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Plague<br>
+            Level 71<br>
+            (+ 10)<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrSur.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrUm.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrMal.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrShae.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrShae.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Sur<br>
+                        Um<br>
+                        Mal<br>
+                        Shael<br>
+                        Shael<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">15% Chance to cast level 27 Bone Spirit on striking<br>
+            +(200 to 250)% Enhanced damage<br>
+            +40% Increased Attack Speed<br>
+            +1055 poison damage over 6 seconds<br>
+            100% Deadly Strike<br>
+            25% Chance of Open Wounds<br>
+            Prevent Monster Heal<br>
+            Hit Blinds Target +1<br>
+            +10% to Maximum Poison Resist<br>
+            +10% to Maximum Cold Resist<br>
+            +10% to Maximum Lightning Resist<br>
+            +10% to Maximum Fire Resist<br>
+            Poison Resist +80%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Praise<br>
+            Level 72<br>
+            (+ 15)<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrFal.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrGul.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrOhm.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrShae.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Fal<br>
+                        Gul<br>
+                        Ohm<br>
+                        Shael<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">100% Chance to cast level 47 Frozen Orb when you Die<br>
+            100% Chance to cast level 10 Glacial Spike when struck<br>
+            +(330 to 400)% Enhanced damage<br>
+            +20% Increased Attack Speed<br>
+            Ignore Target's Defense<br>
+            20% Bonus to Attack Rating<br>
+            10% Life stolen per hit<br>
+            +10 to Strength<br>
+            (0.75 per level)% Better Chance of Getting Magic Items (Based on Character Level)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Unbending Will<br>
+            Level 75<br>
+            (+ 12)<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrBer.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrLum.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrIst.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrIst.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrTir.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrAmn.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Ber<br>
+                        Lum<br>
+                        Ist<br>
+                        Ist<br>
+                        Tir<br>
+                        Amn<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">Indestructible<br>
+            50% Chance to cast level 10 Nova on striking<br>
+            +280% Enhanced damage<br>
+            +60% Faster Hit Recovery<br>
+            7% Life stolen per hit<br>
+            20% Chance of Crushing Blow<br>
+            Prevent Monster Heal<br>
+            +10 to Energy<br>
+            +2 to Mana after each Kill<br>
+            60% Better Chance of Getting Magic Items<br>
+            Ethereal (Cannot be repaired)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Myth<br>
+            Level 75<br>
+            (+ 8)<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrFal.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrCham.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrBer.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrHel.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrTir.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrRal.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Fal<br>
+                        Cham<br>
+                        Ber<br>
+                        Hel<br>
+                        Tir<br>
+                        Ral<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">100% Chance to cast level 60 Nova when you Die<br>
+            +3 to All Skills<br>
+            +(80 to 120)% Enhanced damage<br>
+            Adds 200-400 damage<br>
+            Adds 5-30 fire damage<br>
+            20% Chance of Crushing Blow<br>
+            Freezes Target for +3 Seconds<br>
+            +10 to Strength<br>
+            All Resistances +50<br>
+            +2 to Mana after each Kill<br>
+            Repairs 1 durability in 6 seconds<br>
+            Requirements -20%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Valor<br>
+            Level 77<br>
+            (+ 10)<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrShae.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrTir.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrDol.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrCham.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrSur.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrUm.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Shael<br>
+                        Tir<br>
+                        Dol<br>
+                        Cham<br>
+                        Sur<br>
+                        Um<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">Indestructible<br>
+            +20% Increased Attack Speed<br>
+            +100 to Minimum Damage<br>
+            +(2.5 per level) to Maximum Damage (Based on Character Level)<br>
+            25% Chance of Open Wounds<br>
+            Hit Blinds Target +1<br>
+            Hit Causes Monster to Flee +32%<br>
+            Freezes Target for +3 Seconds<br>
+            +2 to Mana after each Kill<br>
+            +5% to Experience Gained<br>
+            Level 40 Battle Orders (15 Charges)<br>
+            Ethereal (Cannot be repaired)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Peril<br>
+            Level 78<br>
+            (+ 11)<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrCham.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrLo.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrBer.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrBer.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrLo.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrCham.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Cham<br>
+                        Lo<br>
+                        Ber<br>
+                        Ber<br>
+                        Lo<br>
+                        Cham<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+1 to All Skills<br>
+            +75% Increased Attack Speed<br>
+            Adds (100-200)-(300-400) damage<br>
+            40% Chance of Crushing Blow<br>
+            40% Deadly Strike<br>
+            Freezes Target for +6 Seconds<br>
+            +(20 to 30) to all Attributes<br>
+            (1 per level)% Better Chance of Getting Magic Items (Based on Character Level)<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Morning Dew<br>
+            Level 79<br>
+            (+ 10)<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrMal.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrIth.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrBer.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrCham.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrZod.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrIst.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Mal<br>
+                        Ith<br>
+                        Ber<br>
+                        Cham<br>
+                        Zod<br>
+                        Ist<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">Indestructible<br>
+            100% Chance to cast level 20 Static Field when you Kill an Enemy<br>
+            +3 to Druid Skills<br>
+            +(300 to 360)% Enhanced damage<br>
+            +50% Increased Attack Speed<br>
+            +9 to Maximum Damage<br>
+            20% Chance of Crushing Blow<br>
+            +20 to Melee Mastery<br>
+            Prevent Monster Heal<br>
+            Freezes Target for +3 Seconds<br>
+            All Resistances +25<br>
+            30% Better Chance of Getting Magic Items<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Armageddon<br>
+            Level 80<br>
+            (+ 13)<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrRal.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrOrt.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrThul.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrCham.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrBer.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrHel.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Ral<br>
+                        Ort<br>
+                        Thul<br>
+                        Cham<br>
+                        Ber<br>
+                        Hel<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">40% Chance to cast level 20 Blizzard on striking<br>
+            40% Chance to cast level 20 Chain Lightning when struck<br>
+            +(275 to 350)% Enhanced damage<br>
+            +30% Increased Attack Speed<br>
+            Adds 55-330 fire damage<br>
+            Adds 51-350 lightning damage<br>
+            Adds 53-314 cold damage<br>
+            20% Chance of Crushing Blow<br>
+            Freezes Target for +3 Seconds<br>
+            All Resistances +35<br>
+            Requirements -20%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Victory<br>
+            Level 81<br>
+            (+ 24)<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrOhm.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrOhm.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrIst.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrLem.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrOhm.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrOhm.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Ohm<br>
+                        Ohm<br>
+                        Ist<br>
+                        Lem<br>
+                        Ohm<br>
+                        Ohm<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">+200% Enhanced damage<br>
+            +60% Increased Attack Speed<br>
+            +(2.5 per level) to Maximum Damage (Based on Character Level)<br>
+            Adds 1-300 fire damage<br>
+            Adds 1-300 lightning damage<br>
+            Adds 1-300 cold damage<br>
+            Prevent Monster Heal<br>
+            75% Extra Gold from Monsters<br>
+            30% Better Chance of Getting Magic Items<br>
+            Repairs 1 durability in 10 seconds<br>
+            Requirements -50%<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Broken Promise<br>
+            Level 82<br>
+            (+ 15)<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrCham.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrVex.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrAmn.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrShae.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrLo.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Cham<br>
+                        Vex<br>
+                        Amn<br>
+                        Shael<br>
+                        Lo<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">18% Chance to cast level 18 Bone Spear on striking<br>
+            +2 to All Skills<br>
+            +(350 to 400)% Enhanced damage<br>
+            +20% Increased Attack Speed<br>
+            +(3 per level) to Maximum Damage (Based on Character Level)<br>
+            7% Mana stolen per hit<br>
+            7% Life stolen per hit<br>
+            (1 per level)% Chance of Crushing Blow (Based on Character Level)<br>
+            20% Deadly Strike<br>
+            Freezes Target for +3 Seconds<br>
+            -5% to Experience Gained<br>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td width=100>
+        <div align="center"><font size="-1">Starlight<br>
+            Level 89<br>
+            (+ 20)<br></div>
+    </td>
+    <td width=70>
+        <table border=0 cellpadding=0 cellspacing=0>
+            <tr>
+                <td width=35>
+                    <div align="right"><img src="../shared/items/runes/invrZod.jpg" width="28" height="28"
+                                            border="0"><img src="../shared/items/runes/invrHel.jpg" width="28"
+                                                            height="28" border="0"><img
+                            src="../shared/items/runes/invrIst.jpg" width="28" height="28" border="0"><img
+                            src="../shared/items/runes/invrEl.jpg" width="28" height="28" border="0">
+                </td>
+                <td width=35><font size="-1">
+                    <div align="center">Zod<br>
+                        Hel<br>
+                        Ist<br>
+                        El<br>
+                </td>
+            </tr>
+        </table>
+        </div></td>
+    <td width=160>
+        <div align="center"><font size="-1"><br>
+            <br>
+            <br>
+        </div>
+    </td>
+    <td width=250>
+        <div align="center"><font size="-1">Indestructible<br>
+            +3 to All Skills<br>
+            +20% Faster Hit Recovery<br>
+            Adds 35-140 damage<br>
+            +50 to Attack Rating<br>
+            +(100 to 200)% Enhanced Defense<br>
+            (180 to 330)% Better Chance of Getting Magic Items<br>
+            +1 to Light Radius<br>
+            Requirements -100%<br>
+        </div>
+    </td>
+</tr>
+</table>
+
+
+
+<hr noshade size="1">
+
+
+</font>
+</td>
+</tr>
+
+
+</table>
+
+
+</div>
+
+</body>
+</html>

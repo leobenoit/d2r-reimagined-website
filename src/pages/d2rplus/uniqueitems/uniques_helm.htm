@@ -1,0 +1,2385 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>D2rPlus Documentation</title>
+    <!--[if gte IE 9]><!-->
+    <style>
+        * {
+            margin: 0;
+            border: 0;
+            padding: 0;
+            font-size: 100%;
+        }
+
+        body {
+            padding: 2em;
+            font: 14px Arial, sans-serif;
+            background: #FFF;
+            color: #333;
+        }
+
+        a {
+            color: #428BCA;
+            text-decoration: none;
+        }
+
+        a:hover, a:focus {
+            color: #999;
+            text-decoration: none;
+            outline: 0;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0 0 20px;
+            font-size: 30px;
+            line-height: 1.1;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        h3 {
+            border-bottom: 1px solid #DDD;
+            padding: 0 0 10px;
+            font-size: 24px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        h5 {
+            font-size: 18px;
+        }
+
+        h6 {
+            font-size: 16px;
+        }
+
+        p, ul, ol, table {
+            margin: 0 0 20px;
+        }
+
+        ul, ol {
+            margin: 0 0 20px 25px;
+        }
+
+        ul ul, ul ol, ol ol, ol ul {
+            margin-bottom: 0;
+        }
+
+        table table {
+            margin-bottom: 0;
+        }
+
+        hr {
+            margin: 0 0 19px;
+            border: 0 none;
+            border-top: 1px solid #DDD;
+            height: 0;
+            background: transparent;
+            color: transparent;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        nav {
+            margin: 0 0 20px;
+        }
+
+        nav:before, nav:after {
+            content: " ";
+            display: table;
+        }
+
+        nav:after {
+            clear: both;
+        }
+
+        .container {
+            margin: 0 auto;
+            max-width: 940px;
+        }
+    </style>
+    <link rel="stylesheet" href="../assets/css/menu.css"/>
+    <!--<![endif]-->
+</head>
+<body>
+<div class="container">
+    <h3>D2rPlus Documentation</h3>
+    <table>
+        <tr>
+            <td width="130" valign="top">
+                <nav>
+                    <ul class="nav-menu nav-vertical">
+                        <li><a href="../d2rplus.html">Home</a></li>
+                        <li><a href="../cube.htm">Cube Recipes</a></li>
+                        <li><a href="../runes.htm">Runes</a></li>
+                        <li><a href="../gems.htm">Gems</a></li>
+
+                        <li><a href="../setitems.htm">Sets</a></li>
+
+                        <li><a href="#">Uniques &raquo; </a>
+                            <ul>
+                                <li><a href="#" class="nav-active">Unique Weapons &raquo; </a>
+                                    <ul>
+                                        <li><a href="#">Thrown Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniques_jave.htm">Javelins</a></li>
+                                                <li><a href="uniques_tkni.htm">Throwing Knifes</a></li>
+                                                <li><a href="uniques_taxe.htm">Throwing Axes</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Melee Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniques_swor.htm">Swords</a></li>
+                                                <li><a href="uniques_staf.htm">Staves</a></li>
+                                                <li><a href="uniques_club.htm">Clubs</a></li>
+                                                <li><a href="uniques_knif.htm">Knifes</a></li>
+                                                <li><a href="uniques_axe.htm">Axes</a></li>
+                                                <li><a href="uniques_spea.htm">Spears</a></li>
+                                                <li><a href="uniques_scep.htm">Scepters</a></li>
+                                                <li><a href="uniques_wand.htm">Wands</a></li>
+                                                <li><a href="uniques_pole.htm">Polearms</a></li>
+                                                <li><a href="uniques_mace.htm">Maces</a></li>
+                                                <li><a href="uniques_hamm.htm">Hammers</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Ranged Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniques_bow.htm">Bows</a></li>
+                                                <li><a href="uniques_xbow.htm">Crossbows</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Unique Armors &amp; Shields &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniques_shie.htm">Shields</a></li>
+                                        <li><a href="uniques_tors.htm">Torso Armors</a></li>
+                                        <li><a href="uniques_belt.htm">Belts</a></li>
+                                        <li><a href="uniques_helm.htm">Helms</a></li>
+                                        <li><a href="uniques_glov.htm">Gloves</a></li>
+                                        <li><a href="uniques_boot.htm">Boots</a></li>
+                                        <li><a href="uniques_circ.htm">Circlets</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Unique Jewelery &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniques_amul.htm">Amulets</a></li>
+                                        <li><a href="uniques_ring.htm">Rings</a></li>
+                                        <li><a href="uniques_jewl.htm">Jewels</a></li>
+                                        <li><a href="uniques_scha.htm">Small Charms</a></li>
+                                        <li><a href="uniques_mcha.htm">Medium Charms</a></li>
+                                        <li><a href="uniques_lcha.htm">Large Charms</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Class Specific &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniques_h2h.htm">Claws</a></li>
+                                        <li><a href="uniques_orb.htm">Orbs</a></li>
+                                        <li><a href="uniques_head.htm">Voodoo Heads</a></li>
+                                        <li><a href="uniques_pelt.htm">Pelts</a></li>
+                                        <li><a href="uniques_ashd.htm">Auric Shields</a></li>
+                                        <li><a href="uniques_phlm.htm">Primal Helments</a></li>
+                                        <li><a href="uniques_aspe.htm">Amazon Spears</a></li>
+                                        <li><a href="uniques_abow.htm">Amazon Bows</a></li>
+                                        <li><a href="uniques_ajav.htm">Amazon Javelins</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Runewords &raquo; </a>
+                            <ul>
+                                <li><a href="../runewords/runewords_armo.htm">Armor</a></li>
+                                <li><a href="../runewords/runewords_helm.htm">Helms</a></li>
+                                <li><a href="../runewords/runewords_shld.htm">Shields</a></li>
+                                <li><a href="../runewords/runewords_weap.htm">Weapons</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../about.htm">About</a></li>
+                    </ul>
+                </nav>
+            </td>
+            <td width=5></td>
+            <td valign="top" align="left">
+
+            <div class="unique_name" align="center">Helms</div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invcapu.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Biggin's Bonnet<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Cap<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(17-25)<br>
+                                    </font>Durability: 12<br>
+                                        Required Level: 3<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+30% Enhanced damage<br>
+                                        +30 to Attack Rating<br>
+                                        +(14 to 20) Defense<br>
+                                        +(15 to 25) to Life<br>
+                                        +(15 to 25) to Mana<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invcap.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Trickster's Guise<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Cap<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(18-30)<br>
+                                    </font>Durability: 12<br>
+                                        Required Level: 5<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">27% Chance to cast level 3 Charged Bolt when
+                                        struck<br>
+                                        +(15 to 25) Defense<br>
+                                        +15 to Energy<br>
+                                        All Resistances +(6 to 13)<br>
+                                        Damage Reduced by 8%<br>
+                                        Socketed: 1<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm41.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Nameweaver<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Cap<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(23-35)<br>
+                                    </font>Durability: 12<br>
+                                        Required Level: 8<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(5 to 10) to Maximum Damage<br>
+                                        +(20 to 30) Defense<br>
+                                        +10 to Dexterity<br>
+                                        Regenerate Mana 45%<br>
+                                        Lightning Resist +35%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invskp.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Tarnhelm<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Skull Cap<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: (8-11)<br>
+                                        Durability: 18<br>
+                                        Required Strength: 15<br>
+                                        Required Level: 10<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        75% Extra Gold from Monsters<br>
+                                        (25 to 50)% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invskp.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Devourer of Dreams<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Skull Cap<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(23-36)<br>
+                                    </font>Durability: 18<br>
+                                        Required Strength: 15<br>
+                                        Required Level: 13<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+15% Faster Cast Rate<br>
+                                        +1 to Warmth<br>
+                                        Knockback<br>
+                                        +(15 to 25) Defense<br>
+                                        Replenish Life +(3 to 5)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm42.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Lie Spreader<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Skull Cap<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(38-51)<br>
+                                    </font>Durability: 18<br>
+                                        Required Strength: 15<br>
+                                        Required Level: 16<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Passive and Magic Skills (Amazon
+                                        Only)<br>
+                                        +(30 to 40) Defense<br>
+                                        +25 to Life<br>
+                                        +25 to Mana<br>
+                                        Reduces all Vendor Prices 15%<br>
+                                        Socketed: 1<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhlmu.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Coif of Glory<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Helm<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(25-38)<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 26<br>
+                                        Required Level: 14<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">Hit Blinds Target +1<br>
+                                        +(10 to 20) Defense<br>
+                                        +100 Defense vs. Missile<br>
+                                        Lightning Resist +15%<br>
+                                        Attacker Takes Lightning Damage of 7<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm24.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Freedom's Facade<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Helm<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(33-48)<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 26<br>
+                                        Required Level: 16<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+10% Faster Run/Walk<br>
+                                        +10% Increased Attack Speed<br>
+                                        +(18 to 30) Defense<br>
+                                        +20 to Dexterity<br>
+                                        Drain Life -1<br>
+                                        10% Damage Taken Goes To Mana<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm16.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Barbazu's Smile<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Helm<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(40-58)<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 26<br>
+                                        Required Level: 20<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Fire Skills (Sorceress Only)<br>
+                                        +15% Faster Cast Rate<br>
+                                        +(25 to 40) Defense<br>
+                                        Increase Maximum Mana 15%<br>
+                                        Regenerate Mana 40%<br>
+                                        +(3 to 5) to Mana after each Kill<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm28.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Duskdeep<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Full Helm<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(39-59)<br>
+                                    </font>Durability: 30<br>
+                                        Required Strength: 41<br>
+                                        Required Level: 17<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+8 to Maximum Damage<br>
+                                        +(30 to 50)% Enhanced Defense<br>
+                                        +(10 to 20) Defense<br>
+                                        All Resistances +15<br>
+                                        Damage Reduced by 7<br>
+                                        -2 to Light Radius<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm22.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Equinox Visor<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Full Helm<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(43-59)<br>
+                                    </font>Durability: 30<br>
+                                        Required Strength: 41<br>
+                                        Required Level: 20<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 3) to Lycanthropy (Druid Only)<br>
+                                        +3 to Summon Spirit Wolf<br>
+                                        +(20 to 33) Defense<br>
+                                        +35 to Life<br>
+                                        Lightning Resist +(20 to 25)%<br>
+                                        +(3 to 5) to Mana after each Kill<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm27.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Harpy's Call<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Full Helm<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(53-66)<br>
+                                    </font>Durability: 30<br>
+                                        Required Strength: 41<br>
+                                        Required Level: 23<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">7% Chance to cast level 3 Terror when
+                                        struck<br>
+                                        Level 1 Prayer Aura When Equipped<br>
+                                        +1 to Curses (Necromancer Only)<br>
+                                        +(30 to 40) Defense<br>
+                                        All Resistances +20<br>
+                                        +3% to Experience Gained<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invbhmu.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Wormskull<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Bone Helm<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: (33-36)<br>
+                                        Durability: 40<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 21<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Necromancer Skill Levels<br>
+                                        +80 poison damage over 8 seconds<br>
+                                        (5 to 7)% Life stolen per hit<br>
+                                        +(10 to 25) to Mana<br>
+                                        Poison Resist +25%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invbhm.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Cursed Hindsight<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Bone Helm<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(58-71)<br>
+                                    </font>Durability: 40<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 24<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">10% Chance to cast level 3 Life Tap when
+                                        struck<br>
+                                        +1 to Paladin Skill Levels<br>
+                                        +15% Faster Cast Rate<br>
+                                        +20% Faster Hit Recovery<br>
+                                        +2 to Meditation<br>
+                                        +(25 to 35) Defense<br>
+                                        Magic Resist +(5 to 8)%<br>
+                                        (20 to 30)% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invbhmu.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Satyr's Speech<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Bone Helm<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(73-86)<br>
+                                    </font>Durability: 40<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 27<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Combat Skills (Paladin Only)<br>
+                                        +125 to Attack Rating<br>
+                                        Hit Causes Monster to Flee +77%<br>
+                                        Freezes target +(1 to 2)<br>
+                                        +(40 to 50) Defense<br>
+                                        All Resistances +15<br>
+                                        Repairs 1 durability in 5 seconds<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invghm.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Howltusk<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Great Helm<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(54-70)<br>
+                                    </font>Durability: 40<br>
+                                        Required Strength: 63<br>
+                                        Required Level: 25<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">Hit Causes Monster to Flee +33%<br>
+                                        Knockback<br>
+                                        +(80 to 100)% Enhanced Defense<br>
+                                        Magic Damage Reduced by 2<br>
+                                        Attacker Takes Damage of (3 to 5)<br>
+                                        35% Damage Taken Goes To Mana<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm11.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Morning's Tears<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Great Helm<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(62-75)<br>
+                                    </font>Durability: 40<br>
+                                        Required Strength: 63<br>
+                                        Required Level: 28<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        +(32 to 40) Defense<br>
+                                        Increase Maximum Life 10%<br>
+                                        Replenish Life +5<br>
+                                        Increase Maximum Mana 10%<br>
+                                        +75% to Maximum Poison Resist<br>
+                                        Poison Resist +(40 to 60)%<br>
+                                        50% Extra Gold from Monsters<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm30.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Fool's Crest<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Great Helm<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(70-85)<br>
+                                    </font>Durability: 40<br>
+                                        Required Strength: 63<br>
+                                        Required Level: 30<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Masteries Skills (Barbarian Only)<br>
+                                        +25% Enhanced damage<br>
+                                        (4 to 6)% Life stolen per hit<br>
+                                        +(40 to 50) Defense<br>
+                                        +50 to Life<br>
+                                        Cold Resist +25%<br>
+                                        (30 to 40)% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invcrn.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Undead Crown<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Crown<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(72-111)<br>
+                                    </font>Durability: 50<br>
+                                        Required Strength: 55<br>
+                                        Required Level: 27<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+50% Damage to Undead<br>
+                                        +(50 to 100) to Attack Rating against Undead<br>
+                                        5% Life stolen per hit<br>
+                                        +3 to Skeleton Mastery (Necromancer Only)<br>
+                                        +(30 to 60)% Enhanced Defense<br>
+                                        +40 Defense<br>
+                                        Poison Resist +50%<br>
+                                        Half Freeze Duration<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invcrn.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Crown of Thorns<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Crown<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(62-95)<br>
+                                    </font>Durability: 50<br>
+                                        Required Strength: 55<br>
+                                        Required Level: 32<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">15% Chance to cast level 5 Cyclone Armor when
+                                        struck<br>
+                                        10% Chance to cast level 3 Frozen Armor when struck<br>
+                                        Level (1 to 2) Thorns Aura When Equipped<br>
+                                        +1 to Barbarian Skill Levels<br>
+                                        +(37 to 50) Defense<br>
+                                        +(20 to 30) to Mana<br>
+                                        Fire Resist +30%<br>
+                                        Cold Resist +30%<br>
+                                        Damage Reduced by (8 to 10)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invcrn.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Gaiden's Loss<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Crown<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(70-100)<br>
+                                    </font>Durability: 50<br>
+                                        Required Strength: 55<br>
+                                        Required Level: 30<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Shape-Shifting Skills (Druid Only)<br>
+                                        Ignore Target's Defense<br>
+                                        +100% Damage to Undead<br>
+                                        (3 to 5)% Mana stolen per hit<br>
+                                        +(45 to 55) Defense<br>
+                                        +25 to Mana<br>
+                                        50% Extra Gold from Monsters<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invmsk.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">The Face of Horror<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Mask<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(34-77)<br>
+                                    </font>Durability: 20<br>
+                                        Required Strength: 23<br>
+                                        Required Level: 20<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+50% Damage to Undead<br>
+                                        Hit Causes Monster to Flee +64%<br>
+                                        +(25 to 50) Defense<br>
+                                        +20 to Strength<br>
+                                        All Resistances +10<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invmsk.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Treachery's Allure<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Mask<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(16-59)<br>
+                                    </font>Durability: 20<br>
+                                        Required Strength: 23<br>
+                                        Required Level: 23<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">(3 to 5)% Mana stolen per hit<br>
+                                        Slows Target by 15%<br>
+                                        +(80 to 120)% Enhanced Defense<br>
+                                        +10 to all Attributes<br>
+                                        Reduces all Vendor Prices 15%<br>
+                                        Socketed: 2<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invmsk.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Blindman's Bluff<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Mask<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(59-92)<br>
+                                    </font>Durability: 20<br>
+                                        Required Strength: 23<br>
+                                        Required Level: 28<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Shadow Discipline Skills (Assassin Only)<br>
+                                        +(50 to 65) Defense<br>
+                                        +15 to Strength<br>
+                                        +15 to Dexterity<br>
+                                        All Resistances +20<br>
+                                        Repairs 1 durability in 4 seconds<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invcap.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Peasant Crown<br>
+                                    </div>
+                                    <div class="itemtype" align="center">War Hat<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(90-106)<br>
+                                    </font>Durability: 12<br>
+                                        Required Strength: 20<br>
+                                        Required Level: 28<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        +15% Faster Run/Walk<br>
+                                        +100% Enhanced Defense<br>
+                                        +20 to Energy<br>
+                                        +20 to Vitality<br>
+                                        Replenish Life +(6 to 12)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm40.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Hushmaker<br>
+                                    </div>
+                                    <div class="itemtype" align="center">War Hat<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(81-116)<br>
+                                    </font>Durability: 12<br>
+                                        Required Strength: 20<br>
+                                        Required Level: 33<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+20% Faster Hit Recovery<br>
+                                        +1 to Resist Lightning<br>
+                                        Slows Target by (10 to 15)%<br>
+                                        +(80 to 120)% Enhanced Defense<br>
+                                        Damage Reduced by (8 to 12)<br>
+                                        Magic Damage Reduced by (6 to 8)<br>
+                                        Socketed: 1<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm08.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Pepin's Blessing<br>
+                                    </div>
+                                    <div class="itemtype" align="center">War Hat<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(90-119)<br>
+                                    </font>Durability: 12<br>
+                                        Required Strength: 20<br>
+                                        Required Level: 36<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        5% Mana stolen per hit<br>
+                                        +(100 to 125)% Enhanced Defense<br>
+                                        Replenish Life +(5 to 8)<br>
+                                        Regenerate Mana 75%<br>
+                                        +4 to Mana after each Kill<br>
+                                        +3% to Experience Gained<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm07.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Rockstopper<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Sallet<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(135-198)<br>
+                                    </font>Durability: 18<br>
+                                        Required Strength: 43<br>
+                                        Required Level: 31<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+30% Faster Hit Recovery<br>
+                                        +(160 to 220)% Enhanced Defense<br>
+                                        +15 to Vitality<br>
+                                        Fire Resist +(20 to 50)%<br>
+                                        Lightning Resist +(20 to 40)%<br>
+                                        Cold Resist +(20 to 40)%<br>
+                                        Damage Reduced by 10%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invskp.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Neonate's Sallet<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Sallet<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(93-136)<br>
+                                    </font>Durability: 18<br>
+                                        Required Strength: 43<br>
+                                        Required Level: 40<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 2) to Sorceress Skill Levels<br>
+                                        +20% Faster Cast Rate<br>
+                                        +2 to random skill between Fire Bolt and Cold Mastery<br>
+                                        +2 to random skill between Fire Bolt and Cold Mastery<br>
+                                        +(80 to 120)% Enhanced Defense<br>
+                                        +75 to Mana<br>
+                                        Magic Resist +15%<br>
+                                        (15 to 20)% Damage Taken Goes To Mana<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invxkpu.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Drunken Fury<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Sallet<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(104-139)<br>
+                                    </font>Durability: 18<br>
+                                        Required Strength: 43<br>
+                                        Required Level: 36<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+25% Enhanced damage<br>
+                                        -10% Increased Attack Speed<br>
+                                        -10% Faster Hit Recovery<br>
+                                        +(20 to 30) to Maximum Damage<br>
+                                        +14 to Lightning Fury<br>
+                                        +(100 to 125)% Enhanced Defense<br>
+                                        -10 to Dexterity<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm04.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Stealskull<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Casque<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(189-244)<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 59<br>
+                                        Required Level: 35<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+10% Increased Attack Speed<br>
+                                        +10% Faster Hit Recovery<br>
+                                        5% Mana stolen per hit<br>
+                                        5% Life stolen per hit<br>
+                                        +(200 to 240)% Enhanced Defense<br>
+                                        (30 to 50)% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm25.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Troubled Thoughts<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Casque<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(113-158)<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 59<br>
+                                        Required Level: 43<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 2) to Necromancer Skill Levels<br>
+                                        +2 to random skill between Amplify Damage and Revive<br>
+                                        +2 to random skill between Amplify Damage and Revive<br>
+                                        +(80 to 120)% Enhanced Defense<br>
+                                        +15 to Strength<br>
+                                        +(15 to 20) Life after each Kill<br>
+                                        +(8 to 12) to Mana after each Kill<br>
+                                        Repairs 1 durability in 10 seconds<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm26.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Helm of Ra<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Casque<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(132-169)<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 59<br>
+                                        Required Level: 39<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        +10% Faster Run/Walk<br>
+                                        +15% to Fire Skill Damage<br>
+                                        +(110 to 135)% Enhanced Defense<br>
+                                        +15 to Strength<br>
+                                        +10% to Maximum Fire Resist<br>
+                                        Fire Resist +25%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invfhl.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Darksight Helm<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Basinet<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(151-334)<br>
+                                    </font>Durability: 30<br>
+                                        Required Strength: 82<br>
+                                        Required Level: 38<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">6% Chance to cast level 3 Dim Vision when
+                                        struck<br>
+                                        5% Mana stolen per hit<br>
+                                        +(2 per level) Defense (Based on Character Level)<br>
+                                        Fire Resist +(20 to 40)%<br>
+                                        Cannot Be Frozen<br>
+                                        -4 to Light Radius<br>
+                                        Level 5 Cloak of Shadows (30 Charges)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm12.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Wraithwatch<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Basinet<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(135-184)<br>
+                                    </font>Durability: 30<br>
+                                        Required Strength: 57<br>
+                                        Required Level: 46<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 2) to Assassin Skills<br>
+                                        +25% Faster Run/Walk<br>
+                                        +10% Increased Attack Speed<br>
+                                        +2 to random skill between Fire Blast and Phoenix Strike<br>
+                                        +2 to random skill between Fire Blast and Phoenix Strike<br>
+                                        +(80 to 120)% Enhanced Defense<br>
+                                        Requirements -30%<br>
+                                        Socketed: 2<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm13.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Knight's Crest<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Basinet<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(164-201)<br>
+                                    </font>Durability: 30<br>
+                                        Required Strength: 82<br>
+                                        Required Level: 43<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 2) to Paladin Skill Levels<br>
+                                        +20% Faster Cast Rate<br>
+                                        10% Increased Chance of Blocking<br>
+                                        +2 to random skill between Sacrifice and Salvation<br>
+                                        Slows Target by 15%<br>
+                                        +(120 to 140)% Enhanced Defense<br>
+                                        +(10 to 15) Life after each Kill<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm39.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Valkyrie Wing<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Winged Helm<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(212-294)<br>
+                                    </font>Durability: 40<br>
+                                        Required Strength: 115<br>
+                                        Required Level: 44<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 2) to Amazon Skill Levels<br>
+                                        +20% Faster Run/Walk<br>
+                                        +20% Faster Hit Recovery<br>
+                                        +(150 to 200)% Enhanced Defense<br>
+                                        +(2 to 4) to Mana after each Kill<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm20.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Embracing Solitude<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Winged Helm<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(153-215)<br>
+                                    </font>Durability: 40<br>
+                                        Required Strength: 115<br>
+                                        Required Level: 53<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 2) to Druid Skills<br>
+                                        +15% Increased Attack Speed<br>
+                                        +15% Faster Cast Rate<br>
+                                        6% Life stolen per hit<br>
+                                        +2 to random skill between Raven and Hurricane<br>
+                                        +2 to random skill between Raven and Hurricane<br>
+                                        +(80 to 120)% Enhanced Defense<br>
+                                        All Resistances +(15 to 25)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm10.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Gotterdamerung<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Winged Helm<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(161-225)<br>
+                                    </font>Durability: 40<br>
+                                        Required Strength: 115<br>
+                                        Required Level: 50<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">4% Chance to cast level 7 Teeth on
+                                        striking<br>
+                                        +25% Faster Hit Recovery<br>
+                                        (1 per level)% Chance of Open Wounds (Based on Character Level)<br>
+                                        +(90 to 130)% Enhanced Defense<br>
+                                        All Resistances +35<br>
+                                        +(8 to 12) Fire Absorb<br>
+                                        Damage Reduced by 15%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invxrnu.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Crown of Thieves<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Grand Crown<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(202-339)<br>
+                                    </font>Durability: 50<br>
+                                        Required Strength: 103<br>
+                                        Required Level: 49<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">(9 to 12)% Life stolen per hit<br>
+                                        +(160 to 200)% Enhanced Defense<br>
+                                        +25 to Dexterity<br>
+                                        +50 to Life<br>
+                                        +35 to Mana<br>
+                                        Fire Resist +33%<br>
+                                        (80 to 100)% Extra Gold from Monsters<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invcrn.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Reign of Deceit<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Grand Crown<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(140-248)<br>
+                                    </font>Durability: 50<br>
+                                        Required Strength: 103<br>
+                                        Required Level: 56<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 2) to Barbarian Skill Levels<br>
+                                        +(20 to 25)% Enhanced damage<br>
+                                        +20% Faster Block Rate<br>
+                                        Adds 5-10 damage<br>
+                                        +2 to random skill between Bash and Battle Command<br>
+                                        +2 to random skill between Bash and Battle Command<br>
+                                        +(80 to 120)% Enhanced Defense<br>
+                                        +(25 to 50) to Life<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm36.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Usurper's Ambition<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Grand Crown<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(179-282)<br>
+                                    </font>Durability: 50<br>
+                                        Required Strength: 103<br>
+                                        Required Level: 53<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to All Skills<br>
+                                        +(130 to 150)% Enhanced Defense<br>
+                                        +3% to Experience Gained<br>
+                                        25% Better Chance of Getting Magic Items<br>
+                                        Socketed: 3<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm17.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Blackhorn's Face<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Death Mask<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(151-275)<br>
+                                    </font>Durability: 20<br>
+                                        Required Strength: 55<br>
+                                        Required Level: 41<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">Prevent Monster Heal<br>
+                                        Slows Target by 20%<br>
+                                        +(180 to 220)% Enhanced Defense<br>
+                                        Lightning Resist +15%<br>
+                                        +20 Lightning Absorb<br>
+                                        Attacker Takes Lightning Damage of 25<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm1.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Arch-Nemesis<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Death Mask<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(97-189)<br>
+                                    </font>Durability: 20<br>
+                                        Required Strength: 55<br>
+                                        Required Level: 48<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 2) to Amazon Skill Levels<br>
+                                        +15% Faster Run/Walk<br>
+                                        +15% Increased Attack Speed<br>
+                                        Adds 25-50 cold damage<br>
+                                        +2 to random skill between Magic Arrow and Lightning Fury<br>
+                                        +2 to random skill between Magic Arrow and Lightning Fury<br>
+                                        +(80 to 120)% Enhanced Defense<br>
+                                        (20 to 30)% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm15.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Wraithshadow<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Death Mask<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(126-219)<br>
+                                    </font>Durability: 20<br>
+                                        Required Strength: 55<br>
+                                        Required Level: 44<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+20% Faster Run/Walk<br>
+                                        +20% Increased Attack Speed<br>
+                                        +(135 to 155)% Enhanced Defense<br>
+                                        +20 to Vitality<br>
+                                        35% Extra Gold from Monsters<br>
+                                        20% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invbhmu.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Vampire Gaze<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Grim Helm<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(120-250)<br>
+                                    </font>Durability: 40<br>
+                                        Required Strength: 58<br>
+                                        Required Level: 42<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">Adds 6-22 cold damage<br>
+                                        (6 to 8)% Mana stolen per hit<br>
+                                        (6 to 8)% Life stolen per hit<br>
+                                        +100% Enhanced Defense<br>
+                                        15% Slower Stamina Drain<br>
+                                        Damage Reduced by (15 to 20)%<br>
+                                        Magic Damage Reduced by (10 to 15)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invbhmu.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Skull of Fistindantalas<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Grim Helm<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(108-274)<br>
+                                    </font>Durability: 40<br>
+                                        Required Strength: 58<br>
+                                        Required Level: 49<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 2) to Paladin Skill Levels<br>
+                                        +15% Faster Cast Rate<br>
+                                        +2 to random skill between Sacrifice and Salvation<br>
+                                        Slain Monsters Rest in Peace<br>
+                                        +2 to random skill between Sacrifice and Salvation<br>
+                                        +(80 to 120)% Enhanced Defense<br>
+                                        +15 to Dexterity<br>
+                                        +50 to Mana<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invbhmu.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Ghoulslayer<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Grim Helm<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(144-331)<br>
+                                    </font>Durability: 40<br>
+                                        Required Strength: 58<br>
+                                        Required Level: 46<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        +100% Damage to Undead<br>
+                                        Slain Monsters Rest in Peace<br>
+                                        +(140 to 165)% Enhanced Defense<br>
+                                        +(15 to 25) to Strength<br>
+                                        +(15 to 25) to Vitality<br>
+                                        Damage Reduced by (5 to 10)%<br>
+                                        Socketed: 1<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invcap.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Harlequin Crest<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Shako<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: (98-141)<br>
+                                        Durability: 12<br>
+                                        Required Strength: 50<br>
+                                        Required Level: 61<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to All Skills<br>
+                                        +2 to all Attributes<br>
+                                        +(1.5 per level) to Life (Based on Character Level)<br>
+                                        +(1.5 per level) to Mana (Based on Character Level)<br>
+                                        Damage Reduced by 10%<br>
+                                        50% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm38.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Bane's Dark Wisdom<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Shako<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(198-266)<br>
+                                    </font>Durability: 12<br>
+                                        Required Strength: 50<br>
+                                        Required Level: 55<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        +(100 to 125) Defense<br>
+                                        +50% to Experience Gained<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm09.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Slaver's Price<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Hydraskull<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(181-265)<br>
+                                    </font>Durability: 18<br>
+                                        Required Strength: 84<br>
+                                        Required Level: 58<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+50% Enhanced damage<br>
+                                        +20% Increased Attack Speed<br>
+                                        +15 to Maximum Damage<br>
+                                        Slain Monsters Rest in Peace<br>
+                                        +(80 to 120) Defense<br>
+                                        Drain Life -15<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invskp.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Overlord's Helm<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Hydraskull<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(202-318)<br>
+                                    </font>Durability: 18<br>
+                                        Required Strength: 84<br>
+                                        Required Level: 67<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+4 to All Skills<br>
+                                        +30% Faster Cast Rate<br>
+                                        +(100 to 120)% Enhanced Defense<br>
+                                        +(1 per level) to Mana (Based on Character Level)<br>
+                                        Socketed: 2<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm05.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Darkfear<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Armet<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(262-447)<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 109<br>
+                                        Required Level: 73<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        +(2 to 5) to Terror<br>
+                                        Hit Blinds Target +2<br>
+                                        +(150 to 200)% Enhanced Defense<br>
+                                        +15 to Strength<br>
+                                        +15 to Dexterity<br>
+                                        +75 to Life<br>
+                                        Poison Resist +25%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm23.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Steel Shade<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Armet<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(210-342)<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 109<br>
+                                        Required Level: 62<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">(4 to 8)% Mana stolen per hit<br>
+                                        +(100 to 130)% Enhanced Defense<br>
+                                        Replenish Life +(10 to 18)<br>
+                                        All Resistances +25<br>
+                                        +(5 to 11) Fire Absorb<br>
+                                        Damage Reduced by 10%<br>
+                                        Socketed: 1<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm19.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Judas Kiss<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Giant Conch<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(310-454)<br>
+                                    </font>Durability: 30<br>
+                                        Required Strength: 142<br>
+                                        Required Level: 66<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+20% Faster Run/Walk<br>
+                                        Ignore Target's Defense<br>
+                                        +(200 to 300) Defense<br>
+                                        All Resistances +(15 to 25)<br>
+                                        Cannot Be Frozen<br>
+                                        Poison Length Reduced by 50%<br>
+                                        +15 Life after each Kill<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm21.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Conch of Dismay<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Giant Conch<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(258-404)<br>
+                                    </font>Durability: 30<br>
+                                        Required Strength: 142<br>
+                                        Required Level: 74<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        +(2 per level) Defense (Based on Character Level)<br>
+                                        +(300 to 350) to Life<br>
+                                        +(125 to 150) to Mana<br>
+                                        Half Freeze Duration<br>
+                                        Poison Length Reduced by (60 to 70)%<br>
+                                        50% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm29.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Nightwing's Veil<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Spired Helm<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(216-349)<br>
+                                    </font>Durability: 40<br>
+                                        Required Strength: 96<br>
+                                        Required Level: 86<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to All Skills<br>
+                                        +(8 to 15)% to Cold Skill Damage<br>
+                                        +(90 to 120)% Enhanced Defense<br>
+                                        +(10 to 20) to Dexterity<br>
+                                        +(5 to 9) Cold Absorb<br>
+                                        Half Freeze Duration<br>
+                                        Requirements -50%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm10.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Veil of Steel<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Spired Helm<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(322-394)<br>
+                                    </font>Durability: 40<br>
+                                        Required Strength: 192<br>
+                                        Required Level: 75<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+60% Enhanced Defense<br>
+                                        +140 Defense<br>
+                                        +15 to Strength<br>
+                                        +15 to Vitality<br>
+                                        -30 to Mana<br>
+                                        All Resistances +50<br>
+                                        -4 to Light Radius<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invcrn.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Crown of Ages<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Corona<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(266-397)<br>
+                                    </font>Durability: 50<br>
+                                        Required Strength: 174<br>
+                                        Required Level: 78<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">Indestructible<br>
+                                        +1 to All Skills<br>
+                                        +30% Faster Hit Recovery<br>
+                                        +50% Enhanced Defense<br>
+                                        +(100 to 150) Defense<br>
+                                        All Resistances +(20 to 30)<br>
+                                        Damage Reduced by (10 to 15)%<br>
+                                        Socketed: (1 to 2)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invcrn.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">King Conan's Rule<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Corona<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(277-495)<br>
+                                    </font>Durability: 50<br>
+                                        Required Strength: 174<br>
+                                        Required Level: 84<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to All Skills<br>
+                                        Adds 10-30 damage<br>
+                                        +(150 to 200)% Enhanced Defense<br>
+                                        +35 to Dexterity<br>
+                                        +(1 per level) to Strength (Based on Character Level)<br>
+                                        All Resistances +25<br>
+                                        +(2 to 4)% to Experience Gained<br>
+                                        200% Extra Gold from Monsters<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invmsk.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Andariel's Visage<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Demonhead<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(202-385)<br>
+                                    </font>Durability: 20<br>
+                                        Required Strength: 102<br>
+                                        Required Level: 72<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">15% Chance to cast level 15 Bone Spirit when
+                                        struck<br>
+                                        +2 to All Skills<br>
+                                        +20% Increased Attack Speed<br>
+                                        (8 to 10)% Life stolen per hit<br>
+                                        +(100 to 150)% Enhanced Defense<br>
+                                        +(25 to 30) to Strength<br>
+                                        +10% to Maximum Poison Resist<br>
+                                        Fire Resist -30%<br>
+                                        Poison Resist +70%<br>
+                                        Level 3 Venom (20 Charges)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhelm18.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Lolith's Crest<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Demonhead<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(252-462)<br>
+                                    </font>Durability: 20<br>
+                                        Required Strength: 102<br>
+                                        Required Level: 77<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        +20% Faster Cast Rate<br>
+                                        +30% Faster Hit Recovery<br>
+                                        (15 to 20)% Increased Chance of Blocking<br>
+                                        +(150 to 200)% Enhanced Defense<br>
+                                        +(10 to 15) Life after each Kill<br>
+                                        15% Damage Taken Goes To Mana<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invbhm.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Giant Skull<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Bone Visage<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(350-477)<br>
+                                    </font>Durability: 40<br>
+                                        Required Strength: 106<br>
+                                        Required Level: 72<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">50% Chance of Crushing Blow<br>
+                                        Knockback<br>
+                                        +(250 to 320) Defense<br>
+                                        +(25 to 35) to Strength<br>
+                                        +100 to Life<br>
+                                        Socketed: 2<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invbhmu.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Kiss of the Vampire<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Bone Visage<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(300-457)<br>
+                                    </font>Durability: 40<br>
+                                        Required Strength: 106<br>
+                                        Required Level: 81<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        (8 to 10)% Mana stolen per hit<br>
+                                        (8 to 10)% Life stolen per hit<br>
+                                        +(200 to 300) Defense<br>
+                                        +(50 to 75) to Life<br>
+                                        Replenish Life +(10 to 15)<br>
+                                        +(50 to 75) to Mana<br>
+                                        Regenerate Mana 75%<br>
+                                        +(10 to 15) Life after each Kill<br>
+                                        +(5 to 7) to Mana after each Kill<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <hr noshade size="1"/>
+
+
+                </font>
+            </td>
+        </tr>
+
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,1594 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>D2rPlus Documentation</title>
+    <!--[if gte IE 9]><!-->
+    <style>
+        * {
+            margin: 0;
+            border: 0;
+            padding: 0;
+            font-size: 100%;
+        }
+
+        body {
+            padding: 2em;
+            font: 14px Arial, sans-serif;
+            background: #FFF;
+            color: #333;
+        }
+
+        a {
+            color: #428BCA;
+            text-decoration: none;
+        }
+
+        a:hover, a:focus {
+            color: #999;
+            text-decoration: none;
+            outline: 0;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0 0 20px;
+            font-size: 30px;
+            line-height: 1.1;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        h3 {
+            border-bottom: 1px solid #DDD;
+            padding: 0 0 10px;
+            font-size: 24px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        h5 {
+            font-size: 18px;
+        }
+
+        h6 {
+            font-size: 16px;
+        }
+
+        p, ul, ol, table {
+            margin: 0 0 20px;
+        }
+
+        ul, ol {
+            margin: 0 0 20px 25px;
+        }
+
+        ul ul, ul ol, ol ol, ol ul {
+            margin-bottom: 0;
+        }
+
+        table table {
+            margin-bottom: 0;
+        }
+
+        hr {
+            margin: 0 0 19px;
+            border: 0 none;
+            border-top: 1px solid #DDD;
+            height: 0;
+            background: transparent;
+            color: transparent;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        nav {
+            margin: 0 0 20px;
+        }
+
+        nav:before, nav:after {
+            content: " ";
+            display: table;
+        }
+
+        nav:after {
+            clear: both;
+        }
+
+        .container {
+            margin: 0 auto;
+            max-width: 940px;
+        }
+    </style>
+    <link rel="stylesheet" href="../assets/css/menu.css"/>
+    <!--<![endif]-->
+</head>
+<body>
+<div class="container">
+    <h3>D2rPlus Documentation</h3>
+    <table>
+        <tr>
+            <td width="130" valign="top">
+                <nav>
+                    <ul class="nav-menu nav-vertical">
+                        <li><a href="../d2rplus.html">Home</a></li>
+                        <li><a href="../cube.htm">Cube Recipes</a></li>
+                        <li><a href="../runes.htm">Runes</a></li>
+                        <li><a href="../gems.htm">Gems</a></li>
+
+                        <li><a href="../setitems.htm">Sets</a></li>
+
+                        <li><a href="#">Uniques &raquo; </a>
+                            <ul>
+                                <li><a href="#" class="nav-active">Unique Weapons &raquo; </a>
+                                    <ul>
+                                        <li><a href="#">Thrown Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniques_jave.htm">Javelins</a></li>
+                                                <li><a href="uniques_tkni.htm">Throwing Knifes</a></li>
+                                                <li><a href="uniques_taxe.htm">Throwing Axes</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Melee Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniques_swor.htm">Swords</a></li>
+                                                <li><a href="uniques_staf.htm">Staves</a></li>
+                                                <li><a href="uniques_club.htm">Clubs</a></li>
+                                                <li><a href="uniques_knif.htm">Knifes</a></li>
+                                                <li><a href="uniques_axe.htm">Axes</a></li>
+                                                <li><a href="uniques_spea.htm">Spears</a></li>
+                                                <li><a href="uniques_scep.htm">Scepters</a></li>
+                                                <li><a href="uniques_wand.htm">Wands</a></li>
+                                                <li><a href="uniques_pole.htm">Polearms</a></li>
+                                                <li><a href="uniques_mace.htm">Maces</a></li>
+                                                <li><a href="uniques_hamm.htm">Hammers</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Ranged Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniques_bow.htm">Bows</a></li>
+                                                <li><a href="uniques_xbow.htm">Crossbows</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Unique Armors &amp; Shields &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniques_shie.htm">Shields</a></li>
+                                        <li><a href="uniques_tors.htm">Torso Armors</a></li>
+                                        <li><a href="uniques_belt.htm">Belts</a></li>
+                                        <li><a href="uniques_helm.htm">Helms</a></li>
+                                        <li><a href="uniques_glov.htm">Gloves</a></li>
+                                        <li><a href="uniques_boot.htm">Boots</a></li>
+                                        <li><a href="uniques_circ.htm">Circlets</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Unique Jewelery &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniques_amul.htm">Amulets</a></li>
+                                        <li><a href="uniques_ring.htm">Rings</a></li>
+                                        <li><a href="uniques_jewl.htm">Jewels</a></li>
+                                        <li><a href="uniques_scha.htm">Small Charms</a></li>
+                                        <li><a href="uniques_mcha.htm">Medium Charms</a></li>
+                                        <li><a href="uniques_lcha.htm">Large Charms</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Class Specific &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniques_h2h.htm">Claws</a></li>
+                                        <li><a href="uniques_orb.htm">Orbs</a></li>
+                                        <li><a href="uniques_head.htm">Voodoo Heads</a></li>
+                                        <li><a href="uniques_pelt.htm">Pelts</a></li>
+                                        <li><a href="uniques_ashd.htm">Auric Shields</a></li>
+                                        <li><a href="uniques_phlm.htm">Primal Helments</a></li>
+                                        <li><a href="uniques_aspe.htm">Amazon Spears</a></li>
+                                        <li><a href="uniques_abow.htm">Amazon Bows</a></li>
+                                        <li><a href="uniques_ajav.htm">Amazon Javelins</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Runewords &raquo; </a>
+                            <ul>
+                                <li><a href="../runewords/runewords_armo.htm">Armor</a></li>
+                                <li><a href="../runewords/runewords_helm.htm">Helms</a></li>
+                                <li><a href="../runewords/runewords_shld.htm">Shields</a></li>
+                                <li><a href="../runewords/runewords_weap.htm">Weapons</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../about.htm">About</a></li>
+                    </ul>
+                </nav>
+            </td>
+            <td width=5></td>
+            <td valign="top" align="left">
+
+            <div class="unique_name" align="center">Staves</div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invsst.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Bane Ash<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Short Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">1 to 7<br>
+                                    </font>Durability: 20<br>
+                                        Required Level: 3<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(50 to 60)% Enhanced damage<br>
+                                        +20% Increased Attack Speed<br>
+                                        Adds 4-6 fire damage<br>
+                                        +2 to Warmth (Sorceress Only)<br>
+                                        +5 to Fire Bolt (Sorceress Only)<br>
+                                        +30 to Mana<br>
+                                        Fire Resist +50%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invsst.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Puzzler's Mystery<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Short Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">6 to 15<br>
+                                    </font>Durability: 20<br>
+                                        Required Level: 6<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+20% Increased Attack Speed<br>
+                                        Adds 5-10 damage<br>
+                                        +2 to random skill between Fire Bolt and Cold Mastery<br>
+                                        +2 to random skill between Fire Bolt and Cold Mastery<br>
+                                        +25 to Mana<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invsst.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Invoker<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Short Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(11-16) to
+                                        (45-65)<br>
+                                    </font>Durability: 20<br>
+                                        Required Level: 24<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+20% Increased Attack Speed<br>
+                                        +50% Faster Cast Rate<br>
+                                        Adds (10-15)-(40-60) damage<br>
+                                        Increase Maximum Mana 15%<br>
+                                        Socketed: 2<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invlst.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Lord of Drakes<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Long Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">3 to (12-15)<br>
+                                    </font>Durability: 30<br>
+                                        Required Level: 9<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(60 to 90)% Enhanced damage<br>
+                                        -50% Target Defense<br>
+                                        +12 poison damage over 3 seconds<br>
+                                        100% Mana stolen per hit<br>
+                                        +10 to Mana<br>
+                                        Poison Resist +50%<br>
+                                        -1 to Light Radius<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invstaf3.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Puppeteer's Staff<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Long Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(4-5) to
+                                        (16-20)<br>
+                                    </font>Durability: 30<br>
+                                        Required Level: 12<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Fire Skills<br>
+                                        +(110 to 150)% Enhanced damage<br>
+                                        +20% Faster Cast Rate<br>
+                                        +3 to Summon Spirit Wolf<br>
+                                        +2 to random skill between Fire Bolt and Cold Mastery<br>
+                                        +1 to random skill between Fire Bolt and Cold Mastery<br>
+                                        +2 to random skill between Fire Bolt and Cold Mastery<br>
+                                        +(5 to 7) to Clay Golem<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invlst.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Touch of Evil<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Long Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(22-32) to
+                                        (68-98)<br>
+                                    </font>Durability: 30<br>
+                                        Required Level: 29<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">15% Chance to cast level 2 Weaken on
+                                        striking<br>
+                                        +1 to Druid Skills<br>
+                                        +20% Faster Hit Recovery<br>
+                                        Adds (20-30)-(60-90) damage<br>
+                                        +4 to random skill between Raven and Hurricane<br>
+                                        +45 to Mana<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invcstu.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Spire of Lazarus<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Gnarled Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 4 to 12<br>
+                                        Durability: 35<br>
+                                        Required Level: 13<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Sorceress Skill Levels<br>
+                                        Adds 1-28 lightning damage<br>
+                                        +2 to Lightning (Sorceress Only)<br>
+                                        +1 to Chain Lightning (Sorceress Only)<br>
+                                        +3 to Static Field (Sorceress Only)<br>
+                                        +15 to Energy<br>
+                                        Regenerate Mana 43%<br>
+                                        Lightning Resist +75%<br>
+                                        Damage Reduced by 5<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invstaf9.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Sage's Retort<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Gnarled Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(9-11) to
+                                        (27-33)<br>
+                                    </font>Durability: 35<br>
+                                        Required Level: 17<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">50% Chance to cast level 2 Frost Nova when
+                                        struck<br>
+                                        6% Chance to cast level 6 Frost Nova when you Kill an Enemy<br>
+                                        3% Chance to cast level 7 Static Field when struck<br>
+                                        +(125 to 175)% Enhanced damage<br>
+                                        Increase Maximum Mana 15%<br>
+                                        Regenerate Mana 75%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invcst.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Wizard's Rule<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Gnarled Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 4 to 12<br>
+                                        Durability: 35<br>
+                                        Required Level: 32<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+20% Faster Cast Rate<br>
+                                        +3 to random skill between Fire Bolt and Cold Mastery<br>
+                                        +2 to random skill between Fire Bolt and Cold Mastery<br>
+                                        +2 to random skill between Fire Bolt and Cold Mastery<br>
+                                        +3 to random skill between Fire Bolt and Cold Mastery<br>
+                                        All Resistances +(20 to 30)<br>
+                                        +(3 to 6) to Mana after each Kill<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invbst.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">The Salamander<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Battle Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 6 to 13<br>
+                                        Durability: 40<br>
+                                        Required Level: 19<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to Fire Skills<br>
+                                        Adds 15-32 fire damage<br>
+                                        +2 to Fire Ball (Sorceress Only)<br>
+                                        +3 to Warmth (Sorceress Only)<br>
+                                        +1 to Fire Wall (Sorceress Only)<br>
+                                        Fire Resist +30%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invbst.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Strange Alchemy<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Battle Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">27 to 56<br>
+                                    </font>Durability: 40<br>
+                                        Required Level: 23<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+100% Enhanced damage<br>
+                                        +20% Increased Attack Speed<br>
+                                        Adds 15-30 damage<br>
+                                        +(1 to 3) to Frozen Armor<br>
+                                        +(1 to 3) to Cyclone Armor<br>
+                                        +(1 to 3) to Bone Armor<br>
+                                        +(1 to 3) to Warmth<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invbst.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Staff of the Arch-Magus<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Battle Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 6 to 13<br>
+                                        Durability: 40<br>
+                                        Required Level: 36<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to All Skills<br>
+                                        +2 to Lightning Skills (Sorceress Only)<br>
+                                        +30% Faster Cast Rate<br>
+                                        Slain Monsters Rest in Peace<br>
+                                        +25 to Strength<br>
+                                        +25 to Dexterity<br>
+                                        +(1.25 per level) to Mana (Based on Character Level)<br>
+                                        +(3 to 5)% to Experience Gained<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invwst.jpg" border="0"
+                                                                         height="112" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">The Iron Jang Bong<br>
+                                    </div>
+                                    <div class="itemtype" align="center">War Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">24 to 56<br>
+                                    </font>Durability: 50<br>
+                                        Required Level: 25<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to Sorceress Skill Levels<br>
+                                        +100% Enhanced damage<br>
+                                        +20% Faster Cast Rate<br>
+                                        50% Bonus to Attack Rating<br>
+                                        +2 to Nova (Sorceress Only)<br>
+                                        +2 to Blaze (Sorceress Only)<br>
+                                        +3 to Frost Nova (Sorceress Only)<br>
+                                        +30 Defense<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invstaf2.jpg" border="0"
+                                                                         height="112" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Riddlesolver<br>
+                                    </div>
+                                    <div class="itemtype" align="center">War Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(30-36) to
+                                        (70-84)<br>
+                                    </font>Durability: 50<br>
+                                        Required Level: 29<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Sorceress Skill Levels<br>
+                                        +(150 to 200)% Enhanced damage<br>
+                                        +25% Faster Cast Rate<br>
+                                        +30% Faster Hit Recovery<br>
+                                        +3 to random skill between Fire Bolt and Cold Mastery<br>
+                                        +3 to random skill between Fire Bolt and Cold Mastery<br>
+                                        +2 to random skill between Fire Bolt and Cold Mastery<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invstaf12.jpg" border="0"
+                                                                         height="112" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Warmth of Ash<br>
+                                    </div>
+                                    <div class="itemtype" align="center">War Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(27-37) to
+                                        (88-108)<br>
+                                    </font>Durability: 50<br>
+                                        Required Level: 40<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+5 to Fire Skills<br>
+                                        Adds (15-25)-(60-80) damage<br>
+                                        Adds 75-100 fire damage<br>
+                                        +2 to random skill between Fire Bolt and Cold Mastery<br>
+                                        Fire Resist +65%<br>
+                                        +(10 to 20) Cold Absorb<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invsst.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Razorswitch<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Jo Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 6 to 21<br>
+                                        Durability: 20<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 28<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        +30% Faster Cast Rate<br>
+                                        +80 to Life<br>
+                                        +175 to Mana<br>
+                                        All Resistances +50<br>
+                                        Magic Damage Reduced by 15<br>
+                                        Attacker Takes Damage of 15<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invsst.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Staff of Shadows<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Jo Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 6 to 21<br>
+                                        Durability: 20<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 36<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">11% Chance to cast level 2 Dim Vision when
+                                        struck<br>
+                                        +1 to All Skills<br>
+                                        +20% Faster Cast Rate<br>
+                                        +3 to random skill between Fire Bolt and Cold Mastery<br>
+                                        +3 to random skill between Fire Bolt and Cold Mastery<br>
+                                        +3 to random skill between Fire Bolt and Cold Mastery<br>
+                                        +75 Maximum Stamina<br>
+                                        Damage Reduced by (8 to 12)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invstaf10.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Arctic Frost<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Jo Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 6 to 21<br>
+                                        Durability: 20<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 45<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+4 to Cold Skills (Sorceress Only)<br>
+                                        +25% to Cold Skill Damage<br>
+                                        -35% to Enemy Cold Resistance<br>
+                                        Fire Resist +(80 to 100)%<br>
+                                        Cold Absorb 25%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invlst.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Ribcracker<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Quarterstaff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(54-62) to
+                                        (143-169)<br>
+                                    </font>Durability: 30<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 31<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(200 to 300)% Enhanced damage<br>
+                                        +50% Increased Attack Speed<br>
+                                        +50% Faster Hit Recovery<br>
+                                        Adds 30-65 damage<br>
+                                        50% Chance of Crushing Blow<br>
+                                        +100% Enhanced Defense<br>
+                                        +100 Defense<br>
+                                        +15 to Dexterity<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invstaf4.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Silence of the Sphinx<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Quarterstaff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 8 to 26<br>
+                                        Durability: 30<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 39<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to Sorceress Skill Levels<br>
+                                        +2 to random skill between Fire Bolt and Cold Mastery<br>
+                                        +2 to random skill between Fire Bolt and Cold Mastery<br>
+                                        +2 to random skill between Fire Bolt and Cold Mastery<br>
+                                        15% Damage Taken Goes To Mana<br>
+                                        +(3 to 5)% to Experience Gained<br>
+                                        60% Better Chance of Getting Magic Items<br>
+                                        Reduces all Vendor Prices (10 to 15)%<br>
+                                        Socketed: 2<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invlst.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Ter'Angreal<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Quarterstaff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 8 to 26<br>
+                                        Durability: 30<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 50<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to Sorceress Skill Levels<br>
+                                        +40% Faster Cast Rate<br>
+                                        Increase Maximum Mana 50%<br>
+                                        +20 to Mana after each Kill<br>
+                                        (15 to 25)% Damage Taken Goes To Mana<br>
+                                        +5% to Experience Gained<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invcstu.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Chromatic Ire<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Cedar Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 11 to 32<br>
+                                        Durability: 35<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 35<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+3 to Sorceress Skill Levels<br>
+                                        +20% Faster Cast Rate<br>
+                                        +1 to Lightning Mastery (Sorceress Only)<br>
+                                        +1 to Cold Mastery (Sorceress Only)<br>
+                                        +1 to Fire Mastery (Sorceress Only)<br>
+                                        Increase Maximum Life (20 to 25)%<br>
+                                        All Resistances +(20 to 40)<br>
+                                        Attacker Takes Lightning Damage of 20<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invcst.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Ruby Dawn<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Cedar Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 11 to 32<br>
+                                        Durability: 35<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 42<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to Necromancer Skill Levels<br>
+                                        +20% Faster Cast Rate<br>
+                                        +(3 to 6) to Fire Mastery<br>
+                                        +(6 to 8) to Fire Ball<br>
+                                        +4 to random skill between Amplify Damage and Revive<br>
+                                        +3 to random skill between Amplify Damage and Revive<br>
+                                        +2 to random skill between Amplify Damage and Revive<br>
+                                        Increase Maximum Mana 15%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invstaf5.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Staff of Valere<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Cedar Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(41-61) to
+                                        (132-182)<br>
+                                    </font>Durability: 35<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 56<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Druid Skills<br>
+                                        +45% Increased Attack Speed<br>
+                                        +15% Faster Cast Rate<br>
+                                        Adds (30-50)-(100-150) damage<br>
+                                        +15 to Strength<br>
+                                        +25 to Dexterity<br>
+                                        Damage Reduced by (15 to 20)%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invbst.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Warpspear<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Gothic Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 14 to 34<br>
+                                        Durability: 40<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 39<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">50% Chance to cast level 1 Teleport on
+                                        striking<br>
+                                        25% Chance to cast level 1 Teleport when struck<br>
+                                        +3 to Sorceress Skill Levels<br>
+                                        Ignore Target's Defense<br>
+                                        +3 to Energy Shield (Sorceress Only)<br>
+                                        +3 to Telekinesis (Sorceress Only)<br>
+                                        +3 to Teleport (Sorceress Only)<br>
+                                        +250 Defense vs. Missile<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invbst.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Grace of Isis<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Gothic Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(72-81) to
+                                        (162-184)<br>
+                                    </font>Durability: 40<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 47<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 2) to Druid Skills<br>
+                                        +(200 to 265)% Enhanced damage<br>
+                                        +40% Increased Attack Speed<br>
+                                        Adds 30-60 damage<br>
+                                        Ignore Target's Defense<br>
+                                        20% Chance of Crushing Blow<br>
+                                        +3 to random skill between Raven and Hurricane<br>
+                                        +2 to random skill between Raven and Hurricane<br>
+                                        +3 to random skill between Raven and Hurricane<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invstaf7.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Knight's Prophet<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Gothic Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(49-84) to
+                                        (184-284)<br>
+                                    </font>Durability: 40<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 60<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+3 to Paladin Skill Levels<br>
+                                        +25% Faster Run/Walk<br>
+                                        +25% Increased Attack Speed<br>
+                                        Adds (35-70)-(150-250) damage<br>
+                                        (4 to 7)% Mana stolen per hit<br>
+                                        7% Life stolen per hit<br>
+                                        +3 to Whirlwind<br>
+                                        All Resistances +(40 to 50)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invstaf1.jpg" border="0"
+                                                                         height="112" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Skull Collector<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Rune Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 24 to 58<br>
+                                        Durability: 50<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 41<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to All Skills<br>
+                                        Increase Maximum Mana 20%<br>
+                                        +20 to Mana after each Kill<br>
+                                        (1 per level)% Better Chance of Getting Magic Items (Based on Character
+                                        Level)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invstaf13.jpg" border="0"
+                                                                         height="112" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Survivor's Sonata<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Rune Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 24 to 58<br>
+                                        Durability: 50<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 50<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to All Skills<br>
+                                        +25% Faster Cast Rate<br>
+                                        +(3 to 5) to Chilling Armor (Sorceress Only)<br>
+                                        +(3 to 5) to Nova (Sorceress Only)<br>
+                                        +75 to Life<br>
+                                        +5% to Experience Gained<br>
+                                        200% Extra Gold from Monsters<br>
+                                        (1.25 per level)% Better Chance of Getting Magic Items (Based on Character
+                                        Level)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/inv8wsu.jpg" border="0"
+                                                                         height="112" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Arcane Protection<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Rune Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 24 to 58<br>
+                                        Durability: 50<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 65<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">13% Chance to cast level 4 Frozen Armor when
+                                        struck<br>
+                                        +2 to Sorceress Skill Levels<br>
+                                        Regenerate Mana 200%<br>
+                                        All Resistances +(35 to 50)<br>
+                                        Magic Damage Reduced by 25<br>
+                                        50% Damage Taken Goes To Mana<br>
+                                        Level 9 Energy Shield (27 Charges)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invstaf8.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Jadrik's Torment<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Walking Stick<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(207-276) to
+                                        (255-340)<br>
+                                    </font>Durability: 20<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 49<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(200 to 300)% Enhanced damage<br>
+                                        +50% Faster Run/Walk<br>
+                                        +55% Increased Attack Speed<br>
+                                        +40% Faster Cast Rate<br>
+                                        -50 to Strength<br>
+                                        +35 to Energy<br>
+                                        +200 to Life<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invsst.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Road to Perdition<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Walking Stick<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 69 to 85<br>
+                                        Durability: 20<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 67<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+3 to All Skills<br>
+                                        +40% Faster Cast Rate<br>
+                                        +(2 per level) to Mana (Based on Character Level)<br>
+                                        (200 to 300)% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invlst.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Gorgon Strength<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Stalagmite<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 75 to 107<br>
+                                        Durability: 30<br>
+                                        Required Strength: 63<br>
+                                        Required Dexterity: 35<br>
+                                        Required Level: 55<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+3 to Sorceress Skill Levels<br>
+                                        +(5 per level) Defense (Based on Character Level)<br>
+                                        +100 to Strength<br>
+                                        +150 to Mana<br>
+                                        All Resistances +25<br>
+                                        (1 per level)% Better Chance of Getting Magic Items (Based on Character
+                                        Level)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invstaf6.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Ogden's Wisdom<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Stalagmite<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 75 to 107<br>
+                                        Durability: 30<br>
+                                        Required Strength: 63<br>
+                                        Required Dexterity: 35<br>
+                                        Required Level: 69<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to All Skills<br>
+                                        +20% Faster Cast Rate<br>
+                                        +5 to random skill between Fire Bolt and Cold Mastery<br>
+                                        +5 to random skill between Fire Bolt and Cold Mastery<br>
+                                        +5 to random skill between Fire Bolt and Cold Mastery<br>
+                                        +35 to Energy<br>
+                                        +15 Life after each Kill<br>
+                                        +(3 to 5)% to Experience Gained<br>
+                                        Reduces all Vendor Prices 10%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invcstu.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Ondal's Wisdom<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Elder Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 80 to 93<br>
+                                        Durability: 35<br>
+                                        Required Strength: 44<br>
+                                        Required Dexterity: 37<br>
+                                        Required Level: 66<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(2 to 4) to All Skills<br>
+                                        +45% Faster Cast Rate<br>
+                                        +(450 to 550) Defense<br>
+                                        +(40 to 50) to Energy<br>
+                                        Magic Damage Reduced by (5 to 8)<br>
+                                        +5% to Experience Gained<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invcst.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Light of Ra<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Elder Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 80 to 93<br>
+                                        Durability: 35<br>
+                                        Required Strength: 44<br>
+                                        Required Dexterity: 37<br>
+                                        Required Level: 73<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+5 to Lightning Skills (Sorceress Only)<br>
+                                        +(3 to 5) to Thunder Storm (Sorceress Only)<br>
+                                        +(3 to 5) to Lightning Mastery (Sorceress Only)<br>
+                                        Attacker Takes Damage of (1.25 per level) (Based on Character Level)<br>
+                                        +5 to Light Radius<br>
+                                        Socketed: 3<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invbst.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Sanctuary<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Shillelagh<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 65 to 108<br>
+                                        Durability: 40<br>
+                                        Required Strength: 52<br>
+                                        Required Dexterity: 27<br>
+                                        Required Level: 76<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to Sorceress Skill Levels<br>
+                                        +20% Faster Cast Rate<br>
+                                        +(350 to 550) Defense<br>
+                                        +220 to Mana<br>
+                                        Increase Maximum Mana 25%<br>
+                                        Damage Reduced by 50%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invbst.jpg" border="0"
+                                                                         height="112" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Summoner's Risk<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Shillelagh<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 65 to 108<br>
+                                        Durability: 40<br>
+                                        Required Strength: 52<br>
+                                        Required Dexterity: 27<br>
+                                        Required Level: 79<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+30% Faster Cast Rate<br>
+                                        +40% Faster Hit Recovery<br>
+                                        +(6 to 8) to Blood Golem<br>
+                                        +20 to Golem Mastery<br>
+                                        Replenish Life +(3 to 5)<br>
+                                        All Resistances +100<br>
+                                        35% Damage Taken Goes To Mana<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/inv8wsu.jpg" border="0"
+                                                                         height="112" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Mang Song's Lesson<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Archon Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: 83 to 99<br>
+                                        Durability: 26<br>
+                                        Required Strength: 34<br>
+                                        Required Level: 82<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+5 to All Skills<br>
+                                        +30% Faster Cast Rate<br>
+                                        -(7 to 15)% to Enemy Fire Resistance<br>
+                                        -(7 to 15)% to Enemy Cold Resistance<br>
+                                        -(7 to 15)% to Enemy Lightning Resistance<br>
+                                        Regenerate Mana 100%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invstaf11.jpg" border="0"
+                                                                         height="112" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Everkeeper<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Archon Staff<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(482-565) to
+                                        (746-835)<br>
+                                    </font>Durability: 26<br>
+                                        Required Strength: 34<br>
+                                        Required Level: 85<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        +(300 to 340)% Enhanced damage<br>
+                                        +40% Increased Attack Speed<br>
+                                        Adds (150-200)-(350-400) damage<br>
+                                        Ignore Target's Defense<br>
+                                        Replenish Life +20<br>
+                                        Repairs 1 durability in 4 seconds<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <hr noshade size="1"/>
+
+
+                </font>
+            </td>
+        </tr>
+
+    </table>
+
+
+</div>
+</body>
+</html>

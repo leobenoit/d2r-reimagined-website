@@ -1,0 +1,909 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>D2rPlus Documentation</title>
+    <!--[if gte IE 9]><!-->
+    <style>
+        * {
+            margin: 0;
+            border: 0;
+            padding: 0;
+            font-size: 100%;
+        }
+
+        body {
+            padding: 2em;
+            font: 14px Arial, sans-serif;
+            background: #FFF;
+            color: #333;
+        }
+
+        a {
+            color: #428BCA;
+            text-decoration: none;
+        }
+
+        a:hover, a:focus {
+            color: #999;
+            text-decoration: none;
+            outline: 0;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0 0 20px;
+            font-size: 30px;
+            line-height: 1.1;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        h3 {
+            border-bottom: 1px solid #DDD;
+            padding: 0 0 10px;
+            font-size: 24px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        h5 {
+            font-size: 18px;
+        }
+
+        h6 {
+            font-size: 16px;
+        }
+
+        p, ul, ol, table {
+            margin: 0 0 20px;
+        }
+
+        ul, ol {
+            margin: 0 0 20px 25px;
+        }
+
+        ul ul, ul ol, ol ol, ol ul {
+            margin-bottom: 0;
+        }
+
+        table table {
+            margin-bottom: 0;
+        }
+
+        hr {
+            margin: 0 0 19px;
+            border: 0 none;
+            border-top: 1px solid #DDD;
+            height: 0;
+            background: transparent;
+            color: transparent;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        nav {
+            margin: 0 0 20px;
+        }
+
+        nav:before, nav:after {
+            content: " ";
+            display: table;
+        }
+
+        nav:after {
+            clear: both;
+        }
+
+        .container {
+            margin: 0 auto;
+            max-width: 940px;
+        }
+    </style>
+    <link rel="stylesheet" href="../assets/css/menu.css"/>
+    <!--<![endif]-->
+</head>
+<body>
+<div class="container">
+    <h3>D2rPlus Documentation</h3>
+    <table>
+        <tr>
+            <td width="130" valign="top">
+                <nav>
+                    <ul class="nav-menu nav-vertical">
+                        <li><a href="../d2rplus.html">Home</a></li>
+                        <li><a href="../cube.htm">Cube Recipes</a></li>
+                        <li><a href="../runes.htm">Runes</a></li>
+                        <li><a href="../gems.htm">Gems</a></li>
+
+                        <li><a href="../setitems.htm">Sets</a></li>
+
+                        <li><a href="#">Uniques &raquo; </a>
+                            <ul>
+                                <li><a href="#" class="nav-active">Unique Weapons &raquo; </a>
+                                    <ul>
+                                        <li><a href="#">Thrown Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniques_jave.htm">Javelins</a></li>
+                                                <li><a href="uniques_tkni.htm">Throwing Knifes</a></li>
+                                                <li><a href="uniques_taxe.htm">Throwing Axes</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Melee Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniques_swor.htm">Swords</a></li>
+                                                <li><a href="uniques_staf.htm">Staves</a></li>
+                                                <li><a href="uniques_club.htm">Clubs</a></li>
+                                                <li><a href="uniques_knif.htm">Knifes</a></li>
+                                                <li><a href="uniques_axe.htm">Axes</a></li>
+                                                <li><a href="uniques_spea.htm">Spears</a></li>
+                                                <li><a href="uniques_scep.htm">Scepters</a></li>
+                                                <li><a href="uniques_wand.htm">Wands</a></li>
+                                                <li><a href="uniques_pole.htm">Polearms</a></li>
+                                                <li><a href="uniques_mace.htm">Maces</a></li>
+                                                <li><a href="uniques_hamm.htm">Hammers</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Ranged Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniques_bow.htm">Bows</a></li>
+                                                <li><a href="uniques_xbow.htm">Crossbows</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Unique Armors &amp; Shields &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniques_shie.htm">Shields</a></li>
+                                        <li><a href="uniques_tors.htm">Torso Armors</a></li>
+                                        <li><a href="uniques_belt.htm">Belts</a></li>
+                                        <li><a href="uniques_helm.htm">Helms</a></li>
+                                        <li><a href="uniques_glov.htm">Gloves</a></li>
+                                        <li><a href="uniques_boot.htm">Boots</a></li>
+                                        <li><a href="uniques_circ.htm">Circlets</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Unique Jewelery &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniques_amul.htm">Amulets</a></li>
+                                        <li><a href="uniques_ring.htm">Rings</a></li>
+                                        <li><a href="uniques_jewl.htm">Jewels</a></li>
+                                        <li><a href="uniques_scha.htm">Small Charms</a></li>
+                                        <li><a href="uniques_mcha.htm">Medium Charms</a></li>
+                                        <li><a href="uniques_lcha.htm">Large Charms</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Class Specific &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniques_h2h.htm">Claws</a></li>
+                                        <li><a href="uniques_orb.htm">Orbs</a></li>
+                                        <li><a href="uniques_head.htm">Voodoo Heads</a></li>
+                                        <li><a href="uniques_pelt.htm">Pelts</a></li>
+                                        <li><a href="uniques_ashd.htm">Auric Shields</a></li>
+                                        <li><a href="uniques_phlm.htm">Primal Helments</a></li>
+                                        <li><a href="uniques_aspe.htm">Amazon Spears</a></li>
+                                        <li><a href="uniques_abow.htm">Amazon Bows</a></li>
+                                        <li><a href="uniques_ajav.htm">Amazon Javelins</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Runewords &raquo; </a>
+                            <ul>
+                                <li><a href="../runewords/runewords_armo.htm">Armor</a></li>
+                                <li><a href="../runewords/runewords_helm.htm">Helms</a></li>
+                                <li><a href="../runewords/runewords_shld.htm">Shields</a></li>
+                                <li><a href="../runewords/runewords_weap.htm">Weapons</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../about.htm">About</a></li>
+                    </ul>
+                </nav>
+            </td>
+            <td width=5></td>
+            <td valign="top" align="left">
+
+
+            <div class="unique_name" align="center">Amulets</div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy7.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Eye of Kahn<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 3<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(3 to 6) to Maximum Damage<br>
+                                        +(5 to 10) to Strength<br>
+                                        +(5 to 10) to Dexterity<br>
+                                        +(25 to 35) to Life<br>
+                                        +(25 to 35) to Mana<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy5.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Psyche Shroud<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 6<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+15% Faster Run/Walk<br>
+                                        +10 to Energy<br>
+                                        +(20 to 30) to Life<br>
+                                        Lightning Resist +20%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy21.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Nokozan Relic<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 10<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+20% Faster Hit Recovery<br>
+                                        Adds 3-6 fire damage<br>
+                                        +10% to Maximum Fire Resist<br>
+                                        Fire Resist +50%<br>
+                                        +3 to Light Radius<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy2.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Amulet of Warding<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 12<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">(5 to 12)% Increased Chance of Blocking<br>
+                                        +(35 to 50) Defense<br>
+                                        All Resistances +(10 to 15)<br>
+                                        Damage Reduced by (5 to 8)<br>
+                                        Magic Damage Reduced by (4 to 6)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy14.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">The Eye of Etlich<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 15<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        Adds (1-2)-(3-5) cold damage<br>
+                                        (3 to 7)% Life stolen per hit<br>
+                                        +(10 to 40) Defense vs. Missile<br>
+                                        +(1 to 5) to Light Radius<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy20.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">The Mahim-Oak Curio<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 20<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">10% Bonus to Attack Rating<br>
+                                        +10% Enhanced Defense<br>
+                                        +10 Defense<br>
+                                        +10 to all Attributes<br>
+                                        All Resistances +10<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy8.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Cryptking<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 27<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        +200% Damage to Undead<br>
+                                        +(3 to 5) to Raise Skeletal Mage<br>
+                                        +(5 to 10) to Skeleton Mastery<br>
+                                        Replenish Life +(6 to 8)<br>
+                                        Regenerate Mana (25 to 50)%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy4.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Sequence of Seasons<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 30<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">Level 1 Thorns Aura When Equipped<br>
+                                        +1 to All Skills<br>
+                                        Adds 30-50 fire damage<br>
+                                        Adds 1-70 lightning damage<br>
+                                        Adds 15-25 cold damage<br>
+                                        Replenish Life +(6 to 8)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy22.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Saracen's Chance<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 33<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">10% Chance to cast level 2 Iron Maiden when
+                                        struck<br>
+                                        +12 to all Attributes<br>
+                                        All Resistances +(15 to 25)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy1.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Rat Lord's Curse<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 38<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+100% Damage to Demons<br>
+                                        +(15 to 25) to Strength<br>
+                                        +(15 to 25) to Dexterity<br>
+                                        +(35 to 50) to Life<br>
+                                        Damage Reduced by 10%<br>
+                                        Magic Damage Reduced by (6 to 9)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy19.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">The Cat's Eye<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 42<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+30% Faster Run/Walk<br>
+                                        +20% Increased Attack Speed<br>
+                                        +100 Defense<br>
+                                        +100 Defense vs. Missile<br>
+                                        +25 to Dexterity<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy3.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Luck Sigil<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 45<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        10% Bonus to Attack Rating<br>
+                                        (2 per level)% Extra Gold from Monsters (Based on Character Level)<br>
+                                        (1.5 per level)% Better Chance of Getting Magic Items (Based on Character Level)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy12.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Crescent Moon<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 50<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">(11 to 15)% Mana stolen per hit<br>
+                                        (3 to 6)% Life stolen per hit<br>
+                                        +45 to Mana<br>
+                                        Magic Damage Reduced by 10<br>
+                                        10% Damage Taken Goes To Mana<br>
+                                        -2 to Light Radius<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy17.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Atma's Scarab<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 55<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">5% Chance to cast level 2 Amplify Damage on
+                                        striking<br>
+                                        20% Bonus to Attack Rating<br>
+                                        +40 poison damage over 4 seconds<br>
+                                        Poison Resist +75%<br>
+                                        Attacker Takes Damage of 5<br>
+                                        +3 to Light Radius<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy18.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">The Rising Sun<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 60<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">2% Chance to cast level 0 Meteor when
+                                        struck<br>
+                                        +2 to Fire Skills<br>
+                                        Adds 24-48 fire damage<br>
+                                        Replenish Life +10<br>
+                                        +(0.75 per level) Absorbs Fire Damage (Based on Character Level)<br>
+                                        +4 to Light Radius<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy16.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Highlord's Wrath<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 65<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        +20% Increased Attack Speed<br>
+                                        Adds 1-30 lightning damage<br>
+                                        (0.375 per level)% Deadly Strike (Based on Character Level)<br>
+                                        Lightning Resist +35%<br>
+                                        Attacker Takes Lightning Damage of 15<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy15.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Seraph's Hymn<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 67<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to All Skills<br>
+                                        +(1 to 2) to Defensive Aura Skills (Paladin Only)<br>
+                                        +(25 to 50)% Damage to Demons<br>
+                                        +(150 to 250) to Attack Rating against Demons<br>
+                                        +(25 to 50)% Damage to Undead<br>
+                                        +(150 to 250) to Attack Rating against Undead<br>
+                                        +2 to Light Radius<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy11.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Mara's Kaleidoscope<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 70<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to All Skills<br>
+                                        +5 to all Attributes<br>
+                                        All Resistances +(20 to 30)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy9.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">The Vanquisher<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 75<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+50% Enhanced damage<br>
+                                        +25% Increased Attack Speed<br>
+                                        +20% Faster Cast Rate<br>
+                                        +(10 to 20) to Maximum Damage<br>
+                                        (5 to 8)% Mana stolen per hit<br>
+                                        8% Life stolen per hit<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy13.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Foul Sigil<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 78<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 2) to All Skills<br>
+                                        +15% Increased Attack Speed<br>
+                                        15% Increased Chance of Blocking<br>
+                                        +(15 to 25) to all Attributes<br>
+                                        Drain Life -3<br>
+                                        Poison Resist +65%<br>
+                                        Cannot Be Frozen<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy10.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Metalgrid<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 81<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(400 to 450) to Attack Rating<br>
+                                        +(300 to 350) Defense<br>
+                                        All Resistances +(25 to 35)<br>
+                                        Damage Reduced by (15 to 20)%<br>
+                                        Level 22 Iron Golem (11 Charges)<br>
+                                        Level 12 Iron Maiden (20 Charges)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invammy6.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Sigil of Hope<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Amulet<br>
+                                    </div>
+                                    <div class="basic" align="center">Required Level: 85<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">5% Chance to cast level 15 Dim Vision when you
+                                        Kill an Enemy<br>
+                                        +2 to All Skills<br>
+                                        (10 to 15)% Increased Chance of Blocking<br>
+                                        25% Bonus to Attack Rating<br>
+                                        +(5 to 20)% to Maximum Poison Resist<br>
+                                        +(5 to 20)% to Maximum Cold Resist<br>
+                                        +(5 to 20)% to Maximum Lightning Resist<br>
+                                        +(5 to 20)% to Maximum Fire Resist<br>
+                                        All Resistances +(20 to 50)<br>
+                                        (2 per level)% Extra Gold from Monsters (Based on Character Level)<br>
+                                        (35 to 50)% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invvip.jpg" border="0"
+                                                                         height="28" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Amulet of the Viper<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Top of the Horadric Staff<br>
+                                    </div>
+                                    <div class="basic" align="center"></div>
+                                    <div class="prop_blue" align="center">+10 to Life<br>
+                                        +10 to Mana<br>
+                                        Poison Resist +25%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <hr noshade size="1"/>
+
+
+                </font>
+            </td>
+        </tr>
+
+    </table>
+
+</div>
+
+</body>
+</html>

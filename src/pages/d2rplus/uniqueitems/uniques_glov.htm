@@ -1,0 +1,1559 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>D2rPlus Documentation</title>
+    <!--[if gte IE 9]><!-->
+    <style>
+        * {
+            margin: 0;
+            border: 0;
+            padding: 0;
+            font-size: 100%;
+        }
+
+        body {
+            padding: 2em;
+            font: 14px Arial, sans-serif;
+            background: #FFF;
+            color: #333;
+        }
+
+        a {
+            color: #428BCA;
+            text-decoration: none;
+        }
+
+        a:hover, a:focus {
+            color: #999;
+            text-decoration: none;
+            outline: 0;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0 0 20px;
+            font-size: 30px;
+            line-height: 1.1;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        h3 {
+            border-bottom: 1px solid #DDD;
+            padding: 0 0 10px;
+            font-size: 24px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        h5 {
+            font-size: 18px;
+        }
+
+        h6 {
+            font-size: 16px;
+        }
+
+        p, ul, ol, table {
+            margin: 0 0 20px;
+        }
+
+        ul, ol {
+            margin: 0 0 20px 25px;
+        }
+
+        ul ul, ul ol, ol ol, ol ul {
+            margin-bottom: 0;
+        }
+
+        table table {
+            margin-bottom: 0;
+        }
+
+        hr {
+            margin: 0 0 19px;
+            border: 0 none;
+            border-top: 1px solid #DDD;
+            height: 0;
+            background: transparent;
+            color: transparent;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        nav {
+            margin: 0 0 20px;
+        }
+
+        nav:before, nav:after {
+            content: " ";
+            display: table;
+        }
+
+        nav:after {
+            clear: both;
+        }
+
+        .container {
+            margin: 0 auto;
+            max-width: 940px;
+        }
+    </style>
+    <link rel="stylesheet" href="../assets/css/menu.css"/>
+    <!--<![endif]-->
+</head>
+<body>
+<div class="container">
+    <h3>D2rPlus Documentation</h3>
+    <table>
+        <tr>
+            <td width="130" valign="top">
+                <nav>
+                    <ul class="nav-menu nav-vertical">
+                        <li><a href="../d2rplus.html">Home</a></li>
+                        <li><a href="../cube.htm">Cube Recipes</a></li>
+                        <li><a href="../runes.htm">Runes</a></li>
+                        <li><a href="../gems.htm">Gems</a></li>
+
+                        <li><a href="../setitems.htm">Sets</a></li>
+
+                        <li><a href="#">Uniques &raquo; </a>
+                            <ul>
+                                <li><a href="#" class="nav-active">Unique Weapons &raquo; </a>
+                                    <ul>
+                                        <li><a href="#">Thrown Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniques_jave.htm">Javelins</a></li>
+                                                <li><a href="uniques_tkni.htm">Throwing Knifes</a></li>
+                                                <li><a href="uniques_taxe.htm">Throwing Axes</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Melee Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniques_swor.htm">Swords</a></li>
+                                                <li><a href="uniques_staf.htm">Staves</a></li>
+                                                <li><a href="uniques_club.htm">Clubs</a></li>
+                                                <li><a href="uniques_knif.htm">Knifes</a></li>
+                                                <li><a href="uniques_axe.htm">Axes</a></li>
+                                                <li><a href="uniques_spea.htm">Spears</a></li>
+                                                <li><a href="uniques_scep.htm">Scepters</a></li>
+                                                <li><a href="uniques_wand.htm">Wands</a></li>
+                                                <li><a href="uniques_pole.htm">Polearms</a></li>
+                                                <li><a href="uniques_mace.htm">Maces</a></li>
+                                                <li><a href="uniques_hamm.htm">Hammers</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Ranged Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniques_bow.htm">Bows</a></li>
+                                                <li><a href="uniques_xbow.htm">Crossbows</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Unique Armors &amp; Shields &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniques_shie.htm">Shields</a></li>
+                                        <li><a href="uniques_tors.htm">Torso Armors</a></li>
+                                        <li><a href="uniques_belt.htm">Belts</a></li>
+                                        <li><a href="uniques_helm.htm">Helms</a></li>
+                                        <li><a href="uniques_glov.htm">Gloves</a></li>
+                                        <li><a href="uniques_boot.htm">Boots</a></li>
+                                        <li><a href="uniques_circ.htm">Circlets</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Unique Jewelery &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniques_amul.htm">Amulets</a></li>
+                                        <li><a href="uniques_ring.htm">Rings</a></li>
+                                        <li><a href="uniques_jewl.htm">Jewels</a></li>
+                                        <li><a href="uniques_scha.htm">Small Charms</a></li>
+                                        <li><a href="uniques_mcha.htm">Medium Charms</a></li>
+                                        <li><a href="uniques_lcha.htm">Large Charms</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Class Specific &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniques_h2h.htm">Claws</a></li>
+                                        <li><a href="uniques_orb.htm">Orbs</a></li>
+                                        <li><a href="uniques_head.htm">Voodoo Heads</a></li>
+                                        <li><a href="uniques_pelt.htm">Pelts</a></li>
+                                        <li><a href="uniques_ashd.htm">Auric Shields</a></li>
+                                        <li><a href="uniques_phlm.htm">Primal Helments</a></li>
+                                        <li><a href="uniques_aspe.htm">Amazon Spears</a></li>
+                                        <li><a href="uniques_abow.htm">Amazon Bows</a></li>
+                                        <li><a href="uniques_ajav.htm">Amazon Javelins</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Runewords &raquo; </a>
+                            <ul>
+                                <li><a href="../runewords/runewords_armo.htm">Armor</a></li>
+                                <li><a href="../runewords/runewords_helm.htm">Helms</a></li>
+                                <li><a href="../runewords/runewords_shld.htm">Shields</a></li>
+                                <li><a href="../runewords/runewords_weap.htm">Weapons</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../about.htm">About</a></li>
+                    </ul>
+                </nav>
+            </td>
+            <td width=5></td>
+            <td valign="top" align="left">
+
+            <div class="unique_name" align="center">Gloves</div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invlgl.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">The Hand of Broc<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Leather Gloves<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(13-16)<br>
+                                    </font>Durability: 12<br>
+                                        Required Level: 4<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">3% Mana stolen per hit<br>
+                                        3% Life stolen per hit<br>
+                                        +(50 to 100)% Enhanced Defense<br>
+                                        +10 Defense<br>
+                                        +20 to Mana<br>
+                                        Poison Resist +10%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov10.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Goblin Touch<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Leather Gloves<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(12-23)<br>
+                                    </font>Durability: 12<br>
+                                        Required Level: 8<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+75 to Attack Rating<br>
+                                        +100% Damage to Demons<br>
+                                        +(10 to 20) Defense<br>
+                                        Poison Resist +(15 to 25)%<br>
+                                        +(10 to 15) Life after each Demon Kill<br>
+                                        Repairs 1 durability in 10 seconds<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov5.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Blisterpain<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Leather Gloves<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(32-43)<br>
+                                    </font>Durability: 12<br>
+                                        Required Level: 11<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+15% Increased Attack Speed<br>
+                                        +5 to Maximum Damage<br>
+                                        Adds 12-18 fire damage<br>
+                                        Prevent Monster Heal<br>
+                                        +(30 to 40) Defense<br>
+                                        Fire Resist +45%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invvgl.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Bloodfist<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Heavy Gloves<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(17-20)<br>
+                                    </font>Durability: 14<br>
+                                        Required Level: 9<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+10% Increased Attack Speed<br>
+                                        +30% Faster Hit Recovery<br>
+                                        +5 to Minimum Damage<br>
+                                        +(50 to 75)% Enhanced Defense<br>
+                                        +10 Defense<br>
+                                        +40 to Life<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov21.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Fiendfeast<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Heavy Gloves<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(25-31)<br>
+                                    </font>Durability: 14<br>
+                                        Required Level: 14<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+50% Damage to Demons<br>
+                                        +50% Damage to Undead<br>
+                                        (4 to 6)% Mana stolen per hit<br>
+                                        +(20 to 25) Defense<br>
+                                        Damage Reduced by (5 to 10)%<br>
+                                        25% Extra Gold from Monsters<br>
+                                        15% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invvgl.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Healing Touch<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Heavy Gloves<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(40-51)<br>
+                                    </font>Durability: 14<br>
+                                        Required Level: 18<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">(6 to 8)% Life stolen per hit<br>
+                                        +(35 to 45) Defense<br>
+                                        Replenish Life +(3 to 5)<br>
+                                        Regenerate Mana 35%<br>
+                                        +(4 to 6) to Mana after each Kill<br>
+                                        +(4 to 7) Life after each Kill<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invmgl.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Chance Guards<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Chain Gloves<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(27-33)<br>
+                                    </font>Durability: 16<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 15<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+25 to Attack Rating<br>
+                                        +(50 to 100)% Enhanced Defense<br>
+                                        +15 Defense<br>
+                                        200% Extra Gold from Monsters<br>
+                                        (25 to 40)% Better Chance of Getting Magic Items<br>
+                                        +2 to Light Radius<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invmgl.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Green God's Bracers<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Chain Gloves<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(16-19)<br>
+                                    </font>Durability: 16<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 25<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 3) to Passive and Magic Skills (Amazon
+                                        Only)<br>
+                                        +15% Increased Attack Speed<br>
+                                        Adds 1-35 lightning damage<br>
+                                        +(100 to 115)% Enhanced Defense<br>
+                                        +(25 to 35) to Life<br>
+                                        All Resistances +(10 to 20)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invmgl.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Horseman's Gloves<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Chain Gloves<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(48-59)<br>
+                                    </font>Durability: 16<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 20<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 3) to Combat Skills (Paladin Only)<br>
+                                        +10% Increased Attack Speed<br>
+                                        +(40 to 50) Defense<br>
+                                        +30 to Life<br>
+                                        Poison Resist +(15 to 25)%<br>
+                                        Damage Reduced by (7 to 10)%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov13.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Magefist<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Light Gauntlets<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(23-32)<br>
+                                    </font>Durability: 18<br>
+                                        Required Strength: 45<br>
+                                        Required Level: 23<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Fire Skills<br>
+                                        +20% Faster Cast Rate<br>
+                                        Adds 1-6 fire damage<br>
+                                        +(50 to 100)% Enhanced Defense<br>
+                                        +10 Defense<br>
+                                        Regenerate Mana 25%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov11.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Skein of Pain<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Light Gauntlets<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(19-26)<br>
+                                    </font>Durability: 18<br>
+                                        Required Strength: 45<br>
+                                        Required Level: 27<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 3) to Combat Skills (Barbarian
+                                        Only)<br>
+                                        +10% Increased Attack Speed<br>
+                                        Adds 3-12 damage<br>
+                                        +(120 to 140)% Enhanced Defense<br>
+                                        +20 to Mana<br>
+                                        Fire Resist +(15 to 25)%<br>
+                                        Lightning Resist +(20 to 40)%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov2.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Prismatic Gauntlets<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Light Gauntlets<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(54-66)<br>
+                                    </font>Durability: 18<br>
+                                        Required Strength: 45<br>
+                                        Required Level: 30<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+20% Increased Attack Speed<br>
+                                        +(3 to 5) to Minimum Damage<br>
+                                        Adds 15-30 fire damage<br>
+                                        Adds 15-30 lightning damage<br>
+                                        Adds 15-30 cold damage<br>
+                                        +(45 to 55) Defense<br>
+                                        +5 to all Attributes<br>
+                                        All Resistances +(20 to 30)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhgl.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Frostburn<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Gauntlets<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(48-60)<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 60<br>
+                                        Required Level: 28<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+5% Enhanced damage<br>
+                                        Adds 1-6 cold damage<br>
+                                        +(50 to 100)% Enhanced Defense<br>
+                                        +30 Defense<br>
+                                        Increase Maximum Mana 40%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhgl.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Firesign<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Gauntlets<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(27-37)<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 60<br>
+                                        Required Level: 31<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Fire Skills<br>
+                                        Adds 20-35 fire damage<br>
+                                        +(125 to 150)% Enhanced Defense<br>
+                                        +5% to Maximum Fire Resist<br>
+                                        Fire Resist +(35 to 45)%<br>
+                                        Fire Absorb 5%<br>
+                                        Half Freeze Duration<br>
+                                        +(2 to 4) to Light Radius<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov20.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Viridian Gloves<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Gauntlets<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(62-75)<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 45<br>
+                                        Required Level: 33<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+10% Faster Cast Rate<br>
+                                        +75 to Attack Rating<br>
+                                        Slows Target by 15%<br>
+                                        +(50 to 60) Defense<br>
+                                        +15 to Dexterity<br>
+                                        Fire Resist +25%<br>
+                                        Requirements -25%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invlgl.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Venom Grip<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Demonhide Gloves<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(79-116)<br>
+                                    </font>Durability: 12<br>
+                                        Required Strength: 20<br>
+                                        Required Level: 29<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+60 poison damage over 4 seconds<br>
+                                        5% Life stolen per hit<br>
+                                        5% Chance of Crushing Blow<br>
+                                        +(130 to 160)% Enhanced Defense<br>
+                                        +(15 to 25) Defense<br>
+                                        +5% to Maximum Poison Resist<br>
+                                        Poison Resist +30%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov4.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Marauder's Claw<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Demonhide Gloves<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(56-78)<br>
+                                    </font>Durability: 12<br>
+                                        Required Strength: 20<br>
+                                        Required Level: 34<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(6 to 10) to Minimum Damage<br>
+                                        -5% Target Defense<br>
+                                        5% Chance of Crushing Blow<br>
+                                        +(100 to 125)% Enhanced Defense<br>
+                                        Fire Resist +(20 to 30)%<br>
+                                        Cold Resist +(20 to 30)%<br>
+                                        100% Extra Gold from Monsters<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov17.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Devil's Invocation<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Demonhide Gloves<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(56-78)<br>
+                                    </font>Durability: 12<br>
+                                        Required Strength: 20<br>
+                                        Required Level: 37<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+20% Faster Cast Rate<br>
+                                        5% Mana stolen per hit<br>
+                                        +(100 to 125)% Enhanced Defense<br>
+                                        +(30 to 50) to Mana<br>
+                                        Regenerate Mana 50%<br>
+                                        +(3 to 5) to Mana after each Kill<br>
+                                        (10 to 15)% Damage Taken Goes To Mana<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov8.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Gravepalm<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Sharkskin Gloves<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(79-109)<br>
+                                    </font>Durability: 14<br>
+                                        Required Strength: 20<br>
+                                        Required Level: 32<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(100 to 200)% Damage to Undead<br>
+                                        +(100 to 200) to Attack Rating against Undead<br>
+                                        +(140 to 180)% Enhanced Defense<br>
+                                        +10 to Strength<br>
+                                        +10 to Energy<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov1.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Conspiracy of Thieves<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Sharkskin Gloves<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(94-141)<br>
+                                    </font>Durability: 14<br>
+                                        Required Strength: 20<br>
+                                        Required Level: 39<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(125 to 160)% Enhanced Defense<br>
+                                        +(20 to 40) Defense<br>
+                                        +25 to Dexterity<br>
+                                        +(10 to 15) Cold Absorb<br>
+                                        +(10 to 15) Lightning Absorb<br>
+                                        +(10 to 15) Fire Absorb<br>
+                                        (20 to 30)% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invvgl.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Lady of the Lake<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Sharkskin Gloves<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(72-93)<br>
+                                    </font>Durability: 14<br>
+                                        Required Strength: 20<br>
+                                        Required Level: 43<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+3 to Sorceress Skill Levels<br>
+                                        +15% Increased Attack Speed<br>
+                                        +15% Faster Cast Rate<br>
+                                        +(120 to 140)% Enhanced Defense<br>
+                                        +(40 to 50) to Mana<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invmgl.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Ghoulhide<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Heavy Bracers<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(92-127)<br>
+                                    </font>Durability: 16<br>
+                                        Required Strength: 58<br>
+                                        Required Level: 36<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(2 per level)% Damage to Undead (Based on
+                                        Character Level)<br>
+                                        +(8 per level) to Attack Rating against Undead (Based on Character Level)<br>
+                                        (4 to 5)% Mana stolen per hit<br>
+                                        +(150 to 190)% Enhanced Defense<br>
+                                        +20 to Life<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov15.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Rapturous Blessings<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Heavy Bracers<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(112-169)<br>
+                                    </font>Durability: 16<br>
+                                        Required Strength: 58<br>
+                                        Required Level: 44<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+10% Faster Cast Rate<br>
+                                        +1 to Salvation<br>
+                                        +(75 to 125) Defense<br>
+                                        +15 to Energy<br>
+                                        +15 to Vitality<br>
+                                        +5% to Maximum Poison Resist<br>
+                                        +5% to Maximum Cold Resist<br>
+                                        +5% to Maximum Lightning Resist<br>
+                                        +5% to Maximum Fire Resist<br>
+                                        All Resistances +(10 to 15)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invmgl.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Spikefiend Bracers<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Heavy Bracers<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(88-114)<br>
+                                    </font>Durability: 16<br>
+                                        Required Strength: 58<br>
+                                        Required Level: 48<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to Barbarian Skill Levels<br>
+                                        +20% Enhanced damage<br>
+                                        5% Life stolen per hit<br>
+                                        +(140 to 160)% Enhanced Defense<br>
+                                        +(25 to 35) to Life<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov14.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Lava Gout<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Battle Gauntlets<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(97-141)<br>
+                                    </font>Durability: 18<br>
+                                        Required Strength: 88<br>
+                                        Required Level: 42<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">2% Chance to cast level 10 Enchant on striking<br>
+                                        +20% Increased Attack Speed<br>
+                                        Adds 13-46 fire damage<br>
+                                        +(150 to 200)% Enhanced Defense<br>
+                                        Fire Resist +24%<br>
+                                        Half Freeze Duration<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov12.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Gryphon's Claw<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Battle Gauntlets<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(89-122)<br>
+                                    </font>Durability: 18<br>
+                                        Required Strength: 88<br>
+                                        Required Level: 50<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 3) to Summoning Skills (Druid Only)<br>
+                                        +10% Increased Attack Speed<br>
+                                        +(6 to 10) to Maximum Damage<br>
+                                        +(130 to 160)% Enhanced Defense<br>
+                                        Cold Resist +(20 to 30)%<br>
+                                        Poison Resist +25%<br>
+                                        +5 Life after each Kill<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov7.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Warlock's Touch<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Battle Gauntlets<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(87-117)<br>
+                                    </font>Durability: 18<br>
+                                        Required Strength: 88<br>
+                                        Required Level: 54<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to Necromancer Skill Levels<br>
+                                        +20% Faster Cast Rate<br>
+                                        +(125 to 150)% Enhanced Defense<br>
+                                        +(25 to 40) to Mana<br>
+                                        Regenerate Mana 50%<br>
+                                        +5 to Mana after each Kill<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhgl.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Hellmouth<br>
+                                    </div>
+                                    <div class="itemtype" align="center">War Gauntlets<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(107-159)<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 110<br>
+                                        Required Level: 47<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">2% Chance to cast level 4 Meteor on
+                                        striking<br>
+                                        4% Chance to cast level 12 Firestorm on striking<br>
+                                        Adds 15-72 fire damage<br>
+                                        +(150 to 200)% Enhanced Defense<br>
+                                        +15 Fire Absorb<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhgl.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Threat of Retribution<br>
+                                    </div>
+                                    <div class="itemtype" align="center">War Gauntlets<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(174-342)<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 110<br>
+                                        Required Level: 55<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">3% Chance to cast level 1 Static Field when
+                                        struck<br>
+                                        3% Chance to cast level 10 Ice Bolt on striking<br>
+                                        +15% Faster Run/Walk<br>
+                                        +15% Faster Hit Recovery<br>
+                                        +(50 to 75)% Enhanced Defense<br>
+                                        +(2 per level) Defense (Based on Character Level)<br>
+                                        Level 10 Inner Sight (77 Charges)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov16.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Burning Soul<br>
+                                    </div>
+                                    <div class="itemtype" align="center">War Gauntlets<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(143-203)<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 110<br>
+                                        Required Level: 60<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">Adds 77-122 fire damage<br>
+                                        +(10 to 15)% to Fire Skill Damage<br>
+                                        -(10 to 15)% to Enemy Fire Resistance<br>
+                                        +(100 to 150) Defense<br>
+                                        Fire Resist +35%<br>
+                                        Fire Absorb (10 to 15)%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov18.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Griefspawn<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Bramble Mitts<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(94-124)<br>
+                                    </font>Durability: 12<br>
+                                        Required Strength: 50<br>
+                                        Required Level: 57<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+40% Increased Attack Speed<br>
+                                        Adds 10-20 damage<br>
+                                        Slain Monsters Rest in Peace<br>
+                                        +(75 to 100)% Enhanced Defense<br>
+                                        Increase Maximum Life 10%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invlgl.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Mephisto's Claw<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Bramble Mitts<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(121-155)<br>
+                                    </font>Durability: 12<br>
+                                        Required Strength: 50<br>
+                                        Required Level: 64<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">Level (4 to 6) Holy Freeze Aura When
+                                        Equipped<br>
+                                        Adds 70-100 cold damage<br>
+                                        Freezes target +2<br>
+                                        +(125 to 150)% Enhanced Defense<br>
+                                        (35 to 50)% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invvgl.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Dracul's Grasp<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Vampirebone Gloves<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(106-142)<br>
+                                    </font>Durability: 14<br>
+                                        Required Strength: 50<br>
+                                        Required Level: 65<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">5% Chance to cast level 10 Life Tap on
+                                        striking<br>
+                                        (7 to 10)% Life stolen per hit<br>
+                                        25% Chance of Open Wounds<br>
+                                        +(90 to 120)% Enhanced Defense<br>
+                                        +(10 to 15) to Strength<br>
+                                        +(5 to 10) Life after each Kill<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov6.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Bloodyearn<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Vampirebone Gloves<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(123-162)<br>
+                                    </font>Durability: 14<br>
+                                        Required Strength: 50<br>
+                                        Required Level: 71<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 3) to Combat Skills (Barbarian
+                                        Only)<br>
+                                        +20% Increased Attack Speed<br>
+                                        6% Life stolen per hit<br>
+                                        +(120 to 150)% Enhanced Defense<br>
+                                        Increase Maximum Life 25%<br>
+                                        +(0.75 per level) to Life (Based on Character Level)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invmgl.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Soul Drainer<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Vambraces<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(112-147)<br>
+                                    </font>Durability: 16<br>
+                                        Required Strength: 106<br>
+                                        Required Level: 74<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">8% Chance to cast level 3 Weaken on
+                                        striking<br>
+                                        (4 to 7)% Mana stolen per hit<br>
+                                        (4 to 7)% Life stolen per hit<br>
+                                        -50 to Monster Defense Per Hit<br>
+                                        +(90 to 120)% Enhanced Defense<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invmgl.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Lachdonnan's Bracers<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Vambraces<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(153-201)<br>
+                                    </font>Durability: 16<br>
+                                        Required Strength: 148<br>
+                                        Required Level: 80<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 3) to Offensive Aura Skills (Paladin
+                                        Only)<br>
+                                        Adds 10-20 damage<br>
+                                        +100% Damage to Demons<br>
+                                        +(160 to 200)% Enhanced Defense<br>
+                                        Fire Resist +(25 to 35)%<br>
+                                        (35 to 50)% Better Chance of Getting Magic Items<br>
+                                        Requirements +40%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov3.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Hellhunger<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Crusader Gauntlets<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(134-193)<br>
+                                    </font>Durability: 18<br>
+                                        Required Strength: 151<br>
+                                        Required Level: 78<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        +10% Faster Cast Rate<br>
+                                        +(1 to 5) to Lower Resist<br>
+                                        +(75 to 125) Defense<br>
+                                        (20 to 25)% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov9.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Paladin's Quest<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Crusader Gauntlets<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: (59-68)<br>
+                                        Durability: 18<br>
+                                        Required Strength: 151<br>
+                                        Required Level: 84<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        +20% Faster Block Rate<br>
+                                        20% Increased Chance of Blocking<br>
+                                        +(1 to 3) to Fanaticism (Paladin Only)<br>
+                                        +(1 to 3) to Holy Shock (Paladin Only)<br>
+                                        +1% to Experience Gained<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov19.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Steelrend<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Ogre Gauntlets<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(232-281)<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 185<br>
+                                        Required Level: 83<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(45 to 60)% Enhanced damage<br>
+                                        +15% Increased Attack Speed<br>
+                                        Adds 5-10 damage<br>
+                                        (10 to 15)% Chance of Crushing Blow<br>
+                                        +(170 to 210) Defense<br>
+                                        +(15 to 20) to Strength<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invglov22.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Black Lotus<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Ogre Gauntlets<br>
+                                    </div>
+                                    <div class="basic" align="center">Defense: <font color="2020b0">(323-446)<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 185<br>
+                                        Required Level: 87<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+30% Increased Attack Speed<br>
+                                        +20% Piercing Attack<br>
+                                        25% Deadly Strike<br>
+                                        +(3 per level) Defense (Based on Character Level)<br>
+                                        +25 to Dexterity<br>
+                                        All Resistances +(15 to 20)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <hr noshade size="1"/>
+
+
+                </font>
+            </td>
+        </tr>
+
+    </table>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,682 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>D2rPlus Documentation</title>
+    <!--[if gte IE 9]><!-->
+    <style>
+        * {
+            margin: 0;
+            border: 0;
+            padding: 0;
+            font-size: 100%;
+        }
+
+        body {
+            padding: 2em;
+            font: 14px Arial, sans-serif;
+            background: #FFF;
+            color: #333;
+        }
+
+        a {
+            color: #428BCA;
+            text-decoration: none;
+        }
+
+        a:hover, a:focus {
+            color: #999;
+            text-decoration: none;
+            outline: 0;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0 0 20px;
+            font-size: 30px;
+            line-height: 1.1;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        h3 {
+            border-bottom: 1px solid #DDD;
+            padding: 0 0 10px;
+            font-size: 24px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        h5 {
+            font-size: 18px;
+        }
+
+        h6 {
+            font-size: 16px;
+        }
+
+        p, ul, ol, table {
+            margin: 0 0 20px;
+        }
+
+        ul, ol {
+            margin: 0 0 20px 25px;
+        }
+
+        ul ul, ul ol, ol ol, ol ul {
+            margin-bottom: 0;
+        }
+
+        table table {
+            margin-bottom: 0;
+        }
+
+        hr {
+            margin: 0 0 19px;
+            border: 0 none;
+            border-top: 1px solid #DDD;
+            height: 0;
+            background: transparent;
+            color: transparent;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        nav {
+            margin: 0 0 20px;
+        }
+
+        nav:before, nav:after {
+            content: " ";
+            display: table;
+        }
+
+        nav:after {
+            clear: both;
+        }
+
+        .container {
+            margin: 0 auto;
+            max-width: 940px;
+        }
+    </style>
+    <link rel="stylesheet" href="../assets/css/menu.css"/>
+    <!--<![endif]-->
+</head>
+<body>
+<div class="container">
+    <h3>D2rPlus Documentation</h3>
+    <table>
+        <tr>
+            <td width="130" valign="top">
+                <nav>
+                    <ul class="nav-menu nav-vertical">
+                        <li><a href="../d2rplus.html">Home</a></li>
+                        <li><a href="../cube.htm">Cube Recipes</a></li>
+                        <li><a href="../runes.htm">Runes</a></li>
+                        <li><a href="../gems.htm">Gems</a></li>
+
+                        <li><a href="../setitems.htm">Sets</a></li>
+
+                        <li><a href="#">Uniques &raquo; </a>
+                            <ul>
+                                <li><a href="#" class="nav-active">Unique Weapons &raquo; </a>
+                                    <ul>
+                                        <li><a href="#">Thrown Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniques_jave.htm">Javelins</a></li>
+                                                <li><a href="uniques_tkni.htm">Throwing Knifes</a></li>
+                                                <li><a href="uniques_taxe.htm">Throwing Axes</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Melee Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniques_swor.htm">Swords</a></li>
+                                                <li><a href="uniques_staf.htm">Staves</a></li>
+                                                <li><a href="uniques_club.htm">Clubs</a></li>
+                                                <li><a href="uniques_knif.htm">Knifes</a></li>
+                                                <li><a href="uniques_axe.htm">Axes</a></li>
+                                                <li><a href="uniques_spea.htm">Spears</a></li>
+                                                <li><a href="uniques_scep.htm">Scepters</a></li>
+                                                <li><a href="uniques_wand.htm">Wands</a></li>
+                                                <li><a href="uniques_pole.htm">Polearms</a></li>
+                                                <li><a href="uniques_mace.htm">Maces</a></li>
+                                                <li><a href="uniques_hamm.htm">Hammers</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Ranged Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniques_bow.htm">Bows</a></li>
+                                                <li><a href="uniques_xbow.htm">Crossbows</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Unique Armors &amp; Shields &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniques_shie.htm">Shields</a></li>
+                                        <li><a href="uniques_tors.htm">Torso Armors</a></li>
+                                        <li><a href="uniques_belt.htm">Belts</a></li>
+                                        <li><a href="uniques_helm.htm">Helms</a></li>
+                                        <li><a href="uniques_glov.htm">Gloves</a></li>
+                                        <li><a href="uniques_boot.htm">Boots</a></li>
+                                        <li><a href="uniques_circ.htm">Circlets</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Unique Jewelery &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniques_amul.htm">Amulets</a></li>
+                                        <li><a href="uniques_ring.htm">Rings</a></li>
+                                        <li><a href="uniques_jewl.htm">Jewels</a></li>
+                                        <li><a href="uniques_scha.htm">Small Charms</a></li>
+                                        <li><a href="uniques_mcha.htm">Medium Charms</a></li>
+                                        <li><a href="uniques_lcha.htm">Large Charms</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Class Specific &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniques_h2h.htm">Claws</a></li>
+                                        <li><a href="uniques_orb.htm">Orbs</a></li>
+                                        <li><a href="uniques_head.htm">Voodoo Heads</a></li>
+                                        <li><a href="uniques_pelt.htm">Pelts</a></li>
+                                        <li><a href="uniques_ashd.htm">Auric Shields</a></li>
+                                        <li><a href="uniques_phlm.htm">Primal Helments</a></li>
+                                        <li><a href="uniques_aspe.htm">Amazon Spears</a></li>
+                                        <li><a href="uniques_abow.htm">Amazon Bows</a></li>
+                                        <li><a href="uniques_ajav.htm">Amazon Javelins</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Runewords &raquo; </a>
+                            <ul>
+                                <li><a href="../runewords/runewords_armo.htm">Armor</a></li>
+                                <li><a href="../runewords/runewords_helm.htm">Helms</a></li>
+                                <li><a href="../runewords/runewords_shld.htm">Shields</a></li>
+                                <li><a href="../runewords/runewords_weap.htm">Weapons</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../about.htm">About</a></li>
+                    </ul>
+                </nav>
+            </td>
+            <td width=5></td>
+            <td valign="top" align="left">
+
+
+            <div class="unique_name" align="center">Amazon Spears</div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invam3.jpg" border="0"
+                                                                         height="112" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Hawkfire<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Maiden Spear<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(32-39) to
+                                        (43-52)<br>
+                                    </font>Durability: 28<br>
+                                        (Amazon Only)<br>
+                                        Required Strength: 54<br>
+                                        Required Dexterity: 40<br>
+                                        Required Level: 14<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Amazon Skill Levels<br>
+                                        +(80 to 120)% Enhanced damage<br>
+                                        +25% Increased Attack Speed<br>
+                                        Adds 5-18 fire damage<br>
+                                        +35 to Life<br>
+                                        Fire Resist +35%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invam3.jpg" border="0"
+                                                                         height="112" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Wrathshifter<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Maiden Spear<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(33-48) to
+                                        (74-94)<br>
+                                    </font>Durability: 28<br>
+                                        (Amazon Only)<br>
+                                        Required Strength: 54<br>
+                                        Required Dexterity: 40<br>
+                                        Required Level: 15<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">7% Chance to cast level 1 Teleport when struck<br>
+                                        +1 to Javelin and Spear Skills (Amazon Only)<br>
+                                        +15% Increased Attack Speed<br>
+                                        Adds (15-30)-(50-70) damage<br>
+                                        +2 to Bone Armor<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invam4.jpg" border="0"
+                                                                         height="112" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Sepia Shard<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Maiden Pike<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(46-51) to
+                                        (110-123)<br>
+                                    </font>Durability: 25<br>
+                                        (Amazon Only)<br>
+                                        Required Strength: 63<br>
+                                        Required Dexterity: 52<br>
+                                        Required Level: 20<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to Javelin and Spear Skills (Amazon
+                                        Only)<br>
+                                        +(100 to 125)% Enhanced damage<br>
+                                        +(100 to 200) to Attack Rating<br>
+                                        Adds 10-15 cold damage<br>
+                                        (6 to 9)% Mana stolen per hit<br>
+                                        +(35 to 50) to Mana<br>
+                                        Cold Resist +(20 to 40)%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invam4.jpg" border="0"
+                                                                         height="112" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Stygian Harlot<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Maiden Pike<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(133-158) to
+                                        175<br>
+                                    </font>Durability: 25<br>
+                                        (Amazon Only)<br>
+                                        Required Strength: 63<br>
+                                        Required Dexterity: 52<br>
+                                        Required Level: 25<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 3) to Javelin and Spear Skills (Amazon
+                                        Only)<br>
+                                        +20% Increased Attack Speed<br>
+                                        Adds (110-135)-120 damage<br>
+                                        (6 to 8)% Life stolen per hit<br>
+                                        +(40 to 50) to Life<br>
+                                        Socketed: 2<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invam3.jpg" border="0"
+                                                                         height="112" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Silverdawn<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Ceremonial Spear<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(101-122) to
+                                        (182-213)<br>
+                                    </font>Durability: 28<br>
+                                        (Amazon Only)<br>
+                                        Required Strength: 101<br>
+                                        Required Dexterity: 80<br>
+                                        Required Level: 33<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(2 to 4) to Passive and Magic Skills (Amazon
+                                        Only)<br>
+                                        +1 to Amazon Skill Levels<br>
+                                        +(140 to 200)% Enhanced damage<br>
+                                        Adds 20-60 damage<br>
+                                        +(100 to 200)% Damage to Demons<br>
+                                        Adds 1-200 lightning damage<br>
+                                        +(1.125 per level) to Life (Based on Character Level)<br>
+                                        Lightning Resist +(50 to 65)%<br>
+                                        +(4 to 7) to Light Radius<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invam3.jpg" border="0"
+                                                                         height="112" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Vile Temptress<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Ceremonial Spear<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(93-110) to
+                                        (200-352)<br>
+                                    </font>Durability: 28<br>
+                                        (Amazon Only)<br>
+                                        Required Strength: 80<br>
+                                        Required Dexterity: 64<br>
+                                        Required Level: 40<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">8% Chance to cast level 3 Chain Lightning on
+                                        striking<br>
+                                        +2 to Passive and Magic Skills (Amazon Only)<br>
+                                        +1 to Amazon Skill Levels<br>
+                                        +(175 to 225)% Enhanced damage<br>
+                                        +(1.5 per level) to Maximum Damage (Based on Character Level)<br>
+                                        +25 to Dexterity<br>
+                                        +(3 to 5)% to Experience Gained<br>
+                                        Requirements -20%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invam4.jpg" border="0"
+                                                                         height="112" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Lycander's Flank<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Ceremonial Pike<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(130-151) to
+                                        (302-353)<br>
+                                    </font>Durability: 25<br>
+                                        (Amazon Only)<br>
+                                        Required Strength: 115<br>
+                                        Required Dexterity: 98<br>
+                                        Required Level: 42<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to Javelin and Spear Skills (Amazon
+                                        Only)<br>
+                                        +2 to Amazon Skill Levels<br>
+                                        +(150 to 200)% Enhanced damage<br>
+                                        +30% Increased Attack Speed<br>
+                                        Adds 25-50 damage<br>
+                                        (5 to 9)% Life stolen per hit<br>
+                                        +20% Enhanced Defense<br>
+                                        +20 to Strength<br>
+                                        +20 to Vitality<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invam4.jpg" border="0"
+                                                                         height="112" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Murder's Mistress<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Ceremonial Pike<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(121-147) to
+                                        (368-542)<br>
+                                    </font>Durability: 25<br>
+                                        (Amazon Only)<br>
+                                        Required Strength: 115<br>
+                                        Required Dexterity: 98<br>
+                                        Required Level: 50<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Amazon Skill Levels<br>
+                                        +(190 to 250)% Enhanced damage<br>
+                                        +50% Increased Attack Speed<br>
+                                        +(1.5 per level)% Enhanced Maximum Damage (Based on Character Level)<br>
+                                        (18 to 28)% Deadly Strike<br>
+                                        +(3 to 5) to Spear / Javalin Mastery (Amazon Only)<br>
+                                        +(10 to 15) Life after each Kill<br>
+                                        (35 to 70)% Better Chance of Getting Magic Items<br>
+                                        Repairs 1 durability in 10 seconds<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invam3.jpg" border="0"
+                                                                         height="112" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Stoneraven<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Matriarchal Spear<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(214-247) to
+                                        (313-361)<br>
+                                    </font>Durability: 28<br>
+                                        (Amazon Only)<br>
+                                        Required Strength: 114<br>
+                                        Required Dexterity: 142<br>
+                                        Required Level: 64<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 3) to Javelin and Spear Skills (Amazon
+                                        Only)<br>
+                                        +(230 to 280)% Enhanced damage<br>
+                                        Adds 101-187 magic damage<br>
+                                        +(400 to 600) Defense<br>
+                                        All Resistances +(30 to 50)<br>
+                                        Socketed: (2 to 5)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invam3.jpg" border="0"
+                                                                         height="112" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Valkyrie's Calling<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Matriarchal Spear<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(267-300) to
+                                        (412-460)<br>
+                                    </font>Durability: 28<br>
+                                        (Amazon Only)<br>
+                                        Required Strength: 114<br>
+                                        Required Dexterity: 142<br>
+                                        Required Level: 73<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        +3 to Javelin and Spear Skills (Amazon Only)<br>
+                                        +(250 to 300)% Enhanced damage<br>
+                                        Adds 40-80 damage<br>
+                                        +(4 to 7) to Valkyrie (Amazon Only)<br>
+                                        +75 to Mana<br>
+                                        All Resistances +30<br>
+                                        Level 15 Burst of Speed (10 Charges)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invam4.jpg" border="0"
+                                                                         height="112" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Manticore's Retort<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Matriarchal Pike<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(161-198) to
+                                        (559-712)<br>
+                                    </font>Durability: 25<br>
+                                        (Amazon Only)<br>
+                                        Required Strength: 132<br>
+                                        Required Dexterity: 149<br>
+                                        Required Level: 70<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 3) to Javelin and Spear Skills (Amazon
+                                        Only)<br>
+                                        +(200 to 300)% Enhanced damage<br>
+                                        +35% Increased Attack Speed<br>
+                                        Adds 50-100 damage<br>
+                                        +390 poison damage over 4 seconds<br>
+                                        +15% to Maximum Poison Resist<br>
+                                        Poison Resist +50%<br>
+                                        Poison Length Reduced by 75%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invam4.jpg" border="0"
+                                                                         height="112" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Amanda's Point<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Matriarchal Pike<br>
+                                    </div>
+                                    <div class="basic" align="center">Two-Hand Damage: <font color="2020b0">(138-157) to
+                                        (733-900)<br>
+                                    </font>Durability: 25<br>
+                                        (Amazon Only)<br>
+                                        Required Strength: 132<br>
+                                        Required Dexterity: 149<br>
+                                        Required Level: 80<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to Javelin and Spear Skills (Amazon
+                                        Only)<br>
+                                        +2 to Amazon Skill Levels<br>
+                                        +(275 to 325)% Enhanced damage<br>
+                                        +(2 per level) to Maximum Damage (Based on Character Level)<br>
+                                        Socketed: (4 to 6)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <hr noshade size="1"/>
+
+
+                </font>
+            </td>
+        </tr>
+
+    </table>
+
+</div>
+
+</body>
+</html>

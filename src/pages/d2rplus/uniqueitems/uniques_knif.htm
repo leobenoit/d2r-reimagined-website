@@ -1,0 +1,1340 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>D2rPlus Documentation</title>
+    <!--[if gte IE 9]><!-->
+    <style>
+        * {
+            margin: 0;
+            border: 0;
+            padding: 0;
+            font-size: 100%;
+        }
+
+        body {
+            padding: 2em;
+            font: 14px Arial, sans-serif;
+            background: #FFF;
+            color: #333;
+        }
+
+        a {
+            color: #428BCA;
+            text-decoration: none;
+        }
+
+        a:hover, a:focus {
+            color: #999;
+            text-decoration: none;
+            outline: 0;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0 0 20px;
+            font-size: 30px;
+            line-height: 1.1;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        h3 {
+            border-bottom: 1px solid #DDD;
+            padding: 0 0 10px;
+            font-size: 24px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        h5 {
+            font-size: 18px;
+        }
+
+        h6 {
+            font-size: 16px;
+        }
+
+        p, ul, ol, table {
+            margin: 0 0 20px;
+        }
+
+        ul, ol {
+            margin: 0 0 20px 25px;
+        }
+
+        ul ul, ul ol, ol ol, ol ul {
+            margin-bottom: 0;
+        }
+
+        table table {
+            margin-bottom: 0;
+        }
+
+        hr {
+            margin: 0 0 19px;
+            border: 0 none;
+            border-top: 1px solid #DDD;
+            height: 0;
+            background: transparent;
+            color: transparent;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        nav {
+            margin: 0 0 20px;
+        }
+
+        nav:before, nav:after {
+            content: " ";
+            display: table;
+        }
+
+        nav:after {
+            clear: both;
+        }
+
+        .container {
+            margin: 0 auto;
+            max-width: 940px;
+        }
+    </style>
+    <link rel="stylesheet" href="../assets/css/menu.css"/>
+    <!--<![endif]-->
+</head>
+<body>
+<div class="container">
+    <h3>D2rPlus Documentation</h3>
+    <table>
+        <tr>
+            <td width="130" valign="top">
+                <nav>
+                    <ul class="nav-menu nav-vertical">
+                        <li><a href="../d2rplus.html">Home</a></li>
+                        <li><a href="../cube.htm">Cube Recipes</a></li>
+                        <li><a href="../runes.htm">Runes</a></li>
+                        <li><a href="../gems.htm">Gems</a></li>
+
+                        <li><a href="../setitems.htm">Sets</a></li>
+
+                        <li><a href="#">Uniques &raquo; </a>
+                            <ul>
+                                <li><a href="#" class="nav-active">Unique Weapons &raquo; </a>
+                                    <ul>
+                                        <li><a href="#">Thrown Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniques_jave.htm">Javelins</a></li>
+                                                <li><a href="uniques_tkni.htm">Throwing Knifes</a></li>
+                                                <li><a href="uniques_taxe.htm">Throwing Axes</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Melee Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniques_swor.htm">Swords</a></li>
+                                                <li><a href="uniques_staf.htm">Staves</a></li>
+                                                <li><a href="uniques_club.htm">Clubs</a></li>
+                                                <li><a href="uniques_knif.htm">Knifes</a></li>
+                                                <li><a href="uniques_axe.htm">Axes</a></li>
+                                                <li><a href="uniques_spea.htm">Spears</a></li>
+                                                <li><a href="uniques_scep.htm">Scepters</a></li>
+                                                <li><a href="uniques_wand.htm">Wands</a></li>
+                                                <li><a href="uniques_pole.htm">Polearms</a></li>
+                                                <li><a href="uniques_mace.htm">Maces</a></li>
+                                                <li><a href="uniques_hamm.htm">Hammers</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Ranged Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniques_bow.htm">Bows</a></li>
+                                                <li><a href="uniques_xbow.htm">Crossbows</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Unique Armors &amp; Shields &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniques_shie.htm">Shields</a></li>
+                                        <li><a href="uniques_tors.htm">Torso Armors</a></li>
+                                        <li><a href="uniques_belt.htm">Belts</a></li>
+                                        <li><a href="uniques_helm.htm">Helms</a></li>
+                                        <li><a href="uniques_glov.htm">Gloves</a></li>
+                                        <li><a href="uniques_boot.htm">Boots</a></li>
+                                        <li><a href="uniques_circ.htm">Circlets</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Unique Jewelery &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniques_amul.htm">Amulets</a></li>
+                                        <li><a href="uniques_ring.htm">Rings</a></li>
+                                        <li><a href="uniques_jewl.htm">Jewels</a></li>
+                                        <li><a href="uniques_scha.htm">Small Charms</a></li>
+                                        <li><a href="uniques_mcha.htm">Medium Charms</a></li>
+                                        <li><a href="uniques_lcha.htm">Large Charms</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Class Specific &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniques_h2h.htm">Claws</a></li>
+                                        <li><a href="uniques_orb.htm">Orbs</a></li>
+                                        <li><a href="uniques_head.htm">Voodoo Heads</a></li>
+                                        <li><a href="uniques_pelt.htm">Pelts</a></li>
+                                        <li><a href="uniques_ashd.htm">Auric Shields</a></li>
+                                        <li><a href="uniques_phlm.htm">Primal Helments</a></li>
+                                        <li><a href="uniques_aspe.htm">Amazon Spears</a></li>
+                                        <li><a href="uniques_abow.htm">Amazon Bows</a></li>
+                                        <li><a href="uniques_ajav.htm">Amazon Javelins</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Runewords &raquo; </a>
+                            <ul>
+                                <li><a href="../runewords/runewords_armo.htm">Armor</a></li>
+                                <li><a href="../runewords/runewords_helm.htm">Helms</a></li>
+                                <li><a href="../runewords/runewords_shld.htm">Shields</a></li>
+                                <li><a href="../runewords/runewords_weap.htm">Weapons</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../about.htm">About</a></li>
+                    </ul>
+                </nav>
+            </td>
+            <td width=5></td>
+            <td valign="top" align="left">
+
+            <div class="unique_name" align="center">Knifes</div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invdgr.jpg" border="0"
+                                                                         height="56" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Gull<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Dagger<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">2 to
+                                        (9-14)<br>
+                                    </font>Durability: 16<br>
+                                        Required Level: 4<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">Adds 1-(5-10) damage<br>
+                                        -5 to Mana<br>
+                                        100% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invdgr.jpg" border="0"
+                                                                         height="56" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Darkflayer<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Dagger<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">8 to 19<br>
+                                    </font>Durability: 16<br>
+                                        Required Level: 6<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        +15% Increased Attack Speed<br>
+                                        Adds 7-15 damage<br>
+                                        Prevent Monster Heal<br>
+                                        All Resistances +(10 to 15)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invdgr.jpg" border="0"
+                                                                         height="56" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Vampire's Fang<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Dagger<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">21 to 44<br>
+                                    </font>Durability: 16<br>
+                                        Required Level: 20<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">Adds 20-40 damage<br>
+                                        6% Life stolen per hit<br>
+                                        Replenish Life +6<br>
+                                        Regenerate Mana 50%<br>
+                                        Cold Resist +45%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invdir.jpg" border="0"
+                                                                         height="56" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">The Diggler<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Dirk<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">(4-5) to
+                                        (13-15)<br>
+                                    </font>Durability: 20<br>
+                                        Required Dexterity: 25<br>
+                                        Required Level: 11<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(50 to 75)% Enhanced damage<br>
+                                        +30% Increased Attack Speed<br>
+                                        Ignore Target's Defense<br>
+                                        +10 to Dexterity<br>
+                                        Fire Resist +25%<br>
+                                        Cold Resist +25%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invdir.jpg" border="0"
+                                                                         height="56" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Prisoner's Anguish<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Dirk<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">(7-9) to
+                                        (28-37)<br>
+                                    </font>Durability: 20<br>
+                                        Required Dexterity: 25<br>
+                                        Required Level: 14<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(150 to 200)% Enhanced damage<br>
+                                        +(6 to 10) to Maximum Damage<br>
+                                        (4 to 7)% Life stolen per hit<br>
+                                        50% Deadly Strike<br>
+                                        +(1 to 3) to Poison Dagger (Necromancer Only)<br>
+                                        +(1 to 3) to Amplify Damage (Necromancer Only)<br>
+                                        +(1 to 3) to Weaken (Necromancer Only)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invdir.jpg" border="0"
+                                                                         height="56" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Gornnagal's Dirk<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Dirk<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">28 to 54<br>
+                                    </font>Durability: 20<br>
+                                        Required Dexterity: 25<br>
+                                        Required Level: 25<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">Adds 25-45 damage<br>
+                                        Ignore Target's Defense<br>
+                                        -10% to Enemy Cold Resistance<br>
+                                        +15 to Dexterity<br>
+                                        Poison Resist +(20 to 30)%<br>
+                                        (30 to 50)% Extra Gold from Monsters<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invkrsu.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">The Jade Tan Do<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Kris<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">3 to (17-20)<br>
+                                    </font>Durability: 24<br>
+                                        Required Dexterity: 45<br>
+                                        Required Level: 19<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(60 to 90)% Enhanced damage<br>
+                                        +(100 to 150) to Attack Rating<br>
+                                        +86 poison damage over 4 seconds<br>
+                                        +20% to Maximum Poison Resist<br>
+                                        Poison Resist +95%<br>
+                                        Cannot Be Frozen<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invkrsu.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Zenkiller<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Kris<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">(5-6) to
+                                        (30-33)<br>
+                                    </font>Durability: 24<br>
+                                        Required Dexterity: 45<br>
+                                        Required Level: 22<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(175 to 200)% Enhanced damage<br>
+                                        +15% to Poison Skill Damage<br>
+                                        +(1 to 3) to Sacrifice<br>
+                                        Slows Target by 20%<br>
+                                        Fire Resist +(20 to 25)%<br>
+                                        Socketed: 2<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invkrsu.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Dragon Talon<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Kris<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">32 to 66<br>
+                                    </font>Durability: 24<br>
+                                        Required Dexterity: 45<br>
+                                        Required Level: 29<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+25% Increased Attack Speed<br>
+                                        +20% Faster Cast Rate<br>
+                                        Adds 30-55 damage<br>
+                                        5% Mana stolen per hit<br>
+                                        (15 to 20)% Chance of Crushing Blow<br>
+                                        +(1 to 5) to Poison Dagger<br>
+                                        Socketed: 1<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invbld.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Spectral Shard<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Blade<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: 4 to 15<br>
+                                        Durability: 24<br>
+                                        Required Strength: 35<br>
+                                        Required Dexterity: 51<br>
+                                        Required Level: 25<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Sorceress Skill Levels<br>
+                                        +35% Faster Cast Rate<br>
+                                        +35 to Attack Rating<br>
+                                        +35 to Mana<br>
+                                        All Resistances +10<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invdagr3.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Deathprick<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Blade<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">19 to 45<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 35<br>
+                                        Required Dexterity: 51<br>
+                                        Required Level: 29<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+15% Faster Run/Walk<br>
+                                        +15% Faster Block Rate<br>
+                                        (10 to 15)% Increased Chance of Blocking<br>
+                                        Adds 15-30 damage<br>
+                                        +57 poison damage over 4 seconds<br>
+                                        (15 to 25)% Chance of Crushing Blow<br>
+                                        (15 to 25)% Deadly Strike<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invbld.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Moonsea Razor<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Blade<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">39 to 85<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 35<br>
+                                        Required Dexterity: 51<br>
+                                        Required Level: 35<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">Adds 35-70 damage<br>
+                                        Adds 25-50 cold damage<br>
+                                        (20 to 30)% Deadly Strike<br>
+                                        +25 to Strength<br>
+                                        +40 to Mana<br>
+                                        All Resistances +(20 to 30)<br>
+                                        Level 7 Static Field (22 Charges)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invdgr.jpg" border="0"
+                                                                         height="56" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Spineripper<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Poignard<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">(33-35) to
+                                        (81-88)<br>
+                                    </font>Durability: 16<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 32<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Necromancer Skill Levels<br>
+                                        +(200 to 240)% Enhanced damage<br>
+                                        +15% Increased Attack Speed<br>
+                                        Adds 15-27 damage<br>
+                                        Ignore Target's Defense<br>
+                                        8% Life stolen per hit<br>
+                                        Prevent Monster Heal<br>
+                                        +10 to Dexterity<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invdgr.jpg" border="0"
+                                                                         height="56" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Chimera's Claw<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Poignard<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">(16-19) to
+                                        (48-57)<br>
+                                    </font>Durability: 16<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 37<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">5% Chance to cast level 9 Lightning on
+                                        striking<br>
+                                        +(170 to 220)% Enhanced damage<br>
+                                        (20 to 25)% Increased Chance of Blocking<br>
+                                        (4 to 7)% Life stolen per hit<br>
+                                        25% Deadly Strike<br>
+                                        +15 to Dexterity<br>
+                                        Fire Resist +(25 to 30)%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invdgr.jpg" border="0"
+                                                                         height="56" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Cyan Bloodbane<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Poignard<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">31 to
+                                        (115-193)<br>
+                                    </font>Durability: 16<br>
+                                        Required Strength: 25<br>
+                                        Required Level: 47<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        Adds 25-50 damage<br>
+                                        +(1 per level) to Maximum Damage (Based on Character Level)<br>
+                                        +10% Enhanced Defense<br>
+                                        +15 to Mana after each Kill<br>
+                                        +15 Life after each Kill<br>
+                                        Level 15 Life Tap (17 Charges)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invdir.jpg" border="0"
+                                                                         height="56" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Heart Carver<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Rondel<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">(44-49) to
+                                        (110-123)<br>
+                                    </font>Durability: 20<br>
+                                        Required Strength: 25<br>
+                                        Required Dexterity: 58<br>
+                                        Required Level: 36<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(190 to 240)% Enhanced damage<br>
+                                        Adds 15-35 damage<br>
+                                        Ignore Target's Defense<br>
+                                        35% Deadly Strike<br>
+                                        +4 to Grim Ward (Barbarian Only)<br>
+                                        +4 to Find Item (Barbarian Only)<br>
+                                        +4 to Find Potion (Barbarian Only)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invdir.jpg" border="0"
+                                                                         height="56" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Sweet Whisper<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Rondel<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">(27-32) to
+                                        (71-84)<br>
+                                    </font>Durability: 20<br>
+                                        Required Strength: 25<br>
+                                        Required Dexterity: 58<br>
+                                        Required Level: 42<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Sorceress Skill Levels<br>
+                                        +(175 to 225)% Enhanced damage<br>
+                                        +(5 to 7) Life after each Kill<br>
+                                        +5% to Experience Gained<br>
+                                        25% Better Chance of Getting Magic Items<br>
+                                        Reduces all Vendor Prices 15%<br>
+                                        Level 10 Valkyrie (10 Charges)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invdir.jpg" border="0"
+                                                                         height="56" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Rattlesnake Bite<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Rondel<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">35 to
+                                        (137-232)<br>
+                                    </font>Durability: 20<br>
+                                        Required Strength: 25<br>
+                                        Required Dexterity: 58<br>
+                                        Required Level: 49<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+40% Increased Attack Speed<br>
+                                        Adds 25-50 damage<br>
+                                        +(1.25 per level) to Maximum Damage (Based on Character Level)<br>
+                                        +182 poison damage over 4 seconds<br>
+                                        Hit Blinds Target +2<br>
+                                        Slows Target by 35%<br>
+                                        Cold Resist -25%<br>
+                                        Socketed: 2<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invkrsu.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Blackbog's Sharp<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Cinquedeas<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">30 to 76<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 25<br>
+                                        Required Dexterity: 88<br>
+                                        Required Level: 38<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+30% Increased Attack Speed<br>
+                                        Adds 15-45 damage<br>
+                                        +488 poison damage over 10 seconds<br>
+                                        +4 to Poison Nova (Necromancer Only)<br>
+                                        +4 to Poison Explosion (Necromancer Only)<br>
+                                        +5 to Poison Dagger (Necromancer Only)<br>
+                                        Slows Target by 50%<br>
+                                        +50 Defense<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invkrs.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Basalisk's Touch<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Cinquedeas<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">(42-49) to
+                                        (120-195)<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 25<br>
+                                        Required Dexterity: 88<br>
+                                        Required Level: 46<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(180 to 230)% Enhanced damage<br>
+                                        +(0.75 per level) to Maximum Damage (Based on Character Level)<br>
+                                        Ignore Target's Defense<br>
+                                        +192 poison damage over 3 seconds<br>
+                                        +(5 to 7) to Dim Vision<br>
+                                        Slows Target by 25%<br>
+                                        +100 Defense<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invkrsu.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Halfling's Blade<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Cinquedeas<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">40 to
+                                        (160-268)<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 25<br>
+                                        Required Dexterity: 88<br>
+                                        Required Level: 53<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+20% Faster Cast Rate<br>
+                                        Adds 25-50 damage<br>
+                                        +(1.5 per level) to Maximum Damage (Based on Character Level)<br>
+                                        (6 to 9)% Mana stolen per hit<br>
+                                        +(0.375 per level) to Dexterity (Based on Character Level)<br>
+                                        Damage Reduced by 5%<br>
+                                        100% Extra Gold from Monsters<br>
+                                        (35 to 50)% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/inv9blu.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Stormspike<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Stiletto<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">47 to 90<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 47<br>
+                                        Required Dexterity: 97<br>
+                                        Required Level: 41<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">25% Chance to cast level 3 Charged Bolt when
+                                        struck<br>
+                                        +150% Enhanced damage<br>
+                                        Adds 1-120 lightning damage<br>
+                                        Lightning Resist (1 per level)% (Based on Character Level)<br>
+                                        Attacker Takes Lightning Damage of 20<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invbld.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Falcon Talon<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Stiletto<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">(55-64) to
+                                        (104-122)<br>
+                                    </font>Durability: 24<br>
+                                        Required Strength: 47<br>
+                                        Required Dexterity: 97<br>
+                                        Required Level: 48<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(190 to 240)% Enhanced damage<br>
+                                        +30% Faster Run/Walk<br>
+                                        +30% Increased Attack Speed<br>
+                                        (1.5 per level)% Deadly Strike (Based on Character Level)<br>
+                                        +6 to Raven<br>
+                                        +(40 to 70) to Life<br>
+                                        Cold Resist +(25 to 50)%<br>
+                                        Level 1 Teleport (250 Charges)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invdagr1.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Thieve's Lockpicker<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Stiletto<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: 19 to 36<br>
+                                        Durability: 24<br>
+                                        Required Strength: 47<br>
+                                        Required Dexterity: 97<br>
+                                        Required Level: 56<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        +25% Faster Run/Walk<br>
+                                        +30% Faster Cast Rate<br>
+                                        +20% Faster Block Rate<br>
+                                        (15 to 25)% Increased Chance of Blocking<br>
+                                        +(50 to 100) to Mana<br>
+                                        Poison Length Reduced by 90%<br>
+                                        Repairs 1 durability in 20 seconds<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invdgr.jpg" border="0"
+                                                                         height="56" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Wizardspike<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Bone Knife<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: 23 to 49<br>
+                                        Durability: 26<br>
+                                        Required Strength: 38<br>
+                                        Required Dexterity: 75<br>
+                                        Required Level: 55<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">Indestructible<br>
+                                        +50% Faster Cast Rate<br>
+                                        Increase Maximum Mana 15%<br>
+                                        +(2 per level) to Mana (Based on Character Level)<br>
+                                        Regenerate Mana 15%<br>
+                                        All Resistances +75<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invdagr2.jpg" border="0"
+                                                                         height="56" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Lich Dagger<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Bone Knife<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">(89-99) to
+                                        (187-209)<br>
+                                    </font>Durability: 26<br>
+                                        Required Strength: 38<br>
+                                        Required Dexterity: 75<br>
+                                        Required Level: 70<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(200 to 245)% Enhanced damage<br>
+                                        +25% Faster Cast Rate<br>
+                                        Adds 20-40 damage<br>
+                                        12% Life stolen per hit<br>
+                                        +(10 to 15)% to Lightning Skill Damage<br>
+                                        +(15 to 20)% to Cold Skill Damage<br>
+                                        +15% to Fire Skill Damage<br>
+                                        Regenerate Mana 100%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invdir.jpg" border="0"
+                                                                         height="56" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Fall Of Myth Drannor<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Mithril Point<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">(57-77) to
+                                        (128-153)<br>
+                                    </font>Durability: 55<br>
+                                        Required Strength: 55<br>
+                                        Required Dexterity: 98<br>
+                                        Required Level: 62<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+35% Faster Cast Rate<br>
+                                        +50% Faster Block Rate<br>
+                                        (50 to 75)% Increased Chance of Blocking<br>
+                                        Adds (20-40)-(75-100) damage<br>
+                                        Drain Life -15<br>
+                                        Increase Maximum Mana 25%<br>
+                                        35% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invdir.jpg" border="0"
+                                                                         height="56" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Elven Mystral<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Mithril Point<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">87 to
+                                        (208-246)<br>
+                                    </font>Durability: 55<br>
+                                        Required Strength: 55<br>
+                                        Required Dexterity: 98<br>
+                                        Required Level: 74<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+2 to All Skills<br>
+                                        Adds 50-100 damage<br>
+                                        +(0.75 per level) to Maximum Damage (Based on Character Level)<br>
+                                        25% Better Chance of Getting Magic Items<br>
+                                        Socketed: 2<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invkrsu.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Fleshripper<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Fanged Knife<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">(45-60) to
+                                        (171-228)<br>
+                                    </font>Durability: 36<br>
+                                        Required Strength: 42<br>
+                                        Required Dexterity: 86<br>
+                                        Required Level: 68<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(200 to 300)% Enhanced damage<br>
+                                        -50% Target Defense<br>
+                                        25% Chance of Crushing Blow<br>
+                                        33% Deadly Strike<br>
+                                        50% Chance of Open Wounds<br>
+                                        Prevent Monster Heal<br>
+                                        Slows Target by 20%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invkrs.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Chaos Wail<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Fanged Knife<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">(45-60) to
+                                        (171-228)<br>
+                                    </font>Durability: 36<br>
+                                        Required Strength: 42<br>
+                                        Required Dexterity: 86<br>
+                                        Required Level: 80<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Curses (Necromancer Only)<br>
+                                        +1 to Necromancer Skill Levels<br>
+                                        +(200 to 300)% Enhanced damage<br>
+                                        +25% Increased Attack Speed<br>
+                                        +5 to Grim Ward<br>
+                                        +3 to random skill between Amplify Damage and Revive<br>
+                                        Hit Causes Monster to Flee +155%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invbld.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Ghostflame<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Legend Spike<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">(134-158) to
+                                        (204-239)<br>
+                                    </font>Durability: 47<br>
+                                        Required Strength: 55<br>
+                                        Required Dexterity: 57<br>
+                                        Required Level: 73<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">Indestructible<br>
+                                        +(190 to 240)% Enhanced damage<br>
+                                        Ignore Target's Defense<br>
+                                        +108 magic damage<br>
+                                        (10 to 15)% Mana stolen per hit<br>
+                                        +2 to Light Radius<br>
+                                        Ethereal (Cannot be repaired)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invbld.jpg" border="0"
+                                                                         height="84" width="28"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Dagger of Kara'Tir<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Legend Spike<br>
+                                    </div>
+                                    <div class="basic" align="center">One-Hand Damage: <font color="2020b0">(71-91) to
+                                        (147-197)<br>
+                                    </font>Durability: 47<br>
+                                        Required Strength: 65<br>
+                                        Required Dexterity: 67<br>
+                                        Required Level: 85<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+25% Increased Attack Speed<br>
+                                        Adds (40-60)-(100-150) damage<br>
+                                        +10 to Find Item<br>
+                                        (200 to 300)% Better Chance of Getting Magic Items<br>
+                                        Socketed: 3<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <hr noshade size="1"/>
+
+
+                </font>
+            </td>
+        </tr>
+
+    </table>
+
+</div>
+
+</body>
+</html>

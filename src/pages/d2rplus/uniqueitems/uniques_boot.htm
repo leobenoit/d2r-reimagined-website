@@ -1,0 +1,1629 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>D2rPlus Documentation</title>
+    <!--[if gte IE 9]><!-->
+    <style>
+        * {
+            margin: 0;
+            border: 0;
+            padding: 0;
+            font-size: 100%;
+        }
+
+        body {
+            padding: 2em;
+            font: 14px Arial, sans-serif;
+            background: #FFF;
+            color: #333;
+        }
+
+        a {
+            color: #428BCA;
+            text-decoration: none;
+        }
+
+        a:hover, a:focus {
+            color: #999;
+            text-decoration: none;
+            outline: 0;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0 0 20px;
+            font-size: 30px;
+            line-height: 1.1;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        h3 {
+            border-bottom: 1px solid #DDD;
+            padding: 0 0 10px;
+            font-size: 24px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        h5 {
+            font-size: 18px;
+        }
+
+        h6 {
+            font-size: 16px;
+        }
+
+        p, ul, ol, table {
+            margin: 0 0 20px;
+        }
+
+        ul, ol {
+            margin: 0 0 20px 25px;
+        }
+
+        ul ul, ul ol, ol ol, ol ul {
+            margin-bottom: 0;
+        }
+
+        table table {
+            margin-bottom: 0;
+        }
+
+        hr {
+            margin: 0 0 19px;
+            border: 0 none;
+            border-top: 1px solid #DDD;
+            height: 0;
+            background: transparent;
+            color: transparent;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        nav {
+            margin: 0 0 20px;
+        }
+
+        nav:before, nav:after {
+            content: " ";
+            display: table;
+        }
+
+        nav:after {
+            clear: both;
+        }
+
+        .container {
+            margin: 0 auto;
+            max-width: 940px;
+        }
+    </style>
+    <link rel="stylesheet" href="../assets/css/menu.css"/>
+    <!--<![endif]-->
+</head>
+<body>
+<div class="container">
+    <h3>D2rPlus Documentation</h3>
+    <table>
+        <tr>
+            <td width="130" valign="top">
+                <nav>
+                    <ul class="nav-menu nav-vertical">
+                        <li><a href="../d2rplus.html">Home</a></li>
+                        <li><a href="../cube.htm">Cube Recipes</a></li>
+                        <li><a href="../runes.htm">Runes</a></li>
+                        <li><a href="../gems.htm">Gems</a></li>
+
+                        <li><a href="../setitems.htm">Sets</a></li>
+
+                        <li><a href="#">Uniques &raquo; </a>
+                            <ul>
+                                <li><a href="#" class="nav-active">Unique Weapons &raquo; </a>
+                                    <ul>
+                                        <li><a href="#">Thrown Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniques_jave.htm">Javelins</a></li>
+                                                <li><a href="uniques_tkni.htm">Throwing Knifes</a></li>
+                                                <li><a href="uniques_taxe.htm">Throwing Axes</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Melee Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniques_swor.htm">Swords</a></li>
+                                                <li><a href="uniques_staf.htm">Staves</a></li>
+                                                <li><a href="uniques_club.htm">Clubs</a></li>
+                                                <li><a href="uniques_knif.htm">Knifes</a></li>
+                                                <li><a href="uniques_axe.htm">Axes</a></li>
+                                                <li><a href="uniques_spea.htm">Spears</a></li>
+                                                <li><a href="uniques_scep.htm">Scepters</a></li>
+                                                <li><a href="uniques_wand.htm">Wands</a></li>
+                                                <li><a href="uniques_pole.htm">Polearms</a></li>
+                                                <li><a href="uniques_mace.htm">Maces</a></li>
+                                                <li><a href="uniques_hamm.htm">Hammers</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Ranged Weapons &raquo; </a>
+                                            <ul>
+                                                <li><a href="uniques_bow.htm">Bows</a></li>
+                                                <li><a href="uniques_xbow.htm">Crossbows</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Unique Armors &amp; Shields &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniques_shie.htm">Shields</a></li>
+                                        <li><a href="uniques_tors.htm">Torso Armors</a></li>
+                                        <li><a href="uniques_belt.htm">Belts</a></li>
+                                        <li><a href="uniques_helm.htm">Helms</a></li>
+                                        <li><a href="uniques_glov.htm">Gloves</a></li>
+                                        <li><a href="uniques_boot.htm">Boots</a></li>
+                                        <li><a href="uniques_circ.htm">Circlets</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Unique Jewelery &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniques_amul.htm">Amulets</a></li>
+                                        <li><a href="uniques_ring.htm">Rings</a></li>
+                                        <li><a href="uniques_jewl.htm">Jewels</a></li>
+                                        <li><a href="uniques_scha.htm">Small Charms</a></li>
+                                        <li><a href="uniques_mcha.htm">Medium Charms</a></li>
+                                        <li><a href="uniques_lcha.htm">Large Charms</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Class Specific &raquo; </a>
+                                    <ul>
+                                        <li><a href="uniques_h2h.htm">Claws</a></li>
+                                        <li><a href="uniques_orb.htm">Orbs</a></li>
+                                        <li><a href="uniques_head.htm">Voodoo Heads</a></li>
+                                        <li><a href="uniques_pelt.htm">Pelts</a></li>
+                                        <li><a href="uniques_ashd.htm">Auric Shields</a></li>
+                                        <li><a href="uniques_phlm.htm">Primal Helments</a></li>
+                                        <li><a href="uniques_aspe.htm">Amazon Spears</a></li>
+                                        <li><a href="uniques_abow.htm">Amazon Bows</a></li>
+                                        <li><a href="uniques_ajav.htm">Amazon Javelins</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Runewords &raquo; </a>
+                            <ul>
+                                <li><a href="../runewords/runewords_armo.htm">Armor</a></li>
+                                <li><a href="../runewords/runewords_helm.htm">Helms</a></li>
+                                <li><a href="../runewords/runewords_shld.htm">Shields</a></li>
+                                <li><a href="../runewords/runewords_weap.htm">Weapons</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../about.htm">About</a></li>
+                    </ul>
+                </nav>
+            </td>
+            <td width=5></td>
+            <td valign="top" align="left">
+
+
+            <div class="unique_name" align="center">Boots</div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invlbt.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Hotspur<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 3 to 8<br>
+                                        Defense: <font color="2020b0">(8-16)<br>
+                                        </font>Durability: 12<br>
+                                        Required Level: 5<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">Adds 3-6 fire damage<br>
+                                        +(35 to 60)% Enhanced Defense<br>
+                                        +(6 to 12) Defense<br>
+                                        +(15 to 20) to Life<br>
+                                        +15% to Maximum Fire Resist<br>
+                                        Fire Resist +45%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot25.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Marathon Slipper<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 3 to 8<br>
+                                        Defense: <font color="2020b0">(17-28)<br>
+                                        </font>Durability: 12<br>
+                                        Required Level: 7<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+25% Faster Run/Walk<br>
+                                        +20% Faster Hit Recovery<br>
+                                        +(15 to 25) Defense<br>
+                                        +15 to Dexterity<br>
+                                        Lightning Resist +(20 to 30)%<br>
+                                        35% Extra Gold from Monsters<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot19.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Cheetah Speed<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 3 to 8<br>
+                                        Defense: <font color="2020b0">(22-33)<br>
+                                        </font>Durability: 12<br>
+                                        Required Level: 10<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+30% Faster Run/Walk<br>
+                                        +30% Faster Hit Recovery<br>
+                                        +(20 to 30) Defense<br>
+                                        All Resistances +(10 to 15)<br>
+                                        +5 Life after each Kill<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invvbt.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Gorefoot<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Heavy Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 4 to 10<br>
+                                        Defense: <font color="2020b0">(19-25)<br>
+                                        </font>Durability: 14<br>
+                                        Required Strength: 18<br>
+                                        Required Level: 9<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+20% Faster Run/Walk<br>
+                                        2% Mana stolen per hit<br>
+                                        +2 to Leap (Barbarian Only)<br>
+                                        +(40 to 70)% Enhanced Defense<br>
+                                        +(12 to 15) Defense<br>
+                                        Attacker Takes Damage of 2<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invvbt.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Angel's Tread<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Heavy Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 4 to 10<br>
+                                        Defense: <font color="2020b0">(30-41)<br>
+                                        </font>Durability: 14<br>
+                                        Required Strength: 18<br>
+                                        Required Level: 13<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 3) to Defensive Aura Skills (Paladin
+                                        Only)<br>
+                                        +25% Faster Hit Recovery<br>
+                                        +(1 to 3) to Prayer (Paladin Only)<br>
+                                        +(25 to 35) Defense<br>
+                                        Fire Resist +(40 to 55)%<br>
+                                        Lightning Resist +(15 to 20)%<br>
+                                        Cold Resist +(15 to 20)%<br>
+                                        Poison Resist +(15 to 20)%<br>
+                                        (15 to 25)% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot4.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Gillian's Boots<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Heavy Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 4 to 10<br>
+                                        Defense: <font color="2020b0">(30-41)<br>
+                                        </font>Durability: 14<br>
+                                        Required Strength: 18<br>
+                                        Required Level: 16<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Shadow Discipline Skills (Assassin Only)<br>
+                                        +15% Faster Run/Walk<br>
+                                        +3 Kick Damage<br>
+                                        +(25 to 35) Defense<br>
+                                        +10 to Strength<br>
+                                        50% Extra Gold from Monsters<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invmbt.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Treads of Cthon<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Chain Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 6 to 12<br>
+                                        Defense: <font color="2020b0">(24-33)<br>
+                                        </font>Durability: 16<br>
+                                        Required Strength: 30<br>
+                                        Required Level: 15<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+30% Faster Run/Walk<br>
+                                        +(50 to 75)% Enhanced Defense<br>
+                                        +(12 to 18) Defense<br>
+                                        +50 Defense vs. Missile<br>
+                                        +10 to Life<br>
+                                        50% Slower Stamina Drain<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot3.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Bonemesh<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Chain Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 6 to 12<br>
+                                        Defense: <font color="2020b0">(16-20)<br>
+                                        </font>Durability: 16<br>
+                                        Required Strength: 30<br>
+                                        Required Level: 19<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 2) to Summoning Skills (Necromancer
+                                        Only)<br>
+                                        +75% Damage to Undead<br>
+                                        +1 to Raise Skeleton<br>
+                                        +5 to Skeleton Mastery<br>
+                                        +(100 to 125)% Enhanced Defense<br>
+                                        Replenish Life +3<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot23.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Pepin's Grace<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Chain Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 6 to 12<br>
+                                        Defense: <font color="2020b0">(38-49)<br>
+                                        </font>Durability: 16<br>
+                                        Required Strength: 30<br>
+                                        Required Level: 23<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+20% Faster Run/Walk<br>
+                                        +1 to Dodge<br>
+                                        +(30 to 40) Defense<br>
+                                        +(10 to 15) to Dexterity<br>
+                                        Replenish Life +(2 to 5)<br>
+                                        Attacker Takes Damage of (6 to 9)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invtbt.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Goblin Toe<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Light Plated Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 8 to 16<br>
+                                        Defense: <font color="2020b0">(28-39)<br>
+                                        </font>Durability: 18<br>
+                                        Required Strength: 50<br>
+                                        Required Level: 22<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">25% Chance of Crushing Blow<br>
+                                        +(50 to 80)% Enhanced Defense<br>
+                                        +(15 to 20) Defense<br>
+                                        Damage Reduced by 1<br>
+                                        Magic Damage Reduced by 1<br>
+                                        -1 to Light Radius<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot5.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Lilith's Heels<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Light Plated Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 8 to 16<br>
+                                        Defense: <font color="2020b0">(19-26)<br>
+                                        </font>Durability: 18<br>
+                                        Required Strength: 50<br>
+                                        Required Level: 26<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+20% Faster Run/Walk<br>
+                                        +1 to Warmth (Sorceress Only)<br>
+                                        +(1 to 2) to Teleport (Sorceress Only)<br>
+                                        +(115 to 140)% Enhanced Defense<br>
+                                        +25 to Mana<br>
+                                        Cold Resist +(25 to 40)%<br>
+                                        (5 to 10)% Damage Taken Goes To Mana<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot21.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Dawn Scion<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Light Plated Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 8 to 16<br>
+                                        Defense: <font color="2020b0">(44-56)<br>
+                                        </font>Durability: 18<br>
+                                        Required Strength: 50<br>
+                                        Required Level: 30<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 2) to Defensive Aura Skills (Paladin
+                                        Only)<br>
+                                        +15% Faster Hit Recovery<br>
+                                        +(35 to 45) Defense<br>
+                                        +(5 to 15) to Strength<br>
+                                        +(1 to 2)% to Experience Gained<br>
+                                        (20 to 30)% Better Chance of Getting Magic Items<br>
+                                        +(1 to 3) to Light Radius<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot22.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Tearhaunch<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Greaves<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 10 to 20<br>
+                                        Defense: <font color="2020b0">(54-67)<br>
+                                        </font>Durability: 24<br>
+                                        Required Strength: 70<br>
+                                        Required Level: 28<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+20% Faster Run/Walk<br>
+                                        +2 to Vigor (Paladin Only)<br>
+                                        +(60 to 80)% Enhanced Defense<br>
+                                        +(35 to 40) Defense<br>
+                                        +5 to Strength<br>
+                                        +5 to Dexterity<br>
+                                        All Resistances +(10 to 15)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot15.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Grimleaper<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Greaves<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 10 to 20<br>
+                                        Defense: <font color="2020b0">(27-37)<br>
+                                        </font>Durability: 24<br>
+                                        Required Strength: 70<br>
+                                        Required Level: 31<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">5% Chance to cast level 8 Bone Armor when
+                                        struck<br>
+                                        Level (1 to 6) Prayer Aura When Equipped<br>
+                                        +(20 to 30)% Enhanced damage<br>
+                                        +(1 to 2) to Leap Attack (Barbarian Only)<br>
+                                        +(125 to 150)% Enhanced Defense<br>
+                                        Increase Maximum Life 5%<br>
+                                        Poison Resist +(25 to 35)%<br>
+                                        +(2 to 3) Life after each Kill<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invhbt.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Dark Familiar<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Greaves<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 10 to 20<br>
+                                        Defense: <font color="2020b0">(52-65)<br>
+                                        </font>Durability: 24<br>
+                                        Required Strength: 70<br>
+                                        Required Level: 34<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Curses (Necromancer Only)<br>
+                                        +(3 to 5) Kick Damage<br>
+                                        (3 to 4)% Life stolen per hit<br>
+                                        +(40 to 50) Defense<br>
+                                        +(25 to 35) to Mana<br>
+                                        Magic Damage Reduced by (10 to 15)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invlbt.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Infernostride<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Demonhide Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 26 to 46<br>
+                                        Defense: <font color="2020b0">(76-102)<br>
+                                        </font>Durability: 12<br>
+                                        Required Strength: 20<br>
+                                        Required Level: 29<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">5% Chance to cast level 8 Blaze when
+                                        struck<br>
+                                        +20% Faster Run/Walk<br>
+                                        Adds 12-33 fire damage<br>
+                                        +(120 to 150)% Enhanced Defense<br>
+                                        +15 Defense<br>
+                                        +10% to Maximum Fire Resist<br>
+                                        Fire Resist +30%<br>
+                                        (40 to 70)% Extra Gold from Monsters<br>
+                                        +2 to Light Radius<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot6.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Deepwander<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Demonhide Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 26 to 46<br>
+                                        Defense: <font color="2020b0">(78-115)<br>
+                                        </font>Durability: 12<br>
+                                        Required Strength: 20<br>
+                                        Required Level: 35<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+25% Faster Run/Walk<br>
+                                        +(50 to 80) Defense<br>
+                                        +25 to Life<br>
+                                        +25 to Mana<br>
+                                        +50 Maximum Stamina<br>
+                                        Cannot Be Frozen<br>
+                                        +(1 to 7) to Light Radius<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot10.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Hooves of Satan<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Demonhide Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 26 to 46<br>
+                                        Defense: <font color="2020b0">(53-84)<br>
+                                        </font>Durability: 12<br>
+                                        Required Strength: 20<br>
+                                        Required Level: 40<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+30% Faster Cast Rate<br>
+                                        +(3 to 5) Kick Damage<br>
+                                        +10% to Fire Skill Damage<br>
+                                        Slows Target by (10 to 15)%<br>
+                                        +(90 to 140)% Enhanced Defense<br>
+                                        -5 to Dexterity<br>
+                                        Fire Resist +(45 to 60)%<br>
+                                        Repairs 1 durability in 6 seconds<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot26.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Waterwalk<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Sharkskin Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 28 to 50<br>
+                                        Defense: <font color="2020b0">(92-120)<br>
+                                        </font>Durability: 14<br>
+                                        Required Strength: 47<br>
+                                        Required Level: 32<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+20% Faster Run/Walk<br>
+                                        +(180 to 210)% Enhanced Defense<br>
+                                        +100 Defense vs. Missile<br>
+                                        +15 to Dexterity<br>
+                                        +(45 to 65) to Life<br>
+                                        +40 Maximum Stamina<br>
+                                        Heal Stamina Plus 50%<br>
+                                        +5% to Maximum Fire Resist<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot1.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Path to Perdition<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Sharkskin Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 28 to 50<br>
+                                        Defense: <font color="2020b0">(72-101)<br>
+                                        </font>Durability: 14<br>
+                                        Required Strength: 47<br>
+                                        Required Level: 38<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+15% Faster Run/Walk<br>
+                                        +25% Faster Hit Recovery<br>
+                                        +(120 to 160)% Enhanced Defense<br>
+                                        +20 to Dexterity<br>
+                                        +(4 to 7)% to Experience Gained<br>
+                                        Level 20 Sacrifice (250 Charges)<br>
+                                        Repairs 1 durability in 12 seconds<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot12.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Asheara's Slippers<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Sharkskin Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 28 to 50<br>
+                                        Defense: <font color="2020b0">(94-137)<br>
+                                        </font>Durability: 14<br>
+                                        Required Strength: 47<br>
+                                        Required Level: 45<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+25% Faster Run/Walk<br>
+                                        +20% Faster Hit Recovery<br>
+                                        +(10 to 15)% to Cold Skill Damage<br>
+                                        +(110 to 150)% Enhanced Defense<br>
+                                        +(25 to 40) Defense<br>
+                                        Cold Resist +(30 to 40)%<br>
+                                        Poison Resist +(25 to 35)%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invmbt.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Silkweave<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Mesh Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 23 to 52<br>
+                                        Defense: <font color="2020b0">(92-127)<br>
+                                        </font>Durability: 16<br>
+                                        Required Strength: 65<br>
+                                        Required Level: 36<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+30% Faster Run/Walk<br>
+                                        +(150 to 190)% Enhanced Defense<br>
+                                        +200 Defense vs. Missile<br>
+                                        Increase Maximum Mana 10%<br>
+                                        +5 to Mana after each Kill<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot28.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Zebrastride<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Mesh Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 23 to 52<br>
+                                        Defense: <font color="2020b0">(83-116)<br>
+                                        </font>Durability: 16<br>
+                                        Required Strength: 65<br>
+                                        Required Level: 43<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+40% Faster Run/Walk<br>
+                                        +(5 to 10) Kick Damage<br>
+                                        10% Chance of Crushing Blow<br>
+                                        +(125 to 165)% Enhanced Defense<br>
+                                        +(0.625 per level) to Dexterity (Based on Character Level)<br>
+                                        Regenerate Mana 25%<br>
+                                        All Resistances +15<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot2.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Whirling Dervish<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Mesh Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 23 to 52<br>
+                                        Defense: <font color="2020b0">(85-118)<br>
+                                        </font>Durability: 16<br>
+                                        Required Strength: 81<br>
+                                        Required Level: 48<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to Masteries Skills (Barbarian Only)<br>
+                                        +(10 to 15)% Enhanced damage<br>
+                                        +20% Faster Run/Walk<br>
+                                        +10% Increased Attack Speed<br>
+                                        +(7 to 12) to Whirlwind<br>
+                                        +(130 to 170)% Enhanced Defense<br>
+                                        Requirements +25%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot27.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">War Traveler<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Battle Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 37 to 64<br>
+                                        Defense: <font color="2020b0">(97-136)<br>
+                                        </font>Durability: 18<br>
+                                        Required Strength: 95<br>
+                                        Required Level: 42<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+25% Faster Run/Walk<br>
+                                        Adds 15-25 damage<br>
+                                        +(150 to 190)% Enhanced Defense<br>
+                                        +10 to Strength<br>
+                                        +10 to Vitality<br>
+                                        40% Slower Stamina Drain<br>
+                                        Attacker Takes Damage of (5 to 10)<br>
+                                        (30 to 50)% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot7.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Zero Effect<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Battle Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 37 to 64<br>
+                                        Defense: <font color="2020b0">(89-126)<br>
+                                        </font>Durability: 18<br>
+                                        Required Strength: 95<br>
+                                        Required Level: 49<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(130 to 170)% Enhanced Defense<br>
+                                        Cold Absorb (10 to 15)%<br>
+                                        Lightning Absorb (10 to 15)%<br>
+                                        Fire Absorb (10 to 15)%<br>
+                                        Damage Reduced by (15 to 20)%<br>
+                                        Cannot Be Frozen<br>
+                                        Poison Length Reduced by 50%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot20.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Halbu's Gift<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Battle Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 37 to 64<br>
+                                        Defense: <font color="2020b0">(129-215)<br>
+                                        </font>Durability: 18<br>
+                                        Required Strength: 95<br>
+                                        Required Level: 56<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(125 to 160)% Enhanced Defense<br>
+                                        +(0.75 per level) Defense (Based on Character Level)<br>
+                                        +(15 to 25) to Dexterity<br>
+                                        All Resistances +(15 to 25)<br>
+                                        Damage Reduced by (10 to 15)<br>
+                                        +(2 to 4)% to Experience Gained<br>
+                                        Reduces all Vendor Prices 5%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot16.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Gore Rider<br>
+                                    </div>
+                                    <div class="itemtype" align="center">War Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 39 to 80<br>
+                                        Defense: <font color="2020b0">(111-159)<br>
+                                        </font>Durability: 24<br>
+                                        Required Strength: 93<br>
+                                        Required Level: 47<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+30% Faster Run/Walk<br>
+                                        15% Chance of Crushing Blow<br>
+                                        15% Deadly Strike<br>
+                                        10% Chance of Open Wounds<br>
+                                        +(160 to 200)% Enhanced Defense<br>
+                                        +20 Maximum Stamina<br>
+                                        Requirements -25%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot13.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Doubtraiser<br>
+                                    </div>
+                                    <div class="itemtype" align="center">War Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 39 to 80<br>
+                                        Defense: <font color="2020b0">(125-240)<br>
+                                        </font>Durability: 24<br>
+                                        Required Strength: 125<br>
+                                        Required Level: 55<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+15% Faster Run/Walk<br>
+                                        +5 Kick Damage<br>
+                                        +(1.5 per level) Defense (Based on Character Level)<br>
+                                        +20 to Strength<br>
+                                        All Resistances +25<br>
+                                        +12 Life after each Kill<br>
+                                        -3% to Experience Gained<br>
+                                        25% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot17.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">River Stalker<br>
+                                    </div>
+                                    <div class="itemtype" align="center">War Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 39 to 80<br>
+                                        Defense: <font color="2020b0">(143-193)<br>
+                                        </font>Durability: 24<br>
+                                        Required Strength: 125<br>
+                                        Required Level: 60<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+30% Faster Hit Recovery<br>
+                                        +1 to Dodge<br>
+                                        +1 to Evade<br>
+                                        +1 to Avoid<br>
+                                        +(100 to 140) Defense<br>
+                                        +(30 to 50) to Mana<br>
+                                        Regenerate Mana 35%<br>
+                                        +(3 to 5) to Mana after each Kill<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invlbt.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Stallion Hooves<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Wyrmhide Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 65 to 100<br>
+                                        Defense: <font color="2020b0">(108-139)<br>
+                                        </font>Durability: 12<br>
+                                        Required Strength: 50<br>
+                                        Required Level: 67<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+40% Faster Run/Walk<br>
+                                        +40% Faster Hit Recovery<br>
+                                        +20 to Maximum Damage<br>
+                                        15% Chance of Crushing Blow<br>
+                                        (20 to 25)% Deadly Strike<br>
+                                        +(100 to 125)% Enhanced Defense<br>
+                                        +35 to Dexterity<br>
+                                        Repairs 1 durability in 1 seconds<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot8.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Dance of the Cobra<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Wyrmhide Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 65 to 100<br>
+                                        Defense: <font color="2020b0">(108-155)<br>
+                                        </font>Durability: 12<br>
+                                        Required Strength: 50<br>
+                                        Required Level: 56<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+15% Faster Run/Walk<br>
+                                        +304 poison damage over 4 seconds<br>
+                                        Prevent Monster Heal<br>
+                                        Hit Blinds Target +1<br>
+                                        +(100 to 150)% Enhanced Defense<br>
+                                        Poison Resist +75%<br>
+                                        Poison Length Reduced by (25 to 80)%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invvbt.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Sandstorm Trek<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Scarabshell Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 60 to 110<br>
+                                        Defense: <font color="2020b0">(134-175)<br>
+                                        </font>Durability: 14<br>
+                                        Required Strength: 91<br>
+                                        Required Level: 70<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+20% Faster Run/Walk<br>
+                                        +20% Faster Hit Recovery<br>
+                                        +(140 to 170)% Enhanced Defense<br>
+                                        +(10 to 15) to Strength<br>
+                                        +(10 to 15) to Vitality<br>
+                                        +(1 per level) Maximum Stamina (Based on Character Level)<br>
+                                        50% Slower Stamina Drain<br>
+                                        Poison Resist +(40 to 70)%<br>
+                                        Repairs 1 durability in 20 seconds<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot11.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Thoqqua's Slipper<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Scarabshell Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 60 to 110<br>
+                                        Defense: <font color="2020b0">(131-185)<br>
+                                        </font>Durability: 14<br>
+                                        Required Strength: 91<br>
+                                        Required Level: 64<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+50% Faster Run/Walk<br>
+                                        +(75 to 120) Defense<br>
+                                        +(35 to 50) to Life<br>
+                                        All Resistances +(10 to 15)<br>
+                                        (40 to 80)% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invmbt.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Marrowwalk<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Boneweave Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 69 to 118<br>
+                                        Defense: <font color="2020b0">(159-201)<br>
+                                        </font>Durability: 16<br>
+                                        Required Strength: 118<br>
+                                        Required Level: 69<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+20% Faster Run/Walk<br>
+                                        +(1 to 2) to Skeleton Mastery (Necromancer Only)<br>
+                                        +(170 to 200)% Enhanced Defense<br>
+                                        +(10 to 20) to Strength<br>
+                                        +17 to Dexterity<br>
+                                        Regenerate Mana 10%<br>
+                                        Heal Stamina Plus 10%<br>
+                                        Half Freeze Duration<br>
+                                        Level 33 Bone Prison (13 Charges)<br>
+                                        Level 12 Life Tap (10 Charges)<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot29.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Hollowed Ground<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Boneweave Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 69 to 118<br>
+                                        Defense: <font color="2020b0">(147-201)<br>
+                                        </font>Durability: 16<br>
+                                        Required Strength: 118<br>
+                                        Required Level: 76<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">Level (2 to 5) Sanctuary Aura When
+                                        Equipped<br>
+                                        +1 to Paladin Skill Levels<br>
+                                        +25% Faster Hit Recovery<br>
+                                        +125% Damage to Undead<br>
+                                        Slain Monsters Rest in Peace<br>
+                                        +(150 to 200)% Enhanced Defense<br>
+                                        +(15 to 25) to Dexterity<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot24.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Lustwander<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Mirrored Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 50 to 145<br>
+                                        Defense: <font color="2020b0">(159-218)<br>
+                                        </font>Durability: 18<br>
+                                        Required Strength: 163<br>
+                                        Required Level: 81<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+1 to All Skills<br>
+                                        +(2 to 5) to Teleport<br>
+                                        +(100 to 150) Defense<br>
+                                        All Resistances +25<br>
+                                        (150 to 250)% Extra Gold from Monsters<br>
+                                        75% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot9.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Stairway to Heaven<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Mirrored Boots<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 50 to 145<br>
+                                        Defense: <font color="2020b0">(132-176)<br>
+                                        </font>Durability: 18<br>
+                                        Required Strength: 163<br>
+                                        Required Level: 74<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(125 to 160)% Enhanced Defense<br>
+                                        All Resistances +(40 to 70)<br>
+                                        Half Freeze Duration<br>
+                                        Poison Length Reduced by 50%<br>
+                                        (20 to 30)% Better Chance of Getting Magic Items<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot18.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Shadow Dancer<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Myrmidon Greaves<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 83 to 149<br>
+                                        Defense: <font color="2020b0">(105-142)<br>
+                                        </font>Durability: 24<br>
+                                        Required Strength: 166<br>
+                                        Required Level: 80<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+(1 to 2) to Shadow Discipline Skills
+                                        (Assassin Only)<br>
+                                        +30% Faster Run/Walk<br>
+                                        +30% Faster Hit Recovery<br>
+                                        +(70 to 100)% Enhanced Defense<br>
+                                        +(15 to 25) to Dexterity<br>
+                                        Requirements -20%<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div align="center">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        <tr>
+                            <td width="100">
+                                <div valign="center" align="center"><img src="../assets/img/invboot14.jpg" border="0"
+                                                                         height="56" width="56"></div>
+                            </td>
+                            <td width="380">
+                                <div align="center">
+                                    <div class="unique_name" align="center">Wild Horses<br>
+                                    </div>
+                                    <div class="itemtype" align="center">Myrmidon Greaves<br>
+                                    </div>
+                                    <div class="basic" align="center">Kick Damage: 83 to 149<br>
+                                        Defense: <font color="2020b0">(139-213)<br>
+                                        </font>Durability: 24<br>
+                                        Required Strength: 208<br>
+                                        Required Level: 87<br>
+                                    </div>
+                                    <div class="prop_blue" align="center">+40% Faster Run/Walk<br>
+                                        +40% Faster Hit Recovery<br>
+                                        +(10 to 15) Kick Damage<br>
+                                        (10 to 20)% Deadly Strike<br>
+                                        +(125 to 200)% Enhanced Defense<br>
+                                        +25 to Strength<br>
+                                        +25 to Dexterity<br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <hr noshade size="1"/>
+
+
+                </font>
+            </td>
+        </tr>
+
+    </table>
+
+</div>
+
+</body>
+</html>
