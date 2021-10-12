@@ -1,7 +1,7 @@
 import Aurelia, { RouterConfiguration } from 'aurelia';
-import { MyApp } from './my-app';
+import { App } from './app';
 
 Aurelia
     .register(RouterConfiguration)
-    .app(MyApp)
+    .app(App)
     .start();
