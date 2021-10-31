@@ -8,6 +8,10 @@
   color: white !important;
 }
 
+td {
+  padding: 25px 0;
+}
+
 /* main */
 body {
   background-color: #000000;

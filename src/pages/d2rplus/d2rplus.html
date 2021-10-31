@@ -14,14 +14,14 @@
                 </a>
             </li>
             <li class="mb-1">
-                <a href="d2rplus/runes" class="rounded">
+                <a href="runes" class="rounded">
                     <button class="btn btn-toggle align-items-center rounded">
                         Runes
                     </button>
                 </a>
             </li>
             <li class="mb-1">
-                <a href="d2rplus/gems" class="rounded">
+                <a href="gems" class="rounded">
                     <button class="btn btn-toggle align-items-center rounded">
                         Gems
                     </button>
@@ -43,7 +43,24 @@
                         <li><a href="d2rplus/uniques/weapons" class="link-dark rounded">Unique Weapons</a></li>
                         <li><a href="d2rplus/uniques/armors-and-shields" class="link-dark rounded">Unique Armors & Shields</a></li>
                         <li><a href="d2rplus/uniques/jewelry" class="link-dark rounded">Unique Jewelry</a></li>
-                        <li><a href="d2rplus/uniques/class-specific" class="link-dark rounded">Class Specific</a></li>
+                        <li>
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#class-collapse" aria-expanded="false">
+                                Class Specific
+                            </button>
+                            <div class="collapse" id="class-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a class="link-dark rounded" href="uniques_h2h.htm">Claws</a></li>
+                                    <li><a class="link-dark rounded" href="uniques_orb.htm">Orbs</a></li>
+                                    <li><a class="link-dark rounded" href="uniques_head.htm">Voodoo Heads</a></li>
+                                    <li><a class="link-dark rounded" href="uniques_pelt.htm">Pelts</a></li>
+                                    <li><a class="link-dark rounded" href="uniques_ashd.htm">Auric Shields</a></li>
+                                    <li><a class="link-dark rounded" href="uniques_phlm.htm">Primal Helments</a></li>
+                                    <li><a class="link-dark rounded" href="uniques_aspe.htm">Amazon Spears</a></li>
+                                    <li><a class="link-dark rounded" href="uniques_abow.htm">Amazon Bows</a></li>
+                                    <li><a class="link-dark rounded" href="uniques_ajav.htm">Amazon Javelins</a></li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </li>
@@ -53,24 +70,17 @@
                 </button>
                 <div class="collapse" id="runewords-collapse">
                     <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                        <li><a href="d2rplus/runewords/armor" class="link-dark rounded">Armor</a></li>
-                        <li><a href="d2rplus/runewords/helms" class="link-dark rounded">Helms</a></li>
-                        <li><a href="d2rplus/runewords/shields" class="link-dark rounded">Shields</a></li>
-                        <li><a href="d2rplus/runewords/weapons" class="link-dark rounded">Weapons</a></li>
+                        <li><a href="runewords/armor" class="link-dark rounded">Armor</a></li>
+                        <li><a href="runewords/helms" class="link-dark rounded">Helms</a></li>
+                        <li><a href="runewords/shields" class="link-dark rounded">Shields</a></li>
+                        <li><a href="runewords/weapons" class="link-dark rounded">Weapons</a></li>
                     </ul>
                 </div>
-            </li>
-            <li class="mb-1">
-                <a href="d2rplus/about" class="rounded">
-                    <button class="btn btn-toggle align-items-center rounded">
-                        About
-                    </button>
-                </a>
             </li>
         </ul>
     </div>
     <div class="d-flex flex-column align-items-stretch w-auto ms-5">
-        <h3>D2rPlus Documentation</h3>
+        <h3>Talonrage Documentation</h3>
         <au-viewport default="cube-recipes"></au-viewport>
     </div>
 </div>
