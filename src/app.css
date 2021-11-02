@@ -26,4 +26,10 @@
 body {
     font-family: DiabloLight !important;
     padding: 0 !important;
+    background: black;
+    color: white;
+}
+
+.cursor-pointer {
+    cursor: pointer;
 }

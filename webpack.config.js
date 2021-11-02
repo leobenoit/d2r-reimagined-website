@@ -56,7 +56,8 @@ module.exports = function(env, { analyze }) {
       }),
       new CopyWebpackPlugin({
         patterns: [
-          { from: 'src/assets', to: path.resolve(__dirname, 'dist'), globOptions: { ignore: ['.*'] } }
+          { from: 'src/assets', to: path.resolve(__dirname, 'dist'), globOptions: { ignore: ['.*'] } },
+          { from: 'talonrage', to: path.resolve(__dirname, 'dist/talonrage'), globOptions: { ignore: ['.*'] } }
         ]
       }),
       analyze && new BundleAnalyzerPlugin()
