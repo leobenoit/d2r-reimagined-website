@@ -26,10 +26,38 @@
 body {
     font-family: DiabloLight !important;
     padding: 0 !important;
-    background: black;
-    color: white;
+    background-color: black !important;
+    color: white !important;
 }
 
 .cursor-pointer {
     cursor: pointer;
+}
+
+.unique-text {
+    color: #c7b790ed;
+}
+
+.set-text {
+    color: #478e47;
+}
+
+.enhanced {
+    color: #6f5df7;
+}
+
+.set-header {
+    font-size: 26px;
+}
+
+.requirement {
+    color: #ef4f4f;
+}
+
+.runes span {
+    padding: 0 5px 0 5px;
+}
+
+.runeword-types span {
+    padding: 0 5px 0 5px;
 }

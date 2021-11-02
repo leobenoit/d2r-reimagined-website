@@ -1,0 +1,40 @@
+<template>
+    <h3 class="text-center my-4">
+        ${recipes.length} Uniques Found
+    </h3>
+    <div class="search my-2 text-center">
+        <form>
+            <label>Search Uniques</label><br>
+            <input type="text" value.bind="search" />
+        </form>
+    </div>
+    <div class="row gy-5 px-5 text-center">
+        <div class="col-6" repeat.for="unique of uniques">
+            <div class="card bg-dark p-2">
+                <div class="unique-text fs-4 mb-2">
+                    ${unique.Name}
+                </div>
+                <div class="damage" if.bind="unique.Equipment.DamageTypes" repeat.for="damage of unique.Equipment.DamageTypes">
+                    Damage: ${damage.DamageString}
+                </div>
+                <div class="requirement" if.bind="unique.RequiredLevel > 0">
+                    Level ${unique.RequiredLevel} Required
+                </div>
+                <div class="requirement" if.bind="unique.Equipment.RequiredStrength > 0">
+                    ${unique.Equipment.RequiredStrength} Strength Required
+                </div>
+                <div class="requirement" if.bind="unique.Equipment.RequiredDexterity > 0">
+                    ${unique.Equipment.RequiredDexterity} Dexterity Required
+                </div>
+                <div class="durability mt-1" if.bind="unique.Equipment.Durability > 0">
+                    ${unique.Equipment.Durability} Durability
+                </div>
+                <div class="mt-2">
+                    <div class="enhanced" repeat.for="property of unique.Properties">
+                        ${property.PropertyString}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
