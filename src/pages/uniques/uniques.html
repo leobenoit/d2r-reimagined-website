@@ -11,11 +11,14 @@
     <div class="row gy-5 px-5 text-center">
         <div class="col-6" repeat.for="unique of uniques">
             <div class="card bg-dark p-2">
-                <div class="unique-text fs-4 mb-2">
+                <div class="unique-text fs-4 mb-1">
                     ${unique.Name}
                 </div>
+                <div class="armor mb-1" if.bind="unique.Equipment.ArmorString">
+                    Armor: ${unique.Equipment.ArmorString}
+                </div>
                 <div class="damage" if.bind="unique.Equipment.DamageTypes" repeat.for="damage of unique.Equipment.DamageTypes">
-                    Damage: ${damage.DamageString}
+                    ${getDamageTypeString(damage.Type)} ${damage.DamageString}
                 </div>
                 <div class="requirement" if.bind="unique.RequiredLevel > 0">
                     Level ${unique.RequiredLevel} Required

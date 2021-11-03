@@ -1,33 +1,33 @@
-import json from '../item-jsons/uniques.json';
+import json from '../item-jsons/sets.json';
 import {bindable} from 'aurelia';
 
-export class Uniques {
-    uniques = json;
+export class Sets {
+    sets = json;
     @bindable search;
 
     searchChanged() {
         if (!this.search) {
-            this.uniques = json;
+            this.sets = json;
             return;
         }
         this.updateList();
     }
 
     updateList() {
-        let foundUniques = [];
-        for (let unique of json) {
-            if (unique.Name.toLowerCase().includes(this.search.toLowerCase())) {
-                foundUniques.push(unique);
+        let foundSets = [];
+        for (let set of json) {
+            if (set.Name.toLowerCase().includes(this.search.toLowerCase())) {
+                foundSets.push(set);
                 continue;
             }
-            for (let property of unique.Properties) {
+            for (let property of set.Properties) {
                 if (property.PropertyString.toLowerCase().includes(this.search.toLowerCase())) {
-                    foundUniques.push(unique);
+                    foundSets.push(set);
                     break;
                 }
             }
         }
-        this.uniques = foundUniques;
+        this.uniques = foundSets;
     }
 
     getDamageTypeString(type) {

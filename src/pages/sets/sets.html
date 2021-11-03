@@ -1,0 +1,55 @@
+<template>
+    <h3 class="text-center my-4">
+        ${recipes.length} Sets Found
+    </h3>
+    <!-- <div class="search my-2 text-center">
+        <form>
+            <label>Search Sets</label><br>
+            <input type="text" value.bind="search" />
+        </form>
+    </div> -->
+    <div class="row gy-5 px-5 text-center">
+        <div class="col-6" repeat.for="set of sets">
+            <div class="card bg-dark p-2">
+                <div class="set-text fs-4 mb-1">
+                    ${set.Name}
+                </div>
+                <div class="partial-sets set-text" repeat.for="partial of set.PartialProperties">
+                    ${partial.PropertyString} (${$index + 2} Items)
+                </div>
+                <div class="partial-sets set-text" repeat.for="full of set.FullProperties">
+                    ${full.PropertyString} (Full Set)
+                </div>
+                <div class="my-3 fs-6" repeat.for="setItem of set.SetItems">
+                    <div class="set-text mb-1">
+                        ${setItem.Name}
+                    </div>
+                    <div class="armor mt-1" if.bind="setItem.Equipment.ArmorString">
+                        Armor: ${setItem.Equipment.ArmorString}
+                    </div>
+                    <div class="damage" if.bind="setItem.Equipment.DamageTypes" repeat.for="damage of setItem.Equipment.DamageTypes">
+                        ${getDamageTypeString(damage.Type)} ${damage.DamageString}
+                    </div>
+                    <div class="requirement" if.bind="setItem.RequiredLevel > 0">
+                        Level ${setItem.RequiredLevel} Required
+                    </div>
+                    <div class="requirement" if.bind="setItem.Equipment.RequiredStrength > 0">
+                        ${setItem.Equipment.RequiredStrength} Strength Required
+                    </div>
+                    <div class="requirement" if.bind="setItem.Equipment.RequiredDexterity > 0">
+                        ${setItem.Equipment.RequiredDexterity} Dexterity Required
+                    </div>
+                    <div class="durability mt-1" if.bind="setItem.Equipment.Durability > 0">
+                        ${setItem.Equipment.Durability} Durability
+                    </div>
+                    <div class="enhanced" repeat.for="property of setItem.Properties">
+                        ${property.PropertyString}
+                    </div>
+                    <div class="set-text" repeat.for="setProperty of setItem.SetPropertiesString">
+                        ${setProperty}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

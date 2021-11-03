@@ -16,6 +16,11 @@ import { route } from '@aurelia/router';
       path: 'uniques',
       component: import('./pages/uniques/uniques'),
       title: 'Uniques',
+    },
+    {
+      path: 'sets',
+      component: import('./pages/sets/sets'),
+      title: 'Sets',
     }
 ]})
 
