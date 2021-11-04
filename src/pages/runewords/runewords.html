@@ -1,0 +1,38 @@
+<template>
+    <h3 class="text-center my-4">
+        ${runewords.length} Runewords Found
+    </h3>
+    <div class="search my-2 text-center">
+        <form>
+            <label>Search Uniques</label><br>
+            <input type="text" value.bind="search" />
+        </form>
+    </div>
+    <div class="row gy-5 px-5 text-center">
+        <div class="col-6" repeat.for="runeword of runewords">
+            <div class="card bg-dark p-2">
+                <div class="unique-text fs-4 mb-1">
+                    ${runeword.Name}
+                </div>
+                <div class="combo">
+                    <span repeat.for="rune of runeword.Runes">
+                        ${removeRuneFromName(rune.Name)} ${$index + 1 !== runeword.Runes.length ? ' + ' : ''}
+                    </span>
+                </div>
+                <div class="types">
+                    <span repeat.for="type of runeword.Types">
+                        ${type.Name} ${$index + 1 !== runeword.Types.length ? ' or ' : ''}
+                    </span>
+                </div>
+                <div class="requirement" if.bind="runeword.RequiredLevel > 0">
+                    Level ${runeword.RequiredLevel} Required
+                </div>
+                <div class="mt-2">
+                    <div class="enhanced" repeat.for="property of runeword.Properties">
+                        ${property.PropertyString}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

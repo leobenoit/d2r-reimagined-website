@@ -21,6 +21,11 @@ import { route } from '@aurelia/router';
       path: 'sets',
       component: import('./pages/sets/sets'),
       title: 'Sets',
+    },
+    {
+      path: 'runewords',
+      component: import('./pages/runewords/runewords'),
+      title: 'Runewords',
     }
 ]})
 

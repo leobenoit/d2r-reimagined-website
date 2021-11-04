@@ -1,4 +1,4 @@
-import json from '../item-jsons/cube-recipes.json';
+import json from '../item-jsons/cube_recipes.json';
 import {bindable} from 'aurelia';
 
 export class CubeRecipes {
