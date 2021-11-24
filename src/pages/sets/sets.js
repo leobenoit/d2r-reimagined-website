@@ -4,6 +4,9 @@ import {bindable} from 'aurelia';
 export class Sets {
     sets = json;
     @bindable search;
+    class;
+
+    classes = ['Amazon', 'Assassin', 'Barbarian', 'Druid', 'Necromancer', 'Paladin', 'Sorceress']
 
     searchChanged() {
         if (!this.search) {
@@ -13,21 +16,61 @@ export class Sets {
         this.updateList();
     }
 
+    classChanged(e) {
+        this.class = e?.detail?.value;
+        this.sets = json;
+        this.updateList();
+    }
+
     updateList() {
-        let foundSets = [];
-        for (let set of json) {
-            if (set.Name.toLowerCase().includes(this.search.toLowerCase())) {
-                foundSets.push(set);
-                continue;
-            }
-            for (let property of set.Properties) {
-                if (property.PropertyString.toLowerCase().includes(this.search.toLowerCase())) {
-                    foundSets.push(set);
-                    break;
-                }
-            }
+        if (!this.search && !this.class) {
+            return;
         }
-        this.uniques = foundSets;
+        try {
+            let foundSets = [];
+            loop1:
+                for (let set of json) {
+                    set.AllProperties = [...set?.FullProperties, ...set?.PartialProperties]
+
+                    if (this.search && set.Name?.toLowerCase().includes(this.search?.toLowerCase())) {
+                        foundSets.push(set);
+                        continue;
+                    }
+
+                    for (let property of set?.AllProperties) {
+                        if (this.class) {
+                            if (property?.PropertyString?.toLowerCase()?.includes(this.class?.toLowerCase())) {
+                                foundSets.push(set);
+                                continue loop1;
+                            }
+                        } else {
+                            if (property?.PropertyString?.toLowerCase()?.includes(this.search?.toLowerCase())) {
+                                foundSets.push(set);
+                                continue loop1;
+                            }
+                        }
+                    }
+
+                    for (let setItem of set?.SetItems) {
+                        for (let property of setItem?.Properties) {
+                            if (this.class) {
+                                if (property?.PropertyString?.toLowerCase()?.includes(this.class?.toLowerCase())) {
+                                    foundSets.push(set);
+                                    continue loop1;
+                                }
+                            } else {
+                                if (property?.PropertyString?.toLowerCase()?.includes(this.search?.toLowerCase())) {
+                                    foundSets.push(set);
+                                    continue loop1;
+                                }
+                            }
+                        }
+                    }
+                }
+            this.sets = foundSets;
+        } catch(e) {
+            console.log(e);
+        }
     }
 
     getDamageTypeString(type) {

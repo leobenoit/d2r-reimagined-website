@@ -4,6 +4,9 @@ import {bindable} from 'aurelia';
 export class Uniques {
     uniques = json;
     @bindable search;
+    class;
+
+    classes = ['Amazon', 'Assassin', 'Barbarian', 'Druid', 'Necromancer', 'Paladin', 'Sorceress']
 
     searchChanged() {
         if (!this.search) {
@@ -13,17 +16,33 @@ export class Uniques {
         this.updateList();
     }
 
+    classChanged(e) {
+        this.class = e?.detail?.value;
+        console.log(this.class);
+        this.uniques = json;
+        this.updateList();
+    }
+
     updateList() {
+        if (!this.search && !this.class) {
+            return;
+        }
+
         let foundUniques = [];
+
+        uniqueLoop:
         for (let unique of json) {
-            if (unique.Name.toLowerCase().includes(this.search.toLowerCase())) {
+            if (unique.Name.toLowerCase().includes(this.search?.toLowerCase())) {
                 foundUniques.push(unique);
                 continue;
             }
             for (let property of unique.Properties) {
-                if (property.PropertyString.toLowerCase().includes(this.search.toLowerCase())) {
+                if (property?.PropertyString?.toLowerCase()?.includes(this.class?.toLowerCase())) {
                     foundUniques.push(unique);
-                    break;
+                    continue uniqueLoop;
+                } else if (property.PropertyString?.toLowerCase().includes(this.search?.toLowerCase())) {
+                    foundUniques.push(unique);
+                    continue uniqueLoop;
                 }
             }
         }
