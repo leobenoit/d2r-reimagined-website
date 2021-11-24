@@ -39,4 +39,13 @@ export class Runewords {
     removeRuneFromName(runeName) {
         return runeName.replace(' Rune', '');
     }
+
+    transformTypeName(name) {
+        switch (name) {
+            case 'Merc Equip':
+                return 'Helm'
+            default:
+                return name;
+        }
+    }
 }

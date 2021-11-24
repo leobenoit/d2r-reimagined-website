@@ -21,7 +21,7 @@
                 </div>
                 <div class="types">
                     <span repeat.for="type of runeword.Types">
-                        ${type.Name} ${$index + 1 !== runeword.Types.length ? ' or ' : ''}
+                        ${transformTypeName(type.Name)} ${$index + 1 !== runeword.Types.length ? ' or ' : ''}
                     </span>
                 </div>
                 <div class="requirement" if.bind="runeword.RequiredLevel > 0">
