@@ -18,7 +18,6 @@ export class Uniques {
 
     classChanged(e) {
         this.class = e?.detail?.value;
-        console.log(this.class);
         this.uniques = json;
         this.updateList();
     }
