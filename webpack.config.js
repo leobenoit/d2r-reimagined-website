@@ -24,7 +24,7 @@ module.exports = function (env, {analyze}) {
             entry: './src/main.js'
         },
         output: {
-            path: path.resolve(__dirname, 'dist'),
+            path: path.resolve(__dirname, 'docs'),
             filename: production ? '[name].[contenthash].bundle.js' : '[name].bundle.js'
         },
         resolve: {
