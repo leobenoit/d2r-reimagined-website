@@ -1,6 +1,4 @@
-# d2r-merged-mod-ui
-
-This project is bootstrapped by [aurelia/new](https://github.com/aurelia/new).
+# D2R Reimagined Website
 
 ## Start dev web server
 
@@ -22,15 +20,6 @@ Copy to production root folder
 root_folder/index.html
 root_folder/foo.12345.js
 ```
-
-## Unit Tests
-
-    npm run test
-
-Run unit tests in watch mode.
-
-    npm run test:watch
-
 
 ## Analyze webpack bundle
 
