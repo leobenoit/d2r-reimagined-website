@@ -34,10 +34,11 @@ module.exports = function (env, {analyze}) {
         devServer: {
             historyApiFallback: true,
             open: !process.env.CI,
-            port: 9000
+            port: 9500
         },
         module: {
             rules: [
+                { test: /@aurelia-mdc-web.*\.html$/i, use: '@aurelia/webpack-loader' },
                 {
                     test: /\.(png|svg|jpg|jpeg|gif)$/i, type: 'asset'
                 },
@@ -68,6 +69,9 @@ module.exports = function (env, {analyze}) {
                             options: {
                                 // Prefer `dart-sass`
                                 implementation: require("sass"),
+                                sassOptions: {
+                                    includePaths: [path.resolve('./node_modules')]
+                                }
                             },
                         },
                     ],

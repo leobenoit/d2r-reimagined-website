@@ -1,4 +1,4 @@
-import { route } from '@aurelia/router';
+import { route } from '@aurelia/router-lite';
 
 @route({
   routes: [
@@ -29,8 +29,4 @@ import { route } from '@aurelia/router';
     }
 ]})
 
-export class App {
-  goToTalonrageDocs() {
-    window.location.href = 'https://d2r-reimagined.com/talonrage';
-  }
-}
+export class App {}

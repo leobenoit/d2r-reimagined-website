@@ -1,5 +1,6 @@
 import json from '../item-jsons/cube_recipes.json';
 import {bindable} from 'aurelia';
+import './cube-recipes.scss';
 
 export class CubeRecipes {
     recipes = [...json];

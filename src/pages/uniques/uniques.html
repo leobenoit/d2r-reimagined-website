@@ -10,7 +10,7 @@
                             ref="standardSelect"
                             label="Select Class"
                             required.bind="standardSelectRequired"
-                            change.delegate="classChanged($event)"
+                            change.trigger="classChanged($event)"
                             outlined.bind="true"
                             class="select-background-filled"
                     >
