@@ -1,5 +1,7 @@
+import { bindable } from 'aurelia';
+
 import json from '../item-jsons/cube_recipes.json';
-import {bindable} from 'aurelia';
+
 import './cube-recipes.scss';
 
 export class CubeRecipes {
@@ -13,8 +15,8 @@ export class CubeRecipes {
             this.recipes = json;
             return;
         }
-        let found = [];
-        for (let recipe of json) {
+        const found = [];
+        for (const recipe of json) {
             if (recipe.CubeRecipeDescription.toLowerCase().includes(this.search.toLowerCase())) {
                 found.push(recipe);
                 break;

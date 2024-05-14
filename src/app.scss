@@ -1,3 +1,5 @@
+@use 'styles/md-styles';
+
 /* font converted using font-converter.net. thank you! */
 @font-face {
     font-family: "DiabloHeavy";
@@ -61,4 +63,8 @@ body {
 
 .runeword-types span {
     padding: 0 5px 0 5px;
+}
+
+.combo, .types {
+    color: whitesmoke;
 }

@@ -1,5 +1,6 @@
+import { bindable } from 'aurelia';
+
 import json from '../item-jsons/sets.json';
-import {bindable} from 'aurelia';
 
 export class Sets {
     sets = json;
@@ -27,17 +28,32 @@ export class Sets {
             return;
         }
         try {
-            let foundSets = [];
+            const foundSets = [];
             loop1:
-                for (let set of json) {
-                    set.AllProperties = [...set?.FullProperties, ...set?.PartialProperties]
+            for (const set of json) {
+                set.AllProperties = [...set?.FullProperties, ...set?.PartialProperties]
 
-                    if (this.search && set.Name?.toLowerCase().includes(this.search?.toLowerCase())) {
-                        foundSets.push(set);
-                        continue;
+                if (this.search && set.Name?.toLowerCase().includes(this.search?.toLowerCase())) {
+                    foundSets.push(set);
+                    continue;
+                }
+
+                for (const property of set?.AllProperties) {
+                    if (this.class) {
+                        if (property?.PropertyString?.toLowerCase()?.includes(this.class?.toLowerCase())) {
+                            foundSets.push(set);
+                            continue loop1;
+                        }
+                    } else {
+                        if (property?.PropertyString?.toLowerCase()?.includes(this.search?.toLowerCase())) {
+                            foundSets.push(set);
+                            continue loop1;
+                        }
                     }
+                }
 
-                    for (let property of set?.AllProperties) {
+                for (const setItem of set?.SetItems) {
+                    for (const property of setItem?.Properties) {
                         if (this.class) {
                             if (property?.PropertyString?.toLowerCase()?.includes(this.class?.toLowerCase())) {
                                 foundSets.push(set);
@@ -50,23 +66,8 @@ export class Sets {
                             }
                         }
                     }
-
-                    for (let setItem of set?.SetItems) {
-                        for (let property of setItem?.Properties) {
-                            if (this.class) {
-                                if (property?.PropertyString?.toLowerCase()?.includes(this.class?.toLowerCase())) {
-                                    foundSets.push(set);
-                                    continue loop1;
-                                }
-                            } else {
-                                if (property?.PropertyString?.toLowerCase()?.includes(this.search?.toLowerCase())) {
-                                    foundSets.push(set);
-                                    continue loop1;
-                                }
-                            }
-                        }
-                    }
                 }
+            }
             this.sets = foundSets;
         } catch(e) {
             console.log(e);

@@ -1,10 +1,11 @@
+import { bindable } from 'aurelia';
+
 import json from '../item-jsons/uniques.json';
-import {bindable} from 'aurelia';
 
 export class Uniques {
     uniques = json;
-    @bindable search;
-    class;
+    @bindable search: string;
+    class: string;
 
     classes = ['Amazon', 'Assassin', 'Barbarian', 'Druid', 'Necromancer', 'Paladin', 'Sorceress']
 
@@ -27,15 +28,15 @@ export class Uniques {
             return;
         }
 
-        let foundUniques = [];
+        const foundUniques = [];
 
         uniqueLoop:
-        for (let unique of json) {
+        for (const unique of json) {
             if (unique.Name.toLowerCase().includes(this.search?.toLowerCase())) {
                 foundUniques.push(unique);
                 continue;
             }
-            for (let property of unique.Properties) {
+            for (const property of unique.Properties) {
                 if (property?.PropertyString?.toLowerCase()?.includes(this.class?.toLowerCase())) {
                     foundUniques.push(unique);
                     continue uniqueLoop;

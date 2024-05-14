@@ -1,9 +1,11 @@
+import { bindable, watch } from 'aurelia';
+
 import json from '../item-jsons/runewords.json';
-import {bindable} from 'aurelia';
 
 export class Runewords {
     runewords = json;
     @bindable search;
+    filteredRunewords = [];
 
     types = [
         { value: 'Armor', label: 'Armor' },
@@ -32,27 +34,25 @@ export class Runewords {
         { value: 'Druid Item', label: 'Druid Item' }
     ];
 
-    selectedType;
+    selectedType: string;
 
     searchChanged() {
-        if (!this.search) {
-            this.runewords = json;
-            return;
-        }
+        this.filteredRunewords = [];
         this.updateList();
     }
 
-    typeChanged(e) {
-        this.selectedType = e?.detail?.value;
-        this.runewords = json;
+    @watch('selectedType')
+    selectedTypeChanged() {
+        console.log('type changed', this.selectedType)
         this.updateList();
     }
 
     updateList() {
-        let found = [];
+        const found = [];
+        let filteringRunewords = this.runewords;
         if (this.selectedType) {
-            this.runewords = this.runewords.filter((x) => {
-                for (let type of x.Types) {
+            filteringRunewords = filteringRunewords.filter((x) => {
+                for (const type of x.Types) {
                     if (type.Index === this.selectedType) {
                         return true;
                     }
@@ -64,27 +64,27 @@ export class Runewords {
             });
         }
         if (this.search) {
-            for (let runeword of this.runewords) {
+            for (const runeword of filteringRunewords) {
                 if (runeword.Name.toLowerCase().includes(this.search.toLowerCase())) {
                     found.push(runeword);
                     continue;
                 }
-                for (let property of runeword.Properties) {
+                for (const property of runeword.Properties) {
                     if (property.PropertyString.toLowerCase().includes(this.search.toLowerCase())) {
                         found.push(runeword);
                         break;
                     }
                 }
-                for (let type of runeword.Types) {
+                for (const type of runeword.Types) {
                     if (type.Name.toLowerCase().includes(this.search.toLowerCase())) {
                         found.push(runeword);
                         break;
                     }
                 }
             }
-            this.runewords = found;
+            this.filteredRunewords = found;
         } else {
-            return this.runewords;
+            this.filteredRunewords = filteringRunewords;
         }
     }
 

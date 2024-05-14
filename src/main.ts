@@ -1,10 +1,12 @@
 import Aurelia from 'aurelia';
 import { RouterConfiguration } from '@aurelia/router-lite';
+
+import '@material/web/all';
+import 'bootstrap';
+
 import { App } from './app';
 
-import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
-
 import '@betsybot/betsy-web-components/dist/style.css';
 
 import * as BetsyWebComponentsPlugin from '@betsybot/betsy-web-components';
