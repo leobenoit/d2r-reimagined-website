@@ -5,9 +5,17 @@ import json from '../item-jsons/uniques.json';
 export class Uniques {
     uniques = json;
     @bindable search: string;
-    class: string;
+    @bindable class: string;
 
-    classes = ['Amazon', 'Assassin', 'Barbarian', 'Druid', 'Necromancer', 'Paladin', 'Sorceress']
+    classes = [
+        { value: 'Amazon', label: 'Amazon' },
+        { value: 'Assassin', label: 'Assassin' },
+        { value: 'Barbarian', label: 'Barbarian' },
+        { value: 'Druid', label: 'Druid' },
+        { value: 'Necromancer', label: 'Necromancer' },
+        { value: 'Paladin', label: 'Paladin' },
+        { value: 'Sorceress', label: 'Sorceress' }
+    ];
 
     searchChanged() {
         if (!this.search) {
@@ -17,16 +25,15 @@ export class Uniques {
         this.updateList();
     }
 
-    classChanged(e) {
-        this.class = e?.detail?.value;
-        this.uniques = json;
+    classChanged() {
         this.updateList();
     }
 
     updateList() {
-        if (!this.search && !this.class) {
+        if (!this.search) {
             return;
         }
+        this.uniques = json;
 
         const foundUniques = [];
 
@@ -47,6 +54,10 @@ export class Uniques {
             }
         }
         this.uniques = foundUniques;
+    }
+
+    get filteredUniques() {
+        return this.uniques.filter(x => !x.Name.toLowerCase().includes('grabber'));
     }
 
     getDamageTypeString(type) {
