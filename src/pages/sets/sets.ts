@@ -4,10 +4,19 @@ import json from '../item-jsons/sets.json';
 
 export class Sets {
     sets = json;
-    @bindable search;
-    class;
+    @bindable search: string;
+    @bindable class: string;
 
-    classes = ['Amazon', 'Assassin', 'Barbarian', 'Druid', 'Necromancer', 'Paladin', 'Sorceress']
+    classes = [
+        { value: 'Amazon', label: 'Amazon' },
+        { value: 'Assassin', label: 'Assassin' },
+        { value: 'Barbarian', label: 'Barbarian' },
+        { value: 'Druid', label: 'Druid' },
+        { value: 'Necromancer', label: 'Necromancer' },
+        { value: 'Paladin', label: 'Paladin' },
+        { value: 'Sorceress', label: 'Sorceress' }
+    ];
+
 
     searchChanged() {
         if (!this.search) {
@@ -17,8 +26,7 @@ export class Sets {
         this.updateList();
     }
 
-    classChanged(e) {
-        this.class = e?.detail?.value;
+    classChanged() {
         this.sets = json;
         this.updateList();
     }
@@ -70,7 +78,7 @@ export class Sets {
             }
             this.sets = foundSets;
         } catch(e) {
-            console.log(e);
+            console.error(e);
         }
     }
 

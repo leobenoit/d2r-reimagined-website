@@ -43,7 +43,6 @@ export class Runewords {
 
     @watch('selectedType')
     selectedTypeChanged() {
-        console.log('type changed', this.selectedType)
         this.updateList();
     }
 
