@@ -48,7 +48,7 @@
         "vite-plugin-static-copy": "^1.0.4"
     },
     "scripts": {
-        "build": "rimraf dist && vite build",
+        "build": "rimraf dist/assets && vite build",
         "dependencies:check": "pnpm dlx npm-check-updates",
         "dependencies:update": "pnpm dlx npm-check-updates -u",
         "dependencies:update:patch": "pnpm dlx npm-check-updates -u --target patch",

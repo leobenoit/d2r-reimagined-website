@@ -13,6 +13,7 @@ export default defineConfig({
             plugins: [ ],
         },
         outDir: 'docs',
+        emptyOutDir: false,
     },
     plugins: [
         aurelia(),
