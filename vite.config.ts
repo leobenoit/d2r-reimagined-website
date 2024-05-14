@@ -21,6 +21,10 @@ export default defineConfig({
                 {
                     src: 'src/assets',
                     dest: ''
+                },
+                {
+                    src: 'talonrage',
+                    dest: ''
                 }
             ]
         })
