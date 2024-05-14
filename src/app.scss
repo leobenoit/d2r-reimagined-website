@@ -1,12 +1,3 @@
-@use "@material/theme"with ($primary: #4b4b4b,
-    $secondary: #f6a821,
-    $on-primary: #ffffff,
-    $on-secondary: #ffffff,
-);
-
-@use "@aurelia-mdc-web/all";
-@import 'md-overrides';
-
 /* font converted using font-converter.net. thank you! */
 @font-face {
     font-family: "DiabloHeavy";
@@ -70,37 +61,4 @@ body {
 
 .runeword-types span {
     padding: 0 5px 0 5px;
-}
-
-mdc-select {
-    .mdc-text-field--outlined {
-        padding-left: 3%;
-        padding-right: 3%;
-        max-height: 27px;
-    }
-
-    .mdc-notched-outline__notch {
-        // TODO: Ask about !important, I don't like using it but can't seem to find a nice way to do this.
-        width: auto !important;
-    }
-
-    .mdc-select__anchor {
-        mdc-notched-outline mdc-floating-label, .mdc-select__selected-text-container .mdc-select__selected-text {
-            font-size: $regular;
-        }
-    }
-
-    .input-password {
-        .mdc-text-field__input, .mdc-text-field__affix {
-            font-size: $regular;
-        }
-
-        .mdc-text-field__affix {
-            padding-left: 0;
-        }
-    }
-
-    .mdc-floating-label--required:after {
-        color: $red;
-    }
 }
