@@ -17533,12 +17533,12 @@
     "Level": 1
   },
   {
-    "Index": "Set1",
-    "Name": "Set1",
+    "Index": "Aragorn's Scorn",
+    "Name": "Aragorn's Scorn",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set1",
+        "Set": "Aragorn's Scorn",
         "SetPropertiesString": [],
         "Name": "Aragorn's Contempt",
         "Index": "Set1.1",
@@ -17585,7 +17585,7 @@
       },
       {
         "Type": "Axe",
-        "Set": "Set1",
+        "Set": "Aragorn's Scorn",
         "SetPropertiesString": [
           "Adds 45-135 to Damage (4 Items)",
           "+8-12 Life after each Kill (2 Items)"
@@ -17634,7 +17634,7 @@
       },
       {
         "Type": "Shield",
-        "Set": "Set1",
+        "Set": "Aragorn's Scorn",
         "SetPropertiesString": [],
         "Name": "Aragorn's Indignation",
         "Index": "Set1.3",
@@ -17685,7 +17685,7 @@
       },
       {
         "Type": "Boots",
-        "Set": "Set1",
+        "Set": "Aragorn's Scorn",
         "SetPropertiesString": [
           "+25 to Dexterity (3 Items)"
         ],
@@ -17764,12 +17764,12 @@
     "Level": 1
   },
   {
-    "Index": "Set2",
-    "Name": "Set2",
+    "Index": "Bogrot's Magic",
+    "Name": "Bogrot's Magic",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set2",
+        "Set": "Bogrot's Magic",
         "SetPropertiesString": [],
         "Name": "Winter's Embrace",
         "Index": "Set2.1",
@@ -17816,7 +17816,7 @@
       },
       {
         "Type": "Mace",
-        "Set": "Set2",
+        "Set": "Bogrot's Magic",
         "SetPropertiesString": [
           "Regenerate Mana 50% (3 Items)"
         ],
@@ -17868,7 +17868,7 @@
       },
       {
         "Type": "Shield",
-        "Set": "Set2",
+        "Set": "Bogrot's Magic",
         "SetPropertiesString": [],
         "Name": "Between Fire and Ice",
         "Index": "Set2.3",
@@ -17953,12 +17953,12 @@
     "Level": 1
   },
   {
-    "Index": "Set3",
-    "Name": "Set3",
+    "Index": "Cedric's Jinx",
+    "Name": "Cedric's Jinx",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set3",
+        "Set": "Cedric's Jinx",
         "SetPropertiesString": [
           "+(5 Per Character Level) 5-495 Defense (Based on Character Level) (3 Items)"
         ],
@@ -18007,7 +18007,7 @@
       },
       {
         "Type": "Hammer",
-        "Set": "Set3",
+        "Set": "Cedric's Jinx",
         "SetPropertiesString": [
           "6% Mana stolen per hit (2 Items)",
           "6% Life stolen per hit (3 Items)"
@@ -18056,7 +18056,7 @@
       },
       {
         "Type": "Shield",
-        "Set": "Set3",
+        "Set": "Cedric's Jinx",
         "SetPropertiesString": [],
         "Name": "Neprida's Kiss",
         "Index": "Set3.3",
@@ -18128,12 +18128,12 @@
     "Level": 1
   },
   {
-    "Index": "Set4",
-    "Name": "Set4",
+    "Index": "Dragon Reborn",
+    "Name": "Dragon Reborn",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set4",
+        "Set": "Dragon Reborn",
         "SetPropertiesString": [
           "+10 Life after each Kill (2 Items)",
           "+3 to Mana after each Kill (4 Items)"
@@ -18179,7 +18179,7 @@
       },
       {
         "Type": "Sword",
-        "Set": "Set4",
+        "Set": "Dragon Reborn",
         "SetPropertiesString": [],
         "Name": "Heron-Branded Blade",
         "Index": "Set4.2",
@@ -18237,7 +18237,7 @@
       },
       {
         "Type": "Ring",
-        "Set": "Set4",
+        "Set": "Dragon Reborn",
         "SetPropertiesString": [
           "+40 to Life (5 Items)"
         ],
@@ -18283,7 +18283,7 @@
       },
       {
         "Type": "Amulet",
-        "Set": "Set4",
+        "Set": "Dragon Reborn",
         "SetPropertiesString": [
           "35% Chance to cast level 1 decrepify when struck (5 Items)",
           "+1 to All Skills (6 Items)"
@@ -18326,7 +18326,7 @@
       },
       {
         "Type": "Shield",
-        "Set": "Set4",
+        "Set": "Dragon Reborn",
         "SetPropertiesString": [],
         "Name": "Taint of Saidin",
         "Index": "Set4.5",
@@ -18377,7 +18377,7 @@
       },
       {
         "Type": "Boots",
-        "Set": "Set4",
+        "Set": "Dragon Reborn",
         "SetPropertiesString": [
           "+30% Faster Run/Walk (3 Items)",
           "+(1 Per Character Level) 1-99 to Life (Based on Character Level) (6 Items)",
@@ -18464,12 +18464,12 @@
     "Level": 1
   },
   {
-    "Index": "Set5",
-    "Name": "Set5",
+    "Index": "Soldier's Cairn",
+    "Name": "Soldier's Cairn",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set5",
+        "Set": "Soldier's Cairn",
         "SetPropertiesString": [],
         "Name": "Heroes Stand",
         "Index": "Set5.1",
@@ -18512,7 +18512,7 @@
       },
       {
         "Type": "Sword",
-        "Set": "Set5",
+        "Set": "Soldier's Cairn",
         "SetPropertiesString": [
           "Adds 100-150 to Damage (3 Items)",
           "8% Life stolen per hit (2 Items)",
@@ -18566,7 +18566,7 @@
       },
       {
         "Type": "Gloves",
-        "Set": "Set5",
+        "Set": "Soldier's Cairn",
         "SetPropertiesString": [
           "+1 to All Skills (2 Items)"
         ],
@@ -18637,12 +18637,12 @@
     "Level": 1
   },
   {
-    "Index": "Set6",
-    "Name": "Set6",
+    "Index": "Gweibret's Rule",
+    "Name": "Gweibret's Rule",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set6",
+        "Set": "Gweibret's Rule",
         "SetPropertiesString": [],
         "Name": "Judicial Decree",
         "Index": "Set6.1",
@@ -18689,7 +18689,7 @@
       },
       {
         "Type": "Sword",
-        "Set": "Set6",
+        "Set": "Gweibret's Rule",
         "SetPropertiesString": [],
         "Name": "Regime of Regulation",
         "Index": "Set6.2",
@@ -18743,7 +18743,7 @@
       },
       {
         "Type": "Shield",
-        "Set": "Set6",
+        "Set": "Gweibret's Rule",
         "SetPropertiesString": [
           "+20% Faster Block Rate (4 Items)",
           "20% Increased Chance of Blocking (3 Items)"
@@ -18793,7 +18793,7 @@
       },
       {
         "Type": "Belt",
-        "Set": "Set6",
+        "Set": "Gweibret's Rule",
         "SetPropertiesString": [
           "+10% Faster Cast Rate (2 Items)",
           "+30 to Mana (3 Items)",
@@ -18836,7 +18836,7 @@
       },
       {
         "Type": "Amulet",
-        "Set": "Set6",
+        "Set": "Gweibret's Rule",
         "SetPropertiesString": [],
         "Name": "Dominion's Thesis",
         "Index": "Set6.5",
@@ -18922,12 +18922,12 @@
     "Level": 1
   },
   {
-    "Index": "Set7",
-    "Name": "Set7",
+    "Index": "Haunted Asylum",
+    "Name": "Haunted Asylum",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set7",
+        "Set": "Haunted Asylum",
         "SetPropertiesString": [
           "+200 Defense (4 Items)",
           "50% better chance of getting magic item (5 Items)"
@@ -18981,7 +18981,7 @@
       },
       {
         "Type": "Sword",
-        "Set": "Set7",
+        "Set": "Haunted Asylum",
         "SetPropertiesString": [
           "Adds 25-75 to Damage (4 Items)"
         ],
@@ -19033,7 +19033,7 @@
       },
       {
         "Type": "Shield",
-        "Set": "Set7",
+        "Set": "Haunted Asylum",
         "SetPropertiesString": [
           "All Resistances +25 (5 Items)"
         ],
@@ -19082,7 +19082,7 @@
       },
       {
         "Type": "Helm",
-        "Set": "Set7",
+        "Set": "Haunted Asylum",
         "SetPropertiesString": [],
         "Name": "Haunted Wisdom",
         "Index": "Set7.4",
@@ -19137,7 +19137,7 @@
       },
       {
         "Type": "Gloves",
-        "Set": "Set7",
+        "Set": "Haunted Asylum",
         "SetPropertiesString": [],
         "Name": "Revenant's Claw",
         "Index": "Set7.5",
@@ -19214,12 +19214,12 @@
     "Level": 1
   },
   {
-    "Index": "Set8",
-    "Name": "Set8",
+    "Index": "Alyssa's Archery",
+    "Name": "Alyssa's Archery",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set8",
+        "Set": "Alyssa's Archery",
         "SetPropertiesString": [],
         "Name": "Alyssa's Essence",
         "Index": "Set8.1",
@@ -19266,7 +19266,7 @@
       },
       {
         "Type": "Bow",
-        "Set": "Set8",
+        "Set": "Alyssa's Archery",
         "SetPropertiesString": [
           "+50 to Minimum Damage (3 Items)",
           "+(2 Per Character Level) 2-198 to Maximum Damage (Based on Character Level) (2 Items)"
@@ -19315,7 +19315,7 @@
       },
       {
         "Type": "Boots",
-        "Set": "Set8",
+        "Set": "Alyssa's Archery",
         "SetPropertiesString": [
           "+30% Faster Run/Walk (3 Items)"
         ],
@@ -19390,12 +19390,12 @@
     "Level": 1
   },
   {
-    "Index": "Set9",
-    "Name": "Set9",
+    "Index": "Forbidden Lore",
+    "Name": "Forbidden Lore",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set9",
+        "Set": "Forbidden Lore",
         "SetPropertiesString": [],
         "Name": "Unholy Vows",
         "Index": "Set9.1",
@@ -19442,7 +19442,7 @@
       },
       {
         "Type": "Knife",
-        "Set": "Set9",
+        "Set": "Forbidden Lore",
         "SetPropertiesString": [],
         "Name": "Vampirebone Dagger",
         "Index": "Set9.2",
@@ -19500,7 +19500,7 @@
       },
       {
         "Type": "Shield",
-        "Set": "Set9",
+        "Set": "Forbidden Lore",
         "SetPropertiesString": [
           "22% Increased Chance of Blocking (2 Items)",
           "+15 to Dexterity (3 Items)",
@@ -19543,7 +19543,7 @@
       },
       {
         "Type": "Belt",
-        "Set": "Set9",
+        "Set": "Forbidden Lore",
         "SetPropertiesString": [],
         "Name": "Death's Door",
         "Index": "Set9.4",
@@ -19620,12 +19620,12 @@
     "Level": 1
   },
   {
-    "Index": "Set10",
-    "Name": "Set10",
+    "Index": "Hanabal's Demise",
+    "Name": "Hanabal's Demise",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set10",
+        "Set": "Hanabal's Demise",
         "SetPropertiesString": [],
         "Name": "Hanabal's Shattered Plate",
         "Index": "Set10.1",
@@ -19676,7 +19676,7 @@
       },
       {
         "Type": "Throwing Knife",
-        "Set": "Set10",
+        "Set": "Hanabal's Demise",
         "SetPropertiesString": [
           "Increased Stack Size (2 Items)",
           "25-75 (3 Items)"
@@ -19737,7 +19737,7 @@
       },
       {
         "Type": "Helm",
-        "Set": "Set10",
+        "Set": "Hanabal's Demise",
         "SetPropertiesString": [
           "Lightning Resist +30% (3 Items)"
         ],
@@ -19786,7 +19786,7 @@
       },
       {
         "Type": "Boots",
-        "Set": "Set10",
+        "Set": "Hanabal's Demise",
         "SetPropertiesString": [
           "+20% Faster Run/Walk (2 Items)",
           "+100 to Attack Rating (3 Items)"
@@ -19858,12 +19858,12 @@
     "Level": 1
   },
   {
-    "Index": "Set11",
-    "Name": "Set11",
+    "Index": "Wrath of Vengeance",
+    "Name": "Wrath of Vengeance",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set11",
+        "Set": "Wrath of Vengeance",
         "SetPropertiesString": [
           "Replenish Life +8 (5 Items)"
         ],
@@ -19912,7 +19912,7 @@
       },
       {
         "Type": "Javelin",
-        "Set": "Set11",
+        "Set": "Wrath of Vengeance",
         "SetPropertiesString": [
           "37% Chance to cast level 10 chain lightning on striking (2 Items)",
           "+6 to Charged Strike (3 Items)"
@@ -19969,7 +19969,7 @@
       },
       {
         "Type": "Boots",
-        "Set": "Set11",
+        "Set": "Wrath of Vengeance",
         "SetPropertiesString": [],
         "Name": "Harvest of Cruelty",
         "Index": "Set11.3",
@@ -20020,7 +20020,7 @@
       },
       {
         "Type": "Gloves",
-        "Set": "Set11",
+        "Set": "Wrath of Vengeance",
         "SetPropertiesString": [
           "+1 to Frost Nova (2 Items)",
           "+1 to Blizzard (3 Items)",
@@ -20067,7 +20067,7 @@
       },
       {
         "Type": "Belt",
-        "Set": "Set11",
+        "Set": "Wrath of Vengeance",
         "SetPropertiesString": [
           "+1 to All Skills (3 Items)"
         ],
@@ -20146,12 +20146,12 @@
     "Level": 1
   },
   {
-    "Index": "Set12",
-    "Name": "Set12",
+    "Index": "Servitude or Rebellion",
+    "Name": "Servitude or Rebellion",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set12",
+        "Set": "Servitude or Rebellion",
         "SetPropertiesString": [],
         "Name": "Slave to Anarchy",
         "Index": "Set12.1",
@@ -20202,7 +20202,7 @@
       },
       {
         "Type": "Spear",
-        "Set": "Set12",
+        "Set": "Servitude or Rebellion",
         "SetPropertiesString": [],
         "Name": "Bound by Honor",
         "Index": "Set12.2",
@@ -20256,7 +20256,7 @@
       },
       {
         "Type": "Belt",
-        "Set": "Set12",
+        "Set": "Servitude or Rebellion",
         "SetPropertiesString": [
           "Replenish Life +3-5 (2 Items)"
         ],
@@ -20326,12 +20326,12 @@
     "Level": 1
   },
   {
-    "Index": "Set13",
-    "Name": "Set13",
+    "Index": "Kaldorn's Majesty",
+    "Name": "Kaldorn's Majesty",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set13",
+        "Set": "Kaldorn's Majesty",
         "SetPropertiesString": [],
         "Name": "Firecam Gilded Plate",
         "Index": "Set13.1",
@@ -20370,7 +20370,7 @@
       },
       {
         "Type": "Polearm",
-        "Set": "Set13",
+        "Set": "Kaldorn's Majesty",
         "SetPropertiesString": [],
         "Name": "Axe of Arvoreen",
         "Index": "Set13.2",
@@ -20420,7 +20420,7 @@
       },
       {
         "Type": "Helm",
-        "Set": "Set13",
+        "Set": "Kaldorn's Majesty",
         "SetPropertiesString": [],
         "Name": "Windspar Mask",
         "Index": "Set13.3",
@@ -20459,7 +20459,7 @@
       },
       {
         "Type": "Gloves",
-        "Set": "Set13",
+        "Set": "Kaldorn's Majesty",
         "SetPropertiesString": [],
         "Name": "Waterwyrd's Talon",
         "Index": "Set13.4",
@@ -20498,7 +20498,7 @@
       },
       {
         "Type": "Belt",
-        "Set": "Set13",
+        "Set": "Kaldorn's Majesty",
         "SetPropertiesString": [],
         "Name": "Daystar Wrap",
         "Index": "Set13.5",
@@ -20575,12 +20575,12 @@
     "Level": 1
   },
   {
-    "Index": "Set14",
-    "Name": "Set14",
+    "Index": "Warlock's Exploration",
+    "Name": "Warlock's Exploration",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set14",
+        "Set": "Warlock's Exploration",
         "SetPropertiesString": [],
         "Name": "Incarnadine Elven Plate",
         "Index": "Set14.1",
@@ -20623,7 +20623,7 @@
       },
       {
         "Type": "Staff",
-        "Set": "Set14",
+        "Set": "Warlock's Exploration",
         "SetPropertiesString": [
           "+20% Faster Cast Rate (3 Items)",
           "+2% to Experience Gained (4 Items)"
@@ -20668,7 +20668,7 @@
       },
       {
         "Type": "Helm",
-        "Set": "Set14",
+        "Set": "Warlock's Exploration",
         "SetPropertiesString": [
           "+150 Defense (5 Items)",
           "+2 to Strength (3 Items)",
@@ -20712,7 +20712,7 @@
       },
       {
         "Type": "Gloves",
-        "Set": "Set14",
+        "Set": "Warlock's Exploration",
         "SetPropertiesString": [],
         "Name": "Teleomortis' Gloves",
         "Index": "Set14.4",
@@ -20751,7 +20751,7 @@
       },
       {
         "Type": "Belt",
-        "Set": "Set14",
+        "Set": "Warlock's Exploration",
         "SetPropertiesString": [],
         "Name": "Citadel Belt",
         "Index": "Set14.5",
@@ -20828,12 +20828,12 @@
     "Level": 1
   },
   {
-    "Index": "Set15",
-    "Name": "Set15",
+    "Index": "Amaunator's Peace",
+    "Name": "Amaunator's Peace",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set15",
+        "Set": "Amaunator's Peace",
         "SetPropertiesString": [],
         "Name": "Holy Shroud of Amaunator",
         "Index": "Set15.1",
@@ -20880,7 +20880,7 @@
       },
       {
         "Type": "Axe",
-        "Set": "Set15",
+        "Set": "Amaunator's Peace",
         "SetPropertiesString": [
           "Adds 40-80 to Damage (5 Items)"
         ],
@@ -20936,7 +20936,7 @@
       },
       {
         "Type": "Shield",
-        "Set": "Set15",
+        "Set": "Amaunator's Peace",
         "SetPropertiesString": [],
         "Name": "Holy Buckler of Amaunator",
         "Index": "Set15.3",
@@ -20991,7 +20991,7 @@
       },
       {
         "Type": "Ring",
-        "Set": "Set15",
+        "Set": "Amaunator's Peace",
         "SetPropertiesString": [],
         "Name": "Holy Ring of Amaunator",
         "Index": "Set15.4",
@@ -21039,7 +21039,7 @@
       },
       {
         "Type": "Boots",
-        "Set": "Set15",
+        "Set": "Amaunator's Peace",
         "SetPropertiesString": [
           "+20 to Maximum Damage (6 Items)",
           "+8-15% to Lightning Skill Damage (5 Items)",
@@ -21084,7 +21084,7 @@
       },
       {
         "Type": "Belt",
-        "Set": "Set15",
+        "Set": "Amaunator's Peace",
         "SetPropertiesString": [
           "Regenerate Mana 33% (5 Items)",
           "33% better chance of getting magic item (4 Items)"
@@ -21168,12 +21168,12 @@
     "Level": 1
   },
   {
-    "Index": "Set16",
-    "Name": "Set16",
+    "Index": "Tika's Request",
+    "Name": "Tika's Request",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set16",
+        "Set": "Tika's Request",
         "SetPropertiesString": [],
         "Name": "Frostwyrm Hide",
         "Index": "Set16.1",
@@ -21224,7 +21224,7 @@
       },
       {
         "Type": "Axe",
-        "Set": "Set16",
+        "Set": "Tika's Request",
         "SetPropertiesString": [
           "+(2.5 Per Character Level) 2-247 to Maximum Damage (Based on Character Level) (4 Items)"
         ],
@@ -21280,7 +21280,7 @@
       },
       {
         "Type": "Helm",
-        "Set": "Set16",
+        "Set": "Tika's Request",
         "SetPropertiesString": [
           "25% better chance of getting magic item (3 Items)"
         ],
@@ -21333,7 +21333,7 @@
       },
       {
         "Type": "Belt",
-        "Set": "Set16",
+        "Set": "Tika's Request",
         "SetPropertiesString": [],
         "Name": "Girdle of Kitthix",
         "Index": "Set16.4",
@@ -21384,7 +21384,7 @@
       },
       {
         "Type": "Gloves",
-        "Set": "Set16",
+        "Set": "Tika's Request",
         "SetPropertiesString": [
           "+45 to Life (4 Items)"
         ],
@@ -21475,12 +21475,12 @@
     "Level": 1
   },
   {
-    "Index": "Set17",
-    "Name": "Set17",
+    "Index": "Corthala Family Heirlooms",
+    "Name": "Corthala Family Heirlooms",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set17",
+        "Set": "Corthala Family Heirlooms",
         "SetPropertiesString": [],
         "Name": "Sir Tylan's Sylvan Mail",
         "Index": "Set17.1",
@@ -21527,7 +21527,7 @@
       },
       {
         "Type": "Crossbow",
-        "Set": "Set17",
+        "Set": "Corthala Family Heirlooms",
         "SetPropertiesString": [
           "Adds 20-100 to Damage (5 Items)",
           "+10 to Magic Arrow (3 Items)",
@@ -21585,7 +21585,7 @@
       },
       {
         "Type": "Helm",
-        "Set": "Set17",
+        "Set": "Corthala Family Heirlooms",
         "SetPropertiesString": [],
         "Name": "Yavin's Infernal Visage",
         "Index": "Set17.3",
@@ -21632,7 +21632,7 @@
       },
       {
         "Type": "Gloves",
-        "Set": "Set17",
+        "Set": "Corthala Family Heirlooms",
         "SetPropertiesString": [
           "+20% Increased Attack Speed (3 Items)"
         ],
@@ -21681,7 +21681,7 @@
       },
       {
         "Type": "Boots",
-        "Set": "Set17",
+        "Set": "Corthala Family Heirlooms",
         "SetPropertiesString": [
           "+30% Faster Run/Walk (4 Items)"
         ],
@@ -21764,12 +21764,12 @@
     "Level": 1
   },
   {
-    "Index": "Set18",
-    "Name": "Set18",
+    "Index": "Knight's Gallantry",
+    "Name": "Knight's Gallantry",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set18",
+        "Set": "Knight's Gallantry",
         "SetPropertiesString": [],
         "Name": "Mail of Courageousness",
         "Index": "Set18.1",
@@ -21820,7 +21820,7 @@
       },
       {
         "Type": "Club",
-        "Set": "Set18",
+        "Set": "Knight's Gallantry",
         "SetPropertiesString": [],
         "Name": "Baton of Intrepidity",
         "Index": "Set18.2",
@@ -21874,7 +21874,7 @@
       },
       {
         "Type": "Shield",
-        "Set": "Set18",
+        "Set": "Knight's Gallantry",
         "SetPropertiesString": [],
         "Name": "Wall of Bravery",
         "Index": "Set18.3",
@@ -21925,7 +21925,7 @@
       },
       {
         "Type": "Helm",
-        "Set": "Set18",
+        "Set": "Knight's Gallantry",
         "SetPropertiesString": [],
         "Name": "Helm of Chivalry",
         "Index": "Set18.4",
@@ -21976,7 +21976,7 @@
       },
       {
         "Type": "Belt",
-        "Set": "Set18",
+        "Set": "Knight's Gallantry",
         "SetPropertiesString": [
           "Adds 1-100 to Lightning Damage (4 Items)",
           "+30 to Life (2 Items)",
@@ -22049,12 +22049,12 @@
     "Level": 1
   },
   {
-    "Index": "Set19",
-    "Name": "Set19",
+    "Index": "Lord Sith's Province",
+    "Name": "Lord Sith's Province",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set19",
+        "Set": "Lord Sith's Province",
         "SetPropertiesString": [],
         "Name": "Ebony Plate of Evil",
         "Index": "Set19.1",
@@ -22105,7 +22105,7 @@
       },
       {
         "Type": "Shield",
-        "Set": "Set19",
+        "Set": "Lord Sith's Province",
         "SetPropertiesString": [],
         "Name": "Deflector of Light",
         "Index": "Set19.2",
@@ -22160,7 +22160,7 @@
       },
       {
         "Type": "Helm",
-        "Set": "Set19",
+        "Set": "Lord Sith's Province",
         "SetPropertiesString": [],
         "Name": "Dark Cataclysm",
         "Index": "Set19.3",
@@ -22211,7 +22211,7 @@
       },
       {
         "Type": "Wand",
-        "Set": "Set19",
+        "Set": "Lord Sith's Province",
         "SetPropertiesString": [
           "Adds 80-180 to Damage (4 Items)"
         ],
@@ -22305,12 +22305,12 @@
     "Level": 1
   },
   {
-    "Index": "Set20",
-    "Name": "Set20",
+    "Index": "Kai Lord's Valiance",
+    "Name": "Kai Lord's Valiance",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set20",
+        "Set": "Kai Lord's Valiance",
         "SetPropertiesString": [],
         "Name": "Helshazag",
         "Index": "Set20.1",
@@ -22361,7 +22361,7 @@
       },
       {
         "Type": "Sword",
-        "Set": "Set20",
+        "Set": "Kai Lord's Valiance",
         "SetPropertiesString": [
           "Adds 300-500 magic damage (5 Items)"
         ],
@@ -22417,7 +22417,7 @@
       },
       {
         "Type": "Belt",
-        "Set": "Set20",
+        "Set": "Kai Lord's Valiance",
         "SetPropertiesString": [],
         "Name": "Helghast Waistband",
         "Index": "Set20.3",
@@ -22468,7 +22468,7 @@
       },
       {
         "Type": "Boots",
-        "Set": "Set20",
+        "Set": "Kai Lord's Valiance",
         "SetPropertiesString": [
           "+30% Faster Run/Walk (3 Items)"
         ],
@@ -22521,7 +22521,7 @@
       },
       {
         "Type": "Shield",
-        "Set": "Set20",
+        "Set": "Kai Lord's Valiance",
         "SetPropertiesString": [
           "Level 6 Holy Shock Aura When Equipped (2 Items)",
           "65% better chance of getting magic item (3 Items)"
@@ -22601,12 +22601,12 @@
     "Level": 1
   },
   {
-    "Index": "Set21",
-    "Name": "Set21",
+    "Index": "Path of Bravery",
+    "Name": "Path of Bravery",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set21",
+        "Set": "Path of Bravery",
         "SetPropertiesString": [],
         "Name": "Imperial Plate",
         "Index": "Set21.1",
@@ -22649,7 +22649,7 @@
       },
       {
         "Type": "Helm",
-        "Set": "Set21",
+        "Set": "Path of Bravery",
         "SetPropertiesString": [],
         "Name": "Imperial Helm",
         "Index": "Set21.2",
@@ -22692,7 +22692,7 @@
       },
       {
         "Type": "Belt",
-        "Set": "Set21",
+        "Set": "Path of Bravery",
         "SetPropertiesString": [],
         "Name": "Imperial Girdle",
         "Index": "Set21.3",
@@ -22735,7 +22735,7 @@
       },
       {
         "Type": "Boots",
-        "Set": "Set21",
+        "Set": "Path of Bravery",
         "SetPropertiesString": [],
         "Name": "Imperial Greaves",
         "Index": "Set21.4",
@@ -22778,7 +22778,7 @@
       },
       {
         "Type": "Gloves",
-        "Set": "Set21",
+        "Set": "Path of Bravery",
         "SetPropertiesString": [
           "+20% Increased Attack Speed (3 Items)"
         ],
@@ -22827,7 +22827,7 @@
       },
       {
         "Type": "Scepter",
-        "Set": "Set21",
+        "Set": "Path of Bravery",
         "SetPropertiesString": [
           "Adds 50-100 to Damage (4 Items)"
         ],
@@ -22917,12 +22917,12 @@
     "Level": 1
   },
   {
-    "Index": "Set22",
-    "Name": "Set22",
+    "Index": "Terror of the Deep",
+    "Name": "Terror of the Deep",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set22",
+        "Set": "Terror of the Deep",
         "SetPropertiesString": [],
         "Name": "Great White Terror",
         "Index": "Set22.1",
@@ -22973,7 +22973,7 @@
       },
       {
         "Type": "Polearm",
-        "Set": "Set22",
+        "Set": "Terror of the Deep",
         "SetPropertiesString": [
           "+45% Increased Attack Speed (4 Items)",
           "Adds 50-250 to Damage (3 Items)"
@@ -23030,7 +23030,7 @@
       },
       {
         "Type": "Belt",
-        "Set": "Set22",
+        "Set": "Terror of the Deep",
         "SetPropertiesString": [],
         "Name": "Mako's Quickness",
         "Index": "Set22.3",
@@ -23081,7 +23081,7 @@
       },
       {
         "Type": "Boots",
-        "Set": "Set22",
+        "Set": "Terror of the Deep",
         "SetPropertiesString": [],
         "Name": "Hammerhead's Persistance",
         "Index": "Set22.4",
@@ -23162,12 +23162,12 @@
     "Level": 1
   },
   {
-    "Index": "Set23",
-    "Name": "Set23",
+    "Index": "Celestial Hierarchy",
+    "Name": "Celestial Hierarchy",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set23",
+        "Set": "Celestial Hierarchy",
         "SetPropertiesString": [],
         "Name": "Angels",
         "Index": "Set23.1",
@@ -23222,7 +23222,7 @@
       },
       {
         "Type": "Sword",
-        "Set": "Set23",
+        "Set": "Celestial Hierarchy",
         "SetPropertiesString": [
           "+250 to Maximum Damage (6 Items)",
           "Adds 100-200 magic damage (2 Items)",
@@ -23286,7 +23286,7 @@
       },
       {
         "Type": "Belt",
-        "Set": "Set23",
+        "Set": "Celestial Hierarchy",
         "SetPropertiesString": [
           "Regenerate Mana 50% (3 Items)",
           "All Resistances +10 (4 Items)",
@@ -23337,7 +23337,7 @@
       },
       {
         "Type": "Boots",
-        "Set": "Set23",
+        "Set": "Celestial Hierarchy",
         "SetPropertiesString": [
           "+35 to Strength (5 Items)"
         ],
@@ -23390,7 +23390,7 @@
       },
       {
         "Type": "Helm",
-        "Set": "Set23",
+        "Set": "Celestial Hierarchy",
         "SetPropertiesString": [],
         "Name": "Cherubim",
         "Index": "Set23.5",
@@ -23441,7 +23441,7 @@
       },
       {
         "Type": "Ring",
-        "Set": "Set23",
+        "Set": "Celestial Hierarchy",
         "SetPropertiesString": [],
         "Name": "Seraphim",
         "Index": "Set23.6",
@@ -23523,12 +23523,12 @@
     "Level": 1
   },
   {
-    "Index": "Set24",
-    "Name": "Set24",
+    "Index": "Lords of Hell",
+    "Name": "Lords of Hell",
     "SetItems": [
       {
         "Type": "Armor",
-        "Set": "Set24",
+        "Set": "Lords of Hell",
         "SetPropertiesString": [],
         "Name": "Mephisto's Misty Aura",
         "Index": "Set24.1",
@@ -23575,7 +23575,7 @@
       },
       {
         "Type": "Ring",
-        "Set": "Set24",
+        "Set": "Lords of Hell",
         "SetPropertiesString": [
           "50% better chance of getting magic item (4 Items)"
         ],
@@ -23625,7 +23625,7 @@
       },
       {
         "Type": "Amulet",
-        "Set": "Set24",
+        "Set": "Lords of Hell",
         "SetPropertiesString": [],
         "Name": "Baal's Cryptic Amulet",
         "Index": "Set24.3",
@@ -23669,7 +23669,7 @@
       },
       {
         "Type": "Javelin",
-        "Set": "Set24",
+        "Set": "Lords of Hell",
         "SetPropertiesString": [
           "+25% Increased Attack Speed (2 Items)",
           "+8 to Lightning Fury (3 Items)"
@@ -23760,12 +23760,12 @@
     "Level": 1
   },
   {
-    "Index": "Set25",
-    "Name": "Set25",
+    "Index": "Curruption Coils",
+    "Name": "Curruption Coils",
     "SetItems": [
       {
         "Type": "Ring",
-        "Set": "Set25",
+        "Set": "Curruption Coils",
         "SetPropertiesString": [
           "+100% to Fire Skill Damage (3 Items)",
           "Drain Life -20 (2 Items)",
@@ -23806,7 +23806,7 @@
       },
       {
         "Type": "Ring",
-        "Set": "Set25",
+        "Set": "Curruption Coils",
         "SetPropertiesString": [
           "+100% to Lightning Skill Damage (3 Items)",
           "Drain Life -20 (2 Items)",
@@ -23847,7 +23847,7 @@
       },
       {
         "Type": "Amulet",
-        "Set": "Set25",
+        "Set": "Curruption Coils",
         "SetPropertiesString": [
           "+100% to Cold Skill Damage (3 Items)",
           "Drain Life -20 (2 Items)",
