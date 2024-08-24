@@ -2752,49 +2752,7 @@
       "CubeRecipeDescription": "Magic Grand Charm + 3 Unique Jewel + Zod Rune + El Rune = Magic Grand Charm"
     },
     {
-      "Description": "crafted barb amulet",
-      "Item": null,
-      "Output": "Unique Amulet",
-      "Input": "Unique Amulet + 4 Unique Jewel + Mal Rune ",
-      "CubeRecipeDescription": "Unique Amulet + 4 Unique Jewel + Mal Rune = Unique Amulet"
-    },
-    {
-      "Description": "crafted sorc amulet",
-      "Item": null,
-      "Output": "Unique Amulet",
-      "Input": "Unique Amulet + 4 Unique Jewel + Mal Rune ",
-      "CubeRecipeDescription": "Unique Amulet + 4 Unique Jewel + Mal Rune = Unique Amulet"
-    },
-    {
-      "Description": "crafted ama amulet",
-      "Item": null,
-      "Output": "Unique Amulet",
-      "Input": "Unique Amulet + 4 Unique Jewel + Mal Rune ",
-      "CubeRecipeDescription": "Unique Amulet + 4 Unique Jewel + Mal Rune = Unique Amulet"
-    },
-    {
-      "Description": "crafted necro amulet",
-      "Item": null,
-      "Output": "Unique Amulet",
-      "Input": "Unique Amulet + 4 Unique Jewel + Mal Rune ",
-      "CubeRecipeDescription": "Unique Amulet + 4 Unique Jewel + Mal Rune = Unique Amulet"
-    },
-    {
-      "Description": "crafted pally amulet",
-      "Item": null,
-      "Output": "Unique Amulet",
-      "Input": "Unique Amulet + 4 Unique Jewel + Mal Rune ",
-      "CubeRecipeDescription": "Unique Amulet + 4 Unique Jewel + Mal Rune = Unique Amulet"
-    },
-    {
-      "Description": "crafted druid amulet",
-      "Item": null,
-      "Output": "Unique Amulet",
-      "Input": "Unique Amulet + 4 Unique Jewel + Mal Rune ",
-      "CubeRecipeDescription": "Unique Amulet + 4 Unique Jewel + Mal Rune = Unique Amulet"
-    },
-    {
-      "Description": "crafted assassin amulet",
+      "Description": "Wild Magic Sorc Amulet of Chaos",
       "Item": null,
       "Output": "Unique Amulet",
       "Input": "Unique Amulet + 4 Unique Jewel + Mal Rune ",
