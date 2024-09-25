@@ -13,6 +13,7 @@ export default defineConfig({
         rollupOptions: {
             plugins: [],
         },
+        outDir: 'docs',
     },
     esbuild: {
         target: 'es2022',
