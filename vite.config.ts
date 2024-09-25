@@ -1,33 +1,23 @@
-import { defineConfig } from "vite";
-import aurelia from "@aurelia/vite-plugin";
-import {viteStaticCopy} from "vite-plugin-static-copy";
+import { defineConfig } from 'vite';
+import aurelia from '@aurelia/vite-plugin';
 
 export default defineConfig({
     server: {
         port: 9500,
         strictPort: true,
     },
+    publicDir: 'static',
     build: {
-        target: ['chrome91', 'edge89', 'es2022', 'firefox90', 'safari15'],
+        minify: false,
+        target: 'es2022',
         rollupOptions: {
-            plugins: [ ],
+            plugins: [],
         },
-        outDir: 'docs',
-        emptyOutDir: false,
+    },
+    esbuild: {
+        target: 'es2022',
     },
     plugins: [
-        aurelia(),
-        viteStaticCopy({
-            targets: [
-                {
-                    src: 'src/assets',
-                    dest: ''
-                },
-                {
-                    src: 'talonrage',
-                    dest: ''
-                }
-            ]
-        })
+        aurelia({ enableConventions: true, hmr: true }),
     ],
 });
