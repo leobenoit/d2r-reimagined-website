@@ -1,6 +1,7 @@
 import Aurelia from 'aurelia';
 import { RouterConfiguration } from '@aurelia/router-lite';
 
+import '@material/web/all';
 import 'bootstrap';
 
 import { App } from './app';
