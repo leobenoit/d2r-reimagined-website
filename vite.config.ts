@@ -11,6 +11,7 @@ export default defineConfig({
     build: {
         minify: false,
         target: 'es2022',
+        emptyOutDir: false,
         rollupOptions: {
             plugins: [],
         },
