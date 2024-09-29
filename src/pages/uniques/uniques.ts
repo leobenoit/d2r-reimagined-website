@@ -26,11 +26,12 @@ export class Uniques {
     }
 
     classChanged() {
+        console.log('class changed');
         this.updateList();
     }
 
     updateList() {
-        if (!this.search) {
+        if (!this.search && !this.class) {
             return;
         }
         this.uniques = json;
@@ -39,20 +40,26 @@ export class Uniques {
 
         uniqueLoop:
         for (const unique of json) {
-            if (unique.Name.toLowerCase().includes(this.search?.toLowerCase())) {
+            if (this.search && unique.Name.toLowerCase().includes(this.search?.toLowerCase())) {
                 foundUniques.push(unique);
                 continue;
             }
-            for (const property of unique.Properties) {
-                if (property?.PropertyString?.toLowerCase()?.includes(this.class?.toLowerCase())) {
+            if (this.class) {
+                if (unique.Equipment.RequiredClass?.toLowerCase().includes(this.class?.toLowerCase())) {
                     foundUniques.push(unique);
-                    continue uniqueLoop;
-                } else if (property.PropertyString?.toLowerCase().includes(this.search?.toLowerCase())) {
-                    foundUniques.push(unique);
-                    continue uniqueLoop;
+                    continue;
+                }
+            }
+            if (this.search) {
+                for (const property of unique.Properties) {
+                    if (property.PropertyString?.toLowerCase().includes(this.search?.toLowerCase())) {
+                        foundUniques.push(unique);
+                        continue uniqueLoop;
+                    }
                 }
             }
         }
+        console.log('foundUniques', foundUniques);
         this.uniques = foundUniques;
     }
 
