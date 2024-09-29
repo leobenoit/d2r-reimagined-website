@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/cube-recipes-B-l-xppc.js","assets/cube-recipes-k8ooAsY7.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/cube-recipes-DqEzZzlL.js","assets/cube-recipes-k8ooAsY7.css"])))=>i.map(i=>d[i]);
 (function polyfill() {
   const relList = document.createElement("link").relList;
   if (relList && relList.supports && relList.supports("modulepreload")) {
@@ -40210,27 +40210,27 @@ _App_decorators = [customElement(__au2ViewDef), route({
   routes: [
     {
       path: "",
-      component: __vitePreload(() => import("./home-C9P6vnSv.js"), true ? [] : void 0),
+      component: __vitePreload(() => import("./home-D2iAEggW.js"), true ? [] : void 0),
       title: "Home"
     },
     {
       path: "cube-recipes",
-      component: __vitePreload(() => import("./cube-recipes-B-l-xppc.js"), true ? __vite__mapDeps([0,1]) : void 0),
+      component: __vitePreload(() => import("./cube-recipes-DqEzZzlL.js"), true ? __vite__mapDeps([0,1]) : void 0),
       title: "Cube Recipes"
     },
     {
       path: "uniques",
-      component: __vitePreload(() => import("./uniques-C8TnB91r.js"), true ? [] : void 0),
+      component: __vitePreload(() => import("./uniques-CwnsuaYy.js"), true ? [] : void 0),
       title: "Uniques"
     },
     {
       path: "sets",
-      component: __vitePreload(() => import("./sets-Dk4YbKQE.js"), true ? [] : void 0),
+      component: __vitePreload(() => import("./sets-DT2IzdcQ.js"), true ? [] : void 0),
       title: "Sets"
     },
     {
       path: "runewords",
-      component: __vitePreload(() => import("./runewords-Dk_zrUFx.js"), true ? [] : void 0),
+      component: __vitePreload(() => import("./runewords-Bb-o3XUP.js"), true ? [] : void 0),
       title: "Runewords"
     }
   ]
