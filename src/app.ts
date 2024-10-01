@@ -1,6 +1,7 @@
 import { route } from '@aurelia/router-lite';
 
 @route({
+    title: 'D2R Reimagined',
     routes: [
         {
             path: '',
