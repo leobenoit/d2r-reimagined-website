@@ -8,6 +8,17 @@
                 <div class="au-select">
                     <moo-select
                             class="w-100"
+                            label="Select Socket Count"
+                            options.bind="amounts"
+                            class="standard-betsy-select"
+                            value.bind="selectedAmount"
+                    ></moo-select>
+                </div>
+            </div>
+            <div class="col">
+                <div class="au-select">
+                    <moo-select
+                            class="w-100"
                             label="Select Type"
                             options.bind="types"
                             class="standard-betsy-select"

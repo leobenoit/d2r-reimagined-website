@@ -34,7 +34,16 @@ export class Runewords {
         { value: 'Druid Item', label: 'Druid Item' }
     ];
 
+    amounts = [
+        { value: 2, label: '2 Sockets' },
+        { value: 3, label: '3 Sockets' },
+        { value: 4, label: '4 Sockets' },
+        { value: 5, label: '5 Sockets' },
+        { value: 6, label: '6 Sockets' }
+    ];
+
     selectedType: string;
+    selectedAmount: number;
 
     searchChanged() {
         this.filteredRunewords = [];
@@ -43,6 +52,11 @@ export class Runewords {
 
     @watch('selectedType')
     selectedTypeChanged() {
+        this.updateList();
+    }
+
+    @watch('selectedAmount')
+    selectedAmountChanged() {
         this.updateList();
     }
 
@@ -60,6 +74,11 @@ export class Runewords {
                     }
                 }
                 return false;
+            });
+        }
+        if (this.selectedAmount) {
+            filteringRunewords = filteringRunewords.filter((x) => {
+                return x.Runes.length === this.selectedAmount;
             });
         }
         if (this.search) {
