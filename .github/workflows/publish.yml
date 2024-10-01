@@ -49,3 +49,4 @@ jobs:
           commit_message: "chore: publish new version"
           commit_user_name: "GitHub Actions"
           commit_user_email: "rustaddicts@gmail.com"
+          skip_dirty_check: true
