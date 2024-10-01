@@ -35,7 +35,6 @@ jobs:
           cache: 'pnpm'
 
       - name: Run pnpm Install
-        working-directory: ./packages/web-components
         run: pnpm i
 
       - name: Run Build to Create Dist Directory
