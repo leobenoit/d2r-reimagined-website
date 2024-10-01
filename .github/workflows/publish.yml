@@ -1,8 +1,9 @@
-name: Publish ncino-javascript-components
+name: Publish Docs
 on:
   push:
     branches:
-      - release
+      - master
+      - main
       - feature/*
 
 jobs:
