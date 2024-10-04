@@ -133,14 +133,22 @@
         ],
         "PartialProperties": [
             {
-                "PropertyString": "Fire Resist +15%",
+                "PropertyString": "Fire Resist +25%",
                 "Index": 0
             }
         ],
         "FullProperties": [
             {
+                "PropertyString": "25 bonus to Attack Rating",
+                "Index": 3
+            },
+            {
                 "PropertyString": "+200% Damage to Undead Damage to Undead",
                 "Index": 1
+            },
+            {
+                "PropertyString": "+50 Defense",
+                "Index": 4
             },
             {
                 "PropertyString": "15 to Strength",
@@ -634,6 +642,10 @@
             {
                 "PropertyString": "+20 Faster Run/Walk",
                 "Index": 2
+            },
+            {
+                "PropertyString": "+24 Piercing Attack",
+                "Index": 3
             }
         ],
         "FullProperties": [
@@ -1038,6 +1050,10 @@
                 "Index": 0
             },
             {
+                "PropertyString": "+7 Mana stolen per hit",
+                "Index": 1
+            },
+            {
                 "PropertyString": "15 to Dexterity",
                 "Index": 2
             }
@@ -1048,7 +1064,7 @@
                 "Index": 2
             },
             {
-                "PropertyString": "Adds 15-20 to Cold Damage",
+                "PropertyString": "+ to Maximum Cold Damage",
                 "Index": 0
             },
             {
@@ -1243,8 +1259,16 @@
                 "Index": 0
             },
             {
+                "PropertyString": "+ to Maximum Lightning Damage",
+                "Index": 1
+            },
+            {
                 "PropertyString": "125 to Attack Rating",
                 "Index": 2
+            },
+            {
+                "PropertyString": "+1 Cannot Be Frozen",
+                "Index": 3
             }
         ],
         "FullProperties": [
@@ -1481,6 +1505,10 @@
             {
                 "PropertyString": "Adds 15-20 to Fire Damage",
                 "Index": 0
+            },
+            {
+                "PropertyString": "Regenerate Mana 16%",
+                "Index": 1
             },
             {
                 "PropertyString": "Lightning Resist +25%",
@@ -2196,6 +2224,14 @@
             {
                 "PropertyString": "20% Chance of Open Wounds",
                 "Index": 2
+            },
+            {
+                "PropertyString": "+20 Increase Maximum Mana",
+                "Index": 4
+            },
+            {
+                "PropertyString": "+1 Cannot Be Frozen",
+                "Index": 5
             }
         ],
         "Level": 1
@@ -2894,12 +2930,12 @@
         ],
         "FullProperties": [
             {
-                "PropertyString": "Adds 6-14 Cold damage",
+                "PropertyString": "+ to Maximum Cold Damage",
                 "Index": 0
             },
             {
                 "PropertyString": "+1 Cannot Be Frozen",
-                "Index": 3
+                "Index": 2
             }
         ],
         "Level": 1
@@ -3079,15 +3115,23 @@
         ],
         "PartialProperties": [
             {
-                "PropertyString": "+25 to Mana",
+                "PropertyString": "+50 to Mana",
                 "Index": 0
             },
             {
                 "PropertyString": "50 to Life",
                 "Index": 2
+            },
+            {
+                "PropertyString": "Regenerate Mana 12%",
+                "Index": 3
             }
         ],
         "FullProperties": [
+            {
+                "PropertyString": "1 to All Skills",
+                "Index": 3
+            },
             {
                 "PropertyString": "+20 Faster Cast Rate",
                 "Index": 0
@@ -5773,16 +5817,16 @@
         ],
         "PartialProperties": [
             {
-                "PropertyString": "+50 Heal Stamina Plus",
+                "PropertyString": "+10 Life stolen per hit",
                 "Index": 0
             },
             {
-                "PropertyString": "+20 Replenish Life",
+                "PropertyString": "+30 Replenish Life",
                 "Index": 2
             },
             {
-                "PropertyString": "+30 to Minimum Fire Damage",
-                "Index": 4
+                "PropertyString": "+ to Maximum Fire Damage",
+                "Index": 3
             }
         ],
         "FullProperties": [
@@ -5793,6 +5837,10 @@
             {
                 "PropertyString": "All Resistances +50",
                 "Index": 0
+            },
+            {
+                "PropertyString": "+24 Damage Reduced by 24%%",
+                "Index": 4
             },
             {
                 "PropertyString": "+1 Cannot Be Frozen",
@@ -6455,9 +6503,17 @@
             {
                 "PropertyString": "+40 Faster Run/Walk",
                 "Index": 0
+            },
+            {
+                "PropertyString": "+75 Poison Length Reduced by",
+                "Index": 1
             }
         ],
         "FullProperties": [
+            {
+                "PropertyString": "1 to All Skills",
+                "Index": 3
+            },
             {
                 "PropertyString": "+15 Life stolen per hit",
                 "Index": 1
@@ -6469,6 +6525,10 @@
             {
                 "PropertyString": "All Resistances +30",
                 "Index": 0
+            },
+            {
+                "PropertyString": "+16 Damage Reduced by 16%%",
+                "Index": 4
             }
         ],
         "Level": 1
@@ -6494,15 +6554,11 @@
                     },
                     {
                         "PropertyString": "+200% Enhanced Damage",
-                        "Index": 4
+                        "Index": 3
                     },
                     {
                         "PropertyString": "+35 Chance of Crushing Blow",
                         "Index": 0
-                    },
-                    {
-                        "PropertyString": "+1 Knockback",
-                        "Index": 3
                     },
                     {
                         "PropertyString": "All Resistances +20",
@@ -6609,11 +6665,19 @@
                 "Index": 4
             },
             {
-                "PropertyString": "+20 to Minimum Fire Damage",
+                "PropertyString": "+200 to Minimum Fire Damage",
                 "Index": 0
             },
             {
-                "PropertyString": "+25 Defense",
+                "PropertyString": "+10 Life stolen per hit",
+                "Index": 6
+            },
+            {
+                "PropertyString": "+20 Deadly Strike",
+                "Index": 7
+            },
+            {
+                "PropertyString": "+200 Defense",
                 "Index": 3
             }
         ],
@@ -6773,6 +6837,10 @@
             {
                 "PropertyString": "Poison Resist +25%",
                 "Index": 0
+            },
+            {
+                "PropertyString": "+100 Defense",
+                "Index": 1
             }
         ],
         "FullProperties": [
@@ -6781,12 +6849,24 @@
                 "Index": 4
             },
             {
+                "PropertyString": "1 to All Skills",
+                "Index": 7
+            },
+            {
                 "PropertyString": "+30 Increased Attack Speed",
                 "Index": 5
             },
             {
                 "PropertyString": "20 to Strength",
                 "Index": 1
+            },
+            {
+                "PropertyString": "100 to Life",
+                "Index": 6
+            },
+            {
+                "PropertyString": "+100 Maximum Stamina",
+                "Index": 0
             },
             {
                 "PropertyString": "+100 extra gold from monsters",
@@ -6976,12 +7056,20 @@
             {
                 "PropertyString": "+175 Defense",
                 "Index": 0
+            },
+            {
+                "PropertyString": "+ better chance of getting magic item",
+                "Index": 1
             }
         ],
         "FullProperties": [
             {
                 "PropertyString": "1 to All Skills",
                 "Index": 0
+            },
+            {
+                "PropertyString": "+2 to Fire Skills",
+                "Index": 6
             },
             {
                 "PropertyString": "20 to Strength",
@@ -6992,7 +7080,11 @@
                 "Index": 2
             },
             {
-                "PropertyString": "+10 Replenish Life",
+                "PropertyString": "+12 Increase Maximum Life",
+                "Index": 7
+            },
+            {
+                "PropertyString": "+20 Replenish Life",
                 "Index": 1
             },
             {
@@ -9587,10 +9679,6 @@
             }
         ],
         "FullProperties": [
-            {
-                "PropertyString": "Level 4 Prayer Aura When Equipped",
-                "Index": 5
-            },
             {
                 "PropertyString": "2 to All Skills",
                 "Index": 0
@@ -17853,8 +17941,8 @@
                 "Name": "Between Fire and Ice",
                 "Index": "Set2.3",
                 "Enabled": true,
-                "ItemLevel": 60,
-                "RequiredLevel": 64,
+                "ItemLevel": 48,
+                "RequiredLevel": 48,
                 "Code": "urg",
                 "Properties": [
                     {

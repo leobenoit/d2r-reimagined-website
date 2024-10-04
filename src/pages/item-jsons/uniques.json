@@ -283,75 +283,7 @@
                 "Index": 0
             },
             {
-                "PropertyString": "-40 Enhanced Minimum Damage",
-                "Index": 1
-            }
-        ],
-        "DamageArmorEnhanced": false,
-        "Equipment": {
-            "EquipmentType": 2,
-            "Name": "Splash Charm",
-            "RequiredStrength": 0,
-            "RequiredDexterity": 0,
-            "Durability": 0,
-            "ItemLevel": 0,
-            "Type": {
-                "Name": "Small Charm",
-                "Index": "Small Charm",
-                "Class": ""
-            },
-            "RequiredClass": ""
-        }
-    },
-    {
-        "Type": "Small Charm",
-        "Name": "Collin's Fury",
-        "Index": "t2 Splash Charm",
-        "Enabled": false,
-        "ItemLevel": 1,
-        "RequiredLevel": 1,
-        "Code": "cm4",
-        "Properties": [
-            {
-                "PropertyString": "Melee Splash (25 Percent)",
-                "Index": 0
-            },
-            {
-                "PropertyString": "-40 Enhanced Minimum Damage",
-                "Index": 1
-            }
-        ],
-        "DamageArmorEnhanced": false,
-        "Equipment": {
-            "EquipmentType": 2,
-            "Name": "Splash Charm",
-            "RequiredStrength": 0,
-            "RequiredDexterity": 0,
-            "Durability": 0,
-            "ItemLevel": 0,
-            "Type": {
-                "Name": "Small Charm",
-                "Index": "Small Charm",
-                "Class": ""
-            },
-            "RequiredClass": ""
-        }
-    },
-    {
-        "Type": "Small Charm",
-        "Name": "Collin's Devastation",
-        "Index": "t3 Splash Charm",
-        "Enabled": false,
-        "ItemLevel": 1,
-        "RequiredLevel": 1,
-        "Code": "cm4",
-        "Properties": [
-            {
-                "PropertyString": "Melee Splash (25 Percent)",
-                "Index": 0
-            },
-            {
-                "PropertyString": "-30 Enhanced Minimum Damage",
+                "PropertyString": "-45 to -40 Enhanced Damage",
                 "Index": 1
             }
         ],
@@ -1813,6 +1745,40 @@
         }
     },
     {
+        "Type": "Small Charm",
+        "Name": "Collin's Fury",
+        "Index": "t2 Splash Charm",
+        "Enabled": false,
+        "ItemLevel": 10,
+        "RequiredLevel": 3,
+        "Code": "cm4",
+        "Properties": [
+            {
+                "PropertyString": "Melee Splash (25 Percent)",
+                "Index": 0
+            },
+            {
+                "PropertyString": "-40 to -37 Enhanced Damage",
+                "Index": 1
+            }
+        ],
+        "DamageArmorEnhanced": false,
+        "Equipment": {
+            "EquipmentType": 2,
+            "Name": "Splash Charm",
+            "RequiredStrength": 0,
+            "RequiredDexterity": 0,
+            "Durability": 0,
+            "ItemLevel": 0,
+            "Type": {
+                "Name": "Small Charm",
+                "Index": "Small Charm",
+                "Class": ""
+            },
+            "RequiredClass": ""
+        }
+    },
+    {
         "Type": "Knife",
         "Name": "Gull",
         "Index": "Gull",
@@ -2850,7 +2816,7 @@
         "Type": "Magic Bow Quiv",
         "Name": "Barbed Arrows",
         "Index": "Replenishing Quiver",
-        "Enabled": true,
+        "Enabled": false,
         "ItemLevel": 6,
         "RequiredLevel": 6,
         "Code": "z01",
@@ -2884,7 +2850,7 @@
         "Type": "Magic Xbow Quiv",
         "Name": "Barbed Bolts",
         "Index": "Replenishing Bolt Case",
-        "Enabled": true,
+        "Enabled": false,
         "ItemLevel": 6,
         "RequiredLevel": 6,
         "Code": "z02",
@@ -3375,7 +3341,7 @@
             "DamageTypes": [
                 {
                     "Type": 1,
-                    "DamageString": "2 to 8"
+                    "DamageString": "4 to 10"
                 }
             ],
             "EquipmentType": 1,
@@ -3619,7 +3585,7 @@
             "DamageTypes": [
                 {
                     "Type": 1,
-                    "DamageString": "5 to 12"
+                    "DamageString": "6 to 13"
                 }
             ],
             "EquipmentType": 1,
@@ -5662,7 +5628,7 @@
             "DamageTypes": [
                 {
                     "Type": 1,
-                    "DamageString": "(4-5) to (18-25)"
+                    "DamageString": "(6-7) to (20-27)"
                 }
             ],
             "EquipmentType": 1,
@@ -7358,6 +7324,40 @@
         }
     },
     {
+        "Type": "Small Charm",
+        "Name": "Collin's Devastation",
+        "Index": "t3 Splash Charm",
+        "Enabled": false,
+        "ItemLevel": 20,
+        "RequiredLevel": 12,
+        "Code": "cm4",
+        "Properties": [
+            {
+                "PropertyString": "33 Percent Melee Splash Damage",
+                "Index": 0
+            },
+            {
+                "PropertyString": "-35 Enhanced Minimum Damage",
+                "Index": 1
+            }
+        ],
+        "DamageArmorEnhanced": false,
+        "Equipment": {
+            "EquipmentType": 2,
+            "Name": "Splash Charm",
+            "RequiredStrength": 0,
+            "RequiredDexterity": 0,
+            "Durability": 0,
+            "ItemLevel": 0,
+            "Type": {
+                "Name": "Small Charm",
+                "Index": "Small Charm",
+                "Class": ""
+            },
+            "RequiredClass": ""
+        }
+    },
+    {
         "Type": "Sword",
         "Name": "Gleamscythe",
         "Index": "Gleamscythe",
@@ -7504,7 +7504,7 @@
             "DamageTypes": [
                 {
                     "Type": 1,
-                    "DamageString": "(3-4) to (11-12)"
+                    "DamageString": "5 to 12"
                 }
             ],
             "EquipmentType": 1,
@@ -8863,7 +8863,7 @@
             "DamageTypes": [
                 {
                     "Type": 1,
-                    "DamageString": "(4-5) to (16-17)"
+                    "DamageString": "6 to 19"
                 }
             ],
             "EquipmentType": 1,
@@ -9905,7 +9905,7 @@
             "DamageTypes": [
                 {
                     "Type": 1,
-                    "DamageString": "(11-12) to (32-37)"
+                    "DamageString": "(13-15) to (36-42)"
                 }
             ],
             "EquipmentType": 1,
@@ -17771,6 +17771,40 @@
         }
     },
     {
+        "Type": "Small Charm",
+        "Name": "Tier 4 Splash Charm",
+        "Index": "t4 Splash Charm",
+        "Enabled": false,
+        "ItemLevel": 1,
+        "RequiredLevel": 24,
+        "Code": "cm4",
+        "Properties": [
+            {
+                "PropertyString": "33 Percent Melee Splash Damage",
+                "Index": 0
+            },
+            {
+                "PropertyString": "-30 to -33 Enhanced Damage",
+                "Index": 1
+            }
+        ],
+        "DamageArmorEnhanced": false,
+        "Equipment": {
+            "EquipmentType": 2,
+            "Name": "Splash Charm",
+            "RequiredStrength": 0,
+            "RequiredDexterity": 0,
+            "Durability": 0,
+            "ItemLevel": 0,
+            "Type": {
+                "Name": "Small Charm",
+                "Index": "Small Charm",
+                "Class": ""
+            },
+            "RequiredClass": ""
+        }
+    },
+    {
         "Type": "Axe",
         "Name": "Brainhew",
         "Index": "Brainhew",
@@ -18564,7 +18598,7 @@
             "DamageTypes": [
                 {
                     "Type": 1,
-                    "DamageString": "21 to 44"
+                    "DamageString": "22 to 45"
                 }
             ],
             "EquipmentType": 1,
@@ -19778,7 +19812,7 @@
             "DamageTypes": [
                 {
                     "Type": 1,
-                    "DamageString": "25 to 51"
+                    "DamageString": "26 to 52"
                 }
             ],
             "EquipmentType": 1,
@@ -20886,7 +20920,7 @@
             "DamageTypes": [
                 {
                     "Type": 1,
-                    "DamageString": "28 to 60"
+                    "DamageString": "29 to 62"
                 }
             ],
             "EquipmentType": 1,
@@ -23693,7 +23727,7 @@
                 "Index": 3
             },
             {
-                "PropertyString": "Adds 1-12 Lightning damage",
+                "PropertyString": "Adds 25-50 Lightning damage",
                 "Index": 2
             },
             {
@@ -26500,6 +26534,40 @@
                 "Class": ""
             },
             "RequiredClass": "Helm"
+        }
+    },
+    {
+        "Type": "Small Charm",
+        "Name": "Tier 5 Splash Charm",
+        "Index": "t5 Splash Charm",
+        "Enabled": false,
+        "ItemLevel": 1,
+        "RequiredLevel": 30,
+        "Code": "cm4",
+        "Properties": [
+            {
+                "PropertyString": "33 Percent Melee Splash Damage",
+                "Index": 0
+            },
+            {
+                "PropertyString": "-25 to -30 Enhanced Damage",
+                "Index": 1
+            }
+        ],
+        "DamageArmorEnhanced": false,
+        "Equipment": {
+            "EquipmentType": 2,
+            "Name": "Splash Charm",
+            "RequiredStrength": 0,
+            "RequiredDexterity": 0,
+            "Durability": 0,
+            "ItemLevel": 0,
+            "Type": {
+                "Name": "Small Charm",
+                "Index": "Small Charm",
+                "Class": ""
+            },
+            "RequiredClass": ""
         }
     },
     {
@@ -45410,6 +45478,40 @@
         }
     },
     {
+        "Type": "Small Charm",
+        "Name": "Tier 6 Splash Charm",
+        "Index": "t6 Splash Charm",
+        "Enabled": false,
+        "ItemLevel": 1,
+        "RequiredLevel": 45,
+        "Code": "cm4",
+        "Properties": [
+            {
+                "PropertyString": "42 Percent Melee Splash Damage",
+                "Index": 0
+            },
+            {
+                "PropertyString": "-20 to -27 Enhanced Damage",
+                "Index": 1
+            }
+        ],
+        "DamageArmorEnhanced": false,
+        "Equipment": {
+            "EquipmentType": 2,
+            "Name": "Splash Charm",
+            "RequiredStrength": 0,
+            "RequiredDexterity": 0,
+            "Durability": 0,
+            "ItemLevel": 0,
+            "Type": {
+                "Name": "Small Charm",
+                "Index": "Small Charm",
+                "Class": ""
+            },
+            "RequiredClass": ""
+        }
+    },
+    {
         "Type": "Sword",
         "Name": "Todesfaelle Flamme",
         "Index": "Todesfaelle Flamme",
@@ -52071,11 +52173,11 @@
                 "Index": 3
             },
             {
-                "PropertyString": "+3-5 to Summon Fenris (Druid Only)",
+                "PropertyString": "+3 to Summon Fenris (Druid Only)",
                 "Index": 4
             },
             {
-                "PropertyString": "+3-5 to Summon Spirit Wolf (Druid Only)",
+                "PropertyString": "+3 to Summon Spirit Wolf (Druid Only)",
                 "Index": 5
             },
             {
@@ -58412,8 +58514,8 @@
     },
     {
         "Type": "Jewel",
-        "Name": "Saphire Facet",
-        "Index": "Saphire Facet",
+        "Name": "Sapphire Facet",
+        "Index": "Sapphire Facet",
         "Enabled": true,
         "ItemLevel": 58,
         "RequiredLevel": 58,
@@ -58446,8 +58548,8 @@
     },
     {
         "Type": "Jewel",
-        "Name": "Sapphire Facet",
-        "Index": "Saphire Facet1",
+        "Name": "Sapphire Facet\n",
+        "Index": "Sapphire Facet1",
         "Enabled": true,
         "ItemLevel": 58,
         "RequiredLevel": 58,
@@ -59120,8 +59222,16 @@
                 "Index": 1
             },
             {
+                "PropertyString": "All Resistances +10-15",
+                "Index": 7
+            },
+            {
                 "PropertyString": "+5 Attacker Takes Damage of",
                 "Index": 3
+            },
+            {
+                "PropertyString": "+15-30 better chance of getting magic item",
+                "Index": 6
             },
             {
                 "PropertyString": "3 to Light Radius",
@@ -59149,7 +59259,7 @@
         "Name": "Carrion Wind",
         "Index": "Carrion Wind",
         "Enabled": true,
-        "ItemLevel": 68,
+        "ItemLevel": 67,
         "RequiredLevel": 60,
         "Code": "rin",
         "Properties": [
@@ -59168,6 +59278,10 @@
             {
                 "PropertyString": "+100-160 Defense vs. Missile",
                 "Index": 0
+            },
+            {
+                "PropertyString": "10-15 to Dexterity",
+                "Index": 7
             },
             {
                 "PropertyString": "Poison Resist +55%",
@@ -60442,6 +60556,40 @@
         "Equipment": {
             "EquipmentType": 2,
             "Name": "Small Charm",
+            "RequiredStrength": 0,
+            "RequiredDexterity": 0,
+            "Durability": 0,
+            "ItemLevel": 0,
+            "Type": {
+                "Name": "Small Charm",
+                "Index": "Small Charm",
+                "Class": ""
+            },
+            "RequiredClass": ""
+        }
+    },
+    {
+        "Type": "Small Charm",
+        "Name": "t7 Splash Charm",
+        "Index": "t7 Splash Charm",
+        "Enabled": false,
+        "ItemLevel": 1,
+        "RequiredLevel": 60,
+        "Code": "cm4",
+        "Properties": [
+            {
+                "PropertyString": "42 Percent Melee Splash Damage",
+                "Index": 0
+            },
+            {
+                "PropertyString": "-15 to -25 Enhanced Damage",
+                "Index": 1
+            }
+        ],
+        "DamageArmorEnhanced": false,
+        "Equipment": {
+            "EquipmentType": 2,
+            "Name": "Splash Charm",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
             "Durability": 0,
@@ -62126,7 +62274,11 @@
         "Code": "7o7",
         "Properties": [
             {
-                "PropertyString": "50% Chance to cast level 16 bone spear on striking",
+                "PropertyString": "Additional Bone Spear Projectiles 1",
+                "Index": 6
+            },
+            {
+                "PropertyString": "50% Chance to cast level 25 bone spear on striking",
                 "Index": 3
             },
             {
@@ -62146,7 +62298,7 @@
                 "Index": 2
             },
             {
-                "PropertyString": "Socketed (2)",
+                "PropertyString": "Socketed (2-4)",
                 "Index": 5
             }
         ],
@@ -71623,6 +71775,40 @@
         }
     },
     {
+        "Type": "Small Charm",
+        "Name": "t8 Splash Charm",
+        "Index": "t8 Splash Charm",
+        "Enabled": false,
+        "ItemLevel": 1,
+        "RequiredLevel": 75,
+        "Code": "cm4",
+        "Properties": [
+            {
+                "PropertyString": "42 Percent Melee Splash Damage",
+                "Index": 0
+            },
+            {
+                "PropertyString": "-10 to -23 Enhanced Damage",
+                "Index": 1
+            }
+        ],
+        "DamageArmorEnhanced": false,
+        "Equipment": {
+            "EquipmentType": 2,
+            "Name": "Splash Charm",
+            "RequiredStrength": 0,
+            "RequiredDexterity": 0,
+            "Durability": 0,
+            "ItemLevel": 0,
+            "Type": {
+                "Name": "Small Charm",
+                "Index": "Small Charm",
+                "Class": ""
+            },
+            "RequiredClass": ""
+        }
+    },
+    {
         "Type": "Ring",
         "Name": "Wisp Projector",
         "Index": "Wisp",
@@ -76484,6 +76670,14 @@
                 "Index": 1
             },
             {
+                "PropertyString": "Level 1 Might Aura When Equipped",
+                "Index": 10
+            },
+            {
+                "PropertyString": "1 to All Skills",
+                "Index": 9
+            },
+            {
                 "PropertyString": "+20 Faster Run/Walk",
                 "Index": 6
             },
@@ -78562,6 +78756,40 @@
                 "Class": "pal"
             },
             "RequiredClass": "Paladin"
+        }
+    },
+    {
+        "Type": "Small Charm",
+        "Name": "t9 Splash Charm",
+        "Index": "t9 Splash Charm",
+        "Enabled": false,
+        "ItemLevel": 1,
+        "RequiredLevel": 90,
+        "Code": "cm5",
+        "Properties": [
+            {
+                "PropertyString": "50 Percent Melee Splash Damage",
+                "Index": 0
+            },
+            {
+                "PropertyString": "-5 to -20 Enhanced Damage",
+                "Index": 1
+            }
+        ],
+        "DamageArmorEnhanced": false,
+        "Equipment": {
+            "EquipmentType": 2,
+            "Name": "Splash Charm",
+            "RequiredStrength": 0,
+            "RequiredDexterity": 0,
+            "Durability": 0,
+            "ItemLevel": 0,
+            "Type": {
+                "Name": "Small Charm",
+                "Index": "Small Charm",
+                "Class": ""
+            },
+            "RequiredClass": ""
         }
     },
     {

@@ -26,7 +26,6 @@ export class Uniques {
     }
 
     classChanged() {
-        console.log('class changed');
         this.updateList();
     }
 
@@ -59,7 +58,6 @@ export class Uniques {
                 }
             }
         }
-        console.log('foundUniques', foundUniques);
         this.uniques = foundUniques;
     }
 
