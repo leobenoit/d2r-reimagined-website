@@ -132,7 +132,7 @@
                 "Index": 0
             },
             {
-                "PropertyString": "+ to Maximum Damage",
+                "PropertyString": "+12 to Maximum Damage Per Level (Based on Character Level)",
                 "Index": 1
             },
             {
@@ -1103,7 +1103,7 @@
                 "Index": 5
             },
             {
-                "PropertyString": "+16 Defense",
+                "PropertyString": "+16 Defense Per Level (Based on Character Level)",
                 "Index": 1
             },
             {
@@ -3229,7 +3229,7 @@
                 "Index": 1
             },
             {
-                "PropertyString": "+ to Maximum Damage",
+                "PropertyString": "+12 to Maximum Damage Per Level (Based on Character Level)",
                 "Index": 5
             },
             {
@@ -3760,11 +3760,11 @@
                 "Index": 0
             },
             {
-                "PropertyString": "to Strength",
+                "PropertyString": "to Strength Per Level (Based on Character Level)",
                 "Index": 5
             },
             {
-                "PropertyString": "to Dexterity",
+                "PropertyString": "to Dexterity Per Level (Based on Character Level)",
                 "Index": 6
             },
             {
@@ -3833,7 +3833,7 @@
         "Code": "Runeword52",
         "Properties": [
             {
-                "PropertyString": "+1",
+                "PropertyString": "+1 All Paladin Skills",
                 "Index": 0
             },
             {
@@ -5083,7 +5083,7 @@
                 "Index": 3
             },
             {
-                "PropertyString": "+ to Maximum Damage",
+                "PropertyString": "+8 to Maximum Damage Per Level (Based on Character Level)",
                 "Index": 4
             },
             {
@@ -5848,27 +5848,27 @@
         "Code": "Runeword115",
         "Properties": [
             {
-                "PropertyString": "to Strength",
+                "PropertyString": "to Strength Per Level (Based on Character Level)",
                 "Index": 2
             },
             {
-                "PropertyString": "to Dexterity",
+                "PropertyString": "to Dexterity Per Level (Based on Character Level)",
                 "Index": 3
             },
             {
-                "PropertyString": "to Vitality",
+                "PropertyString": "to Vitality Per Level (Based on Character Level)",
                 "Index": 4
             },
             {
-                "PropertyString": "to Energy",
+                "PropertyString": "to Energy Per Level (Based on Character Level)",
                 "Index": 5
             },
             {
-                "PropertyString": "+ extra gold from monsters",
+                "PropertyString": "+16 extra gold from monsters Per Level (Based on Character Level)",
                 "Index": 1
             },
             {
-                "PropertyString": "+ better chance of getting magic item",
+                "PropertyString": "+12 better chance of getting magic item Per Level (Based on Character Level)",
                 "Index": 0
             },
             {
@@ -6143,7 +6143,7 @@
                 "Index": 5
             },
             {
-                "PropertyString": "+25 better chance of getting magic item",
+                "PropertyString": "+1625 better chance of getting magic item Per Level (Based on Character Level)",
                 "Index": 0
             },
             {
@@ -6885,7 +6885,7 @@
                 "Index": 1
             },
             {
-                "PropertyString": "+ to Mana",
+                "PropertyString": "+8 to Mana Per Level (Based on Character Level)",
                 "Index": 2
             },
             {
@@ -6962,7 +6962,7 @@
                 "Index": 2
             },
             {
-                "PropertyString": "+ Defense",
+                "PropertyString": "+8 Defense Per Level (Based on Character Level)",
                 "Index": 6
             },
             {
@@ -7954,7 +7954,7 @@
                 "Index": 3
             },
             {
-                "PropertyString": "+2",
+                "PropertyString": "+2 All Druid Skills",
                 "Index": 0
             },
             {
@@ -8128,7 +8128,7 @@
                 "Index": 5
             },
             {
-                "PropertyString": "+2",
+                "PropertyString": "+2 All Paladin Skills",
                 "Index": 0
             },
             {
@@ -8231,7 +8231,7 @@
                 "Index": 1
             },
             {
-                "PropertyString": "to Life",
+                "PropertyString": "to Life Per Level (Based on Character Level)",
                 "Index": 4
             },
             {
@@ -8523,7 +8523,7 @@
                 "Index": 3
             },
             {
-                "PropertyString": "+ to Mana",
+                "PropertyString": "+8 to Mana Per Level (Based on Character Level)",
                 "Index": 5
             },
             {
@@ -9134,11 +9134,11 @@
                 "Index": 6
             },
             {
-                "PropertyString": "+ Defense",
+                "PropertyString": "+12 Defense Per Level (Based on Character Level)",
                 "Index": 3
             },
             {
-                "PropertyString": "+ better chance of getting magic item",
+                "PropertyString": "+8 better chance of getting magic item Per Level (Based on Character Level)",
                 "Index": 5
             },
             {
@@ -10131,7 +10131,7 @@
                 "Index": 4
             },
             {
-                "PropertyString": "+ Deadly Strike",
+                "PropertyString": "+4 Deadly Strike Per Level (Based on Character Level)",
                 "Index": 5
             },
             {
@@ -10514,7 +10514,7 @@
                 "Index": 0
             },
             {
-                "PropertyString": "+ to Maximum Damage",
+                "PropertyString": "+16 to Maximum Damage Per Level (Based on Character Level)",
                 "Index": 1
             },
             {
@@ -10847,7 +10847,7 @@
                 "Index": 3
             },
             {
-                "PropertyString": "to Life",
+                "PropertyString": "to Life Per Level (Based on Character Level)",
                 "Index": 6
             },
             {
@@ -11447,7 +11447,7 @@
                 "Index": 3
             },
             {
-                "PropertyString": "+ to Maximum Damage",
+                "PropertyString": "+20 to Maximum Damage Per Level (Based on Character Level)",
                 "Index": 1
             },
             {
@@ -11570,7 +11570,7 @@
                 "Index": 2
             },
             {
-                "PropertyString": "8-12 to Life",
+                "PropertyString": "8-12 to Life Per Level (Based on Character Level)",
                 "Index": 3
             },
             {
@@ -11706,7 +11706,7 @@
                 "Index": 3
             },
             {
-                "PropertyString": "+% Damage to Demons Damage to Demons",
+                "PropertyString": "+15% Damage to Demons Damage to Demons Per Level (Based on Character Level)",
                 "Index": 4
             },
             {
@@ -12014,7 +12014,7 @@
                 "Index": 5
             },
             {
-                "PropertyString": "to Strength",
+                "PropertyString": "to Strength Per Level (Based on Character Level)",
                 "Index": 4
             },
             {
@@ -12529,7 +12529,7 @@
                 "Index": 1
             },
             {
-                "PropertyString": "+2",
+                "PropertyString": "+2 All Necromancer Skills",
                 "Index": 0
             },
             {
@@ -12867,7 +12867,7 @@
                 "Index": 5
             },
             {
-                "PropertyString": "to Vitality",
+                "PropertyString": "to Vitality Per Level (Based on Character Level)",
                 "Index": 2
             },
             {
@@ -12957,7 +12957,7 @@
                 "Index": 1
             },
             {
-                "PropertyString": "+2",
+                "PropertyString": "+2 All Paladin Skills",
                 "Index": 0
             },
             {
@@ -13258,7 +13258,7 @@
                 "Index": 3
             },
             {
-                "PropertyString": "+3",
+                "PropertyString": "+3 All Sorceress Skills",
                 "Index": 0
             },
             {
@@ -13486,7 +13486,7 @@
                 "Index": 3
             },
             {
-                "PropertyString": "+ to Mana",
+                "PropertyString": "+5 to Mana Per Level (Based on Character Level)",
                 "Index": 4
             },
             {
@@ -13581,7 +13581,7 @@
                 "Index": 0
             },
             {
-                "PropertyString": "to Strength",
+                "PropertyString": "to Strength Per Level (Based on Character Level)",
                 "Index": 3
             },
             {
@@ -13589,7 +13589,7 @@
                 "Index": 1
             },
             {
-                "PropertyString": "+ better chance of getting magic item",
+                "PropertyString": "+8 better chance of getting magic item Per Level (Based on Character Level)",
                 "Index": 5
             },
             {
@@ -13992,7 +13992,7 @@
                 "Index": 5
             },
             {
-                "PropertyString": "+ extra gold from monsters",
+                "PropertyString": "+25 extra gold from monsters Per Level (Based on Character Level)",
                 "Index": 6
             },
             {
@@ -14201,7 +14201,7 @@
                 "Index": 2
             },
             {
-                "PropertyString": "+ Defense",
+                "PropertyString": "+24 Defense Per Level (Based on Character Level)",
                 "Index": 6
             },
             {
@@ -14463,7 +14463,7 @@
                 "Index": 1
             },
             {
-                "PropertyString": "+ to Mana",
+                "PropertyString": "+16 to Mana Per Level (Based on Character Level)",
                 "Index": 2
             },
             {
@@ -14711,7 +14711,7 @@
                 "Index": 0
             },
             {
-                "PropertyString": "+ to Maximum Damage",
+                "PropertyString": "+24 to Maximum Damage Per Level (Based on Character Level)",
                 "Index": 2
             },
             {
@@ -14951,7 +14951,7 @@
                 "Index": 0
             },
             {
-                "PropertyString": "+ to Maximum Damage",
+                "PropertyString": "+18 to Maximum Damage Per Level (Based on Character Level)",
                 "Index": 1
             },
             {
@@ -15203,7 +15203,7 @@
                 "Index": 4
             },
             {
-                "PropertyString": "+4 better chance of getting magic item",
+                "PropertyString": "+4 better chance of getting magic item Per Level (Based on Character Level)",
                 "Index": 6
             },
             {
@@ -15655,7 +15655,7 @@
                 "Index": 1
             },
             {
-                "PropertyString": "+ to Maximum Damage",
+                "PropertyString": "+25 to Maximum Damage Per Level (Based on Character Level)",
                 "Index": 2
             },
             {
@@ -15663,7 +15663,7 @@
                 "Index": 6
             },
             {
-                "PropertyString": "+ better chance of getting magic item",
+                "PropertyString": "+8 better chance of getting magic item Per Level (Based on Character Level)",
                 "Index": 5
             },
             {
@@ -15768,7 +15768,7 @@
                 "Index": 3
             },
             {
-                "PropertyString": "+ Deadly Strike",
+                "PropertyString": "+3 Deadly Strike Per Level (Based on Character Level)",
                 "Index": 4
             },
             {
@@ -15862,7 +15862,7 @@
                 "Index": 2
             },
             {
-                "PropertyString": "+% Damage to Demons Damage to Demons",
+                "PropertyString": "+8% Damage to Demons Damage to Demons Per Level (Based on Character Level)",
                 "Index": 0
             },
             {
@@ -15874,7 +15874,7 @@
                 "Index": 5
             },
             {
-                "PropertyString": "+ extra gold from monsters",
+                "PropertyString": "+15 extra gold from monsters Per Level (Based on Character Level)",
                 "Index": 6
             },
             {
@@ -16070,7 +16070,7 @@
                 "Index": 1
             },
             {
-                "PropertyString": "+ to Maximum Damage",
+                "PropertyString": "+20 to Maximum Damage Per Level (Based on Character Level)",
                 "Index": 2
             },
             {
@@ -16349,7 +16349,7 @@
                 "Index": 3
             },
             {
-                "PropertyString": "+ better chance of getting magic item",
+                "PropertyString": "+12 better chance of getting magic item Per Level (Based on Character Level)",
                 "Index": 2
             },
             {
@@ -16565,7 +16565,7 @@
                 "Index": 2
             },
             {
-                "PropertyString": "+3",
+                "PropertyString": "+3 All Assassin Skills",
                 "Index": 0
             },
             {
@@ -16581,7 +16581,7 @@
                 "Index": 5
             },
             {
-                "PropertyString": "+ better chance of getting magic item",
+                "PropertyString": "+8 better chance of getting magic item Per Level (Based on Character Level)",
                 "Index": 6
             },
             {
@@ -17136,7 +17136,7 @@
                 "Index": 0
             },
             {
-                "PropertyString": "+ Defense",
+                "PropertyString": "+32 Defense Per Level (Based on Character Level)",
                 "Index": 6
             },
             {
