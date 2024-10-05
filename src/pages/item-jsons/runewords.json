@@ -1978,7 +1978,7 @@
         "Code": "Runeword56",
         "Properties": [
             {
-                "PropertyString": "+1",
+                "PropertyString": "+1 All Sorceress Skills",
                 "Index": 0
             },
             {
@@ -2479,7 +2479,7 @@
         "Code": "Runeword89",
         "Properties": [
             {
-                "PropertyString": "+1",
+                "PropertyString": "+1 All Druid Skills",
                 "Index": 0
             },
             {
@@ -3298,7 +3298,7 @@
         "Code": "Runeword150",
         "Properties": [
             {
-                "PropertyString": "+1",
+                "PropertyString": "+1 All Sorceress Skills",
                 "Index": 1
             },
             {
@@ -3367,7 +3367,7 @@
         "Code": "Runeword157",
         "Properties": [
             {
-                "PropertyString": "+1",
+                "PropertyString": "+1 All Barbarian Skills",
                 "Index": 0
             },
             {
@@ -4001,7 +4001,7 @@
                 "Index": 1
             },
             {
-                "PropertyString": "+1",
+                "PropertyString": "+1 All Assassin Skills",
                 "Index": 5
             },
             {
@@ -5176,7 +5176,7 @@
         "Code": "Runeword83",
         "Properties": [
             {
-                "PropertyString": "+3",
+                "PropertyString": "+3 All Sorceress Skills",
                 "Index": 4
             },
             {
@@ -6427,7 +6427,7 @@
         "Code": "Runeword110",
         "Properties": [
             {
-                "PropertyString": "+2",
+                "PropertyString": "+2 All Amazon Skills",
                 "Index": 3
             },
             {
@@ -7031,7 +7031,7 @@
                 "Index": 5
             },
             {
-                "PropertyString": "+2",
+                "PropertyString": "+2 All Assassin Skills",
                 "Index": 4
             },
             {
@@ -7122,7 +7122,7 @@
                 "Index": 1
             },
             {
-                "PropertyString": "+2",
+                "PropertyString": "+2 All Assassin Skills",
                 "Index": 2
             },
             {
@@ -7374,7 +7374,7 @@
         "Code": "Runeword76",
         "Properties": [
             {
-                "PropertyString": "+2",
+                "PropertyString": "+2 All Amazon Skills",
                 "Index": 0
             },
             {
@@ -8215,7 +8215,7 @@
                 "Index": 3
             },
             {
-                "PropertyString": "+2",
+                "PropertyString": "+2 All Barbarian Skills",
                 "Index": 0
             },
             {
@@ -8691,7 +8691,7 @@
                 "Index": 4
             },
             {
-                "PropertyString": "+2",
+                "PropertyString": "+2 All Necromancer Skills",
                 "Index": 0
             },
             {
@@ -8966,7 +8966,7 @@
                 "Index": 1
             },
             {
-                "PropertyString": "+2",
+                "PropertyString": "+2 All Druid Skills",
                 "Index": 2
             },
             {
@@ -9118,7 +9118,7 @@
                 "Index": 0
             },
             {
-                "PropertyString": "+2",
+                "PropertyString": "+2 All Necromancer Skills",
                 "Index": 1
             },
             {
@@ -9468,7 +9468,7 @@
         "Code": "Runeword144",
         "Properties": [
             {
-                "PropertyString": "+2",
+                "PropertyString": "+2 All Sorceress Skills",
                 "Index": 0
             },
             {
@@ -9995,7 +9995,7 @@
                 "Index": 4
             },
             {
-                "PropertyString": "+1",
+                "PropertyString": "+1 All Amazon Skills",
                 "Index": 0
             },
             {
@@ -12230,7 +12230,7 @@
         "Code": "Runeword147",
         "Properties": [
             {
-                "PropertyString": "+3",
+                "PropertyString": "+3 All Amazon Skills",
                 "Index": 0
             },
             {
@@ -14185,7 +14185,7 @@
                 "Index": 3
             },
             {
-                "PropertyString": "+3",
+                "PropertyString": "+3 All Barbarian Skills",
                 "Index": 1
             },
             {
@@ -15651,11 +15651,11 @@
                 "Index": 3
             },
             {
-                "PropertyString": "+100-200 to Minimum Damage",
+                "PropertyString": "+250% Enhanced Damage",
                 "Index": 1
             },
             {
-                "PropertyString": "+300-400 to Maximum Damage",
+                "PropertyString": "+ to Maximum Damage",
                 "Index": 2
             },
             {
@@ -16787,7 +16787,7 @@
                 "Index": 5
             },
             {
-                "PropertyString": "+3",
+                "PropertyString": "+3 All Druid Skills",
                 "Index": 3
             },
             {
@@ -16890,7 +16890,7 @@
                 "Index": 4
             },
             {
-                "PropertyString": "+3",
+                "PropertyString": "+3 All Druid Skills",
                 "Index": 0
             },
             {
@@ -17229,7 +17229,7 @@
                 "Index": 2
             },
             {
-                "PropertyString": "+3",
+                "PropertyString": "+3 All Sorceress Skills",
                 "Index": 0
             },
             {
