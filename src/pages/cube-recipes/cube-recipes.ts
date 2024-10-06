@@ -17,6 +17,15 @@ export class CubeRecipes {
         }
         const found = [];
         for (const recipe of json) {
+            if (!recipe.CubeRecipeDescription) {
+                recipe.CubeRecipeDescription = '';
+            }
+            if (!recipe.Output) {
+                recipe.Output = '';
+            }
+            if (!recipe.Description) {
+                recipe.Description = '';
+            }
             if (
                 recipe.CubeRecipeDescription.toLowerCase().includes(this.search.toLowerCase())
                 ||
