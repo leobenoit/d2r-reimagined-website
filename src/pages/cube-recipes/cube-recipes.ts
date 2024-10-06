@@ -1,15 +1,27 @@
-import { bindable } from 'aurelia';
+import { bindable, watch } from 'aurelia';
 
 import json from '../item-jsons/cube_recipes.json';
 
 import './cube-recipes.scss';
+import { debounce, DebouncedFunction } from '../../utilities/debounce';
 
 export class CubeRecipes {
     recipes = [...json];
-    @bindable search;
+    @bindable search: string;
 
+    private _debouncedSearchItem!: DebouncedFunction;
 
-    searchChanged() {
+    attached() {
+        // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
+        this._debouncedSearchItem = debounce(this.handleSearch.bind(this), 350);
+    }
+
+    @watch('search')
+    handleSearchChanged() {
+        this._debouncedSearchItem();
+    }
+
+    handleSearch() {
         // console.log(this.search);
         if (!this.search) {
             this.recipes = json;

@@ -1,10 +1,31 @@
-import { bindable } from 'aurelia';
+import { bindable, watch } from 'aurelia';
 
 import json from '../item-jsons/sets.json';
+import { debounce, DebouncedFunction } from '../../utilities/debounce';
 
 export class Sets {
     sets = json;
     @bindable search: string;
+
+    private _debouncedSearchItem!: DebouncedFunction;
+
+    attached() {
+        // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
+        this._debouncedSearchItem = debounce(this.updateList.bind(this), 350);
+        this.updateList();
+    }
+
+    @watch('search')
+    handleSearchChanged() {
+        if (!this.search) {
+            this.sets = json;
+            return;
+        }
+        if (this._debouncedSearchItem) {
+            this._debouncedSearchItem();
+        }
+    }
+
     @bindable class: string;
 
     classes = [
@@ -16,15 +37,6 @@ export class Sets {
         { value: 'Paladin', label: 'Paladin' },
         { value: 'Sorceress', label: 'Sorceress' }
     ];
-
-
-    searchChanged() {
-        if (!this.search) {
-            this.sets = json;
-            return;
-        }
-        this.updateList();
-    }
 
     classChanged() {
         this.sets = json;

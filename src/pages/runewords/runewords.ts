@@ -1,10 +1,15 @@
 import { bindable, watch } from 'aurelia';
 
 import json from '../item-jsons/runewords.json';
+import { debounce, DebouncedFunction } from '../../utilities/debounce';
 
 export class Runewords {
     runewords = json;
-    @bindable search;
+
+    @bindable search: string;
+
+    private _debouncedSearchItem!: DebouncedFunction;
+
     filteredRunewords = [];
 
     types = [
@@ -45,19 +50,31 @@ export class Runewords {
     selectedType: string;
     selectedAmount: number;
 
-    searchChanged() {
-        this.filteredRunewords = [];
+    attached() {
+        // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
+        this._debouncedSearchItem = debounce(this.updateList.bind(this), 350);
         this.updateList();
+    }
+
+    @watch('search')
+    handleSearchChanged() {
+        if (this._debouncedSearchItem) {
+            this._debouncedSearchItem();
+        }
     }
 
     @watch('selectedType')
     selectedTypeChanged() {
-        this.updateList();
+        if (this._debouncedSearchItem) {
+            this._debouncedSearchItem();
+        }
     }
 
     @watch('selectedAmount')
     selectedAmountChanged() {
-        this.updateList();
+        if (this._debouncedSearchItem) {
+            this._debouncedSearchItem();
+        }
     }
 
     updateList() {

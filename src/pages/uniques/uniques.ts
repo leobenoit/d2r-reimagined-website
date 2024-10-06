@@ -1,11 +1,27 @@
-import { bindable } from 'aurelia';
+import { bindable, watch } from 'aurelia';
 
+import { debounce, DebouncedFunction } from '../../utilities/debounce';
 import json from '../item-jsons/uniques.json';
 
 export class Uniques {
     uniques = json;
     @bindable search: string;
     @bindable class: string;
+
+    private _debouncedSearchItem!: DebouncedFunction;
+
+    attached() {
+        // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
+        this._debouncedSearchItem = debounce(this.updateList.bind(this), 350);
+        this.updateList();
+    }
+
+    @watch('search')
+    handleSearchChanged() {
+        if (this._debouncedSearchItem) {
+            this._debouncedSearchItem();
+        }
+    }
 
     classes = [
         { value: 'Amazon', label: 'Amazon' },
@@ -16,14 +32,6 @@ export class Uniques {
         { value: 'Paladin', label: 'Paladin' },
         { value: 'Sorceress', label: 'Sorceress' }
     ];
-
-    searchChanged() {
-        if (!this.search) {
-            this.uniques = json;
-            return;
-        }
-        this.updateList();
-    }
 
     classChanged() {
         this.updateList();
