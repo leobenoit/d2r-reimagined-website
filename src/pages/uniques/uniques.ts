@@ -64,6 +64,10 @@ export class Uniques {
                         continue uniqueLoop;
                     }
                 }
+                if (unique.Equipment.Name?.toLowerCase().includes(this.search?.toLowerCase())) {
+                    foundUniques.push(unique);
+                    continue uniqueLoop;
+                }
             }
         }
         this.uniques = foundUniques;
