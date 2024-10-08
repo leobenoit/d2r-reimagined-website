@@ -29,6 +29,7 @@ export class Runewords {
         { value: 'Sword', label: 'Sword' },
         { value: 'Axe', label: 'Axe' },
         { value: 'Amazon Bow', label: 'Amazon Bow' },
+        { value: 'Amazon Spear', label: 'Amazon Spear' },
         { value: 'Spear', label: 'Spear' },
         { value: 'Staff', label: 'Staff' },
         { value: 'Mace', label: 'Mace' },
@@ -38,7 +39,8 @@ export class Runewords {
         { value: 'Club', label: 'Club' },
         { value: 'Any Armor', label: 'Any Armor' },
         { value: 'Scepter', label: 'Scepter' },
-        { value: 'Druid Item', label: 'Druid Item' }
+        { value: 'Druid Item', label: 'Druid Item' },
+        { value: 'Necromancer Item', label: 'Necro Shield' },
     ];
 
     amounts = [
