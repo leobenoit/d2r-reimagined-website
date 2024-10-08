@@ -13,6 +13,7 @@ export class Runewords {
     filteredRunewords = [];
 
     types = [
+        { value: undefined, label: 'Any' },
         { value: 'Armor', label: 'Armor' },
         { value: 'Helm', label: 'Helm' },
         { value: 'Polearm', label: 'Polearm' },
@@ -40,6 +41,7 @@ export class Runewords {
     ];
 
     amounts = [
+        { value: undefined, label: 'Any' },
         { value: 2, label: '2 Sockets' },
         { value: 3, label: '3 Sockets' },
         { value: 4, label: '4 Sockets' },
