@@ -7,6 +7,7 @@ export class Runewords {
     runewords = json;
 
     @bindable search: string;
+    @bindable searchRunes: string;
 
     private _debouncedSearchItem!: DebouncedFunction;
 
@@ -28,6 +29,7 @@ export class Runewords {
         { value: 'Sword', label: 'Sword' },
         { value: 'Axe', label: 'Axe' },
         { value: 'Amazon Bow', label: 'Amazon Bow' },
+        { value: 'Amazon Spear', label: 'Amazon Spear' },
         { value: 'Spear', label: 'Spear' },
         { value: 'Staff', label: 'Staff' },
         { value: 'Mace', label: 'Mace' },
@@ -37,7 +39,8 @@ export class Runewords {
         { value: 'Club', label: 'Club' },
         { value: 'Any Armor', label: 'Any Armor' },
         { value: 'Scepter', label: 'Scepter' },
-        { value: 'Druid Item', label: 'Druid Item' }
+        { value: 'Druid Item', label: 'Druid Item' },
+        { value: 'Necromancer Item', label: 'Necro Shield' },
     ];
 
     amounts = [
@@ -56,6 +59,13 @@ export class Runewords {
         // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
         this._debouncedSearchItem = debounce(this.updateList.bind(this), 350);
         this.updateList();
+    }
+
+    @watch('searchRunes')
+    handleSearchRunesChanged() {
+        if (this._debouncedSearchItem) {
+            this._debouncedSearchItem();
+        }
     }
 
     @watch('search')
@@ -79,50 +89,70 @@ export class Runewords {
         }
     }
 
+    normalizeRuneName(name: string): string {
+        // Remove " Rune" suffix and trim any extra spaces
+        return name.replace(/ rune$/i, '').trim().toLowerCase();
+    }
+
     updateList() {
-        const found = [];
         let filteringRunewords = this.runewords;
+
+        // Type filtering
         if (this.selectedType) {
             filteringRunewords = filteringRunewords.filter((x) => {
                 for (const type of x.Types) {
-                    if (type.Index === this.selectedType) {
-                        return true;
-                    }
-                    if (type.Index === 'Merc Equip' && this.selectedType === 'Helm') {
+                    if (type.Index === this.selectedType || (type.Index === 'Merc Equip' && this.selectedType === 'Helm')) {
                         return true;
                     }
                 }
                 return false;
             });
         }
+
+        // Amount filtering
         if (this.selectedAmount) {
-            filteringRunewords = filteringRunewords.filter((x) => {
-                return x.Runes.length === this.selectedAmount;
-            });
+            filteringRunewords = filteringRunewords.filter((x) => x.Runes.length === this.selectedAmount);
         }
+
+        // Initialize found to apply both search filters together
+        let found = filteringRunewords;
+
+        // Regular search filter (by name, properties, types)
         if (this.search) {
-            for (const runeword of filteringRunewords) {
+            found = found.filter((runeword) => {
                 if (runeword.Name.toLowerCase().includes(this.search.toLowerCase())) {
-                    found.push(runeword);
-                    continue;
+                    return true;
                 }
                 for (const property of runeword.Properties) {
                     if (property.PropertyString.toLowerCase().includes(this.search.toLowerCase())) {
-                        found.push(runeword);
-                        break;
+                        return true;
                     }
                 }
                 for (const type of runeword.Types) {
                     if (type.Name.toLowerCase().includes(this.search.toLowerCase())) {
-                        found.push(runeword);
-                        break;
+                        return true;
                     }
                 }
-            }
-            this.filteredRunewords = found;
-        } else {
-            this.filteredRunewords = filteringRunewords;
+                return false;
+            });
         }
+
+        // Rune search filter
+        if (this.searchRunes) {
+            const inputRuneList = this.searchRunes.split(' ')
+                .map((rune) => rune.trim())
+                .filter((rune) => rune.length > 0);
+
+            found = found.filter((runeword) => {
+                const runewordRuneNames = runeword.Runes.map((rune) => this.normalizeRuneName(rune.Name));
+                return inputRuneList.every((inputRune) =>
+                    runewordRuneNames.includes(inputRune)
+                );
+            });
+        }
+
+        // Set the filtered runewords at the end
+        this.filteredRunewords = found;
     }
 
     removeRuneFromName(runeName) {
