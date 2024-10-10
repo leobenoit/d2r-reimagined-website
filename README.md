@@ -14,6 +14,7 @@ For example
 
 ```
 docs/index.html
+docs/404.html
 docs/foo.12345.js
 ```
 
@@ -21,6 +22,7 @@ Copy to production root folder
 
 ```
 root_folder/index.html
+root_folder/404.html
 root_folder/foo.12345.js
 ```
 
