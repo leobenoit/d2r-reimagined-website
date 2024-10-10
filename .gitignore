@@ -32,6 +32,5 @@ node_modules
 
 # Compiled files
 /dist
-/docs
 /.nyc_output
 /coverage
