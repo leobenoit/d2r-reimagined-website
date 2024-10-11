@@ -77,7 +77,7 @@ export class Uniques {
         return this.uniques.filter(x => !x.Name.toLowerCase().includes('grabber'));
     }
 
-    getDamageTypeString(type) {
+    getDamageTypeString(type: number) {
         switch (type) {
             case 3:
                 return 'Damage: ';

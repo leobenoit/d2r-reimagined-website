@@ -67,7 +67,7 @@
             "Name": "Shaft of the Horadric Staff",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 45,
+            "Durability": 250,
             "ItemLevel": 0,
             "Type": {
                 "Name": "Staff",
@@ -119,7 +119,7 @@
             "Name": "Horadric Staff",
             "RequiredStrength": 30,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 0,
             "Type": {
                 "Name": "Staff",
@@ -163,7 +163,7 @@
             "Name": "Hell Forge Hammer",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 0,
             "Type": {
                 "Name": "Hammer",
@@ -207,7 +207,7 @@
             "Name": "Khalim's Flail",
             "RequiredStrength": 41,
             "RequiredDexterity": 35,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 0,
             "Type": {
                 "Name": "Mace",
@@ -259,7 +259,7 @@
             "Name": "Khalim's Will",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 0,
             "Type": {
                 "Name": "Mace",
@@ -283,7 +283,7 @@
                 "Index": 0
             },
             {
-                "PropertyString": "-45 to -40 Enhanced Damage",
+                "PropertyString": "-40 Enhanced Minimum Damage",
                 "Index": 1
             }
         ],
@@ -1428,7 +1428,7 @@
             "Name": "Short Sword",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 1,
             "Type": {
                 "Name": "Sword",
@@ -1537,7 +1537,7 @@
             "Name": "Club",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 1,
             "Type": {
                 "Name": "Club",
@@ -1646,7 +1646,7 @@
             "Name": "Javelin",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 2,
+            "Durability": 250,
             "ItemLevel": 1,
             "Type": {
                 "Name": "Javelin",
@@ -1749,16 +1749,16 @@
         "Name": "Collin's Fury",
         "Index": "t2 Splash Charm",
         "Enabled": false,
-        "ItemLevel": 10,
+        "ItemLevel": 1,
         "RequiredLevel": 3,
         "Code": "cm4",
         "Properties": [
             {
-                "PropertyString": "Melee Splash (25 Percent)",
+                "PropertyString": "33 Percent Melee Splash Damage",
                 "Index": 0
             },
             {
-                "PropertyString": "-40 to -37 Enhanced Damage",
+                "PropertyString": "-36 Enhanced Minimum Damage",
                 "Index": 1
             }
         ],
@@ -1816,7 +1816,7 @@
             "Name": "Dagger",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 16,
+            "Durability": 250,
             "ItemLevel": 3,
             "Type": {
                 "Name": "Knife",
@@ -1880,7 +1880,7 @@
             "Name": "Throwing Knife",
             "RequiredStrength": 0,
             "RequiredDexterity": 21,
-            "Durability": 4,
+            "Durability": 250,
             "ItemLevel": 2,
             "Type": {
                 "Name": "Throwing Knife",
@@ -2034,7 +2034,7 @@
             "Name": "Hand Axe",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 28,
+            "Durability": 250,
             "ItemLevel": 3,
             "Type": {
                 "Name": "Axe",
@@ -2090,7 +2090,7 @@
             "Name": "Wand",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 2,
             "Type": {
                 "Name": "Wand",
@@ -2146,7 +2146,7 @@
             "Name": "Scepter",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 3,
             "Type": {
                 "Name": "Scepter",
@@ -2194,7 +2194,7 @@
             "Name": "Spiked Club",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 36,
+            "Durability": 250,
             "ItemLevel": 4,
             "Type": {
                 "Name": "Club",
@@ -2254,7 +2254,7 @@
             "Name": "Short Staff",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 1,
             "Type": {
                 "Name": "Staff",
@@ -2408,7 +2408,7 @@
             "Name": "Short Sword",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 1,
             "Type": {
                 "Name": "Sword",
@@ -2698,7 +2698,7 @@
             "Name": "Hand Axe",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 28,
+            "Durability": 250,
             "ItemLevel": 3,
             "Type": {
                 "Name": "Axe",
@@ -2750,7 +2750,7 @@
             "Name": "Dagger",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 16,
+            "Durability": 250,
             "ItemLevel": 3,
             "Type": {
                 "Name": "Knife",
@@ -2802,7 +2802,7 @@
             "Name": "Short Staff",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 1,
             "Type": {
                 "Name": "Staff",
@@ -2934,7 +2934,7 @@
             "Name": "Javelin",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 2,
+            "Durability": 250,
             "ItemLevel": 1,
             "Type": {
                 "Name": "Javelin",
@@ -2994,7 +2994,7 @@
             "Name": "Throwing Axe",
             "RequiredStrength": 0,
             "RequiredDexterity": 40,
-            "Durability": 6,
+            "Durability": 250,
             "ItemLevel": 7,
             "Type": {
                 "Name": "Throwing Axe",
@@ -3095,7 +3095,7 @@
             "Name": "      ",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 1,
             "Type": {
                 "Name": "Orb",
@@ -3292,7 +3292,7 @@
             "Name": "Scimitar",
             "RequiredStrength": 0,
             "RequiredDexterity": 21,
-            "Durability": 22,
+            "Durability": 250,
             "ItemLevel": 5,
             "Type": {
                 "Name": "Sword",
@@ -3544,7 +3544,7 @@
             "Name": "Club",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 1,
             "Type": {
                 "Name": "Club",
@@ -3660,7 +3660,7 @@
             "Name": "Throwing Knife",
             "RequiredStrength": 0,
             "RequiredDexterity": 21,
-            "Durability": 4,
+            "Durability": 250,
             "ItemLevel": 2,
             "Type": {
                 "Name": "Throwing Knife",
@@ -3761,7 +3761,7 @@
             "Name": "Katar",
             "RequiredStrength": 20,
             "RequiredDexterity": 20,
-            "Durability": 48,
+            "Durability": 250,
             "ItemLevel": 1,
             "Type": {
                 "Name": "Hand to Hand",
@@ -3809,7 +3809,7 @@
             "Name": "Large Axe",
             "RequiredStrength": 35,
             "RequiredDexterity": 0,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 6,
             "Type": {
                 "Name": "Axe",
@@ -3861,7 +3861,7 @@
             "Name": "Spear",
             "RequiredStrength": 0,
             "RequiredDexterity": 20,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 5,
             "Type": {
                 "Name": "Spear",
@@ -3909,7 +3909,7 @@
             "Name": "Bardiche",
             "RequiredStrength": 40,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 5,
             "Type": {
                 "Name": "Polearm",
@@ -3961,7 +3961,7 @@
             "Name": "Large Axe",
             "RequiredStrength": 35,
             "RequiredDexterity": 0,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 6,
             "Type": {
                 "Name": "Axe",
@@ -4013,7 +4013,7 @@
             "Name": "Scimitar",
             "RequiredStrength": 0,
             "RequiredDexterity": 21,
-            "Durability": 22,
+            "Durability": 250,
             "ItemLevel": 5,
             "Type": {
                 "Name": "Sword",
@@ -4065,7 +4065,7 @@
             "Name": "Scepter",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 3,
             "Type": {
                 "Name": "Scepter",
@@ -4438,7 +4438,7 @@
             "Name": "Maiden Spear",
             "RequiredStrength": 54,
             "RequiredDexterity": 40,
-            "Durability": 28,
+            "Durability": 250,
             "ItemLevel": 18,
             "Type": {
                 "Name": "Amazon Spear",
@@ -4653,7 +4653,7 @@
             "Name": "Wrist Blade",
             "RequiredStrength": 33,
             "RequiredDexterity": 33,
-            "Durability": 52,
+            "Durability": 250,
             "ItemLevel": 9,
             "Type": {
                 "Name": "Hand to Hand",
@@ -4705,7 +4705,7 @@
             "Name": "Axe",
             "RequiredStrength": 32,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 7,
             "Type": {
                 "Name": "Axe",
@@ -4761,7 +4761,7 @@
             "Name": "Mace",
             "RequiredStrength": 27,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 8,
             "Type": {
                 "Name": "Mace",
@@ -4821,7 +4821,7 @@
             "Name": "Long Staff",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 8,
             "Type": {
                 "Name": "Staff",
@@ -5096,7 +5096,7 @@
             "Name": "Spiked Club",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 36,
+            "Durability": 250,
             "ItemLevel": 4,
             "Type": {
                 "Name": "Club",
@@ -5152,7 +5152,7 @@
             "Name": "Spear",
             "RequiredStrength": 0,
             "RequiredDexterity": 20,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 5,
             "Type": {
                 "Name": "Spear",
@@ -5212,7 +5212,7 @@
             "Name": "Long Staff",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 8,
             "Type": {
                 "Name": "Staff",
@@ -5264,7 +5264,7 @@
             "Name": "Wand",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 2,
             "Type": {
                 "Name": "Wand",
@@ -5377,7 +5377,7 @@
             "Name": "Sabre",
             "RequiredStrength": 25,
             "RequiredDexterity": 25,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 8,
             "Type": {
                 "Name": "Sword",
@@ -5475,7 +5475,7 @@
             "Name": "Axe",
             "RequiredStrength": 32,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 7,
             "Type": {
                 "Name": "Axe",
@@ -5527,7 +5527,7 @@
             "Name": "Sabre",
             "RequiredStrength": 25,
             "RequiredDexterity": 25,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 8,
             "Type": {
                 "Name": "Sword",
@@ -5583,7 +5583,7 @@
             "Name": "Bardiche",
             "RequiredStrength": 40,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 5,
             "Type": {
                 "Name": "Polearm",
@@ -5695,7 +5695,7 @@
             "Name": "Throwing Axe",
             "RequiredStrength": 0,
             "RequiredDexterity": 40,
-            "Durability": 6,
+            "Durability": 250,
             "ItemLevel": 7,
             "Type": {
                 "Name": "Throwing Axe",
@@ -5902,7 +5902,7 @@
             "Name": "Dirk",
             "RequiredStrength": 0,
             "RequiredDexterity": 25,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 9,
             "Type": {
                 "Name": "Knife",
@@ -5966,7 +5966,7 @@
             "Name": "Pilum",
             "RequiredStrength": 0,
             "RequiredDexterity": 45,
-            "Durability": 3,
+            "Durability": 250,
             "ItemLevel": 10,
             "Type": {
                 "Name": "Javelin",
@@ -6181,7 +6181,7 @@
             "Name": "      ",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 1,
             "Type": {
                 "Name": "Orb",
@@ -6286,7 +6286,7 @@
             "Name": "Hatchet Hands",
             "RequiredStrength": 37,
             "RequiredDexterity": 37,
-            "Durability": 56,
+            "Durability": 250,
             "ItemLevel": 12,
             "Type": {
                 "Name": "Hand to Hand",
@@ -6339,6 +6339,40 @@
         }
     },
     {
+        "Type": "Small Charm",
+        "Name": "Collin's Devastation",
+        "Index": "t3 Splash Charm",
+        "Enabled": false,
+        "ItemLevel": 1,
+        "RequiredLevel": 11,
+        "Code": "cm4",
+        "Properties": [
+            {
+                "PropertyString": "33 Percent Melee Splash Damage",
+                "Index": 0
+            },
+            {
+                "PropertyString": "-33 Enhanced Minimum Damage",
+                "Index": 1
+            }
+        ],
+        "DamageArmorEnhanced": false,
+        "Equipment": {
+            "EquipmentType": 2,
+            "Name": "Splash Charm",
+            "RequiredStrength": 0,
+            "RequiredDexterity": 0,
+            "Durability": 0,
+            "ItemLevel": 0,
+            "Type": {
+                "Name": "Small Charm",
+                "Index": "Small Charm",
+                "Class": ""
+            },
+            "RequiredClass": ""
+        }
+    },
+    {
         "Type": "Sword",
         "Name": "Shadowfang",
         "Index": "Shadowfang",
@@ -6388,7 +6422,7 @@
             "Name": "Two-Handed Sword",
             "RequiredStrength": 35,
             "RequiredDexterity": 27,
-            "Durability": 44,
+            "Durability": 250,
             "ItemLevel": 10,
             "Type": {
                 "Name": "Sword",
@@ -6444,7 +6478,7 @@
             "Name": "Trident",
             "RequiredStrength": 38,
             "RequiredDexterity": 24,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 9,
             "Type": {
                 "Name": "Spear",
@@ -6602,7 +6636,7 @@
             "Name": "Two-Handed Sword",
             "RequiredStrength": 35,
             "RequiredDexterity": 27,
-            "Durability": 44,
+            "Durability": 250,
             "ItemLevel": 10,
             "Type": {
                 "Name": "Sword",
@@ -6666,7 +6700,7 @@
             "Name": "Long Staff",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 8,
             "Type": {
                 "Name": "Staff",
@@ -6997,7 +7031,7 @@
             "Name": "       ",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 8,
             "Type": {
                 "Name": "Orb",
@@ -7324,40 +7358,6 @@
         }
     },
     {
-        "Type": "Small Charm",
-        "Name": "Collin's Devastation",
-        "Index": "t3 Splash Charm",
-        "Enabled": false,
-        "ItemLevel": 20,
-        "RequiredLevel": 12,
-        "Code": "cm4",
-        "Properties": [
-            {
-                "PropertyString": "33 Percent Melee Splash Damage",
-                "Index": 0
-            },
-            {
-                "PropertyString": "-35 Enhanced Minimum Damage",
-                "Index": 1
-            }
-        ],
-        "DamageArmorEnhanced": false,
-        "Equipment": {
-            "EquipmentType": 2,
-            "Name": "Splash Charm",
-            "RequiredStrength": 0,
-            "RequiredDexterity": 0,
-            "Durability": 0,
-            "ItemLevel": 0,
-            "Type": {
-                "Name": "Small Charm",
-                "Index": "Small Charm",
-                "Class": ""
-            },
-            "RequiredClass": ""
-        }
-    },
-    {
         "Type": "Sword",
         "Name": "Gleamscythe",
         "Index": "Gleamscythe",
@@ -7403,7 +7403,7 @@
             "Name": "Falchion",
             "RequiredStrength": 33,
             "RequiredDexterity": 0,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 11,
             "Type": {
                 "Name": "Sword",
@@ -7455,7 +7455,7 @@
             "Name": "Crystal Sword",
             "RequiredStrength": 43,
             "RequiredDexterity": 0,
-            "Durability": 45,
+            "Durability": 275,
             "ItemLevel": 11,
             "Type": {
                 "Name": "Sword",
@@ -7624,7 +7624,7 @@
             "Name": "Falchion",
             "RequiredStrength": 33,
             "RequiredDexterity": 0,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 11,
             "Type": {
                 "Name": "Sword",
@@ -7676,7 +7676,7 @@
             "Name": "Crystal Sword",
             "RequiredStrength": 43,
             "RequiredDexterity": 0,
-            "Durability": 45,
+            "Durability": 275,
             "ItemLevel": 11,
             "Type": {
                 "Name": "Sword",
@@ -7728,7 +7728,7 @@
             "Name": "Mace",
             "RequiredStrength": 27,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 8,
             "Type": {
                 "Name": "Mace",
@@ -7935,7 +7935,7 @@
             "Name": "Wrist Blade",
             "RequiredStrength": 33,
             "RequiredDexterity": 33,
-            "Durability": 52,
+            "Durability": 250,
             "ItemLevel": 9,
             "Type": {
                 "Name": "Hand to Hand",
@@ -7987,7 +7987,7 @@
             "Name": "Broad Axe",
             "RequiredStrength": 48,
             "RequiredDexterity": 0,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 12,
             "Type": {
                 "Name": "Axe",
@@ -8051,7 +8051,7 @@
             "Name": "Yew Wand",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 12,
             "Type": {
                 "Name": "Wand",
@@ -8103,7 +8103,7 @@
             "Name": "Voulge",
             "RequiredStrength": 50,
             "RequiredDexterity": 0,
-            "Durability": 70,
+            "Durability": 270,
             "ItemLevel": 11,
             "Type": {
                 "Name": "Polearm",
@@ -8314,7 +8314,7 @@
             "Name": "Double Axe",
             "RequiredStrength": 43,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 13,
             "Type": {
                 "Name": "Axe",
@@ -8366,7 +8366,7 @@
             "Name": "Broad Axe",
             "RequiredStrength": 48,
             "RequiredDexterity": 0,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 12,
             "Type": {
                 "Name": "Axe",
@@ -8426,7 +8426,7 @@
             "Name": "Dirk",
             "RequiredStrength": 0,
             "RequiredDexterity": 25,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 9,
             "Type": {
                 "Name": "Knife",
@@ -8482,7 +8482,7 @@
             "Name": "Voulge",
             "RequiredStrength": 50,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 11,
             "Type": {
                 "Name": "Polearm",
@@ -8758,7 +8758,7 @@
             "Name": "Double Axe",
             "RequiredStrength": 43,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 13,
             "Type": {
                 "Name": "Axe",
@@ -8818,7 +8818,7 @@
             "Name": "Morning Star",
             "RequiredStrength": 36,
             "RequiredDexterity": 0,
-            "Durability": 72,
+            "Durability": 250,
             "ItemLevel": 13,
             "Type": {
                 "Name": "Mace",
@@ -9263,7 +9263,7 @@
             "Name": "Trident",
             "RequiredStrength": 38,
             "RequiredDexterity": 24,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 9,
             "Type": {
                 "Name": "Spear",
@@ -9327,7 +9327,7 @@
             "Name": "Pilum",
             "RequiredStrength": 0,
             "RequiredDexterity": 45,
-            "Durability": 3,
+            "Durability": 250,
             "ItemLevel": 10,
             "Type": {
                 "Name": "Javelin",
@@ -9489,7 +9489,7 @@
             "Name": "Maiden Spear",
             "RequiredStrength": 54,
             "RequiredDexterity": 40,
-            "Durability": 28,
+            "Durability": 250,
             "ItemLevel": 18,
             "Type": {
                 "Name": "Amazon Spear",
@@ -9655,7 +9655,7 @@
             "Name": "Katar",
             "RequiredStrength": 20,
             "RequiredDexterity": 20,
-            "Durability": 48,
+            "Durability": 250,
             "ItemLevel": 1,
             "Type": {
                 "Name": "Hand to Hand",
@@ -9711,7 +9711,7 @@
             "Name": "Cestus",
             "RequiredStrength": 42,
             "RequiredDexterity": 42,
-            "Durability": 147,
+            "Durability": 325,
             "ItemLevel": 15,
             "Type": {
                 "Name": "Hand to Hand",
@@ -10180,7 +10180,7 @@
             "Name": "       ",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 8,
             "Type": {
                 "Name": "Orb",
@@ -10334,7 +10334,7 @@
             "Name": "Hatchet Hands",
             "RequiredStrength": 37,
             "RequiredDexterity": 37,
-            "Durability": 56,
+            "Durability": 250,
             "ItemLevel": 12,
             "Type": {
                 "Name": "Hand to Hand",
@@ -10398,7 +10398,7 @@
             "Name": "Grand Scepter",
             "RequiredStrength": 37,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 15,
             "Type": {
                 "Name": "Scepter",
@@ -10454,7 +10454,7 @@
             "Name": "Broad Sword",
             "RequiredStrength": 48,
             "RequiredDexterity": 0,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 15,
             "Type": {
                 "Name": "Sword",
@@ -10506,7 +10506,7 @@
             "Name": "Brandistock",
             "RequiredStrength": 40,
             "RequiredDexterity": 50,
-            "Durability": 28,
+            "Durability": 250,
             "ItemLevel": 16,
             "Type": {
                 "Name": "Spear",
@@ -10721,7 +10721,7 @@
             "Name": "Crystal Sword",
             "RequiredStrength": 43,
             "RequiredDexterity": 0,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 11,
             "Type": {
                 "Name": "Sword",
@@ -10769,7 +10769,7 @@
             "Name": "Brandistock",
             "RequiredStrength": 40,
             "RequiredDexterity": 50,
-            "Durability": 28,
+            "Durability": 250,
             "ItemLevel": 16,
             "Type": {
                 "Name": "Spear",
@@ -10825,7 +10825,7 @@
             "Name": "Gnarled Staff",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 12,
             "Type": {
                 "Name": "Staff",
@@ -10885,7 +10885,7 @@
             "Name": "Short Spear",
             "RequiredStrength": 40,
             "RequiredDexterity": 40,
-            "Durability": 4,
+            "Durability": 250,
             "ItemLevel": 15,
             "Type": {
                 "Name": "Javelin",
@@ -11116,7 +11116,7 @@
             "Name": "Gnarled Staff",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 12,
             "Type": {
                 "Name": "Staff",
@@ -11224,7 +11224,7 @@
             "Name": "Hand Axe",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 28,
+            "Durability": 250,
             "ItemLevel": 3,
             "Type": {
                 "Name": "Axe",
@@ -11276,7 +11276,7 @@
             "Name": "Spear",
             "RequiredStrength": 0,
             "RequiredDexterity": 20,
-            "Durability": 90,
+            "Durability": 310,
             "ItemLevel": 5,
             "Type": {
                 "Name": "Spear",
@@ -11672,7 +11672,7 @@
             "Name": "   ",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 12,
             "Type": {
                 "Name": "Orb",
@@ -11857,7 +11857,7 @@
             "Name": "Battle Axe",
             "RequiredStrength": 54,
             "RequiredDexterity": 0,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 17,
             "Type": {
                 "Name": "Axe",
@@ -11913,7 +11913,7 @@
             "Name": "Claymore",
             "RequiredStrength": 47,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 17,
             "Type": {
                 "Name": "Sword",
@@ -11965,7 +11965,7 @@
             "Name": "Kris",
             "RequiredStrength": 0,
             "RequiredDexterity": 45,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 17,
             "Type": {
                 "Name": "Knife",
@@ -12021,7 +12021,7 @@
             "Name": "Scythe",
             "RequiredStrength": 41,
             "RequiredDexterity": 41,
-            "Durability": 65,
+            "Durability": 250,
             "ItemLevel": 15,
             "Type": {
                 "Name": "Polearm",
@@ -12126,7 +12126,7 @@
             "Name": "Scythe",
             "RequiredStrength": 41,
             "RequiredDexterity": 41,
-            "Durability": 65,
+            "Durability": 250,
             "ItemLevel": 15,
             "Type": {
                 "Name": "Polearm",
@@ -12186,7 +12186,7 @@
             "Name": "Yew Wand",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 12,
             "Type": {
                 "Name": "Wand",
@@ -12246,7 +12246,7 @@
             "Name": "Balanced Knife",
             "RequiredStrength": 0,
             "RequiredDexterity": 51,
-            "Durability": 8,
+            "Durability": 250,
             "ItemLevel": 13,
             "Type": {
                 "Name": "Throwing Knife",
@@ -12575,7 +12575,7 @@
             "Name": "Maiden Pike",
             "RequiredStrength": 63,
             "RequiredDexterity": 52,
-            "Durability": 25,
+            "Durability": 250,
             "ItemLevel": 27,
             "Type": {
                 "Name": "Amazon Spear",
@@ -12737,7 +12737,7 @@
             "Name": "Wrist Blade",
             "RequiredStrength": 33,
             "RequiredDexterity": 33,
-            "Durability": 52,
+            "Durability": 250,
             "ItemLevel": 9,
             "Type": {
                 "Name": "Hand to Hand",
@@ -12797,7 +12797,7 @@
             "Name": "Claws",
             "RequiredStrength": 46,
             "RequiredDexterity": 46,
-            "Durability": 64,
+            "Durability": 250,
             "ItemLevel": 18,
             "Type": {
                 "Name": "Hand to Hand",
@@ -12853,7 +12853,7 @@
             "Name": "Bone Wand",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 18,
             "Type": {
                 "Name": "Wand",
@@ -13173,7 +13173,7 @@
             "Name": "Two-Handed Sword",
             "RequiredStrength": 35,
             "RequiredDexterity": 27,
-            "Durability": 44,
+            "Durability": 250,
             "ItemLevel": 10,
             "Type": {
                 "Name": "Sword",
@@ -13225,7 +13225,7 @@
             "Name": "Claymore",
             "RequiredStrength": 47,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 17,
             "Type": {
                 "Name": "Sword",
@@ -13281,7 +13281,7 @@
             "Name": "Morning Star",
             "RequiredStrength": 36,
             "RequiredDexterity": 0,
-            "Durability": 72,
+            "Durability": 250,
             "ItemLevel": 13,
             "Type": {
                 "Name": "Mace",
@@ -13333,7 +13333,7 @@
             "Name": "Dagger",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 16,
+            "Durability": 250,
             "ItemLevel": 3,
             "Type": {
                 "Name": "Knife",
@@ -13389,7 +13389,7 @@
             "Name": "Bardiche",
             "RequiredStrength": 40,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 5,
             "Type": {
                 "Name": "Polearm",
@@ -13453,7 +13453,7 @@
             "Name": "Throwing Axe",
             "RequiredStrength": 0,
             "RequiredDexterity": 40,
-            "Durability": 6,
+            "Durability": 250,
             "ItemLevel": 7,
             "Type": {
                 "Name": "Throwing Axe",
@@ -13521,7 +13521,7 @@
             "Name": "Flying Knife",
             "RequiredStrength": 48,
             "RequiredDexterity": 141,
-            "Durability": 6,
+            "Durability": 250,
             "ItemLevel": 64,
             "Type": {
                 "Name": "Throwing Knife",
@@ -13748,7 +13748,7 @@
             "Name": "Maiden Javelin",
             "RequiredStrength": 33,
             "RequiredDexterity": 47,
-            "Durability": 6,
+            "Durability": 250,
             "ItemLevel": 23,
             "Type": {
                 "Name": "Amazon Javelin",
@@ -13926,7 +13926,7 @@
             "Name": "Cestus",
             "RequiredStrength": 42,
             "RequiredDexterity": 42,
-            "Durability": 72,
+            "Durability": 250,
             "ItemLevel": 15,
             "Type": {
                 "Name": "Hand to Hand",
@@ -14024,7 +14024,7 @@
             "Name": "Military Pick",
             "RequiredStrength": 49,
             "RequiredDexterity": 33,
-            "Durability": 26,
+            "Durability": 250,
             "ItemLevel": 19,
             "Type": {
                 "Name": "Axe",
@@ -14084,7 +14084,7 @@
             "Name": "Flail",
             "RequiredStrength": 41,
             "RequiredDexterity": 35,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 19,
             "Type": {
                 "Name": "Mace",
@@ -14140,7 +14140,7 @@
             "Name": "Battle Staff",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 17,
             "Type": {
                 "Name": "Staff",
@@ -14249,7 +14249,7 @@
             "Name": "Large Axe",
             "RequiredStrength": 35,
             "RequiredDexterity": 0,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 6,
             "Type": {
                 "Name": "Axe",
@@ -14365,7 +14365,7 @@
             "Name": "Javelin",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 2,
+            "Durability": 250,
             "ItemLevel": 1,
             "Type": {
                 "Name": "Javelin",
@@ -14429,7 +14429,7 @@
             "Name": "Short Spear",
             "RequiredStrength": 40,
             "RequiredDexterity": 40,
-            "Durability": 4,
+            "Durability": 250,
             "ItemLevel": 15,
             "Type": {
                 "Name": "Javelin",
@@ -14717,6 +14717,40 @@
         }
     },
     {
+        "Type": "Small Charm",
+        "Name": "Tier 4 Splash Charm",
+        "Index": "t4 Splash Charm",
+        "Enabled": false,
+        "ItemLevel": 1,
+        "RequiredLevel": 21,
+        "Code": "cm4",
+        "Properties": [
+            {
+                "PropertyString": "42 Percent Melee Splash Damage",
+                "Index": 0
+            },
+            {
+                "PropertyString": "-30 Enhanced Minimum Damage",
+                "Index": 1
+            }
+        ],
+        "DamageArmorEnhanced": false,
+        "Equipment": {
+            "EquipmentType": 2,
+            "Name": "Splash Charm",
+            "RequiredStrength": 0,
+            "RequiredDexterity": 0,
+            "Durability": 0,
+            "ItemLevel": 0,
+            "Type": {
+                "Name": "Small Charm",
+                "Index": "Small Charm",
+                "Class": ""
+            },
+            "RequiredClass": ""
+        }
+    },
+    {
         "Type": "Sword",
         "Name": "Hellplague",
         "Index": "Hellplague",
@@ -14762,7 +14796,7 @@
             "Name": "Long Sword",
             "RequiredStrength": 55,
             "RequiredDexterity": 39,
-            "Durability": 44,
+            "Durability": 250,
             "ItemLevel": 20,
             "Type": {
                 "Name": "Sword",
@@ -14810,7 +14844,7 @@
             "Name": "Spetum",
             "RequiredStrength": 54,
             "RequiredDexterity": 35,
-            "Durability": 28,
+            "Durability": 250,
             "ItemLevel": 20,
             "Type": {
                 "Name": "Spear",
@@ -14964,7 +14998,7 @@
             "Name": "Axe",
             "RequiredStrength": 32,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 7,
             "Type": {
                 "Name": "Axe",
@@ -15020,7 +15054,7 @@
             "Name": "Broad Sword",
             "RequiredStrength": 48,
             "RequiredDexterity": 0,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 15,
             "Type": {
                 "Name": "Sword",
@@ -15080,7 +15114,7 @@
             "Name": "Grand Scepter",
             "RequiredStrength": 37,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 15,
             "Type": {
                 "Name": "Scepter",
@@ -15136,7 +15170,7 @@
             "Name": "Kris",
             "RequiredStrength": 0,
             "RequiredDexterity": 45,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 17,
             "Type": {
                 "Name": "Knife",
@@ -15256,7 +15290,7 @@
             "Name": "Balanced Axe",
             "RequiredStrength": 0,
             "RequiredDexterity": 57,
-            "Durability": 10,
+            "Durability": 250,
             "ItemLevel": 16,
             "Type": {
                 "Name": "Throwing Axe",
@@ -15324,7 +15358,7 @@
             "Name": "Throwing Knife",
             "RequiredStrength": 0,
             "RequiredDexterity": 21,
-            "Durability": 4,
+            "Durability": 250,
             "ItemLevel": 2,
             "Type": {
                 "Name": "Throwing Knife",
@@ -15396,7 +15430,7 @@
             "Name": "Balanced Knife",
             "RequiredStrength": 0,
             "RequiredDexterity": 51,
-            "Durability": 8,
+            "Durability": 250,
             "ItemLevel": 13,
             "Type": {
                 "Name": "Throwing Knife",
@@ -15562,7 +15596,7 @@
             "Name": "      ",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 17,
             "Type": {
                 "Name": "Orb",
@@ -15789,7 +15823,7 @@
             "Name": "Blade Talons",
             "RequiredStrength": 50,
             "RequiredDexterity": 50,
-            "Durability": 69,
+            "Durability": 250,
             "ItemLevel": 21,
             "Type": {
                 "Name": "Hand to Hand",
@@ -15849,7 +15883,7 @@
             "Name": "War Scepter",
             "RequiredStrength": 55,
             "RequiredDexterity": 0,
-            "Durability": 70,
+            "Durability": 250,
             "ItemLevel": 21,
             "Type": {
                 "Name": "Scepter",
@@ -15905,7 +15939,7 @@
             "Name": "Giant Sword",
             "RequiredStrength": 56,
             "RequiredDexterity": 34,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 21,
             "Type": {
                 "Name": "Sword",
@@ -16014,7 +16048,7 @@
             "Name": "Military Pick",
             "RequiredStrength": 49,
             "RequiredDexterity": 33,
-            "Durability": 26,
+            "Durability": 250,
             "ItemLevel": 19,
             "Type": {
                 "Name": "Axe",
@@ -16074,7 +16108,7 @@
             "Name": "Broad Axe",
             "RequiredStrength": 48,
             "RequiredDexterity": 0,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 12,
             "Type": {
                 "Name": "Axe",
@@ -16126,7 +16160,7 @@
             "Name": "Battle Axe",
             "RequiredStrength": 54,
             "RequiredDexterity": 0,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 17,
             "Type": {
                 "Name": "Axe",
@@ -16186,7 +16220,7 @@
             "Name": "Trident",
             "RequiredStrength": 38,
             "RequiredDexterity": 24,
-            "Durability": 95,
+            "Durability": 310,
             "ItemLevel": 9,
             "Type": {
                 "Name": "Spear",
@@ -16242,7 +16276,7 @@
             "Name": "Voulge",
             "RequiredStrength": 50,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 11,
             "Type": {
                 "Name": "Polearm",
@@ -16302,7 +16336,7 @@
             "Name": "Battle Staff",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 17,
             "Type": {
                 "Name": "Staff",
@@ -16366,7 +16400,7 @@
             "Name": "Pilum",
             "RequiredStrength": 0,
             "RequiredDexterity": 45,
-            "Durability": 3,
+            "Durability": 250,
             "ItemLevel": 10,
             "Type": {
                 "Name": "Javelin",
@@ -16426,7 +16460,7 @@
             "Name": "Stygian Pilum",
             "RequiredStrength": 118,
             "RequiredDexterity": 112,
-            "Durability": 12,
+            "Durability": 250,
             "ItemLevel": 62,
             "Type": {
                 "Name": "Javelin",
@@ -16698,7 +16732,7 @@
             "Name": "   ",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 12,
             "Type": {
                 "Name": "Orb",
@@ -16861,7 +16895,7 @@
             "Name": "Maul",
             "RequiredStrength": 69,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 21,
             "Type": {
                 "Name": "Hammer",
@@ -16917,7 +16951,7 @@
             "Name": "Short Sword",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 1,
             "Type": {
                 "Name": "Sword",
@@ -16977,7 +17011,7 @@
             "Name": "Giant Sword",
             "RequiredStrength": 56,
             "RequiredDexterity": 34,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 21,
             "Type": {
                 "Name": "Sword",
@@ -17029,7 +17063,7 @@
             "Name": "Club",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 1,
             "Type": {
                 "Name": "Club",
@@ -17085,7 +17119,7 @@
             "Name": "Scepter",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 3,
             "Type": {
                 "Name": "Scepter",
@@ -17141,7 +17175,7 @@
             "Name": "Poleaxe",
             "RequiredStrength": 62,
             "RequiredDexterity": 0,
-            "Durability": 65,
+            "Durability": 250,
             "ItemLevel": 21,
             "Type": {
                 "Name": "Polearm",
@@ -17197,7 +17231,7 @@
             "Name": "Short Staff",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 1,
             "Type": {
                 "Name": "Staff",
@@ -17317,7 +17351,7 @@
             "Name": "Glaive",
             "RequiredStrength": 52,
             "RequiredDexterity": 35,
-            "Durability": 5,
+            "Durability": 250,
             "ItemLevel": 23,
             "Type": {
                 "Name": "Javelin",
@@ -17714,7 +17748,7 @@
             "Name": "Claws",
             "RequiredStrength": 46,
             "RequiredDexterity": 46,
-            "Durability": 64,
+            "Durability": 250,
             "ItemLevel": 18,
             "Type": {
                 "Name": "Hand to Hand",
@@ -17771,40 +17805,6 @@
         }
     },
     {
-        "Type": "Small Charm",
-        "Name": "Tier 4 Splash Charm",
-        "Index": "t4 Splash Charm",
-        "Enabled": false,
-        "ItemLevel": 1,
-        "RequiredLevel": 24,
-        "Code": "cm4",
-        "Properties": [
-            {
-                "PropertyString": "33 Percent Melee Splash Damage",
-                "Index": 0
-            },
-            {
-                "PropertyString": "-30 to -33 Enhanced Damage",
-                "Index": 1
-            }
-        ],
-        "DamageArmorEnhanced": false,
-        "Equipment": {
-            "EquipmentType": 2,
-            "Name": "Splash Charm",
-            "RequiredStrength": 0,
-            "RequiredDexterity": 0,
-            "Durability": 0,
-            "ItemLevel": 0,
-            "Type": {
-                "Name": "Small Charm",
-                "Index": "Small Charm",
-                "Class": ""
-            },
-            "RequiredClass": ""
-        }
-    },
-    {
         "Type": "Axe",
         "Name": "Brainhew",
         "Index": "Brainhew",
@@ -17850,7 +17850,7 @@
             "Name": "Great Axe",
             "RequiredStrength": 63,
             "RequiredDexterity": 39,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 23,
             "Type": {
                 "Name": "Axe",
@@ -17898,7 +17898,7 @@
             "Name": "Blade",
             "RequiredStrength": 35,
             "RequiredDexterity": 51,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 23,
             "Type": {
                 "Name": "Knife",
@@ -17950,7 +17950,7 @@
             "Name": "Poleaxe",
             "RequiredStrength": 62,
             "RequiredDexterity": 0,
-            "Durability": 65,
+            "Durability": 250,
             "ItemLevel": 21,
             "Type": {
                 "Name": "Polearm",
@@ -18169,7 +18169,7 @@
             "Name": "Double Axe",
             "RequiredStrength": 43,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 13,
             "Type": {
                 "Name": "Axe",
@@ -18225,7 +18225,7 @@
             "Name": "Long Sword",
             "RequiredStrength": 55,
             "RequiredDexterity": 39,
-            "Durability": 44,
+            "Durability": 250,
             "ItemLevel": 20,
             "Type": {
                 "Name": "Sword",
@@ -18281,7 +18281,7 @@
             "Name": "Claymore",
             "RequiredStrength": 47,
             "RequiredDexterity": 0,
-            "Durability": 85,
+            "Durability": 285,
             "ItemLevel": 17,
             "Type": {
                 "Name": "Sword",
@@ -18337,7 +18337,7 @@
             "Name": "Maul",
             "RequiredStrength": 69,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 21,
             "Type": {
                 "Name": "Hammer",
@@ -18389,7 +18389,7 @@
             "Name": "Mace",
             "RequiredStrength": 27,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 8,
             "Type": {
                 "Name": "Mace",
@@ -18445,7 +18445,7 @@
             "Name": "Dirk",
             "RequiredStrength": 0,
             "RequiredDexterity": 25,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 9,
             "Type": {
                 "Name": "Knife",
@@ -18497,7 +18497,7 @@
             "Name": "Brandistock",
             "RequiredStrength": 40,
             "RequiredDexterity": 50,
-            "Durability": 88,
+            "Durability": 310,
             "ItemLevel": 16,
             "Type": {
                 "Name": "Spear",
@@ -18553,7 +18553,7 @@
             "Name": "Wand",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 2,
             "Type": {
                 "Name": "Wand",
@@ -19039,7 +19039,7 @@
             "Name": "Maiden Pike",
             "RequiredStrength": 63,
             "RequiredDexterity": 52,
-            "Durability": 25,
+            "Durability": 250,
             "ItemLevel": 27,
             "Type": {
                 "Name": "Amazon Spear",
@@ -19205,7 +19205,7 @@
             "Name": "Katar",
             "RequiredStrength": 20,
             "RequiredDexterity": 20,
-            "Durability": 48,
+            "Durability": 250,
             "ItemLevel": 1,
             "Type": {
                 "Name": "Hand to Hand",
@@ -19261,7 +19261,7 @@
             "Name": "Hatchet Hands",
             "RequiredStrength": 37,
             "RequiredDexterity": 37,
-            "Durability": 56,
+            "Durability": 250,
             "ItemLevel": 12,
             "Type": {
                 "Name": "Hand to Hand",
@@ -19317,7 +19317,7 @@
             "Name": "Bastard Sword",
             "RequiredStrength": 62,
             "RequiredDexterity": 0,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 24,
             "Type": {
                 "Name": "Sword",
@@ -19369,7 +19369,7 @@
             "Name": "Flamberge",
             "RequiredStrength": 70,
             "RequiredDexterity": 49,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 27,
             "Type": {
                 "Name": "Sword",
@@ -19587,7 +19587,7 @@
             "Name": "Scimitar",
             "RequiredStrength": 0,
             "RequiredDexterity": 21,
-            "Durability": 22,
+            "Durability": 250,
             "ItemLevel": 5,
             "Type": {
                 "Name": "Sword",
@@ -19647,7 +19647,7 @@
             "Name": "Spetum",
             "RequiredStrength": 54,
             "RequiredDexterity": 35,
-            "Durability": 28,
+            "Durability": 250,
             "ItemLevel": 20,
             "Type": {
                 "Name": "Spear",
@@ -19703,7 +19703,7 @@
             "Name": "Scythe",
             "RequiredStrength": 41,
             "RequiredDexterity": 41,
-            "Durability": 65,
+            "Durability": 250,
             "ItemLevel": 15,
             "Type": {
                 "Name": "Polearm",
@@ -19763,7 +19763,7 @@
             "Name": "Bone Wand",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 18,
             "Type": {
                 "Name": "Wand",
@@ -20308,7 +20308,7 @@
             "Name": "          ",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 24,
             "Type": {
                 "Name": "Orb",
@@ -20474,7 +20474,7 @@
             "Name": "War Axe",
             "RequiredStrength": 67,
             "RequiredDexterity": 0,
-            "Durability": 26,
+            "Durability": 250,
             "ItemLevel": 25,
             "Type": {
                 "Name": "Axe",
@@ -20522,7 +20522,7 @@
             "Name": "War Hammer",
             "RequiredStrength": 53,
             "RequiredDexterity": 0,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 25,
             "Type": {
                 "Name": "Hammer",
@@ -20582,7 +20582,7 @@
             "Name": "Pike",
             "RequiredStrength": 60,
             "RequiredDexterity": 45,
-            "Durability": 25,
+            "Durability": 250,
             "ItemLevel": 24,
             "Type": {
                 "Name": "Spear",
@@ -20811,7 +20811,7 @@
             "Name": "Battle Axe",
             "RequiredStrength": 54,
             "RequiredDexterity": 0,
-            "Durability": 80,
+            "Durability": 290,
             "ItemLevel": 17,
             "Type": {
                 "Name": "Axe",
@@ -20871,7 +20871,7 @@
             "Name": "Bastard Sword",
             "RequiredStrength": 62,
             "RequiredDexterity": 0,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 24,
             "Type": {
                 "Name": "Sword",
@@ -20991,7 +20991,7 @@
             "Name": "Short Spear",
             "RequiredStrength": 40,
             "RequiredDexterity": 40,
-            "Durability": 4,
+            "Durability": 250,
             "ItemLevel": 15,
             "Type": {
                 "Name": "Javelin",
@@ -21059,7 +21059,7 @@
             "Name": "Balanced Axe",
             "RequiredStrength": 0,
             "RequiredDexterity": 57,
-            "Durability": 10,
+            "Durability": 250,
             "ItemLevel": 16,
             "Type": {
                 "Name": "Throwing Axe",
@@ -21233,7 +21233,7 @@
             "Name": "Maiden Javelin",
             "RequiredStrength": 33,
             "RequiredDexterity": 47,
-            "Durability": 6,
+            "Durability": 250,
             "ItemLevel": 23,
             "Type": {
                 "Name": "Amazon Javelin",
@@ -21293,7 +21293,7 @@
             "Name": "      ",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 17,
             "Type": {
                 "Name": "Orb",
@@ -21463,7 +21463,7 @@
             "Name": "Scissors Katar",
             "RequiredStrength": 55,
             "RequiredDexterity": 55,
-            "Durability": 68,
+            "Durability": 250,
             "ItemLevel": 24,
             "Type": {
                 "Name": "Hand to Hand",
@@ -21607,7 +21607,7 @@
             "Name": "Grim Wand",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 26,
             "Type": {
                 "Name": "Wand",
@@ -21671,7 +21671,7 @@
             "Name": "Halberd",
             "RequiredStrength": 75,
             "RequiredDexterity": 47,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 29,
             "Type": {
                 "Name": "Polearm",
@@ -21735,7 +21735,7 @@
             "Name": "War Staff",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 24,
             "Type": {
                 "Name": "Staff",
@@ -22042,7 +22042,7 @@
             "Name": "Jo Staff",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 30,
             "Type": {
                 "Name": "Staff",
@@ -22309,7 +22309,7 @@
             "Name": "Great Axe",
             "RequiredStrength": 63,
             "RequiredDexterity": 39,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 23,
             "Type": {
                 "Name": "Axe",
@@ -22365,7 +22365,7 @@
             "Name": "Sabre",
             "RequiredStrength": 25,
             "RequiredDexterity": 25,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 8,
             "Type": {
                 "Name": "Sword",
@@ -22425,7 +22425,7 @@
             "Name": "Halberd",
             "RequiredStrength": 75,
             "RequiredDexterity": 47,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 29,
             "Type": {
                 "Name": "Polearm",
@@ -22609,7 +22609,7 @@
             "Name": "Glaive",
             "RequiredStrength": 52,
             "RequiredDexterity": 35,
-            "Durability": 5,
+            "Durability": 250,
             "ItemLevel": 23,
             "Type": {
                 "Name": "Javelin",
@@ -22999,7 +22999,7 @@
             "Name": "Cestus",
             "RequiredStrength": 42,
             "RequiredDexterity": 42,
-            "Durability": 72,
+            "Durability": 250,
             "ItemLevel": 15,
             "Type": {
                 "Name": "Hand to Hand",
@@ -23059,7 +23059,7 @@
             "Name": "Blade Talons",
             "RequiredStrength": 50,
             "RequiredDexterity": 50,
-            "Durability": 69,
+            "Durability": 250,
             "ItemLevel": 21,
             "Type": {
                 "Name": "Hand to Hand",
@@ -23165,7 +23165,7 @@
             "Name": "Giant Axe",
             "RequiredStrength": 70,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 27,
             "Type": {
                 "Name": "Axe",
@@ -23213,7 +23213,7 @@
             "Name": "Great Maul",
             "RequiredStrength": 99,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 32,
             "Type": {
                 "Name": "Hammer",
@@ -23269,7 +23269,7 @@
             "Name": "War Sword",
             "RequiredStrength": 71,
             "RequiredDexterity": 45,
-            "Durability": 44,
+            "Durability": 250,
             "ItemLevel": 27,
             "Type": {
                 "Name": "Sword",
@@ -23329,7 +23329,7 @@
             "Name": "Great Sword",
             "RequiredStrength": 100,
             "RequiredDexterity": 60,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 33,
             "Type": {
                 "Name": "Sword",
@@ -23381,7 +23381,7 @@
             "Name": "War Scythe",
             "RequiredStrength": 80,
             "RequiredDexterity": 80,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 34,
             "Type": {
                 "Name": "Polearm",
@@ -24025,7 +24025,7 @@
             "Name": "Giant Sword",
             "RequiredStrength": 56,
             "RequiredDexterity": 34,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 21,
             "Type": {
                 "Name": "Sword",
@@ -24085,7 +24085,7 @@
             "Name": "Flamberge",
             "RequiredStrength": 70,
             "RequiredDexterity": 49,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 27,
             "Type": {
                 "Name": "Sword",
@@ -24201,7 +24201,7 @@
             "Name": "Flail",
             "RequiredStrength": 41,
             "RequiredDexterity": 35,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 19,
             "Type": {
                 "Name": "Mace",
@@ -24261,7 +24261,7 @@
             "Name": "War Scepter",
             "RequiredStrength": 55,
             "RequiredDexterity": 0,
-            "Durability": 70,
+            "Durability": 250,
             "ItemLevel": 21,
             "Type": {
                 "Name": "Scepter",
@@ -24321,7 +24321,7 @@
             "Name": "Kris",
             "RequiredStrength": 0,
             "RequiredDexterity": 45,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 17,
             "Type": {
                 "Name": "Knife",
@@ -24381,7 +24381,7 @@
             "Name": "Blade",
             "RequiredStrength": 35,
             "RequiredDexterity": 51,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 23,
             "Type": {
                 "Name": "Knife",
@@ -24441,7 +24441,7 @@
             "Name": "Poleaxe",
             "RequiredStrength": 62,
             "RequiredDexterity": 0,
-            "Durability": 65,
+            "Durability": 250,
             "ItemLevel": 21,
             "Type": {
                 "Name": "Polearm",
@@ -24501,7 +24501,7 @@
             "Name": "Long Staff",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 8,
             "Type": {
                 "Name": "Staff",
@@ -24561,7 +24561,7 @@
             "Name": "War Staff",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 24,
             "Type": {
                 "Name": "Staff",
@@ -24741,7 +24741,7 @@
             "Name": "Throwing Spear",
             "RequiredStrength": 0,
             "RequiredDexterity": 65,
-            "Durability": 6,
+            "Durability": 250,
             "ItemLevel": 29,
             "Type": {
                 "Name": "Javelin",
@@ -24980,7 +24980,7 @@
             "Name": "Glowing Orb",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 32,
             "Type": {
                 "Name": "Orb",
@@ -25158,7 +25158,7 @@
             "Name": "Quhab",
             "RequiredStrength": 57,
             "RequiredDexterity": 57,
-            "Durability": 48,
+            "Durability": 250,
             "ItemLevel": 28,
             "Type": {
                 "Name": "Hand to Hand",
@@ -25166,6 +25166,40 @@
                 "Class": "ass"
             },
             "RequiredClass": "Assassin"
+        }
+    },
+    {
+        "Type": "Small Charm",
+        "Name": "Tier 5 Splash Charm",
+        "Index": "t5 Splash Charm",
+        "Enabled": false,
+        "ItemLevel": 1,
+        "RequiredLevel": 29,
+        "Code": "cm4",
+        "Properties": [
+            {
+                "PropertyString": "42 Percent Melee Splash Damage",
+                "Index": 0
+            },
+            {
+                "PropertyString": "-25 to -28 Enhanced Damage",
+                "Index": 1
+            }
+        ],
+        "DamageArmorEnhanced": false,
+        "Equipment": {
+            "EquipmentType": 2,
+            "Name": "Splash Charm",
+            "RequiredStrength": 0,
+            "RequiredDexterity": 0,
+            "Durability": 0,
+            "ItemLevel": 0,
+            "Type": {
+                "Name": "Small Charm",
+                "Index": "Small Charm",
+                "Class": ""
+            },
+            "RequiredClass": ""
         }
     },
     {
@@ -25222,7 +25256,7 @@
             "Name": "Gladius",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 54,
+            "Durability": 280,
             "ItemLevel": 30,
             "Type": {
                 "Name": "Sword",
@@ -25282,7 +25316,7 @@
             "Name": "Military Pick",
             "RequiredStrength": 49,
             "RequiredDexterity": 33,
-            "Durability": 26,
+            "Durability": 250,
             "ItemLevel": 19,
             "Type": {
                 "Name": "Axe",
@@ -25338,7 +25372,7 @@
             "Name": "War Axe",
             "RequiredStrength": 67,
             "RequiredDexterity": 0,
-            "Durability": 26,
+            "Durability": 250,
             "ItemLevel": 25,
             "Type": {
                 "Name": "Axe",
@@ -25394,7 +25428,7 @@
             "Name": "Falchion",
             "RequiredStrength": 33,
             "RequiredDexterity": 0,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 11,
             "Type": {
                 "Name": "Sword",
@@ -25454,7 +25488,7 @@
             "Name": "Spiked Club",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 36,
+            "Durability": 250,
             "ItemLevel": 4,
             "Type": {
                 "Name": "Club",
@@ -25506,7 +25540,7 @@
             "Name": "Pike",
             "RequiredStrength": 60,
             "RequiredDexterity": 45,
-            "Durability": 25,
+            "Durability": 250,
             "ItemLevel": 24,
             "Type": {
                 "Name": "Spear",
@@ -25566,7 +25600,7 @@
             "Name": "Yew Wand",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 12,
             "Type": {
                 "Name": "Wand",
@@ -26476,7 +26510,7 @@
             "Name": "Claws",
             "RequiredStrength": 46,
             "RequiredDexterity": 46,
-            "Durability": 64,
+            "Durability": 250,
             "ItemLevel": 18,
             "Type": {
                 "Name": "Hand to Hand",
@@ -26537,40 +26571,6 @@
         }
     },
     {
-        "Type": "Small Charm",
-        "Name": "Tier 5 Splash Charm",
-        "Index": "t5 Splash Charm",
-        "Enabled": false,
-        "ItemLevel": 1,
-        "RequiredLevel": 30,
-        "Code": "cm4",
-        "Properties": [
-            {
-                "PropertyString": "33 Percent Melee Splash Damage",
-                "Index": 0
-            },
-            {
-                "PropertyString": "-25 to -30 Enhanced Damage",
-                "Index": 1
-            }
-        ],
-        "DamageArmorEnhanced": false,
-        "Equipment": {
-            "EquipmentType": 2,
-            "Name": "Splash Charm",
-            "RequiredStrength": 0,
-            "RequiredDexterity": 0,
-            "Durability": 0,
-            "ItemLevel": 0,
-            "Type": {
-                "Name": "Small Charm",
-                "Index": "Small Charm",
-                "Class": ""
-            },
-            "RequiredClass": ""
-        }
-    },
-    {
         "Type": "Sword",
         "Name": "Coldsteel Eye",
         "Index": "Coldsteel Eye",
@@ -26616,7 +26616,7 @@
             "Name": "Cutlass",
             "RequiredStrength": 25,
             "RequiredDexterity": 52,
-            "Durability": 72,
+            "Durability": 300,
             "ItemLevel": 43,
             "Type": {
                 "Name": "Sword",
@@ -26680,7 +26680,7 @@
             "Name": "War Spear",
             "RequiredStrength": 25,
             "RequiredDexterity": 25,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 33,
             "Type": {
                 "Name": "Spear",
@@ -26744,7 +26744,7 @@
             "Name": "Quarterstaff",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 130,
+            "Durability": 350,
             "ItemLevel": 35,
             "Type": {
                 "Name": "Staff",
@@ -27011,7 +27011,7 @@
             "Name": "Crystal Sword",
             "RequiredStrength": 43,
             "RequiredDexterity": 0,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 11,
             "Type": {
                 "Name": "Sword",
@@ -27071,7 +27071,7 @@
             "Name": "War Sword",
             "RequiredStrength": 71,
             "RequiredDexterity": 45,
-            "Durability": 44,
+            "Durability": 250,
             "ItemLevel": 27,
             "Type": {
                 "Name": "Sword",
@@ -27127,7 +27127,7 @@
             "Name": "Halberd",
             "RequiredStrength": 75,
             "RequiredDexterity": 47,
-            "Durability": 95,
+            "Durability": 290,
             "ItemLevel": 29,
             "Type": {
                 "Name": "Polearm",
@@ -27251,7 +27251,7 @@
             "Name": "War Javelin",
             "RequiredStrength": 25,
             "RequiredDexterity": 25,
-            "Durability": 10,
+            "Durability": 250,
             "ItemLevel": 30,
             "Type": {
                 "Name": "Javelin",
@@ -27494,7 +27494,7 @@
             "Name": "Poignard",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 16,
+            "Durability": 250,
             "ItemLevel": 31,
             "Type": {
                 "Name": "Knife",
@@ -27769,7 +27769,7 @@
             "Name": "Giant Axe",
             "RequiredStrength": 70,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 27,
             "Type": {
                 "Name": "Axe",
@@ -27825,7 +27825,7 @@
             "Name": "Broad Sword",
             "RequiredStrength": 48,
             "RequiredDexterity": 0,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 15,
             "Type": {
                 "Name": "Sword",
@@ -27881,7 +27881,7 @@
             "Name": "Great Sword",
             "RequiredStrength": 100,
             "RequiredDexterity": 60,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 33,
             "Type": {
                 "Name": "Sword",
@@ -27941,7 +27941,7 @@
             "Name": "War Hammer",
             "RequiredStrength": 53,
             "RequiredDexterity": 0,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 25,
             "Type": {
                 "Name": "Hammer",
@@ -27997,7 +27997,7 @@
             "Name": "Spetum",
             "RequiredStrength": 54,
             "RequiredDexterity": 35,
-            "Durability": 88,
+            "Durability": 310,
             "ItemLevel": 20,
             "Type": {
                 "Name": "Spear",
@@ -28057,7 +28057,7 @@
             "Name": "War Scythe",
             "RequiredStrength": 80,
             "RequiredDexterity": 80,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 34,
             "Type": {
                 "Name": "Polearm",
@@ -28117,7 +28117,7 @@
             "Name": "Gnarled Staff",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 12,
             "Type": {
                 "Name": "Staff",
@@ -28177,7 +28177,7 @@
             "Name": "Grim Wand",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 26,
             "Type": {
                 "Name": "Wand",
@@ -28357,7 +28357,7 @@
             "Name": "Throwing Spear",
             "RequiredStrength": 0,
             "RequiredDexterity": 65,
-            "Durability": 6,
+            "Durability": 250,
             "ItemLevel": 29,
             "Type": {
                 "Name": "Javelin",
@@ -28758,7 +28758,7 @@
             "Name": "          ",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 24,
             "Type": {
                 "Name": "Orb",
@@ -28867,7 +28867,7 @@
             "Name": "Blade Talons",
             "RequiredStrength": 50,
             "RequiredDexterity": 50,
-            "Durability": 69,
+            "Durability": 250,
             "ItemLevel": 21,
             "Type": {
                 "Name": "Hand to Hand",
@@ -28931,7 +28931,7 @@
             "Name": "Wrist Spike",
             "RequiredStrength": 66,
             "RequiredDexterity": 66,
-            "Durability": 56,
+            "Durability": 250,
             "ItemLevel": 32,
             "Type": {
                 "Name": "Hand to Hand",
@@ -28987,7 +28987,7 @@
             "Name": "Burnt Wand",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 31,
             "Type": {
                 "Name": "Wand",
@@ -29047,7 +29047,7 @@
             "Name": "Shamshir",
             "RequiredStrength": 58,
             "RequiredDexterity": 58,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 35,
             "Type": {
                 "Name": "Sword",
@@ -29103,7 +29103,7 @@
             "Name": "Fuscina",
             "RequiredStrength": 77,
             "RequiredDexterity": 25,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 36,
             "Type": {
                 "Name": "Spear",
@@ -29272,7 +29272,7 @@
             "Name": "Great Axe",
             "RequiredStrength": 63,
             "RequiredDexterity": 39,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 23,
             "Type": {
                 "Name": "Axe",
@@ -29332,7 +29332,7 @@
             "Name": "Great Maul",
             "RequiredStrength": 99,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 32,
             "Type": {
                 "Name": "Hammer",
@@ -29396,7 +29396,7 @@
             "Name": "Bone Wand",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 18,
             "Type": {
                 "Name": "Wand",
@@ -29460,7 +29460,7 @@
             "Name": "Glaive",
             "RequiredStrength": 52,
             "RequiredDexterity": 35,
-            "Durability": 5,
+            "Durability": 250,
             "ItemLevel": 23,
             "Type": {
                 "Name": "Javelin",
@@ -29714,7 +29714,7 @@
             "Name": "Ceremonial Spear",
             "RequiredStrength": 101,
             "RequiredDexterity": 80,
-            "Durability": 28,
+            "Durability": 250,
             "ItemLevel": 43,
             "Type": {
                 "Name": "Amazon Spear",
@@ -29774,7 +29774,7 @@
             "Name": "Crystalline Globe",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 37,
             "Type": {
                 "Name": "Orb",
@@ -30013,7 +30013,7 @@
             "Name": "Scissors Katar",
             "RequiredStrength": 55,
             "RequiredDexterity": 55,
-            "Durability": 68,
+            "Durability": 250,
             "ItemLevel": 24,
             "Type": {
                 "Name": "Hand to Hand",
@@ -30069,7 +30069,7 @@
             "Name": "Cudgel",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 30,
             "Type": {
                 "Name": "Club",
@@ -30129,7 +30129,7 @@
             "Name": "Long Sword",
             "RequiredStrength": 55,
             "RequiredDexterity": 39,
-            "Durability": 44,
+            "Durability": 250,
             "ItemLevel": 20,
             "Type": {
                 "Name": "Sword",
@@ -30189,7 +30189,7 @@
             "Name": "Gladius",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 30,
             "Type": {
                 "Name": "Sword",
@@ -30249,7 +30249,7 @@
             "Name": "Bastard Sword",
             "RequiredStrength": 62,
             "RequiredDexterity": 0,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 24,
             "Type": {
                 "Name": "Sword",
@@ -30313,7 +30313,7 @@
             "Name": "Flail",
             "RequiredStrength": 41,
             "RequiredDexterity": 35,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 19,
             "Type": {
                 "Name": "Mace",
@@ -30866,7 +30866,7 @@
             "Name": "Military Axe",
             "RequiredStrength": 73,
             "RequiredDexterity": 0,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 34,
             "Type": {
                 "Name": "Axe",
@@ -30926,7 +30926,7 @@
             "Name": "Petrified Wand",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 38,
             "Type": {
                 "Name": "Wand",
@@ -30982,7 +30982,7 @@
             "Name": "Tulwar",
             "RequiredStrength": 70,
             "RequiredDexterity": 42,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 37,
             "Type": {
                 "Name": "Sword",
@@ -31038,7 +31038,7 @@
             "Name": "War Fork",
             "RequiredStrength": 80,
             "RequiredDexterity": 95,
-            "Durability": 43,
+            "Durability": 265,
             "ItemLevel": 41,
             "Type": {
                 "Name": "Spear",
@@ -31102,7 +31102,7 @@
             "Name": "Cedar Staff",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 38,
             "Type": {
                 "Name": "Staff",
@@ -31386,7 +31386,7 @@
             "Name": "War Axe",
             "RequiredStrength": 67,
             "RequiredDexterity": 0,
-            "Durability": 66,
+            "Durability": 290,
             "ItemLevel": 25,
             "Type": {
                 "Name": "Axe",
@@ -31446,7 +31446,7 @@
             "Name": "War Hammer",
             "RequiredStrength": 53,
             "RequiredDexterity": 0,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 25,
             "Type": {
                 "Name": "Hammer",
@@ -31506,7 +31506,7 @@
             "Name": "Grand Scepter",
             "RequiredStrength": 37,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 15,
             "Type": {
                 "Name": "Scepter",
@@ -31566,7 +31566,7 @@
             "Name": "Blade",
             "RequiredStrength": 35,
             "RequiredDexterity": 51,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 23,
             "Type": {
                 "Name": "Knife",
@@ -31626,7 +31626,7 @@
             "Name": "War Spear",
             "RequiredStrength": 25,
             "RequiredDexterity": 25,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 33,
             "Type": {
                 "Name": "Spear",
@@ -31686,7 +31686,7 @@
             "Name": "War Scythe",
             "RequiredStrength": 80,
             "RequiredDexterity": 80,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 34,
             "Type": {
                 "Name": "Polearm",
@@ -32006,7 +32006,7 @@
             "Name": "Great Pilum",
             "RequiredStrength": 25,
             "RequiredDexterity": 88,
-            "Durability": 12,
+            "Durability": 250,
             "ItemLevel": 37,
             "Type": {
                 "Name": "Javelin",
@@ -32078,7 +32078,7 @@
             "Name": "Balanced Axe",
             "RequiredStrength": 0,
             "RequiredDexterity": 57,
-            "Durability": 10,
+            "Durability": 250,
             "ItemLevel": 16,
             "Type": {
                 "Name": "Throwing Axe",
@@ -32252,7 +32252,7 @@
             "Name": "Cloudy Sphere",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 41,
             "Type": {
                 "Name": "Orb",
@@ -32430,12 +32430,46 @@
             "Name": "Scissors Suwayyah",
             "RequiredStrength": 118,
             "RequiredDexterity": 118,
-            "Durability": 68,
+            "Durability": 250,
             "ItemLevel": 85,
             "Type": {
                 "Name": "Hand to Hand 2",
                 "Index": "Hand to Hand 2",
                 "Class": "ass"
+            },
+            "RequiredClass": ""
+        }
+    },
+    {
+        "Type": "Small Charm",
+        "Name": "Tier 6 Splash Charm",
+        "Index": "t6 Splash Charm",
+        "Enabled": false,
+        "ItemLevel": 1,
+        "RequiredLevel": 35,
+        "Code": "cm4",
+        "Properties": [
+            {
+                "PropertyString": "50 Percent Melee Splash Damage",
+                "Index": 0
+            },
+            {
+                "PropertyString": "-20 to -26 Enhanced Damage",
+                "Index": 1
+            }
+        ],
+        "DamageArmorEnhanced": false,
+        "Equipment": {
+            "EquipmentType": 2,
+            "Name": "Splash Charm",
+            "RequiredStrength": 0,
+            "RequiredDexterity": 0,
+            "Durability": 0,
+            "ItemLevel": 0,
+            "Type": {
+                "Name": "Small Charm",
+                "Index": "Small Charm",
+                "Class": ""
             },
             "RequiredClass": ""
         }
@@ -32490,7 +32524,7 @@
             "Name": "Hatchet",
             "RequiredStrength": 25,
             "RequiredDexterity": 25,
-            "Durability": 28,
+            "Durability": 250,
             "ItemLevel": 31,
             "Type": {
                 "Name": "Axe",
@@ -32562,7 +32596,7 @@
             "Name": "Tomb Wand",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 43,
             "Type": {
                 "Name": "Wand",
@@ -32606,7 +32640,7 @@
                 "Index": 5
             },
             {
-                "PropertyString": "+4 to Grim Ward (Barbarian Only)",
+                "PropertyString": "+4 to Deadly Treasures (Barbarian Only)",
                 "Index": 6
             }
         ],
@@ -32622,7 +32656,7 @@
             "Name": "Rondel",
             "RequiredStrength": 25,
             "RequiredDexterity": 58,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 36,
             "Type": {
                 "Name": "Knife",
@@ -32949,7 +32983,7 @@
             "Name": "War Sword",
             "RequiredStrength": 71,
             "RequiredDexterity": 45,
-            "Durability": 44,
+            "Durability": 250,
             "ItemLevel": 27,
             "Type": {
                 "Name": "Sword",
@@ -33013,7 +33047,7 @@
             "Name": "Cutlass",
             "RequiredStrength": 25,
             "RequiredDexterity": 52,
-            "Durability": 22,
+            "Durability": 250,
             "ItemLevel": 43,
             "Type": {
                 "Name": "Sword",
@@ -33077,7 +33111,7 @@
             "Name": "Flamberge",
             "RequiredStrength": 70,
             "RequiredDexterity": 49,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 27,
             "Type": {
                 "Name": "Sword",
@@ -33141,7 +33175,7 @@
             "Name": "Battle Staff",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 17,
             "Type": {
                 "Name": "Staff",
@@ -33201,7 +33235,7 @@
             "Name": "Jo Staff",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 30,
             "Type": {
                 "Name": "Staff",
@@ -33603,7 +33637,7 @@
             "Name": "Glowing Orb",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 32,
             "Type": {
                 "Name": "Orb",
@@ -33777,7 +33811,7 @@
             "Name": "Fascia",
             "RequiredStrength": 69,
             "RequiredDexterity": 69,
-            "Durability": 64,
+            "Durability": 250,
             "ItemLevel": 36,
             "Type": {
                 "Name": "Hand to Hand",
@@ -33845,7 +33879,7 @@
             "Name": "Rune Scepter",
             "RequiredStrength": 58,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 31,
             "Type": {
                 "Name": "Scepter",
@@ -33897,7 +33931,7 @@
             "Name": "Dimensional Blade",
             "RequiredStrength": 85,
             "RequiredDexterity": 60,
-            "Durability": 60,
+            "Durability": 290,
             "ItemLevel": 37,
             "Type": {
                 "Name": "Sword",
@@ -33949,7 +33983,7 @@
             "Name": "Yari",
             "RequiredStrength": 101,
             "RequiredDexterity": 0,
-            "Durability": 28,
+            "Durability": 250,
             "ItemLevel": 44,
             "Type": {
                 "Name": "Spear",
@@ -33987,6 +34021,10 @@
             {
                 "PropertyString": "15 to Dexterity",
                 "Index": 2
+            },
+            {
+                "PropertyString": "Level 5 Raven (3 Charges)",
+                "Index": 5
             }
         ],
         "DamageArmorEnhanced": true,
@@ -34066,7 +34104,7 @@
             "Name": "Giant Axe",
             "RequiredStrength": 70,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 27,
             "Type": {
                 "Name": "Axe",
@@ -34126,7 +34164,7 @@
             "Name": "Poignard",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 16,
+            "Durability": 250,
             "ItemLevel": 31,
             "Type": {
                 "Name": "Knife",
@@ -34190,7 +34228,7 @@
             "Name": "Grim Wand",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 26,
             "Type": {
                 "Name": "Wand",
@@ -34378,7 +34416,7 @@
             "Name": "Throwing Spear",
             "RequiredStrength": 0,
             "RequiredDexterity": 65,
-            "Durability": 6,
+            "Durability": 250,
             "ItemLevel": 29,
             "Type": {
                 "Name": "Javelin",
@@ -34442,7 +34480,7 @@
             "Name": "War Javelin",
             "RequiredStrength": 25,
             "RequiredDexterity": 25,
-            "Durability": 10,
+            "Durability": 250,
             "ItemLevel": 30,
             "Type": {
                 "Name": "Javelin",
@@ -34844,7 +34882,7 @@
             "Name": "Quhab",
             "RequiredStrength": 57,
             "RequiredDexterity": 57,
-            "Durability": 48,
+            "Durability": 250,
             "ItemLevel": 28,
             "Type": {
                 "Name": "Hand to Hand",
@@ -34904,7 +34942,7 @@
             "Name": "Holy Water Sprinkler",
             "RequiredStrength": 76,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 40,
             "Type": {
                 "Name": "Scepter",
@@ -34968,7 +35006,7 @@
             "Name": "Barbed Club",
             "RequiredStrength": 30,
             "RequiredDexterity": 0,
-            "Durability": 56,
+            "Durability": 270,
             "ItemLevel": 32,
             "Type": {
                 "Name": "Club",
@@ -35032,7 +35070,7 @@
             "Name": "Cinquedeas",
             "RequiredStrength": 25,
             "RequiredDexterity": 88,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 42,
             "Type": {
                 "Name": "Knife",
@@ -35251,7 +35289,7 @@
             "Name": "Hatchet",
             "RequiredStrength": 25,
             "RequiredDexterity": 25,
-            "Durability": 73,
+            "Durability": 295,
             "ItemLevel": 31,
             "Type": {
                 "Name": "Axe",
@@ -35315,7 +35353,7 @@
             "Name": "Shamshir",
             "RequiredStrength": 58,
             "RequiredDexterity": 58,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 35,
             "Type": {
                 "Name": "Sword",
@@ -35375,7 +35413,7 @@
             "Name": "Great Sword",
             "RequiredStrength": 100,
             "RequiredDexterity": 60,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 33,
             "Type": {
                 "Name": "Sword",
@@ -35439,7 +35477,7 @@
             "Name": "Espandon",
             "RequiredStrength": 73,
             "RequiredDexterity": 61,
-            "Durability": 44,
+            "Durability": 250,
             "ItemLevel": 37,
             "Type": {
                 "Name": "Sword",
@@ -35503,7 +35541,7 @@
             "Name": "Pike",
             "RequiredStrength": 60,
             "RequiredDexterity": 45,
-            "Durability": 25,
+            "Durability": 250,
             "ItemLevel": 24,
             "Type": {
                 "Name": "Spear",
@@ -35563,7 +35601,7 @@
             "Name": "Lochaber Axe",
             "RequiredStrength": 80,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 33,
             "Type": {
                 "Name": "Polearm",
@@ -35687,7 +35725,7 @@
             "Name": "Simbilan",
             "RequiredStrength": 80,
             "RequiredDexterity": 80,
-            "Durability": 14,
+            "Durability": 250,
             "ItemLevel": 40,
             "Type": {
                 "Name": "Javelin",
@@ -35755,7 +35793,7 @@
             "Name": "Balanced Knife",
             "RequiredStrength": 0,
             "RequiredDexterity": 51,
-            "Durability": 8,
+            "Durability": 250,
             "ItemLevel": 13,
             "Type": {
                 "Name": "Throwing Knife",
@@ -35998,7 +36036,7 @@
             "Name": "Scissors Katar",
             "RequiredStrength": 55,
             "RequiredDexterity": 55,
-            "Durability": 68,
+            "Durability": 250,
             "ItemLevel": 24,
             "Type": {
                 "Name": "Hand to Hand",
@@ -36066,7 +36104,7 @@
             "Name": "Hand Scythe",
             "RequiredStrength": 73,
             "RequiredDexterity": 73,
-            "Durability": 72,
+            "Durability": 250,
             "ItemLevel": 41,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -36130,7 +36168,7 @@
             "Name": "War Fist",
             "RequiredStrength": 108,
             "RequiredDexterity": 108,
-            "Durability": 64,
+            "Durability": 250,
             "ItemLevel": 68,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -36342,7 +36380,7 @@
             "Name": "Bearded Axe",
             "RequiredStrength": 92,
             "RequiredDexterity": 0,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 38,
             "Type": {
                 "Name": "Axe",
@@ -36398,7 +36436,7 @@
             "Name": "Flanged Mace",
             "RequiredStrength": 61,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 35,
             "Type": {
                 "Name": "Mace",
@@ -36450,7 +36488,7 @@
             "Name": "Battle Sword",
             "RequiredStrength": 92,
             "RequiredDexterity": 43,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 40,
             "Type": {
                 "Name": "Sword",
@@ -36518,7 +36556,7 @@
             "Name": "Lance",
             "RequiredStrength": 110,
             "RequiredDexterity": 88,
-            "Durability": 25,
+            "Durability": 250,
             "ItemLevel": 47,
             "Type": {
                 "Name": "Spear",
@@ -36574,7 +36612,7 @@
             "Name": "Gothic Staff",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 42,
             "Type": {
                 "Name": "Staff",
@@ -36690,7 +36728,7 @@
             "Name": "Gladius",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 30,
             "Type": {
                 "Name": "Sword",
@@ -36746,7 +36784,7 @@
             "Name": "Maul",
             "RequiredStrength": 69,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 21,
             "Type": {
                 "Name": "Hammer",
@@ -36806,7 +36844,7 @@
             "Name": "Rune Scepter",
             "RequiredStrength": 58,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 31,
             "Type": {
                 "Name": "Scepter",
@@ -36870,7 +36908,7 @@
             "Name": "Fuscina",
             "RequiredStrength": 77,
             "RequiredDexterity": 25,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 36,
             "Type": {
                 "Name": "Spear",
@@ -36938,7 +36976,7 @@
             "Name": "Quarterstaff",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 35,
             "Type": {
                 "Name": "Staff",
@@ -37002,7 +37040,7 @@
             "Name": "Burnt Wand",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 31,
             "Type": {
                 "Name": "Wand",
@@ -37480,7 +37518,7 @@
             "Name": "Swirling Crystal",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 50,
             "Type": {
                 "Name": "Orb",
@@ -37715,7 +37753,7 @@
             "Name": "Military Axe",
             "RequiredStrength": 73,
             "RequiredDexterity": 0,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 34,
             "Type": {
                 "Name": "Axe",
@@ -37775,7 +37813,7 @@
             "Name": "Tulwar",
             "RequiredStrength": 70,
             "RequiredDexterity": 42,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 37,
             "Type": {
                 "Name": "Sword",
@@ -37835,7 +37873,7 @@
             "Name": "Cudgel",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 30,
             "Type": {
                 "Name": "Club",
@@ -37895,7 +37933,7 @@
             "Name": "War Staff",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 24,
             "Type": {
                 "Name": "Staff",
@@ -38194,7 +38232,7 @@
             "Name": "Ceremonial Spear",
             "RequiredStrength": 101,
             "RequiredDexterity": 80,
-            "Durability": 28,
+            "Durability": 250,
             "ItemLevel": 43,
             "Type": {
                 "Name": "Amazon Spear",
@@ -38254,7 +38292,7 @@
             "Name": "Crystalline Globe",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 37,
             "Type": {
                 "Name": "Orb",
@@ -38501,7 +38539,7 @@
             "Name": "Greater Claws",
             "RequiredStrength": 76,
             "RequiredDexterity": 76,
-            "Durability": 52,
+            "Durability": 250,
             "ItemLevel": 45,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -38561,7 +38599,7 @@
             "Name": "Tabar",
             "RequiredStrength": 101,
             "RequiredDexterity": 0,
-            "Durability": 90,
+            "Durability": 300,
             "ItemLevel": 42,
             "Type": {
                 "Name": "Axe",
@@ -38609,7 +38647,7 @@
                 "Index": 3
             },
             {
-                "PropertyString": "Level 13 Grim Ward (30 Charges)",
+                "PropertyString": "Level 13 Find Item (30 Charges)",
                 "Index": 7
             }
         ],
@@ -38625,7 +38663,7 @@
             "Name": "Grave Wand",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 49,
             "Type": {
                 "Name": "Wand",
@@ -38681,7 +38719,7 @@
             "Name": "Rune Sword",
             "RequiredStrength": 103,
             "RequiredDexterity": 79,
-            "Durability": 44,
+            "Durability": 250,
             "ItemLevel": 44,
             "Type": {
                 "Name": "Sword",
@@ -38733,7 +38771,7 @@
             "Name": "Stilleto",
             "RequiredStrength": 47,
             "RequiredDexterity": 97,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 46,
             "Type": {
                 "Name": "Knife",
@@ -38789,7 +38827,7 @@
             "Name": "Lochaber Axe",
             "RequiredStrength": 80,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 33,
             "Type": {
                 "Name": "Polearm",
@@ -38837,7 +38875,7 @@
             "Name": "Rune Staff",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 47,
             "Type": {
                 "Name": "Staff",
@@ -39249,7 +39287,7 @@
             "Name": "Cutlass",
             "RequiredStrength": 25,
             "RequiredDexterity": 52,
-            "Durability": 77,
+            "Durability": 305,
             "ItemLevel": 43,
             "Type": {
                 "Name": "Sword",
@@ -39313,7 +39351,7 @@
             "Name": "War Spear",
             "RequiredStrength": 25,
             "RequiredDexterity": 25,
-            "Durability": 90,
+            "Durability": 310,
             "ItemLevel": 33,
             "Type": {
                 "Name": "Spear",
@@ -39381,7 +39419,7 @@
             "Name": "Spiculum",
             "RequiredStrength": 98,
             "RequiredDexterity": 73,
-            "Durability": 16,
+            "Durability": 250,
             "ItemLevel": 46,
             "Type": {
                 "Name": "Javelin",
@@ -39806,7 +39844,7 @@
             "Name": "Wrist Spike",
             "RequiredStrength": 66,
             "RequiredDexterity": 66,
-            "Durability": 56,
+            "Durability": 250,
             "ItemLevel": 32,
             "Type": {
                 "Name": "Hand to Hand",
@@ -39814,6 +39852,40 @@
                 "Class": "ass"
             },
             "RequiredClass": "Assassin"
+        }
+    },
+    {
+        "Type": "Small Charm",
+        "Name": "t7 Splash Charm",
+        "Index": "t7 Splash Charm",
+        "Enabled": false,
+        "ItemLevel": 1,
+        "RequiredLevel": 41,
+        "Code": "cm4",
+        "Properties": [
+            {
+                "PropertyString": "50 Percent Melee Splash Damage",
+                "Index": 0
+            },
+            {
+                "PropertyString": "-15 to -24 Enhanced Damage",
+                "Index": 1
+            }
+        ],
+        "DamageArmorEnhanced": false,
+        "Equipment": {
+            "EquipmentType": 2,
+            "Name": "Splash Charm",
+            "RequiredStrength": 0,
+            "RequiredDexterity": 0,
+            "Durability": 0,
+            "ItemLevel": 0,
+            "Type": {
+                "Name": "Small Charm",
+                "Index": "Small Charm",
+                "Class": ""
+            },
+            "RequiredClass": ""
         }
     },
     {
@@ -39870,7 +39942,7 @@
             "Name": "Gothic Axe",
             "RequiredStrength": 115,
             "RequiredDexterity": 79,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 46,
             "Type": {
                 "Name": "Axe",
@@ -39942,7 +40014,7 @@
             "Name": "Divine Scepter",
             "RequiredStrength": 103,
             "RequiredDexterity": 0,
-            "Durability": 70,
+            "Durability": 250,
             "ItemLevel": 45,
             "Type": {
                 "Name": "Scepter",
@@ -40002,7 +40074,7 @@
             "Name": "Jagged Star",
             "RequiredStrength": 74,
             "RequiredDexterity": 0,
-            "Durability": 72,
+            "Durability": 250,
             "ItemLevel": 39,
             "Type": {
                 "Name": "Mace",
@@ -40062,7 +40134,7 @@
             "Name": "Ancient Sword",
             "RequiredStrength": 127,
             "RequiredDexterity": 88,
-            "Durability": 144,
+            "Durability": 350,
             "ItemLevel": 49,
             "Type": {
                 "Name": "Sword",
@@ -40122,7 +40194,7 @@
             "Name": "Espandon",
             "RequiredStrength": 73,
             "RequiredDexterity": 61,
-            "Durability": 44,
+            "Durability": 250,
             "ItemLevel": 37,
             "Type": {
                 "Name": "Sword",
@@ -40234,7 +40306,7 @@
             "Name": "Battle Scythe",
             "RequiredStrength": 82,
             "RequiredDexterity": 82,
-            "Durability": 65,
+            "Durability": 250,
             "ItemLevel": 40,
             "Type": {
                 "Name": "Polearm",
@@ -40664,7 +40736,7 @@
             "Name": "Ceremonial Javelin",
             "RequiredStrength": 25,
             "RequiredDexterity": 109,
-            "Durability": 6,
+            "Durability": 250,
             "ItemLevel": 35,
             "Type": {
                 "Name": "Amazon Javelin",
@@ -40800,7 +40872,7 @@
             "Name": "Ceremonial Pike",
             "RequiredStrength": 115,
             "RequiredDexterity": 98,
-            "Durability": 25,
+            "Durability": 250,
             "ItemLevel": 51,
             "Type": {
                 "Name": "Amazon Spear",
@@ -40868,7 +40940,7 @@
             "Name": "Swirling Crystal",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 50,
             "Type": {
                 "Name": "Orb",
@@ -41001,7 +41073,7 @@
             "Name": "Greater Talons",
             "RequiredStrength": 79,
             "RequiredDexterity": 79,
-            "Durability": 69,
+            "Durability": 250,
             "ItemLevel": 50,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -41126,7 +41198,7 @@
             "Name": "Dimensional Blade",
             "RequiredStrength": 85,
             "RequiredDexterity": 60,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 37,
             "Type": {
                 "Name": "Sword",
@@ -41186,7 +41258,7 @@
             "Name": "War Scepter",
             "RequiredStrength": 55,
             "RequiredDexterity": 0,
-            "Durability": 70,
+            "Durability": 250,
             "ItemLevel": 21,
             "Type": {
                 "Name": "Scepter",
@@ -41246,7 +41318,7 @@
             "Name": "Rondel",
             "RequiredStrength": 25,
             "RequiredDexterity": 58,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 36,
             "Type": {
                 "Name": "Knife",
@@ -41370,7 +41442,7 @@
             "Name": "Cedar Staff",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 38,
             "Type": {
                 "Name": "Staff",
@@ -41430,7 +41502,7 @@
             "Name": "Petrified Wand",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 38,
             "Type": {
                 "Name": "Wand",
@@ -41558,7 +41630,7 @@
             "Name": "Battle Dart",
             "RequiredStrength": 25,
             "RequiredDexterity": 52,
-            "Durability": 6,
+            "Durability": 250,
             "ItemLevel": 31,
             "Type": {
                 "Name": "Throwing Knife",
@@ -41744,7 +41816,7 @@
             "Name": "Twin Axe",
             "RequiredStrength": 85,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 39,
             "Type": {
                 "Name": "Axe",
@@ -41800,7 +41872,7 @@
             "Name": "Battle Hammer",
             "RequiredStrength": 100,
             "RequiredDexterity": 0,
-            "Durability": 105,
+            "Durability": 300,
             "ItemLevel": 48,
             "Type": {
                 "Name": "Hammer",
@@ -41860,7 +41932,7 @@
             "Name": "Dacian Falx",
             "RequiredStrength": 91,
             "RequiredDexterity": 20,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 42,
             "Type": {
                 "Name": "Sword",
@@ -41920,7 +41992,7 @@
             "Name": "Partizan",
             "RequiredStrength": 113,
             "RequiredDexterity": 67,
-            "Durability": 65,
+            "Durability": 250,
             "ItemLevel": 35,
             "Type": {
                 "Name": "Polearm",
@@ -42048,7 +42120,7 @@
             "Name": "Shamshir",
             "RequiredStrength": 58,
             "RequiredDexterity": 58,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 35,
             "Type": {
                 "Name": "Sword",
@@ -42108,7 +42180,7 @@
             "Name": "Burnt Wand",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 31,
             "Type": {
                 "Name": "Wand",
@@ -42232,7 +42304,7 @@
             "Name": "Great Pilum",
             "RequiredStrength": 25,
             "RequiredDexterity": 88,
-            "Durability": 12,
+            "Durability": 250,
             "ItemLevel": 37,
             "Type": {
                 "Name": "Javelin",
@@ -42300,7 +42372,7 @@
             "Name": "Francisca",
             "RequiredStrength": 25,
             "RequiredDexterity": 80,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 34,
             "Type": {
                 "Name": "Throwing Axe",
@@ -42755,7 +42827,7 @@
             "Name": "Cloudy Sphere",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 41,
             "Type": {
                 "Name": "Orb",
@@ -43047,7 +43119,7 @@
             "Name": "Fascia",
             "RequiredStrength": 69,
             "RequiredDexterity": 69,
-            "Durability": 64,
+            "Durability": 250,
             "ItemLevel": 36,
             "Type": {
                 "Name": "Hand to Hand",
@@ -43145,7 +43217,7 @@
             "Name": "Tusk Sword",
             "RequiredStrength": 104,
             "RequiredDexterity": 71,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 45,
             "Type": {
                 "Name": "Sword",
@@ -43201,7 +43273,7 @@
             "Name": "Bec-de-Corbin",
             "RequiredStrength": 133,
             "RequiredDexterity": 91,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 51,
             "Type": {
                 "Name": "Polearm",
@@ -43363,7 +43435,7 @@
             "Name": "Battle Dart",
             "RequiredStrength": 25,
             "RequiredDexterity": 52,
-            "Durability": 6,
+            "Durability": 250,
             "ItemLevel": 31,
             "Type": {
                 "Name": "Throwing Knife",
@@ -43419,7 +43491,7 @@
             "Name": "Hatchet",
             "RequiredStrength": 25,
             "RequiredDexterity": 25,
-            "Durability": 28,
+            "Durability": 250,
             "ItemLevel": 31,
             "Type": {
                 "Name": "Axe",
@@ -43479,7 +43551,7 @@
             "Name": "Bearded Axe",
             "RequiredStrength": 92,
             "RequiredDexterity": 0,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 38,
             "Type": {
                 "Name": "Axe",
@@ -43543,7 +43615,7 @@
             "Name": "Battle Sword",
             "RequiredStrength": 92,
             "RequiredDexterity": 43,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 40,
             "Type": {
                 "Name": "Sword",
@@ -43603,7 +43675,7 @@
             "Name": "War Fork",
             "RequiredStrength": 80,
             "RequiredDexterity": 95,
-            "Durability": 28,
+            "Durability": 250,
             "ItemLevel": 41,
             "Type": {
                 "Name": "Spear",
@@ -43663,7 +43735,7 @@
             "Name": "Lochaber Axe",
             "RequiredStrength": 80,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 33,
             "Type": {
                 "Name": "Polearm",
@@ -44064,7 +44136,7 @@
             "Name": "Crowbill",
             "RequiredStrength": 94,
             "RequiredDexterity": 70,
-            "Durability": 26,
+            "Durability": 250,
             "ItemLevel": 43,
             "Type": {
                 "Name": "Axe",
@@ -44124,7 +44196,7 @@
             "Name": "Ancient Axe",
             "RequiredStrength": 125,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 51,
             "Type": {
                 "Name": "Axe",
@@ -44184,7 +44256,7 @@
             "Name": "Knout",
             "RequiredStrength": 82,
             "RequiredDexterity": 73,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 43,
             "Type": {
                 "Name": "Mace",
@@ -44316,7 +44388,7 @@
             "Name": "Gothic Sword",
             "RequiredStrength": 113,
             "RequiredDexterity": 20,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 48,
             "Type": {
                 "Name": "Sword",
@@ -44384,7 +44456,7 @@
             "Name": "Grim Scythe",
             "RequiredStrength": 140,
             "RequiredDexterity": 140,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 55,
             "Type": {
                 "Name": "Polearm",
@@ -44597,7 +44669,7 @@
             "Name": "Cleaver",
             "RequiredStrength": 68,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 34,
             "Type": {
                 "Name": "Axe",
@@ -44657,7 +44729,7 @@
             "Name": "Military Axe",
             "RequiredStrength": 73,
             "RequiredDexterity": 0,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 34,
             "Type": {
                 "Name": "Axe",
@@ -44721,7 +44793,7 @@
             "Name": "Tulwar",
             "RequiredStrength": 70,
             "RequiredDexterity": 42,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 37,
             "Type": {
                 "Name": "Sword",
@@ -44785,7 +44857,7 @@
             "Name": "Flanged Mace",
             "RequiredStrength": 61,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 35,
             "Type": {
                 "Name": "Mace",
@@ -44845,7 +44917,7 @@
             "Name": "Battle Scythe",
             "RequiredStrength": 82,
             "RequiredDexterity": 82,
-            "Durability": 65,
+            "Durability": 250,
             "ItemLevel": 40,
             "Type": {
                 "Name": "Polearm",
@@ -44897,7 +44969,7 @@
             "Name": "Jo Staff",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 30,
             "Type": {
                 "Name": "Staff",
@@ -44957,7 +45029,7 @@
             "Name": "Tomb Wand",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 43,
             "Type": {
                 "Name": "Wand",
@@ -45077,7 +45149,7 @@
             "Name": "Harpoon",
             "RequiredStrength": 25,
             "RequiredDexterity": 118,
-            "Durability": 18,
+            "Durability": 250,
             "ItemLevel": 51,
             "Type": {
                 "Name": "Javelin",
@@ -45141,7 +45213,7 @@
             "Name": "War Dart",
             "RequiredStrength": 25,
             "RequiredDexterity": 97,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 39,
             "Type": {
                 "Name": "Throwing Knife",
@@ -45421,7 +45493,7 @@
             "Name": "Runic Talons",
             "RequiredStrength": 115,
             "RequiredDexterity": 115,
-            "Durability": 69,
+            "Durability": 250,
             "ItemLevel": 81,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -45479,19 +45551,19 @@
     },
     {
         "Type": "Small Charm",
-        "Name": "Tier 6 Splash Charm",
-        "Index": "t6 Splash Charm",
+        "Name": "t8 Splash Charm",
+        "Index": "t8 Splash Charm",
         "Enabled": false,
         "ItemLevel": 1,
         "RequiredLevel": 45,
         "Code": "cm4",
         "Properties": [
             {
-                "PropertyString": "42 Percent Melee Splash Damage",
+                "PropertyString": "50 Percent Melee Splash Damage",
                 "Index": 0
             },
             {
-                "PropertyString": "-20 to -27 Enhanced Damage",
+                "PropertyString": "-10 to -22 Enhanced Damage",
                 "Index": 1
             }
         ],
@@ -45565,7 +45637,7 @@
             "Name": "Zweihander",
             "RequiredStrength": 125,
             "RequiredDexterity": 94,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 49,
             "Type": {
                 "Name": "Sword",
@@ -45689,7 +45761,7 @@
             "Name": "Dacian Falx",
             "RequiredStrength": 91,
             "RequiredDexterity": 20,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 42,
             "Type": {
                 "Name": "Sword",
@@ -45753,7 +45825,7 @@
             "Name": "Barbed Club",
             "RequiredStrength": 30,
             "RequiredDexterity": 0,
-            "Durability": 36,
+            "Durability": 250,
             "ItemLevel": 32,
             "Type": {
                 "Name": "Club",
@@ -45797,7 +45869,7 @@
             "Name": "Great Maul",
             "RequiredStrength": 99,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 32,
             "Type": {
                 "Name": "Hammer",
@@ -45857,7 +45929,7 @@
             "Name": "Cinquedeas",
             "RequiredStrength": 25,
             "RequiredDexterity": 88,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 42,
             "Type": {
                 "Name": "Knife",
@@ -45917,7 +45989,7 @@
             "Name": "Fuscina",
             "RequiredStrength": 77,
             "RequiredDexterity": 25,
-            "Durability": 95,
+            "Durability": 310,
             "ItemLevel": 36,
             "Type": {
                 "Name": "Spear",
@@ -46509,7 +46581,7 @@
             "Name": "Hand Scythe",
             "RequiredStrength": 73,
             "RequiredDexterity": 73,
-            "Durability": 72,
+            "Durability": 250,
             "ItemLevel": 41,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -46790,7 +46862,7 @@
             "Name": "Tabar",
             "RequiredStrength": 101,
             "RequiredDexterity": 0,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 42,
             "Type": {
                 "Name": "Axe",
@@ -46854,7 +46926,7 @@
             "Name": "Dimensional Blade",
             "RequiredStrength": 85,
             "RequiredDexterity": 60,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 37,
             "Type": {
                 "Name": "Sword",
@@ -46918,7 +46990,7 @@
             "Name": "Rune Sword",
             "RequiredStrength": 103,
             "RequiredDexterity": 79,
-            "Durability": 44,
+            "Durability": 250,
             "ItemLevel": 44,
             "Type": {
                 "Name": "Sword",
@@ -46978,7 +47050,7 @@
             "Name": "Poignard",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 16,
+            "Durability": 250,
             "ItemLevel": 31,
             "Type": {
                 "Name": "Knife",
@@ -47042,7 +47114,7 @@
             "Name": "Yari",
             "RequiredStrength": 101,
             "RequiredDexterity": 0,
-            "Durability": 28,
+            "Durability": 250,
             "ItemLevel": 44,
             "Type": {
                 "Name": "Spear",
@@ -47170,7 +47242,7 @@
             "Name": "Gothic Staff",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 42,
             "Type": {
                 "Name": "Staff",
@@ -47294,7 +47366,7 @@
             "Name": "Simbilan",
             "RequiredStrength": 80,
             "RequiredDexterity": 80,
-            "Durability": 14,
+            "Durability": 250,
             "ItemLevel": 40,
             "Type": {
                 "Name": "Javelin",
@@ -47358,7 +47430,7 @@
             "Name": "Hurlbat",
             "RequiredStrength": 25,
             "RequiredDexterity": 106,
-            "Durability": 16,
+            "Durability": 250,
             "ItemLevel": 41,
             "Type": {
                 "Name": "Throwing Axe",
@@ -47589,7 +47661,7 @@
             "Name": "Naga",
             "RequiredStrength": 121,
             "RequiredDexterity": 0,
-            "Durability": 26,
+            "Durability": 250,
             "ItemLevel": 48,
             "Type": {
                 "Name": "Axe",
@@ -47645,7 +47717,7 @@
             "Name": "War Club",
             "RequiredStrength": 124,
             "RequiredDexterity": 0,
-            "Durability": 100,
+            "Durability": 290,
             "ItemLevel": 45,
             "Type": {
                 "Name": "Hammer",
@@ -47834,7 +47906,7 @@
             "Name": "Espandon",
             "RequiredStrength": 73,
             "RequiredDexterity": 61,
-            "Durability": 44,
+            "Durability": 250,
             "ItemLevel": 37,
             "Type": {
                 "Name": "Sword",
@@ -47894,7 +47966,7 @@
             "Name": "War Club",
             "RequiredStrength": 124,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 45,
             "Type": {
                 "Name": "Hammer",
@@ -47958,7 +48030,7 @@
             "Name": "Holy Water Sprinkler",
             "RequiredStrength": 76,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 40,
             "Type": {
                 "Name": "Scepter",
@@ -48022,7 +48094,7 @@
             "Name": "Stilleto",
             "RequiredStrength": 47,
             "RequiredDexterity": 97,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 46,
             "Type": {
                 "Name": "Knife",
@@ -48552,7 +48624,7 @@
             "Name": "Sparkling Ball",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 46,
             "Type": {
                 "Name": "Orb",
@@ -48616,7 +48688,7 @@
             "Name": "Greater Claws",
             "RequiredStrength": 76,
             "RequiredDexterity": 76,
-            "Durability": 52,
+            "Durability": 250,
             "ItemLevel": 45,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -49171,7 +49243,7 @@
             "Name": "Cleaver",
             "RequiredStrength": 68,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 34,
             "Type": {
                 "Name": "Axe",
@@ -49231,7 +49303,7 @@
             "Name": "Battle Sword",
             "RequiredStrength": 92,
             "RequiredDexterity": 43,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 40,
             "Type": {
                 "Name": "Sword",
@@ -49299,7 +49371,7 @@
             "Name": "Ancient Sword",
             "RequiredStrength": 127,
             "RequiredDexterity": 88,
-            "Durability": 44,
+            "Durability": 250,
             "ItemLevel": 49,
             "Type": {
                 "Name": "Sword",
@@ -49355,7 +49427,7 @@
             "Name": "Falcata",
             "RequiredStrength": 150,
             "RequiredDexterity": 88,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 56,
             "Type": {
                 "Name": "Sword",
@@ -49415,7 +49487,7 @@
             "Name": "Tusk Sword",
             "RequiredStrength": 104,
             "RequiredDexterity": 71,
-            "Durability": 100,
+            "Durability": 300,
             "ItemLevel": 45,
             "Type": {
                 "Name": "Sword",
@@ -49475,7 +49547,7 @@
             "Name": "Jagged Star",
             "RequiredStrength": 74,
             "RequiredDexterity": 0,
-            "Durability": 72,
+            "Durability": 250,
             "ItemLevel": 39,
             "Type": {
                 "Name": "Mace",
@@ -49539,7 +49611,7 @@
             "Name": "Rondel",
             "RequiredStrength": 25,
             "RequiredDexterity": 58,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 36,
             "Type": {
                 "Name": "Knife",
@@ -49595,7 +49667,7 @@
             "Name": "War Fork",
             "RequiredStrength": 80,
             "RequiredDexterity": 95,
-            "Durability": 88,
+            "Durability": 310,
             "ItemLevel": 41,
             "Type": {
                 "Name": "Spear",
@@ -49659,7 +49731,7 @@
             "Name": "Partizan",
             "RequiredStrength": 113,
             "RequiredDexterity": 67,
-            "Durability": 65,
+            "Durability": 250,
             "ItemLevel": 35,
             "Type": {
                 "Name": "Polearm",
@@ -49719,7 +49791,7 @@
             "Name": "Walking Stick",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 58,
             "Type": {
                 "Name": "Staff",
@@ -49779,7 +49851,7 @@
             "Name": "Tomb Wand",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 43,
             "Type": {
                 "Name": "Wand",
@@ -49843,7 +49915,7 @@
             "Name": "Grave Wand",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 49,
             "Type": {
                 "Name": "Wand",
@@ -50211,7 +50283,7 @@
             "Name": "Ceremonial Javelin",
             "RequiredStrength": 25,
             "RequiredDexterity": 109,
-            "Durability": 6,
+            "Durability": 250,
             "ItemLevel": 35,
             "Type": {
                 "Name": "Amazon Javelin",
@@ -50336,7 +50408,7 @@
             "Name": "Scissors Quhab",
             "RequiredStrength": 82,
             "RequiredDexterity": 82,
-            "Durability": 68,
+            "Durability": 250,
             "ItemLevel": 54,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -50641,6 +50713,40 @@
         }
     },
     {
+        "Type": "Small Charm",
+        "Name": "t9 Splash Charm",
+        "Index": "t9 Splash Charm",
+        "Enabled": true,
+        "ItemLevel": 1,
+        "RequiredLevel": 49,
+        "Code": "cm5",
+        "Properties": [
+            {
+                "PropertyString": "splash7",
+                "Index": 0
+            },
+            {
+                "PropertyString": "-5 to -20 Enhanced Damage",
+                "Index": 1
+            }
+        ],
+        "DamageArmorEnhanced": false,
+        "Equipment": {
+            "EquipmentType": 2,
+            "Name": "Splash Charm",
+            "RequiredStrength": 0,
+            "RequiredDexterity": 0,
+            "Durability": 0,
+            "ItemLevel": 0,
+            "Type": {
+                "Name": "Small Charm",
+                "Index": "Small Charm",
+                "Class": ""
+            },
+            "RequiredClass": ""
+        }
+    },
+    {
         "Type": "Shield",
         "Name": "Radament's Sphere",
         "Index": "Radimant's Sphere",
@@ -50843,7 +50949,7 @@
             "Name": "Twin Axe",
             "RequiredStrength": 85,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 39,
             "Type": {
                 "Name": "Axe",
@@ -50903,7 +51009,7 @@
             "Name": "Gothic Axe",
             "RequiredStrength": 115,
             "RequiredDexterity": 79,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 46,
             "Type": {
                 "Name": "Axe",
@@ -50963,7 +51069,7 @@
             "Name": "Battle Hammer",
             "RequiredStrength": 100,
             "RequiredDexterity": 0,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 48,
             "Type": {
                 "Name": "Hammer",
@@ -51079,7 +51185,7 @@
             "Name": "Battle Scythe",
             "RequiredStrength": 82,
             "RequiredDexterity": 82,
-            "Durability": 65,
+            "Durability": 250,
             "ItemLevel": 40,
             "Type": {
                 "Name": "Polearm",
@@ -51135,7 +51241,7 @@
             "Name": "Quarterstaff",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 35,
             "Type": {
                 "Name": "Staff",
@@ -51199,7 +51305,7 @@
             "Name": "Rune Staff",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 47,
             "Type": {
                 "Name": "Staff",
@@ -51263,7 +51369,7 @@
             "Name": "Polished Wand",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 22,
+            "Durability": 250,
             "ItemLevel": 55,
             "Type": {
                 "Name": "Wand",
@@ -51395,7 +51501,7 @@
             "Name": "Spiculum",
             "RequiredStrength": 98,
             "RequiredDexterity": 73,
-            "Durability": 16,
+            "Durability": 250,
             "ItemLevel": 46,
             "Type": {
                 "Name": "Javelin",
@@ -51463,7 +51569,7 @@
             "Name": "Francisca",
             "RequiredStrength": 25,
             "RequiredDexterity": 80,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 34,
             "Type": {
                 "Name": "Throwing Axe",
@@ -51815,7 +51921,7 @@
             "Name": "Maiden Javelin",
             "RequiredStrength": 33,
             "RequiredDexterity": 47,
-            "Durability": 6,
+            "Durability": 250,
             "ItemLevel": 23,
             "Type": {
                 "Name": "Amazon Javelin",
@@ -51883,7 +51989,7 @@
             "Name": "Ceremonial Pike",
             "RequiredStrength": 115,
             "RequiredDexterity": 98,
-            "Durability": 25,
+            "Durability": 250,
             "ItemLevel": 51,
             "Type": {
                 "Name": "Amazon Spear",
@@ -51947,7 +52053,7 @@
             "Name": "Sparkling Ball",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 46,
             "Type": {
                 "Name": "Orb",
@@ -52011,7 +52117,7 @@
             "Name": "Heavenly Stone",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 59,
             "Type": {
                 "Name": "Orb",
@@ -52535,7 +52641,7 @@
             "Name": "Bearded Axe",
             "RequiredStrength": 92,
             "RequiredDexterity": 0,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 38,
             "Type": {
                 "Name": "Axe",
@@ -52599,7 +52705,7 @@
             "Name": "Gothic Sword",
             "RequiredStrength": 113,
             "RequiredDexterity": 20,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 48,
             "Type": {
                 "Name": "Sword",
@@ -52659,7 +52765,7 @@
             "Name": "Rune Scepter",
             "RequiredStrength": 58,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 31,
             "Type": {
                 "Name": "Scepter",
@@ -52719,7 +52825,7 @@
             "Name": "Bec-de-Corbin",
             "RequiredStrength": 133,
             "RequiredDexterity": 91,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 51,
             "Type": {
                 "Name": "Polearm",
@@ -53089,7 +53195,7 @@
             "Name": "Ancient Axe",
             "RequiredStrength": 125,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 51,
             "Type": {
                 "Name": "Axe",
@@ -53149,7 +53255,7 @@
             "Name": "Rune Sword",
             "RequiredStrength": 103,
             "RequiredDexterity": 79,
-            "Durability": 44,
+            "Durability": 250,
             "ItemLevel": 44,
             "Type": {
                 "Name": "Sword",
@@ -53213,7 +53319,7 @@
             "Name": "Dacian Falx",
             "RequiredStrength": 91,
             "RequiredDexterity": 20,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 42,
             "Type": {
                 "Name": "Sword",
@@ -53337,7 +53443,7 @@
             "Name": "War Dart",
             "RequiredStrength": 25,
             "RequiredDexterity": 97,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 39,
             "Type": {
                 "Name": "Throwing Knife",
@@ -53584,7 +53690,7 @@
             "Name": "Quhab",
             "RequiredStrength": 57,
             "RequiredDexterity": 57,
-            "Durability": 48,
+            "Durability": 250,
             "ItemLevel": 28,
             "Type": {
                 "Name": "Hand to Hand",
@@ -53701,7 +53807,7 @@
             "Name": "Crowbill",
             "RequiredStrength": 94,
             "RequiredDexterity": 70,
-            "Durability": 26,
+            "Durability": 250,
             "ItemLevel": 43,
             "Type": {
                 "Name": "Axe",
@@ -53761,7 +53867,7 @@
             "Name": "Feral Axe",
             "RequiredStrength": 196,
             "RequiredDexterity": 0,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 57,
             "Type": {
                 "Name": "Axe",
@@ -53825,7 +53931,7 @@
             "Name": "Knout",
             "RequiredStrength": 82,
             "RequiredDexterity": 73,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 43,
             "Type": {
                 "Name": "Mace",
@@ -53889,7 +53995,7 @@
             "Name": "Cinquedeas",
             "RequiredStrength": 25,
             "RequiredDexterity": 88,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 42,
             "Type": {
                 "Name": "Knife",
@@ -53953,7 +54059,7 @@
             "Name": "Partizan",
             "RequiredStrength": 113,
             "RequiredDexterity": 67,
-            "Durability": 65,
+            "Durability": 250,
             "ItemLevel": 35,
             "Type": {
                 "Name": "Polearm",
@@ -54013,7 +54119,7 @@
             "Name": "Grim Scythe",
             "RequiredStrength": 140,
             "RequiredDexterity": 140,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 55,
             "Type": {
                 "Name": "Polearm",
@@ -54073,7 +54179,7 @@
             "Name": "Ogre Axe",
             "RequiredStrength": 195,
             "RequiredDexterity": 75,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 60,
             "Type": {
                 "Name": "Polearm",
@@ -54137,7 +54243,7 @@
             "Name": "Grave Wand",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 49,
             "Type": {
                 "Name": "Wand",
@@ -54557,7 +54663,7 @@
             "Name": "Tabar",
             "RequiredStrength": 101,
             "RequiredDexterity": 0,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 42,
             "Type": {
                 "Name": "Axe",
@@ -54621,7 +54727,7 @@
             "Name": "Ancient Sword",
             "RequiredStrength": 127,
             "RequiredDexterity": 88,
-            "Durability": 44,
+            "Durability": 250,
             "ItemLevel": 49,
             "Type": {
                 "Name": "Sword",
@@ -54689,7 +54795,7 @@
             "Name": "Zweihander",
             "RequiredStrength": 125,
             "RequiredDexterity": 94,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 49,
             "Type": {
                 "Name": "Sword",
@@ -54753,7 +54859,7 @@
             "Name": "Legend Sword",
             "RequiredStrength": 175,
             "RequiredDexterity": 100,
-            "Durability": 44,
+            "Durability": 250,
             "ItemLevel": 59,
             "Type": {
                 "Name": "Sword",
@@ -54817,7 +54923,7 @@
             "Name": "Divine Scepter",
             "RequiredStrength": 103,
             "RequiredDexterity": 0,
-            "Durability": 70,
+            "Durability": 250,
             "ItemLevel": 45,
             "Type": {
                 "Name": "Scepter",
@@ -54877,7 +54983,7 @@
             "Name": "Yari",
             "RequiredStrength": 101,
             "RequiredDexterity": 0,
-            "Durability": 88,
+            "Durability": 310,
             "ItemLevel": 44,
             "Type": {
                 "Name": "Spear",
@@ -55061,7 +55167,7 @@
             "Name": "War Javelin",
             "RequiredStrength": 25,
             "RequiredDexterity": 25,
-            "Durability": 10,
+            "Durability": 250,
             "ItemLevel": 30,
             "Type": {
                 "Name": "Javelin",
@@ -55129,7 +55235,7 @@
             "Name": "Harpoon",
             "RequiredStrength": 25,
             "RequiredDexterity": 118,
-            "Durability": 18,
+            "Durability": 250,
             "ItemLevel": 51,
             "Type": {
                 "Name": "Javelin",
@@ -55197,7 +55303,7 @@
             "Name": "Hurlbat",
             "RequiredStrength": 25,
             "RequiredDexterity": 106,
-            "Durability": 16,
+            "Durability": 250,
             "ItemLevel": 41,
             "Type": {
                 "Name": "Throwing Axe",
@@ -55440,7 +55546,7 @@
             "Name": "Scissors Quhab",
             "RequiredStrength": 82,
             "RequiredDexterity": 82,
-            "Durability": 68,
+            "Durability": 250,
             "ItemLevel": 54,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -55557,7 +55663,7 @@
             "Name": "Cudgel",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 30,
             "Type": {
                 "Name": "Club",
@@ -55621,7 +55727,7 @@
             "Name": "Martel de Fer",
             "RequiredStrength": 169,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 53,
             "Type": {
                 "Name": "Hammer",
@@ -55681,7 +55787,7 @@
             "Name": "Flanged Mace",
             "RequiredStrength": 61,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 35,
             "Type": {
                 "Name": "Mace",
@@ -55745,7 +55851,7 @@
             "Name": "Reinforced Mace",
             "RequiredStrength": 145,
             "RequiredDexterity": 46,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 63,
             "Type": {
                 "Name": "Mace",
@@ -55801,7 +55907,7 @@
             "Name": "Stalagmite",
             "RequiredStrength": 63,
             "RequiredDexterity": 35,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 66,
             "Type": {
                 "Name": "Staff",
@@ -55977,7 +56083,7 @@
             "Name": "Hyperion Javelin",
             "RequiredStrength": 98,
             "RequiredDexterity": 123,
-            "Durability": 10,
+            "Durability": 250,
             "ItemLevel": 54,
             "Type": {
                 "Name": "Javelin",
@@ -56497,7 +56603,7 @@
             "Name": "Suwayyah",
             "RequiredStrength": 99,
             "RequiredDexterity": 99,
-            "Durability": 48,
+            "Durability": 250,
             "ItemLevel": 59,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -56595,7 +56701,7 @@
             "Name": "Twin Axe",
             "RequiredStrength": 85,
             "RequiredDexterity": 0,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 39,
             "Type": {
                 "Name": "Axe",
@@ -56663,7 +56769,7 @@
             "Name": "Tusk Sword",
             "RequiredStrength": 104,
             "RequiredDexterity": 71,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 45,
             "Type": {
                 "Name": "Sword",
@@ -56783,7 +56889,7 @@
             "Name": "Stilleto",
             "RequiredStrength": 47,
             "RequiredDexterity": 97,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 46,
             "Type": {
                 "Name": "Knife",
@@ -56847,7 +56953,7 @@
             "Name": "Cedar Staff",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 38,
             "Type": {
                 "Name": "Staff",
@@ -57259,7 +57365,7 @@
             "Name": "Wrist Spike",
             "RequiredStrength": 66,
             "RequiredDexterity": 66,
-            "Durability": 56,
+            "Durability": 250,
             "ItemLevel": 32,
             "Type": {
                 "Name": "Hand to Hand",
@@ -57323,7 +57429,7 @@
             "Name": "Francisca",
             "RequiredStrength": 25,
             "RequiredDexterity": 80,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 34,
             "Type": {
                 "Name": "Throwing Axe",
@@ -57383,7 +57489,7 @@
             "Name": "Naga",
             "RequiredStrength": 121,
             "RequiredDexterity": 0,
-            "Durability": 26,
+            "Durability": 250,
             "ItemLevel": 48,
             "Type": {
                 "Name": "Axe",
@@ -57443,7 +57549,7 @@
             "Name": "Hydra Edge",
             "RequiredStrength": 142,
             "RequiredDexterity": 105,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 69,
             "Type": {
                 "Name": "Sword",
@@ -57503,7 +57609,7 @@
             "Name": "Lance",
             "RequiredStrength": 110,
             "RequiredDexterity": 88,
-            "Durability": 25,
+            "Durability": 250,
             "ItemLevel": 47,
             "Type": {
                 "Name": "Spear",
@@ -57567,7 +57673,7 @@
             "Name": "Bec-de-Corbin",
             "RequiredStrength": 133,
             "RequiredDexterity": 91,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 51,
             "Type": {
                 "Name": "Polearm",
@@ -57635,7 +57741,7 @@
             "Name": "Battle Dart",
             "RequiredStrength": 25,
             "RequiredDexterity": 52,
-            "Durability": 6,
+            "Durability": 250,
             "ItemLevel": 31,
             "Type": {
                 "Name": "Throwing Knife",
@@ -58147,7 +58253,7 @@
             "Name": "Ancient Axe",
             "RequiredStrength": 125,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 51,
             "Type": {
                 "Name": "Axe",
@@ -58211,7 +58317,7 @@
             "Name": "Holy Water Sprinkler",
             "RequiredStrength": 76,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 40,
             "Type": {
                 "Name": "Scepter",
@@ -58267,7 +58373,7 @@
             "Name": "Stygian Pike",
             "RequiredStrength": 168,
             "RequiredDexterity": 97,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 66,
             "Type": {
                 "Name": "Spear",
@@ -58335,7 +58441,7 @@
             "Name": "Great Pilum",
             "RequiredStrength": 25,
             "RequiredDexterity": 88,
-            "Durability": 12,
+            "Durability": 250,
             "ItemLevel": 37,
             "Type": {
                 "Name": "Javelin",
@@ -58630,7 +58736,7 @@
             "Name": "Gothic Axe",
             "RequiredStrength": 115,
             "RequiredDexterity": 79,
-            "Durability": 5,
+            "Durability": 205,
             "ItemLevel": 46,
             "Type": {
                 "Name": "Axe",
@@ -58698,7 +58804,7 @@
             "Name": "Gothic Sword",
             "RequiredStrength": 113,
             "RequiredDexterity": 20,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 48,
             "Type": {
                 "Name": "Sword",
@@ -58762,7 +58868,7 @@
             "Name": "Barbed Club",
             "RequiredStrength": 30,
             "RequiredDexterity": 0,
-            "Durability": 36,
+            "Durability": 250,
             "ItemLevel": 32,
             "Type": {
                 "Name": "Club",
@@ -58826,7 +58932,7 @@
             "Name": "War Club",
             "RequiredStrength": 124,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 45,
             "Type": {
                 "Name": "Hammer",
@@ -59129,7 +59235,7 @@
             "Name": "Heavenly Stone",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 59,
             "Type": {
                 "Name": "Orb",
@@ -59370,7 +59476,7 @@
             "Name": "Caduceus",
             "RequiredStrength": 97,
             "RequiredDexterity": 70,
-            "Durability": 70,
+            "Durability": 250,
             "ItemLevel": 85,
             "Type": {
                 "Name": "Scepter",
@@ -59438,7 +59544,7 @@
             "Name": "Crowbill",
             "RequiredStrength": 94,
             "RequiredDexterity": 70,
-            "Durability": 26,
+            "Durability": 250,
             "ItemLevel": 43,
             "Type": {
                 "Name": "Axe",
@@ -59494,7 +59600,7 @@
             "Name": "Falcata",
             "RequiredStrength": 150,
             "RequiredDexterity": 88,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 56,
             "Type": {
                 "Name": "Sword",
@@ -59554,7 +59660,7 @@
             "Name": "Highland Blade",
             "RequiredStrength": 171,
             "RequiredDexterity": 104,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 66,
             "Type": {
                 "Name": "Sword",
@@ -59614,7 +59720,7 @@
             "Name": "Battle Hammer",
             "RequiredStrength": 100,
             "RequiredDexterity": 0,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 48,
             "Type": {
                 "Name": "Hammer",
@@ -59674,7 +59780,7 @@
             "Name": "Jagged Star",
             "RequiredStrength": 74,
             "RequiredDexterity": 0,
-            "Durability": 72,
+            "Durability": 250,
             "ItemLevel": 39,
             "Type": {
                 "Name": "Mace",
@@ -59730,7 +59836,7 @@
             "Name": "Hyperion Spear",
             "RequiredStrength": 155,
             "RequiredDexterity": 120,
-            "Durability": 90,
+            "Durability": 310,
             "ItemLevel": 58,
             "Type": {
                 "Name": "Spear",
@@ -59782,7 +59888,7 @@
             "Name": "Grim Scythe",
             "RequiredStrength": 140,
             "RequiredDexterity": 140,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 55,
             "Type": {
                 "Name": "Polearm",
@@ -59846,7 +59952,7 @@
             "Name": "Colossus Voulge",
             "RequiredStrength": 210,
             "RequiredDexterity": 55,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 64,
             "Type": {
                 "Name": "Polearm",
@@ -59914,7 +60020,7 @@
             "Name": "Gothic Staff",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 42,
             "Type": {
                 "Name": "Staff",
@@ -60038,7 +60144,7 @@
             "Name": "Hurlbat",
             "RequiredStrength": 25,
             "RequiredDexterity": 106,
-            "Durability": 16,
+            "Durability": 250,
             "ItemLevel": 41,
             "Type": {
                 "Name": "Throwing Axe",
@@ -60516,7 +60622,7 @@
             "Name": "Fascia",
             "RequiredStrength": 69,
             "RequiredDexterity": 69,
-            "Durability": 64,
+            "Durability": 250,
             "ItemLevel": 36,
             "Type": {
                 "Name": "Hand to Hand",
@@ -60556,40 +60662,6 @@
         "Equipment": {
             "EquipmentType": 2,
             "Name": "Small Charm",
-            "RequiredStrength": 0,
-            "RequiredDexterity": 0,
-            "Durability": 0,
-            "ItemLevel": 0,
-            "Type": {
-                "Name": "Small Charm",
-                "Index": "Small Charm",
-                "Class": ""
-            },
-            "RequiredClass": ""
-        }
-    },
-    {
-        "Type": "Small Charm",
-        "Name": "t7 Splash Charm",
-        "Index": "t7 Splash Charm",
-        "Enabled": false,
-        "ItemLevel": 1,
-        "RequiredLevel": 60,
-        "Code": "cm4",
-        "Properties": [
-            {
-                "PropertyString": "42 Percent Melee Splash Damage",
-                "Index": 0
-            },
-            {
-                "PropertyString": "-15 to -25 Enhanced Damage",
-                "Index": 1
-            }
-        ],
-        "DamageArmorEnhanced": false,
-        "Equipment": {
-            "EquipmentType": 2,
-            "Name": "Splash Charm",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
             "Durability": 0,
@@ -60757,7 +60829,7 @@
             "Name": "Elegant Blade",
             "RequiredStrength": 109,
             "RequiredDexterity": 122,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 63,
             "Type": {
                 "Name": "Sword",
@@ -60878,7 +60950,7 @@
             "Name": "Mighty Scepter",
             "RequiredStrength": 125,
             "RequiredDexterity": 65,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 62,
             "Type": {
                 "Name": "Scepter",
@@ -60942,7 +61014,7 @@
             "Name": "Zweihander",
             "RequiredStrength": 125,
             "RequiredDexterity": 94,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 49,
             "Type": {
                 "Name": "Sword",
@@ -61002,7 +61074,7 @@
             "Name": "Ghost Wand",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 14,
+            "Durability": 250,
             "ItemLevel": 65,
             "Type": {
                 "Name": "Wand",
@@ -61126,7 +61198,7 @@
             "Name": "Simbilan",
             "RequiredStrength": 80,
             "RequiredDexterity": 80,
-            "Durability": 14,
+            "Durability": 250,
             "ItemLevel": 40,
             "Type": {
                 "Name": "Javelin",
@@ -61194,7 +61266,7 @@
             "Name": "Stygian Pilum",
             "RequiredStrength": 118,
             "RequiredDexterity": 112,
-            "Durability": 12,
+            "Durability": 250,
             "ItemLevel": 62,
             "Type": {
                 "Name": "Javelin",
@@ -61519,7 +61591,7 @@
             "Name": "Divine Scepter",
             "RequiredStrength": 103,
             "RequiredDexterity": 0,
-            "Durability": 70,
+            "Durability": 250,
             "ItemLevel": 45,
             "Type": {
                 "Name": "Scepter",
@@ -61583,7 +61655,7 @@
             "Name": "Mithril Point",
             "RequiredStrength": 55,
             "RequiredDexterity": 98,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 70,
             "Type": {
                 "Name": "Knife",
@@ -61688,7 +61760,7 @@
             "Name": "Tyrant Club",
             "RequiredStrength": 133,
             "RequiredDexterity": 0,
-            "Durability": 65,
+            "Durability": 250,
             "ItemLevel": 57,
             "Type": {
                 "Name": "Club",
@@ -61846,7 +61918,7 @@
             "Name": "War Spike",
             "RequiredStrength": 133,
             "RequiredDexterity": 54,
-            "Durability": 26,
+            "Durability": 250,
             "ItemLevel": 79,
             "Type": {
                 "Name": "Axe",
@@ -62032,7 +62104,7 @@
             "Name": "Hand Scythe",
             "RequiredStrength": 73,
             "RequiredDexterity": 73,
-            "Durability": 72,
+            "Durability": 250,
             "ItemLevel": 41,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -62084,7 +62156,7 @@
             "Name": "Scourge",
             "RequiredStrength": 125,
             "RequiredDexterity": 77,
-            "Durability": 65,
+            "Durability": 250,
             "ItemLevel": 76,
             "Type": {
                 "Name": "Mace",
@@ -62136,7 +62208,7 @@
             "Name": "Matriarchal Spear",
             "RequiredStrength": 114,
             "RequiredDexterity": 142,
-            "Durability": 28,
+            "Durability": 250,
             "ItemLevel": 61,
             "Type": {
                 "Name": "Amazon Spear",
@@ -62274,7 +62346,7 @@
         "Code": "7o7",
         "Properties": [
             {
-                "PropertyString": "Additional Bone Spear Projectiles 1",
+                "PropertyString": "+1 Additional Bone Spear Projectiles",
                 "Index": 6
             },
             {
@@ -62314,7 +62386,7 @@
             "Name": "Ogre Axe",
             "RequiredStrength": 195,
             "RequiredDexterity": 75,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 60,
             "Type": {
                 "Name": "Polearm",
@@ -62370,7 +62442,7 @@
             "Name": "Small Crescent",
             "RequiredStrength": 115,
             "RequiredDexterity": 83,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 61,
             "Type": {
                 "Name": "Axe",
@@ -62430,7 +62502,7 @@
             "Name": "Ataghan",
             "RequiredStrength": 138,
             "RequiredDexterity": 95,
-            "Durability": 22,
+            "Durability": 250,
             "ItemLevel": 61,
             "Type": {
                 "Name": "Sword",
@@ -62614,7 +62686,7 @@
             "Name": "Flying Knife",
             "RequiredStrength": 48,
             "RequiredDexterity": 141,
-            "Durability": 6,
+            "Durability": 250,
             "ItemLevel": 64,
             "Type": {
                 "Name": "Throwing Knife",
@@ -62772,7 +62844,7 @@
             "Name": "Suwayyah",
             "RequiredStrength": 99,
             "RequiredDexterity": 99,
-            "Durability": 48,
+            "Durability": 250,
             "ItemLevel": 59,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -63088,7 +63160,7 @@
             "Name": "Ataghan",
             "RequiredStrength": 138,
             "RequiredDexterity": 95,
-            "Durability": 22,
+            "Durability": 250,
             "ItemLevel": 61,
             "Type": {
                 "Name": "Sword",
@@ -63348,7 +63420,7 @@
             "Name": "Naga",
             "RequiredStrength": 121,
             "RequiredDexterity": 0,
-            "Durability": 26,
+            "Durability": 250,
             "ItemLevel": 48,
             "Type": {
                 "Name": "Axe",
@@ -63420,7 +63492,7 @@
             "Name": "Feral Axe",
             "RequiredStrength": 196,
             "RequiredDexterity": 0,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 57,
             "Type": {
                 "Name": "Axe",
@@ -63552,7 +63624,7 @@
             "Name": "Martel de Fer",
             "RequiredStrength": 169,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 53,
             "Type": {
                 "Name": "Hammer",
@@ -63612,7 +63684,7 @@
             "Name": "Rune Staff",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 47,
             "Type": {
                 "Name": "Staff",
@@ -63828,7 +63900,7 @@
             "Name": "Spiculum",
             "RequiredStrength": 98,
             "RequiredDexterity": 73,
-            "Durability": 16,
+            "Durability": 250,
             "ItemLevel": 46,
             "Type": {
                 "Name": "Javelin",
@@ -64063,7 +64135,7 @@
             "Name": "Ceremonial Javelin",
             "RequiredStrength": 25,
             "RequiredDexterity": 109,
-            "Durability": 6,
+            "Durability": 250,
             "ItemLevel": 35,
             "Type": {
                 "Name": "Amazon Javelin",
@@ -64115,7 +64187,7 @@
             "Name": "Eldritch Orb",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 67,
             "Type": {
                 "Name": "Orb",
@@ -64244,7 +64316,7 @@
             "Name": "Greater Claws",
             "RequiredStrength": 76,
             "RequiredDexterity": 76,
-            "Durability": 52,
+            "Durability": 250,
             "ItemLevel": 45,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -64304,7 +64376,7 @@
             "Name": "Decapitator",
             "RequiredStrength": 189,
             "RequiredDexterity": 33,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 73,
             "Type": {
                 "Name": "Axe",
@@ -64356,7 +64428,7 @@
             "Name": "Unearthed Wand",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 18,
+            "Durability": 250,
             "ItemLevel": 86,
             "Type": {
                 "Name": "Wand",
@@ -64412,7 +64484,7 @@
             "Name": "Wrist Sword",
             "RequiredStrength": 105,
             "RequiredDexterity": 105,
-            "Durability": 56,
+            "Durability": 250,
             "ItemLevel": 62,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -64594,7 +64666,7 @@
             "Name": "Elder Staff",
             "RequiredStrength": 44,
             "RequiredDexterity": 37,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 74,
             "Type": {
                 "Name": "Staff",
@@ -64871,7 +64943,7 @@
             "Name": "Tomahawk",
             "RequiredStrength": 125,
             "RequiredDexterity": 67,
-            "Durability": 28,
+            "Durability": 250,
             "ItemLevel": 54,
             "Type": {
                 "Name": "Axe",
@@ -65045,7 +65117,7 @@
             "Name": "Feral Claws",
             "RequiredStrength": 113,
             "RequiredDexterity": 113,
-            "Durability": 52,
+            "Durability": 250,
             "ItemLevel": 78,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -65105,7 +65177,7 @@
             "Name": "Knout",
             "RequiredStrength": 82,
             "RequiredDexterity": 73,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 43,
             "Type": {
                 "Name": "Mace",
@@ -65153,7 +65225,7 @@
             "Name": "Walking Stick",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 58,
             "Type": {
                 "Name": "Staff",
@@ -65660,7 +65732,7 @@
             "Name": "Fanged Knife",
             "RequiredStrength": 42,
             "RequiredDexterity": 86,
-            "Durability": 36,
+            "Durability": 250,
             "ItemLevel": 83,
             "Type": {
                 "Name": "Knife",
@@ -65716,7 +65788,7 @@
             "Name": "Legendary Mallet",
             "RequiredStrength": 189,
             "RequiredDexterity": 0,
-            "Durability": 65,
+            "Durability": 250,
             "ItemLevel": 82,
             "Type": {
                 "Name": "Hammer",
@@ -65780,7 +65852,7 @@
             "Name": "Winged Axe",
             "RequiredStrength": 96,
             "RequiredDexterity": 122,
-            "Durability": 16,
+            "Durability": 250,
             "ItemLevel": 80,
             "Type": {
                 "Name": "Throwing Axe",
@@ -65888,7 +65960,7 @@
             "Name": "Balrog Spear",
             "RequiredStrength": 127,
             "RequiredDexterity": 95,
-            "Durability": 14,
+            "Durability": 250,
             "ItemLevel": 71,
             "Type": {
                 "Name": "Javelin",
@@ -66001,7 +66073,7 @@
             "Name": "Truncheon",
             "RequiredStrength": 88,
             "RequiredDexterity": 43,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 52,
             "Type": {
                 "Name": "Club",
@@ -66065,7 +66137,7 @@
             "Name": "Legend Sword",
             "RequiredStrength": 175,
             "RequiredDexterity": 100,
-            "Durability": 44,
+            "Durability": 250,
             "ItemLevel": 59,
             "Type": {
                 "Name": "Sword",
@@ -66125,7 +66197,7 @@
             "Name": "Polished Wand",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 22,
+            "Durability": 250,
             "ItemLevel": 55,
             "Type": {
                 "Name": "Wand",
@@ -66363,7 +66435,7 @@
             "Name": "Demon Heart",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 75,
             "Type": {
                 "Name": "Orb",
@@ -66484,7 +66556,7 @@
             "Name": "Greater Talons",
             "RequiredStrength": 79,
             "RequiredDexterity": 79,
-            "Durability": 69,
+            "Durability": 250,
             "ItemLevel": 50,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -66714,7 +66786,7 @@
             "Name": "Matriarchal Javelin",
             "RequiredStrength": 107,
             "RequiredDexterity": 151,
-            "Durability": 6,
+            "Durability": 250,
             "ItemLevel": 65,
             "Type": {
                 "Name": "Amazon Javelin",
@@ -66830,7 +66902,7 @@
             "Name": "Thunder Maul",
             "RequiredStrength": 253,
             "RequiredDexterity": 0,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 85,
             "Type": {
                 "Name": "Hammer",
@@ -66946,7 +67018,7 @@
             "Name": "Elegant Blade",
             "RequiredStrength": 109,
             "RequiredDexterity": 122,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 63,
             "Type": {
                 "Name": "Sword",
@@ -66994,7 +67066,7 @@
             "Name": "Stygian Pike",
             "RequiredStrength": 168,
             "RequiredDexterity": 97,
-            "Durability": 95,
+            "Durability": 310,
             "ItemLevel": 66,
             "Type": {
                 "Name": "Spear",
@@ -67062,7 +67134,7 @@
             "Name": "Stalagmite",
             "RequiredStrength": 63,
             "RequiredDexterity": 35,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 66,
             "Type": {
                 "Name": "Staff",
@@ -67134,7 +67206,7 @@
             "Name": "Harpoon",
             "RequiredStrength": 25,
             "RequiredDexterity": 118,
-            "Durability": 18,
+            "Durability": 250,
             "ItemLevel": 51,
             "Type": {
                 "Name": "Javelin",
@@ -67206,7 +67278,7 @@
             "Name": "War Dart",
             "RequiredStrength": 25,
             "RequiredDexterity": 97,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 39,
             "Type": {
                 "Name": "Throwing Knife",
@@ -67327,7 +67399,7 @@
             "Name": "Champion Axe",
             "RequiredStrength": 167,
             "RequiredDexterity": 59,
-            "Durability": 75,
+            "Durability": 275,
             "ItemLevel": 82,
             "Type": {
                 "Name": "Axe",
@@ -67447,7 +67519,7 @@
             "Name": "Berserker Axe",
             "RequiredStrength": 138,
             "RequiredDexterity": 59,
-            "Durability": 26,
+            "Durability": 250,
             "ItemLevel": 85,
             "Type": {
                 "Name": "Axe",
@@ -67503,7 +67575,7 @@
             "Name": "Winged Harpoon",
             "RequiredStrength": 76,
             "RequiredDexterity": 145,
-            "Durability": 18,
+            "Durability": 250,
             "ItemLevel": 85,
             "Type": {
                 "Name": "Javelin",
@@ -67563,7 +67635,7 @@
             "Name": "Flying Axe",
             "RequiredStrength": 88,
             "RequiredDexterity": 108,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 56,
             "Type": {
                 "Name": "Throwing Axe",
@@ -67819,7 +67891,7 @@
             "Name": "Conquest Sword",
             "RequiredStrength": 142,
             "RequiredDexterity": 112,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 78,
             "Type": {
                 "Name": "Sword",
@@ -67883,7 +67955,7 @@
             "Name": "Truncheon",
             "RequiredStrength": 88,
             "RequiredDexterity": 43,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 52,
             "Type": {
                 "Name": "Club",
@@ -67939,7 +68011,7 @@
             "Name": "Reinforced Mace",
             "RequiredStrength": 145,
             "RequiredDexterity": 46,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 63,
             "Type": {
                 "Name": "Mace",
@@ -68003,7 +68075,7 @@
             "Name": "Bone Knife",
             "RequiredStrength": 38,
             "RequiredDexterity": 75,
-            "Durability": 26,
+            "Durability": 250,
             "ItemLevel": 58,
             "Type": {
                 "Name": "Knife",
@@ -68063,7 +68135,7 @@
             "Name": "Colossus Voulge",
             "RequiredStrength": 210,
             "RequiredDexterity": 55,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 64,
             "Type": {
                 "Name": "Polearm",
@@ -68123,7 +68195,7 @@
             "Name": "Hyperion Javelin",
             "RequiredStrength": 98,
             "RequiredDexterity": 123,
-            "Durability": 10,
+            "Durability": 250,
             "ItemLevel": 54,
             "Type": {
                 "Name": "Javelin",
@@ -68293,7 +68365,7 @@
             "Name": "Matriarchal Pike",
             "RequiredStrength": 132,
             "RequiredDexterity": 149,
-            "Durability": 25,
+            "Durability": 250,
             "ItemLevel": 81,
             "Type": {
                 "Name": "Amazon Spear",
@@ -68418,7 +68490,7 @@
             "Name": "Scissors Quhab",
             "RequiredStrength": 82,
             "RequiredDexterity": 82,
-            "Durability": 68,
+            "Durability": 250,
             "ItemLevel": 54,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -68579,7 +68651,7 @@
             "Name": "Mancatcher",
             "RequiredStrength": 132,
             "RequiredDexterity": 134,
-            "Durability": 28,
+            "Durability": 250,
             "ItemLevel": 74,
             "Type": {
                 "Name": "Spear",
@@ -68699,7 +68771,7 @@
             "Name": "Balrog Blade",
             "RequiredStrength": 185,
             "RequiredDexterity": 87,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 71,
             "Type": {
                 "Name": "Sword",
@@ -68873,7 +68945,7 @@
             "Name": "Wrist Sword",
             "RequiredStrength": 105,
             "RequiredDexterity": 105,
-            "Durability": 56,
+            "Durability": 250,
             "ItemLevel": 62,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -68963,7 +69035,7 @@
             "Name": "Ettin Axe",
             "RequiredStrength": 145,
             "RequiredDexterity": 45,
-            "Durability": 24,
+            "Durability": 250,
             "ItemLevel": 70,
             "Type": {
                 "Name": "Axe",
@@ -69064,7 +69136,7 @@
             "Name": "Eldritch Orb",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 67,
             "Type": {
                 "Name": "Orb",
@@ -69132,7 +69204,7 @@
             "Name": "Mighty Scepter",
             "RequiredStrength": 125,
             "RequiredDexterity": 65,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 62,
             "Type": {
                 "Name": "Scepter",
@@ -69192,7 +69264,7 @@
             "Name": "Hydra Edge",
             "RequiredStrength": 142,
             "RequiredDexterity": 105,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 69,
             "Type": {
                 "Name": "Sword",
@@ -69380,7 +69452,7 @@
             "Name": "Demon Heart",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 75,
             "Type": {
                 "Name": "Orb",
@@ -69736,7 +69808,7 @@
             "Name": "Dimensional Shard",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 85,
             "Type": {
                 "Name": "Orb",
@@ -69800,7 +69872,7 @@
             "Name": "Decapitator",
             "RequiredStrength": 189,
             "RequiredDexterity": 33,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 73,
             "Type": {
                 "Name": "Axe",
@@ -69864,7 +69936,7 @@
             "Name": "Highland Blade",
             "RequiredStrength": 171,
             "RequiredDexterity": 104,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 66,
             "Type": {
                 "Name": "Sword",
@@ -69920,7 +69992,7 @@
             "Name": "Elder Staff",
             "RequiredStrength": 44,
             "RequiredDexterity": 37,
-            "Durability": 35,
+            "Durability": 250,
             "ItemLevel": 74,
             "Type": {
                 "Name": "Staff",
@@ -69980,7 +70052,7 @@
             "Name": "Ghost Wand",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 14,
+            "Durability": 250,
             "ItemLevel": 65,
             "Type": {
                 "Name": "Wand",
@@ -70328,7 +70400,7 @@
             "Name": "Matriarchal Spear",
             "RequiredStrength": 114,
             "RequiredDexterity": 142,
-            "Durability": 28,
+            "Durability": 250,
             "ItemLevel": 61,
             "Type": {
                 "Name": "Amazon Spear",
@@ -70392,7 +70464,7 @@
             "Name": "Vortex Orb",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 84,
             "Type": {
                 "Name": "Orb",
@@ -70721,7 +70793,7 @@
             "Name": "Mithril Point",
             "RequiredStrength": 55,
             "RequiredDexterity": 98,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 70,
             "Type": {
                 "Name": "Knife",
@@ -70777,7 +70849,7 @@
             "Name": "Mancatcher",
             "RequiredStrength": 132,
             "RequiredDexterity": 134,
-            "Durability": 28,
+            "Durability": 250,
             "ItemLevel": 74,
             "Type": {
                 "Name": "Spear",
@@ -71193,7 +71265,7 @@
             "Name": "Winged Knife",
             "RequiredStrength": 45,
             "RequiredDexterity": 142,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 77,
             "Type": {
                 "Name": "Throwing Knife",
@@ -71245,7 +71317,7 @@
             "Name": "Glorious Axe",
             "RequiredStrength": 164,
             "RequiredDexterity": 55,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 85,
             "Type": {
                 "Name": "Axe",
@@ -71305,7 +71377,7 @@
             "Name": "Thresher",
             "RequiredStrength": 152,
             "RequiredDexterity": 118,
-            "Durability": 65,
+            "Durability": 250,
             "ItemLevel": 71,
             "Type": {
                 "Name": "Polearm",
@@ -71533,7 +71605,7 @@
             "Name": "Colossus Sword",
             "RequiredStrength": 182,
             "RequiredDexterity": 95,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 80,
             "Type": {
                 "Name": "Sword",
@@ -71657,7 +71729,7 @@
             "Name": "Thresher",
             "RequiredStrength": 152,
             "RequiredDexterity": 118,
-            "Durability": 65,
+            "Durability": 250,
             "ItemLevel": 71,
             "Type": {
                 "Name": "Polearm",
@@ -71769,40 +71841,6 @@
             "Type": {
                 "Name": "Large Charm",
                 "Index": "Large Charm",
-                "Class": ""
-            },
-            "RequiredClass": ""
-        }
-    },
-    {
-        "Type": "Small Charm",
-        "Name": "t8 Splash Charm",
-        "Index": "t8 Splash Charm",
-        "Enabled": false,
-        "ItemLevel": 1,
-        "RequiredLevel": 75,
-        "Code": "cm4",
-        "Properties": [
-            {
-                "PropertyString": "42 Percent Melee Splash Damage",
-                "Index": 0
-            },
-            {
-                "PropertyString": "-10 to -23 Enhanced Damage",
-                "Index": 1
-            }
-        ],
-        "DamageArmorEnhanced": false,
-        "Equipment": {
-            "EquipmentType": 2,
-            "Name": "Splash Charm",
-            "RequiredStrength": 0,
-            "RequiredDexterity": 0,
-            "Durability": 0,
-            "ItemLevel": 0,
-            "Type": {
-                "Name": "Small Charm",
-                "Index": "Small Charm",
                 "Class": ""
             },
             "RequiredClass": ""
@@ -72115,7 +72153,7 @@
             "Name": "Ghost Glaive",
             "RequiredStrength": 89,
             "RequiredDexterity": 137,
-            "Durability": 16,
+            "Durability": 250,
             "ItemLevel": 79,
             "Type": {
                 "Name": "Javelin",
@@ -72171,7 +72209,7 @@
             "Name": "Shillelagh",
             "RequiredStrength": 52,
             "RequiredDexterity": 27,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 83,
             "Type": {
                 "Name": "Staff",
@@ -72284,7 +72322,7 @@
             "Name": "War Fist",
             "RequiredStrength": 108,
             "RequiredDexterity": 108,
-            "Durability": 64,
+            "Durability": 250,
             "ItemLevel": 68,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -72545,7 +72583,7 @@
             "Name": "Balrog Blade",
             "RequiredStrength": 185,
             "RequiredDexterity": 87,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 71,
             "Type": {
                 "Name": "Sword",
@@ -72613,7 +72651,7 @@
             "Name": "Tyrant Club",
             "RequiredStrength": 133,
             "RequiredDexterity": 0,
-            "Durability": 65,
+            "Durability": 250,
             "ItemLevel": 57,
             "Type": {
                 "Name": "Club",
@@ -72741,7 +72779,7 @@
             "Name": "Seraph Rod",
             "RequiredStrength": 108,
             "RequiredDexterity": 69,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 76,
             "Type": {
                 "Name": "Scepter",
@@ -72789,7 +72827,7 @@
             "Name": "Great Poleaxe",
             "RequiredStrength": 179,
             "RequiredDexterity": 99,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 84,
             "Type": {
                 "Name": "Polearm",
@@ -72917,7 +72955,7 @@
             "Name": "Balrog Spear",
             "RequiredStrength": 127,
             "RequiredDexterity": 95,
-            "Durability": 14,
+            "Durability": 250,
             "ItemLevel": 71,
             "Type": {
                 "Name": "Javelin",
@@ -72985,7 +73023,7 @@
             "Name": "Flying Axe",
             "RequiredStrength": 88,
             "RequiredDexterity": 108,
-            "Durability": 15,
+            "Durability": 250,
             "ItemLevel": 56,
             "Type": {
                 "Name": "Throwing Axe",
@@ -73443,7 +73481,7 @@
             "Name": "Vortex Orb",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 84,
             "Type": {
                 "Name": "Orb",
@@ -73629,7 +73667,7 @@
             "Name": "Lich Wand",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 17,
+            "Durability": 250,
             "ItemLevel": 75,
             "Type": {
                 "Name": "Wand",
@@ -73758,7 +73796,7 @@
             "Name": "Champion Axe",
             "RequiredStrength": 167,
             "RequiredDexterity": 59,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 82,
             "Type": {
                 "Name": "Axe",
@@ -73818,7 +73856,7 @@
             "Name": "Conquest Sword",
             "RequiredStrength": 142,
             "RequiredDexterity": 112,
-            "Durability": 32,
+            "Durability": 250,
             "ItemLevel": 78,
             "Type": {
                 "Name": "Sword",
@@ -73938,7 +73976,7 @@
             "Name": "Cryptic Axe",
             "RequiredStrength": 165,
             "RequiredDexterity": 103,
-            "Durability": 65,
+            "Durability": 250,
             "ItemLevel": 79,
             "Type": {
                 "Name": "Polearm",
@@ -73998,7 +74036,7 @@
             "Name": "Shillelagh",
             "RequiredStrength": 52,
             "RequiredDexterity": 27,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 83,
             "Type": {
                 "Name": "Staff",
@@ -74058,7 +74096,7 @@
             "Name": "Lich Wand",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 17,
+            "Durability": 250,
             "ItemLevel": 75,
             "Type": {
                 "Name": "Wand",
@@ -74311,7 +74349,7 @@
             "Name": "Battle Cestus",
             "RequiredStrength": 110,
             "RequiredDexterity": 110,
-            "Durability": 72,
+            "Durability": 250,
             "ItemLevel": 73,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -74489,7 +74527,7 @@
             "Name": "Mythical Sword",
             "RequiredStrength": 147,
             "RequiredDexterity": 124,
-            "Durability": 44,
+            "Durability": 250,
             "ItemLevel": 85,
             "Type": {
                 "Name": "Sword",
@@ -74553,7 +74591,7 @@
             "Name": "Champion Sword",
             "RequiredStrength": 163,
             "RequiredDexterity": 103,
-            "Durability": 40,
+            "Durability": 250,
             "ItemLevel": 77,
             "Type": {
                 "Name": "Sword",
@@ -74613,7 +74651,7 @@
             "Name": "Fanged Knife",
             "RequiredStrength": 42,
             "RequiredDexterity": 86,
-            "Durability": 36,
+            "Durability": 250,
             "ItemLevel": 83,
             "Type": {
                 "Name": "Knife",
@@ -74681,7 +74719,7 @@
             "Name": "Winged Knife",
             "RequiredStrength": 45,
             "RequiredDexterity": 142,
-            "Durability": 20,
+            "Durability": 250,
             "ItemLevel": 77,
             "Type": {
                 "Name": "Throwing Knife",
@@ -75049,7 +75087,7 @@
             "Name": "Matriarchal Javelin",
             "RequiredStrength": 107,
             "RequiredDexterity": 151,
-            "Durability": 6,
+            "Durability": 250,
             "ItemLevel": 65,
             "Type": {
                 "Name": "Amazon Javelin",
@@ -75101,7 +75139,7 @@
             "Name": "Matriarchal Pike",
             "RequiredStrength": 132,
             "RequiredDexterity": 149,
-            "Durability": 25,
+            "Durability": 250,
             "ItemLevel": 81,
             "Type": {
                 "Name": "Amazon Spear",
@@ -75275,7 +75313,7 @@
             "Name": "Hyperion Spear",
             "RequiredStrength": 155,
             "RequiredDexterity": 120,
-            "Durability": 30,
+            "Durability": 250,
             "ItemLevel": 58,
             "Type": {
                 "Name": "Spear",
@@ -75343,7 +75381,7 @@
             "Name": "Seraph Rod",
             "RequiredStrength": 108,
             "RequiredDexterity": 69,
-            "Durability": 60,
+            "Durability": 250,
             "ItemLevel": 76,
             "Type": {
                 "Name": "Scepter",
@@ -75407,7 +75445,7 @@
             "Name": "Ghost Glaive",
             "RequiredStrength": 89,
             "RequiredDexterity": 137,
-            "Durability": 16,
+            "Durability": 250,
             "ItemLevel": 79,
             "Type": {
                 "Name": "Javelin",
@@ -75741,7 +75779,7 @@
             "Name": "Archon Staff",
             "RequiredStrength": 34,
             "RequiredDexterity": 0,
-            "Durability": 26,
+            "Durability": 250,
             "ItemLevel": 85,
             "Type": {
                 "Name": "Staff",
@@ -75866,7 +75904,7 @@
             "Name": "Scourge",
             "RequiredStrength": 125,
             "RequiredDexterity": 77,
-            "Durability": 65,
+            "Durability": 250,
             "ItemLevel": 76,
             "Type": {
                 "Name": "Mace",
@@ -76157,7 +76195,7 @@
             "Name": "Feral Claws",
             "RequiredStrength": 113,
             "RequiredDexterity": 113,
-            "Durability": 52,
+            "Durability": 250,
             "ItemLevel": 78,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -76396,7 +76434,7 @@
             "Name": "Great Poleaxe",
             "RequiredStrength": 179,
             "RequiredDexterity": 99,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 84,
             "Type": {
                 "Name": "Polearm",
@@ -76574,7 +76612,7 @@
             "Name": "Scissors Suwayyah",
             "RequiredStrength": 118,
             "RequiredDexterity": 118,
-            "Durability": 68,
+            "Durability": 250,
             "ItemLevel": 85,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -76646,7 +76684,7 @@
             "Name": "Cryptic Axe",
             "RequiredStrength": 165,
             "RequiredDexterity": 103,
-            "Durability": 65,
+            "Durability": 250,
             "ItemLevel": 79,
             "Type": {
                 "Name": "Polearm",
@@ -76787,7 +76825,7 @@
             "Name": "Glorious Axe",
             "RequiredStrength": 164,
             "RequiredDexterity": 55,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 85,
             "Type": {
                 "Name": "Axe",
@@ -76855,7 +76893,7 @@
             "Name": "Colossus Sword",
             "RequiredStrength": 182,
             "RequiredDexterity": 95,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 80,
             "Type": {
                 "Name": "Sword",
@@ -77102,7 +77140,7 @@
             "Name": "Dimensional Shard",
             "RequiredStrength": 0,
             "RequiredDexterity": 0,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 85,
             "Type": {
                 "Name": "Orb",
@@ -77332,7 +77370,7 @@
             "Name": "Legend Spike",
             "RequiredStrength": 65,
             "RequiredDexterity": 67,
-            "Durability": 47,
+            "Durability": 250,
             "ItemLevel": 85,
             "Type": {
                 "Name": "Knife",
@@ -77396,7 +77434,7 @@
             "Name": "Archon Staff",
             "RequiredStrength": 34,
             "RequiredDexterity": 0,
-            "Durability": 26,
+            "Durability": 250,
             "ItemLevel": 85,
             "Type": {
                 "Name": "Staff",
@@ -77468,7 +77506,7 @@
             "Name": "Winged Axe",
             "RequiredStrength": 96,
             "RequiredDexterity": 122,
-            "Durability": 16,
+            "Durability": 250,
             "ItemLevel": 80,
             "Type": {
                 "Name": "Throwing Axe",
@@ -77593,7 +77631,7 @@
             "Name": "Runic Talons",
             "RequiredStrength": 115,
             "RequiredDexterity": 115,
-            "Durability": 69,
+            "Durability": 250,
             "ItemLevel": 81,
             "Type": {
                 "Name": "Hand to Hand 2",
@@ -77795,7 +77833,7 @@
             "Name": "Caduceus",
             "RequiredStrength": 97,
             "RequiredDexterity": 70,
-            "Durability": 70,
+            "Durability": 250,
             "ItemLevel": 85,
             "Type": {
                 "Name": "Scepter",
@@ -77851,7 +77889,7 @@
             "Name": "War Pike",
             "RequiredStrength": 165,
             "RequiredDexterity": 106,
-            "Durability": 85,
+            "Durability": 310,
             "ItemLevel": 85,
             "Type": {
                 "Name": "Spear",
@@ -77911,7 +77949,7 @@
             "Name": "Giant Thresher",
             "RequiredStrength": 188,
             "RequiredDexterity": 140,
-            "Durability": 55,
+            "Durability": 250,
             "ItemLevel": 85,
             "Type": {
                 "Name": "Polearm",
@@ -77971,7 +78009,7 @@
             "Name": "Unearthed Wand",
             "RequiredStrength": 25,
             "RequiredDexterity": 0,
-            "Durability": 18,
+            "Durability": 250,
             "ItemLevel": 86,
             "Type": {
                 "Name": "Wand",
@@ -78404,7 +78442,7 @@
             "Name": "Mythical Sword",
             "RequiredStrength": 147,
             "RequiredDexterity": 124,
-            "Durability": 44,
+            "Durability": 250,
             "ItemLevel": 85,
             "Type": {
                 "Name": "Sword",
@@ -78472,7 +78510,7 @@
             "Name": "Colossus Blade",
             "RequiredStrength": 189,
             "RequiredDexterity": 110,
-            "Durability": 50,
+            "Durability": 250,
             "ItemLevel": 85,
             "Type": {
                 "Name": "Sword",
@@ -78756,40 +78794,6 @@
                 "Class": "pal"
             },
             "RequiredClass": "Paladin"
-        }
-    },
-    {
-        "Type": "Small Charm",
-        "Name": "t9 Splash Charm",
-        "Index": "t9 Splash Charm",
-        "Enabled": false,
-        "ItemLevel": 1,
-        "RequiredLevel": 90,
-        "Code": "cm5",
-        "Properties": [
-            {
-                "PropertyString": "50 Percent Melee Splash Damage",
-                "Index": 0
-            },
-            {
-                "PropertyString": "-5 to -20 Enhanced Damage",
-                "Index": 1
-            }
-        ],
-        "DamageArmorEnhanced": false,
-        "Equipment": {
-            "EquipmentType": 2,
-            "Name": "Splash Charm",
-            "RequiredStrength": 0,
-            "RequiredDexterity": 0,
-            "Durability": 0,
-            "ItemLevel": 0,
-            "Type": {
-                "Name": "Small Charm",
-                "Index": "Small Charm",
-                "Class": ""
-            },
-            "RequiredClass": ""
         }
     },
     {

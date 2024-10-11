@@ -5,13 +5,14 @@ import '@material/web/all';
 import 'bootstrap';
 
 import { App } from './app';
+import * as Resources from './resources';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import '@betsybot/betsy-web-components/dist/style.css';
 
 import * as BetsyWebComponentsPlugin from '@betsybot/betsy-web-components';
 
-Aurelia
+void Aurelia
     .register(
         RouterConfiguration.customize({
             //title: "Betsy Bot Admin Panel",
@@ -19,5 +20,6 @@ Aurelia
         }),
     )
     .register(BetsyWebComponentsPlugin)
+    .register(Resources)
     .app(App)
     .start();

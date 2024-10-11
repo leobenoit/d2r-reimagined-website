@@ -12,13 +12,13 @@
         <div class="col-12 col-md-6 col-xxl-4" repeat.for="recipe of recipes">
             <div class="card bg-dark p-2">
                 <div class="unique-text">
-                    ${recipe.Output}
-                </div>
-                <div class="description">
-                    ${recipe.CubeRecipeDescription}
-                </div>
-                <div class="description">
                     ${recipe.Description}
+                </div>
+                <div class="description" innerhtml.bind="recipe.Input | cubeInputs"></div>
+
+                <div class="unique-text">
+                    = <br>
+                    ${recipe.Output}
                 </div>
             </div>
         </div>
