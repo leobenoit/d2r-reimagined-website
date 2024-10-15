@@ -71,12 +71,32 @@ md-select md-list-item:hover {
   font-weight: normal;
   font-style: normal;
 }
-body {
+@font-face {
+  font-family: "D2R";
+  src: url("/assets/ExocetBlizzardMixedCaps-Medium-Z6c6BPE9.eot"); /* IE9 Compat Modes */
+  src: url("assets/fonts/ExocetBlizzardMixedCaps-Medium?#iefix") format("embedded-opentype"), url("/assets/ExocetBlizzardMixedCaps-Medium-CeveHi9Z.otf") format("opentype"), url("/assets/ExocetBlizzardMixedCaps-Medium-B-2Y3ShW.ttf") format("truetype"), url("/assets/ExocetBlizzardMixedCaps-Medium-Cyx-yAco.woff") format("woff"), url("/assets/ExocetBlizzardMixedCaps-Medium-C9sgS0xk.woff2") format("woff2"), url("/assets/ExocetBlizzardMixedCaps-Medium-DzDpjEZG.svg#ExocetBlizzardMixedCaps-Medium") format("svg");
+  font-style: normal;
+}
+.font-classic {
   font-family: DiabloLight !important;
+  font-size: 14px;
+}
+
+.font-resurrected {
+  font-family: D2R !important;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.font-neutral {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+body {
   padding: 0 !important;
   background-color: black !important;
   color: white !important;
-  font-size: 14px !important;
 }
 
 .cursor-pointer {
