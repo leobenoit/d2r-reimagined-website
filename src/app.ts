@@ -32,4 +32,32 @@ import { route } from '@aurelia/router-lite';
 })
 
 export class App {
+    fonts: Font[] = [
+        { class: 'font-classic', name: 'Classic' },
+        { class: 'font-resurrected', name: 'Resurrected' },
+        { class: 'font-neutral', name: 'Neutral' },
+    ];
+
+    attached() {
+        this.loadFont();
+    }
+
+    handleFontSelected(font: Font) {
+        window.localStorage.setItem('font', font.class);
+        this.loadFont();
+    }
+
+    loadFont() {
+        const selectedFont = window.localStorage.getItem('font') || 'font-resurrected';
+        if (selectedFont) {
+            const allClasses = this.fonts.map(font => font.class);
+            document.body.classList.remove(...allClasses);
+            document.body.classList.add(selectedFont);
+        }
+    }
 }
+
+type Font = {
+    class: string;
+    name: string;
+};
