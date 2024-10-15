@@ -25,12 +25,36 @@
     font-style: normal;
 }
 
-body {
+@font-face {
+    font-family: "D2R";
+    src: url("assets/fonts/ExocetBlizzardMixedCaps-Medium.eot"); /* IE9 Compat Modes */
+    src: url("assets/fonts/ExocetBlizzardMixedCaps-Medium?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("assets/fonts/ExocetBlizzardMixedCaps-Medium.otf") format("opentype"), /* Open Type Font */
+    url("assets/fonts/ExocetBlizzardMixedCaps-Medium.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("assets/fonts/ExocetBlizzardMixedCaps-Medium.woff") format("woff"), /* Modern Browsers */
+    url("assets/fonts/ExocetBlizzardMixedCaps-Medium.woff2") format("woff2"), /* Modern Browsers */
+    url("assets/fonts/ExocetBlizzardMixedCaps-Medium.svg#ExocetBlizzardMixedCaps-Medium") format("svg");
+    font-style: normal;
+}
+
+.font-classic {
     font-family: DiabloLight !important;
+    font-size: 14px;
+}
+.font-resurrected {
+    font-family: D2R !important;
+    font-size: 17px;
+    line-height: 22px;
+}
+.font-neutral {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+body {
     padding: 0 !important;
     background-color: black !important;
     color: white !important;
-    font-size: 14px !important;
 }
 
 .cursor-pointer {
